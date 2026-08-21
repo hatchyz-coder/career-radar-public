@@ -1,0 +1,24 @@
+name: Content quality
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate evergreen article depth
+        run: python scripts/check_content_quality.py
+      - name: Validate editorial release queue
+        run: python scripts/check_editorial_cadence.py

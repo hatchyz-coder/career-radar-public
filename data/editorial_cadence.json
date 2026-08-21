@@ -1,0 +1,43 @@
+{
+  "schema_version": "editorial-cadence.v1",
+  "target": {
+    "publications_per_week": 2,
+    "maximum_gap_days": 4
+  },
+  "last_publication": {
+    "article_id": "evergreen-rewrite-batch",
+    "published_at": "2026-08-21"
+  },
+  "release_queue": [
+    {
+      "article_id": "midcareer-40s-career-capital",
+      "due_at": "2026-08-25",
+      "locales": ["ja", "en"],
+      "status": "queued"
+    },
+    {
+      "article_id": "ai-era-high-value-experience",
+      "due_at": "2026-08-28",
+      "locales": ["ja", "en"],
+      "status": "queued"
+    },
+    {
+      "article_id": "freelance-transition-risk",
+      "due_at": "2026-09-01",
+      "locales": ["ja", "en"],
+      "status": "queued"
+    },
+    {
+      "article_id": "operator-to-consulting-signal",
+      "due_at": "2026-09-04",
+      "locales": ["ja", "en"],
+      "status": "queued"
+    },
+    {
+      "article_id": "high-value-pm-evidence",
+      "due_at": "2026-09-08",
+      "locales": ["ja", "en"],
+      "status": "queued"
+    }
+  ]
+}
