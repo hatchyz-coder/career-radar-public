@@ -27,6 +27,28 @@ FORBIDDEN_MARKERS = (
     "Recommendation",
     "Opportunity Path",
 )
+PARTNER_CONTRACTS = {
+    "jac_recruitment": (
+        "accesstrade_290807",
+        "https://h.accesstrade.net/sp/cc?rk=01004u3700oxbh",
+        "https://h.accesstrade.net/sp/rr?rk=01004u3700oxbh",
+    ),
+    "enworld": (
+        "accesstrade_961674",
+        "https://h.accesstrade.net/sp/cc?rk=0100o60a00oxbh",
+        "https://h.accesstrade.net/sp/rr?rk=0100o60a00oxbh",
+    ),
+    "enworld_it_saas": (
+        "accesstrade_994914",
+        "https://h.accesstrade.net/sp/cc?rk=0100ong600oxbh",
+        "https://h.accesstrade.net/sp/rr?rk=0100ong600oxbh",
+    ),
+    "robert_walters": (
+        "accesstrade_987767",
+        "https://h.accesstrade.net/sp/cc?rk=0100ojgk00oxbh",
+        "https://h.accesstrade.net/sp/rr?rk=0100ojgk00oxbh",
+    ),
+}
 
 
 class ArticleParser(HTMLParser):
@@ -73,6 +95,25 @@ def validate(path: Path) -> list[str]:
     for marker in FORBIDDEN_MARKERS:
         if marker in visible_text:
             errors.append(f"{path.name}: reader-irrelevant/internal marker found: {marker}")
+    if 'class="partner-label">広告<' not in html or "※アフィリエイト広告です。" not in visible_text:
+        errors.append(f"{path.name}: affiliate disclosure missing")
+    for partner_id, (offer_id, destination, tracking) in PARTNER_CONTRACTS.items():
+        section = re.search(
+            rf'<section class="partner-option" data-partner-id="{partner_id}" '
+            rf'data-offer-id="{offer_id}">(.*?)</section>',
+            html,
+            re.DOTALL,
+        )
+        if not section:
+            errors.append(f"{path.name}: approved partner missing: {partner_id}")
+            continue
+        markup = section.group(1)
+        if destination not in markup or tracking not in markup:
+            errors.append(f"{path.name}: link contract mismatch: {partner_id}")
+        if 'rel="nofollow"' not in markup:
+            errors.append(f"{path.name}: nofollow missing: {partner_id}")
+        if 'referrerpolicy="no-referrer-when-downgrade"' not in markup:
+            errors.append(f"{path.name}: referrer policy missing: {partner_id}")
     return errors
 
 
