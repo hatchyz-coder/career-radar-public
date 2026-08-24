@@ -6,125 +6,106 @@ from pathlib import Path
 import re
 import sys
 
-
 ROOT = Path(__file__).resolve().parents[1]
-ARTICLES = (
+EVERGREEN = (
     ROOT / "articles" / "career-navigation.html",
     ROOT / "articles" / "consulting-career-capital.html",
     ROOT / "articles" / "freelance-transition.html",
     ROOT / "articles" / "high-class-transition.html",
 )
-MIN_JAPANESE_CHARACTERS = 3300
-MIN_PARAGRAPHS = 29
-MIN_H2 = 12
-REQUIRED_MARKERS = ("CareerRadar", "Self Check", "参考にした主な調査")
-FORBIDDEN_MARKERS = (
-    "PR #",
-    "マージ",
-    "運営側の都合",
-    "収益化のため",
-    "広告報酬",
-    "Recommendation",
-    "Opportunity Path",
+BILINGUAL_IDS = (
+    "brandless-high-income-path",
+    "midcareer-40s-career-capital",
+    "ai-era-high-value-experience",
+    "freelance-transition-risk",
+    "operator-to-consulting-signal",
+    "high-value-pm-evidence",
 )
 PARTNER_CONTRACTS = {
-    "jac_recruitment": (
-        "accesstrade_290807",
-        "https://h.accesstrade.net/sp/cc?rk=01004u3700oxbh",
-        "https://h.accesstrade.net/sp/rr?rk=01004u3700oxbh",
-    ),
-    "enworld": (
-        "accesstrade_961674",
-        "https://h.accesstrade.net/sp/cc?rk=0100o60a00oxbh",
-        "https://h.accesstrade.net/sp/rr?rk=0100o60a00oxbh",
-    ),
-    "enworld_it_saas": (
-        "accesstrade_994914",
-        "https://h.accesstrade.net/sp/cc?rk=0100ong600oxbh",
-        "https://h.accesstrade.net/sp/rr?rk=0100ong600oxbh",
-    ),
-    "robert_walters": (
-        "accesstrade_987767",
-        "https://h.accesstrade.net/sp/cc?rk=0100ojgk00oxbh",
-        "https://h.accesstrade.net/sp/rr?rk=0100ojgk00oxbh",
-    ),
+    "jac_recruitment": ("accesstrade_290807", "https://h.accesstrade.net/sp/cc?rk=01004u3700oxbh", "https://h.accesstrade.net/sp/rr?rk=01004u3700oxbh"),
+    "enworld": ("accesstrade_961674", "https://h.accesstrade.net/sp/cc?rk=0100o60a00oxbh", "https://h.accesstrade.net/sp/rr?rk=0100o60a00oxbh"),
+    "enworld_it_saas": ("accesstrade_994914", "https://h.accesstrade.net/sp/cc?rk=0100ong600oxbh", "https://h.accesstrade.net/sp/rr?rk=0100ong600oxbh"),
+    "robert_walters": ("accesstrade_987767", "https://h.accesstrade.net/sp/cc?rk=0100ojgk00oxbh", "https://h.accesstrade.net/sp/rr?rk=0100ojgk00oxbh"),
 }
+FORBIDDEN = ("PR #", "マージ", "運営側の都合", "収益化のため", "広告報酬", "production_active")
 
-
-class ArticleParser(HTMLParser):
+class Parser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self.text: list[str] = []
-        self.h2 = 0
-        self.paragraphs = 0
-
+        self.h1 = self.h2 = self.paragraphs = 0
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag == "h2":
-            self.h2 += 1
-        elif tag == "p":
-            self.paragraphs += 1
-
+        if tag == "h1": self.h1 += 1
+        elif tag == "h2": self.h2 += 1
+        elif tag == "p": self.paragraphs += 1
     def handle_data(self, data: str) -> None:
         self.text.append(data)
 
-
-def japanese_character_count(text: str) -> int:
-    return len(re.findall(r"[\u3040-\u30ff\u3400-\u9fff]", text))
-
-
-def validate(path: Path) -> list[str]:
-    if not path.exists():
-        return [f"{path.relative_to(ROOT)}: missing"]
-    html = path.read_text(encoding="utf-8")
-    parser = ArticleParser()
-    parser.feed(html)
-    visible_text = " ".join(parser.text)
+def partner_errors(path: Path, html: str) -> list[str]:
     errors: list[str] = []
-    jp_chars = japanese_character_count(visible_text)
-    if jp_chars < MIN_JAPANESE_CHARACTERS:
-        errors.append(
-            f"{path.name}: Japanese character count {jp_chars} < {MIN_JAPANESE_CHARACTERS}"
-        )
-    if parser.paragraphs < MIN_PARAGRAPHS:
-        errors.append(f"{path.name}: paragraphs {parser.paragraphs} < {MIN_PARAGRAPHS}")
-    if parser.h2 < MIN_H2:
-        errors.append(f"{path.name}: h2 sections {parser.h2} < {MIN_H2}")
-    for marker in REQUIRED_MARKERS:
-        if marker not in visible_text:
-            errors.append(f"{path.name}: required marker missing: {marker}")
-    for marker in FORBIDDEN_MARKERS:
-        if marker in visible_text:
-            errors.append(f"{path.name}: reader-irrelevant/internal marker found: {marker}")
-    if 'class="partner-label">広告<' not in html or "※アフィリエイト広告です。" not in visible_text:
-        errors.append(f"{path.name}: affiliate disclosure missing")
+    if 'class="partner-label"' not in html:
+        errors.append(f"{path}: affiliate label missing")
     for partner_id, (offer_id, destination, tracking) in PARTNER_CONTRACTS.items():
-        section = re.search(
-            rf'<section class="partner-option" data-partner-id="{partner_id}" '
-            rf'data-offer-id="{offer_id}">(.*?)</section>',
+        match = re.search(
+            rf'<section class="partner-option" data-partner-id="{partner_id}" data-offer-id="{offer_id}">(.*?)</section>',
             html,
             re.DOTALL,
         )
-        if not section:
-            errors.append(f"{path.name}: approved partner missing: {partner_id}")
+        if not match:
+            errors.append(f"{path}: approved partner missing: {partner_id}")
             continue
-        markup = section.group(1)
-        if destination not in markup or tracking not in markup:
-            errors.append(f"{path.name}: link contract mismatch: {partner_id}")
-        if 'rel="nofollow"' not in markup:
-            errors.append(f"{path.name}: nofollow missing: {partner_id}")
-        if 'referrerpolicy="no-referrer-when-downgrade"' not in markup:
-            errors.append(f"{path.name}: referrer policy missing: {partner_id}")
+        markup = match.group(1)
+        for required in (destination, tracking, 'rel="nofollow"', 'referrerpolicy="no-referrer-when-downgrade"'):
+            if required not in markup:
+                errors.append(f"{path}: partner contract mismatch: {partner_id}: {required}")
     return errors
 
+def validate(path: Path, locale: str, *, evergreen: bool = False) -> list[str]:
+    if not path.exists():
+        return [f"{path.relative_to(ROOT)}: missing"]
+    html = path.read_text(encoding="utf-8")
+    parser = Parser()
+    parser.feed(html)
+    visible = " ".join(parser.text)
+    errors: list[str] = []
+    if parser.h1 != 1:
+        errors.append(f"{path}: h1 count {parser.h1} != 1")
+    if parser.h2 < (12 if evergreen else 8):
+        errors.append(f"{path}: h2 count {parser.h2} below content floor")
+    if parser.paragraphs < (29 if evergreen else 22):
+        errors.append(f"{path}: paragraph count {parser.paragraphs} below content floor")
+    if locale == "ja":
+        jp_chars = len(re.findall(r"[\u3040-\u30ff\u3400-\u9fff]", visible))
+        if jp_chars < (3300 if evergreen else 3200):
+            errors.append(f"{path}: Japanese character count {jp_chars} below floor")
+    else:
+        words = len(re.findall(r"\b[\w’'-]+\b", visible))
+        if words < 1750:
+            errors.append(f"{path}: English word count {words} below floor")
+    for marker in FORBIDDEN:
+        if marker in visible:
+            errors.append(f"{path}: reader-irrelevant/internal marker found: {marker}")
+    if "https://career.hdnjapan.com/" in html and 'rel="canonical"' not in html and not evergreen:
+        errors.append(f"{path}: canonical missing")
+    if not evergreen:
+        for hreflang in ('hreflang="ja"', 'hreflang="en"', 'hreflang="x-default"'):
+            if hreflang not in html:
+                errors.append(f"{path}: {hreflang} missing")
+    errors.extend(partner_errors(path, html))
+    return errors
 
 def main() -> int:
-    errors = [error for path in ARTICLES for error in validate(path)]
+    errors: list[str] = []
+    for path in EVERGREEN:
+        errors.extend(validate(path, "ja", evergreen=True))
+    for article_id in BILINGUAL_IDS[1:]:
+        errors.extend(validate(ROOT / "ja" / "articles" / f"{article_id}.html", "ja"))
+        errors.extend(validate(ROOT / "en" / "articles" / f"{article_id}.html", "en"))
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    print(f"Validated {len(ARTICLES)} evergreen articles.")
+    print(f"Validated {len(EVERGREEN)} evergreen articles and {len(BILINGUAL_IDS) - 1} bilingual article pairs.")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

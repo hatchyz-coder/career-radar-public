@@ -1,42 +1,59 @@
 {
-  "schema_version": "editorial-cadence.v1",
+  "schema_version": "editorial-cadence.v2",
   "target": {
-    "publications_per_week": 2,
-    "maximum_gap_days": 4
+    "publications_per_week": 5,
+    "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "evergreen-rewrite-batch",
-    "published_at": "2026-08-21"
+    "article_id": "batch1-bilingual-release",
+    "published_at": "2026-08-24",
+    "article_count": 5,
+    "locale_page_count": 10
   },
   "release_queue": [
     {
-      "article_id": "midcareer-40s-career-capital",
-      "due_at": "2026-08-25",
-      "locales": ["ja", "en"],
+      "article_id": "career-agent-comparison-framework",
+      "due_at": "2026-08-26",
+      "locales": [
+        "ja",
+        "en"
+      ],
       "status": "queued"
     },
     {
-      "article_id": "ai-era-high-value-experience",
+      "article_id": "self-directed-job-search-system",
+      "due_at": "2026-08-27",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "decision-rights-career-capital",
       "due_at": "2026-08-28",
-      "locales": ["ja", "en"],
+      "locales": [
+        "ja",
+        "en"
+      ],
       "status": "queued"
     },
     {
-      "article_id": "freelance-transition-risk",
+      "article_id": "operations-improvement-case-study",
+      "due_at": "2026-08-31",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "freelance-to-employment-return-path",
       "due_at": "2026-09-01",
-      "locales": ["ja", "en"],
-      "status": "queued"
-    },
-    {
-      "article_id": "operator-to-consulting-signal",
-      "due_at": "2026-09-04",
-      "locales": ["ja", "en"],
-      "status": "queued"
-    },
-    {
-      "article_id": "high-value-pm-evidence",
-      "due_at": "2026-09-08",
-      "locales": ["ja", "en"],
+      "locales": [
+        "ja",
+        "en"
+      ],
       "status": "queued"
     }
   ]
