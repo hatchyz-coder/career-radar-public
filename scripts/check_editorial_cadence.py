@@ -6,20 +6,20 @@ import json
 from pathlib import Path
 import sys
 
-
 ROOT = Path(__file__).resolve().parents[1]
 CADENCE = ROOT / "data" / "editorial_cadence.json"
-
 
 def parse_date(value: str) -> date:
     return datetime.strptime(value, "%Y-%m-%d").date()
 
-
 def main() -> int:
     payload = json.loads(CADENCE.read_text(encoding="utf-8"))
     target = payload["target"]
-    if target["publications_per_week"] != 2:
-        print("Publication target must remain two articles per week.", file=sys.stderr)
+    if target["publications_per_week"] < 5:
+        print("Publication target must remain at least five articles per week.", file=sys.stderr)
+        return 1
+    if target["maximum_gap_days"] > 2:
+        print("Maximum publication gap must not exceed two days.", file=sys.stderr)
         return 1
     queued = [item for item in payload["release_queue"] if item["status"] == "queued"]
     if not queued:
@@ -39,9 +39,11 @@ def main() -> int:
     if (first_due - last).days > target["maximum_gap_days"]:
         print("First queued release exceeds maximum publication gap.", file=sys.stderr)
         return 1
-    print(f"Editorial cadence healthy. Next release: {queued[0]['article_id']} on {queued[0]['due_at']}.")
+    print(
+        f"Editorial cadence healthy. Target: {target['publications_per_week']}/week. "
+        f"Next release: {queued[0]['article_id']} on {queued[0]['due_at']}."
+    )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())
