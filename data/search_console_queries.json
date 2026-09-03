@@ -1,6 +1,8 @@
 {
   "schema_version": "search-console-export.v1",
   "site": "https://career.hdnjapan.com/",
+  "monitoring_started_at": "2026-09-03",
+  "warmup_days": 7,
   "window": {
     "start_date": null,
     "end_date": null,
