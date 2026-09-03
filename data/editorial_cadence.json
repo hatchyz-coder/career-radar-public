@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "batch1-bilingual-release",
-    "published_at": "2026-08-24",
+    "article_id": "freelance-to-employment-return-path",
+    "published_at": "2026-09-03",
     "article_count": 5,
     "locale_page_count": 10
   },
@@ -18,7 +18,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-03"
     },
     {
       "article_id": "self-directed-job-search-system",
@@ -27,7 +28,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-03"
     },
     {
       "article_id": "decision-rights-career-capital",
@@ -36,7 +38,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-03"
     },
     {
       "article_id": "operations-improvement-case-study",
@@ -45,11 +48,58 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-03"
     },
     {
       "article_id": "freelance-to-employment-return-path",
       "due_at": "2026-09-01",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "published",
+      "published_at": "2026-09-03"
+    },
+    {
+      "article_id": "consulting-market-signal-matrix",
+      "due_at": "2026-09-04",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "portfolio-evidence-scorecard",
+      "due_at": "2026-09-07",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "ai-assisted-career-research",
+      "due_at": "2026-09-08",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "high-value-pmo-deliverables",
+      "due_at": "2026-09-09",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "salary-vs-career-capital-tradeoff",
+      "due_at": "2026-09-10",
       "locales": [
         "ja",
         "en"
