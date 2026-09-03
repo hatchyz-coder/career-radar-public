@@ -1,0 +1,30 @@
+# CareerRadar
+
+> CareerRadar is an HDN-operated career-navigation service for people considering higher-compensation employment, independent work, consulting engagements, side projects, and skills development. It uses an evidence-first approach that considers compensation alongside responsibility, demonstrated outcomes, specialist capability, and future career options.
+
+This file covers https://career.hdnjapan.com/. The service provides general career information, not recruitment agency representation, guaranteed job placement, employment, legal, tax, or financial advice. Job conditions, compensation, and third-party service terms must be verified with the relevant employer or provider.
+
+## Start here
+
+- [CareerRadar home](https://career.hdnjapan.com/): Service concept, career paths, and editorial entry points.
+- [Career Review](https://career.hdnjapan.com/review.html): Overview of the Career Review framework: current strengths, Career Gap, Opportunity Path, and Next Action.
+- [Career navigation method](https://career.hdnjapan.com/articles/career-navigation.html): How to compare career choices as connected paths rather than isolated moves.
+- [Sitemap](https://career.hdnjapan.com/sitemap.xml): Index of published Japanese and English pages.
+
+## Key research themes
+
+- [Career capital for consultants](https://career.hdnjapan.com/articles/consulting-career-capital.html): Evidence, specialist capability, and third-party proof for consulting opportunities.
+- [Moving to independent work](https://career.hdnjapan.com/articles/freelance-transition.html): Evidence, contract, cash-flow, and sales-route considerations before going independent.
+- [Evaluating a higher-compensation move](https://career.hdnjapan.com/articles/high-class-transition.html): Comparing responsibility, outcomes, evaluation systems, and future options beyond stated salary.
+- [40代から市場価値を上げるCareer Capital](https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html): Japanese flagship article with an English counterpart.
+- [AI時代に高報酬化しやすい業務経験](https://career.hdnjapan.com/ja/articles/ai-era-high-value-experience.html): Japanese analysis with an English counterpart.
+
+## Policies and operator information
+
+- [運営者情報](https://career.hdnjapan.com/operator.html): Operator information.
+- [プライバシーポリシー](https://career.hdnjapan.com/privacy.html): Personal information policy.
+- [広告・アフィリエイトの開示](https://career.hdnjapan.com/disclosure.html): Advertising and affiliate disclosure.
+
+## Optional
+
+- [English article index](https://career.hdnjapan.com/en/articles/brandless-high-income-path.html): English flagship career-design article.
