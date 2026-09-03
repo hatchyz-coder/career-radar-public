@@ -10,7 +10,6 @@ from __future__ import annotations
 
 import json
 import math
-from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -56,10 +55,10 @@ def classify(impressions: int, clicks: int, ctr: float, position: float, page: s
     path = clean_page(page)
     generic_page = path in {"", "/", "/index.html", "/review.html"}
 
-    if impressions >= 20 and 4 <= position <= 20:
-        return "quick_win", "既にGoogleに評価され始めており、上位10位へ押し上げる余地が大きい"
     if impressions >= 30 and position <= 10 and ctr_ratio < 0.65:
         return "ctr_fix", "順位に対してCTRが弱く、タイトル・description改善の費用対効果が高い"
+    if impressions >= 20 and 4 <= position <= 20:
+        return "quick_win", "既にGoogleに評価され始めており、上位10位へ押し上げる余地が大きい"
     if impressions >= 20 and position > 20 and generic_page:
         return "content_gap", "検索需要はあるが専用記事への着地が弱く、新規記事候補"
     if impressions >= 50 and position <= 3:
@@ -136,7 +135,7 @@ def main() -> None:
         "schema_version": "traffic-opportunities.v1",
         "site": payload.get("site", "https://career.hdnjapan.com/"),
         "source_window": payload.get("window", {}),
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "source_generated_at": payload.get("generated_at"),
         "input_rows": len(rows),
         "scored_rows": len(opportunities),
         "summary": summary,
