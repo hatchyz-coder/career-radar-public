@@ -1,0 +1,21 @@
+{
+  "schema_version": "traffic-opportunities.v1",
+  "site": "https://career.hdnjapan.com/",
+  "source_window": {
+    "start_date": null,
+    "end_date": null,
+    "days": 28
+  },
+  "source_generated_at": null,
+  "input_rows": 0,
+  "scored_rows": 0,
+  "summary": {
+    "quick_win": 0,
+    "ctr_fix": 0,
+    "content_gap": 0,
+    "defend": 0,
+    "long_term": 0,
+    "observe": 0
+  },
+  "top_opportunities": []
+}
