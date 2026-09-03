@@ -30,6 +30,8 @@ jobs:
       GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -63,7 +65,16 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/search_console_queries.json data/traffic_opportunities.json
           git commit -m "Refresh CareerRadar search-demand intelligence"
-          git push origin HEAD:main
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if git rebase origin/main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort || true
+            sleep $((attempt * 2))
+          done
+          echo "Failed to publish Traffic Engine data after 3 race-safe retries."
+          exit 1
       - name: Open or update Traffic Engine incident
         if: steps.health.outcome == 'failure'
         env:
