@@ -1,0 +1,90 @@
+name: CareerRadar Traffic Engine
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/search_console_queries.json"
+      - "scripts/score_search_demand.py"
+      - "scripts/check_traffic_engine.py"
+      - ".github/workflows/traffic-engine.yml"
+  schedule:
+    - cron: "37 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: career-radar-traffic-engine
+  cancel-in-progress: true
+
+jobs:
+  score-and-monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Score Search Console demand
+        run: python scripts/score_search_demand.py
+      - name: Validate Traffic Engine health
+        id: health
+        continue-on-error: true
+        run: |
+          python scripts/check_traffic_engine.py 2>&1 | tee /tmp/traffic-engine-health.log
+          exit ${PIPESTATUS[0]}
+      - name: Commit refreshed opportunity ranking
+        if: steps.health.outcome == 'success'
+        run: |
+          if git diff --quiet -- data/traffic_opportunities.json; then
+            echo "Traffic opportunity ranking unchanged."
+            exit 0
+          fi
+          git config user.name "career-radar-traffic-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/traffic_opportunities.json
+          git commit -m "Refresh CareerRadar traffic opportunities"
+          git push origin HEAD:main
+      - name: Open or update Traffic Engine incident
+        if: steps.health.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="[Traffic Incident] CareerRadar search-demand pipeline unhealthy"
+          body_file=/tmp/traffic-engine-incident.md
+          {
+            echo "CareerRadar Traffic Engine detected an unhealthy Search Console intake or opportunity-scoring state."
+            echo
+            echo "Workflow: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+            echo "Commit: $GITHUB_SHA"
+            echo
+            echo '```text'
+            cat /tmp/traffic-engine-health.log
+            echo '```'
+            echo
+            echo "This monitor must not be silenced to hide missing/stale search data. Restore data intake or scoring integrity."
+          } > "$body_file"
+          issue_number=$(gh issue list --state open --search '"[Traffic Incident] CareerRadar search-demand pipeline unhealthy" in:title' --json number --jq '.[0].number // empty')
+          if [ -n "$issue_number" ]; then
+            gh issue edit "$issue_number" --body-file "$body_file"
+            gh issue comment "$issue_number" --body "Still unhealthy at $(date -u +'%Y-%m-%dT%H:%M:%SZ'). Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          else
+            gh issue create --title "$title" --body-file "$body_file"
+          fi
+      - name: Close Traffic Engine incident on recovery
+        if: steps.health.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue_number=$(gh issue list --state open --search '"[Traffic Incident] CareerRadar search-demand pipeline unhealthy" in:title' --json number --jq '.[0].number // empty')
+          if [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --comment "Recovered automatically: Search Console intake freshness and traffic opportunity scoring are healthy."
+          fi
+      - name: Fail workflow after incident capture
+        if: steps.health.outcome == 'failure'
+        run: exit 1
