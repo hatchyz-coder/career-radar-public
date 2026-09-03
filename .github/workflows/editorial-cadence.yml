@@ -54,6 +54,15 @@ jobs:
           else
             gh issue create --title "$title" --body-file "$body_file"
           fi
+      - name: Close incident when publication health recovers
+        if: steps.health.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue_number=$(gh issue list --state open --search '"[Editorial Incident] CareerRadar publication pipeline unhealthy" in:title' --json number --jq '.[0].number // empty')
+          if [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --comment "Recovered automatically: publication cadence, release runway, and public artifact integrity are healthy."
+          fi
       - name: Fail workflow after incident capture
         if: steps.health.outcome == 'failure'
         run: exit 1
