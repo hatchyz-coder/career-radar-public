@@ -20,5 +20,7 @@ jobs:
           python-version: "3.12"
       - name: Validate evergreen article depth
         run: python scripts/check_content_quality.py
+      - name: Validate LLM site guide
+        run: python scripts/check_llms_file.py
       - name: Validate editorial release queue
         run: python scripts/check_editorial_cadence.py
