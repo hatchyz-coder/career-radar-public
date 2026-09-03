@@ -1,21 +1,59 @@
-name: Editorial cadence
+name: Editorial health
 
 on:
   schedule:
-    - cron: "15 0 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: read
+  issues: write
+
+concurrency:
+  group: editorial-health
+  cancel-in-progress: true
 
 jobs:
-  deadline:
+  health:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Fail when a publication deadline is missed
-        run: python scripts/check_editorial_cadence.py
+      - name: Check publication cadence and release integrity
+        id: health
+        continue-on-error: true
+        run: |
+          python scripts/check_editorial_cadence.py 2>&1 | tee /tmp/editorial-health.log
+          exit ${PIPESTATUS[0]}
+      - name: Open or update incident issue
+        if: steps.health.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="[Editorial Incident] CareerRadar publication pipeline unhealthy"
+          body_file=/tmp/editorial-incident.md
+          {
+            echo "CareerRadar editorial monitoring detected an unhealthy publication state."
+            echo
+            echo "Workflow: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+            echo "Commit: $GITHUB_SHA"
+            echo
+            echo '```text'
+            cat /tmp/editorial-health.log
+            echo '```'
+            echo
+            echo "This issue is generated automatically. Resolve the underlying queue/source/publication problem; do not merely silence the monitor."
+          } > "$body_file"
+          issue_number=$(gh issue list --state open --search '"[Editorial Incident] CareerRadar publication pipeline unhealthy" in:title' --json number --jq '.[0].number // empty')
+          if [ -n "$issue_number" ]; then
+            gh issue edit "$issue_number" --body-file "$body_file"
+            gh issue comment "$issue_number" --body "Still unhealthy at $(date -u +'%Y-%m-%dT%H:%M:%SZ'). Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          else
+            gh issue create --title "$title" --body-file "$body_file"
+          fi
+      - name: Fail workflow after incident capture
+        if: steps.health.outcome == 'failure'
+        run: exit 1
