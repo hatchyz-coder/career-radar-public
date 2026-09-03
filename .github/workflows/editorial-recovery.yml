@@ -9,6 +9,8 @@ on:
       - "scripts/polish_generated_articles.py"
       - "scripts/expand_generated_articles.py"
       - "scripts/check_content_quality.py"
+      - "scripts/inject_analytics.py"
+      - "assets/analytics.js"
       - ".github/workflows/editorial-recovery.yml"
       - "data/editorial_cadence.json"
   schedule:
@@ -40,6 +42,8 @@ jobs:
         run: python scripts/polish_generated_articles.py
       - name: Expand section-specific depth
         run: python scripts/expand_generated_articles.py
+      - name: Inject CareerRadar analytics into all HTML
+        run: python scripts/inject_analytics.py
       - name: Validate content quality and duplication
         run: python scripts/check_content_quality.py
       - name: Validate editorial health after recovery
@@ -52,6 +56,6 @@ jobs:
           fi
           git config user.name "career-radar-editorial-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/editorial_cadence.json index.html sitemap.xml ja/articles en/articles
-          git commit -m "Auto-publish and deepen CareerRadar editorial releases"
+          git add data/editorial_cadence.json index.html sitemap.xml ja/articles en/articles articles assets *.html
+          git commit -m "Auto-publish and instrument CareerRadar releases"
           git push origin HEAD:main
