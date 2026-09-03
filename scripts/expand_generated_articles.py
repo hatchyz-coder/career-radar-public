@@ -43,6 +43,19 @@ def expand(path: Path, article_id: str, locale: str) -> bool:
         replacement = rf'\1\n<p {marker}>{extra}</p>'
         text, n = pattern.subn(replacement, text, count=1)
         changed = changed or bool(n)
+
+    if locale == "en":
+        marker = f'data-editorial-final-check="{article_id}"'
+        if marker not in text:
+            extra = (
+                "Before acting, verify the role, evidence, compensation assumptions, constraints, and current market conditions with primary or directly observable information. "
+                "Treat this framework as a decision aid rather than a guarantee, and update it whenever new market feedback materially changes the underlying assumptions."
+            )
+            anchor = '<h2>CareerRadar action check</h2>'
+            if anchor in text:
+                text = text.replace(anchor, f'<p {marker}>{html.escape(extra)}</p>\n{anchor}', 1)
+                changed = True
+
     if changed:
         path.write_text(text, encoding="utf-8")
     return changed
