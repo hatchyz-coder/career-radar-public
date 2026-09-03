@@ -7,6 +7,7 @@ on:
     paths:
       - "scripts/fetch_search_console.py"
       - "scripts/score_search_demand.py"
+      - "scripts/plan_traffic_actions.py"
       - "scripts/check_traffic_engine.py"
       - "scripts/test_traffic_engine.py"
       - ".github/workflows/traffic-engine.yml"
@@ -48,22 +49,24 @@ jobs:
         run: echo "GSC_SERVICE_ACCOUNT_JSON is not configured; using the current intake file during the warmup period."
       - name: Score Search Console demand
         run: python scripts/score_search_demand.py
+      - name: Plan traffic actions
+        run: python scripts/plan_traffic_actions.py
       - name: Validate Traffic Engine health
         id: health
         continue-on-error: true
         run: |
           python scripts/check_traffic_engine.py 2>&1 | tee /tmp/traffic-engine-health.log
           exit ${PIPESTATUS[0]}
-      - name: Commit refreshed Search Console intake and opportunity ranking
+      - name: Commit refreshed Search Console intelligence
         if: steps.health.outcome == 'success'
         run: |
-          if git diff --quiet -- data/search_console_queries.json data/traffic_opportunities.json; then
+          if git diff --quiet -- data/search_console_queries.json data/traffic_opportunities.json data/traffic_action_queue.json; then
             echo "Traffic Engine data unchanged."
             exit 0
           fi
           git config user.name "career-radar-traffic-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/search_console_queries.json data/traffic_opportunities.json
+          git add data/search_console_queries.json data/traffic_opportunities.json data/traffic_action_queue.json
           git commit -m "Refresh CareerRadar search-demand intelligence"
           for attempt in 1 2 3; do
             git fetch origin main
