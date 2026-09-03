@@ -1,0 +1,11 @@
+{
+  "schema_version": "search-console-export.v1",
+  "site": "https://career.hdnjapan.com/",
+  "window": {
+    "start_date": null,
+    "end_date": null,
+    "days": 28
+  },
+  "generated_at": null,
+  "rows": []
+}
