@@ -1,0 +1,50 @@
+name: Editorial recovery publisher
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/recover_editorial_queue.py"
+      - ".github/workflows/editorial-recovery.yml"
+      - "data/editorial_cadence.json"
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: editorial-recovery-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate all due JP/EN releases and replenish runway
+        run: python scripts/recover_editorial_queue.py
+      - name: Validate content quality
+        run: python scripts/check_content_quality.py
+      - name: Validate editorial health after recovery
+        run: python scripts/check_editorial_cadence.py
+      - name: Commit generated publication artifacts
+        run: |
+          if git diff --quiet; then
+            echo "No due editorial changes."
+            exit 0
+          fi
+          git config user.name "career-radar-editorial-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/editorial_cadence.json index.html sitemap.xml ja/articles en/articles
+          git commit -m "Auto-publish due CareerRadar editorial releases"
+          git push origin HEAD:main
