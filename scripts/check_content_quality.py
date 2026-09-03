@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+from collections import Counter
 from html.parser import HTMLParser
+import json
 from pathlib import Path
 import re
 import sys
@@ -13,8 +15,7 @@ EVERGREEN = (
     ROOT / "articles" / "freelance-transition.html",
     ROOT / "articles" / "high-class-transition.html",
 )
-BILINGUAL_IDS = (
-    "brandless-high-income-path",
+BASELINE_BILINGUAL_IDS = (
     "midcareer-40s-career-capital",
     "ai-era-high-value-experience",
     "freelance-transition-risk",
@@ -29,26 +30,48 @@ PARTNER_CONTRACTS = {
 }
 FORBIDDEN = ("PR #", "マージ", "運営側の都合", "収益化のため", "広告報酬", "production_active")
 
+
 class Parser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self.text: list[str] = []
         self.h1 = self.h2 = self.paragraphs = 0
+        self._in_p = False
+        self._p: list[str] = []
+        self.paragraph_texts: list[str] = []
+
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag == "h1": self.h1 += 1
-        elif tag == "h2": self.h2 += 1
-        elif tag == "p": self.paragraphs += 1
+        if tag == "h1":
+            self.h1 += 1
+        elif tag == "h2":
+            self.h2 += 1
+        elif tag == "p":
+            self.paragraphs += 1
+            self._in_p = True
+            self._p = []
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "p" and self._in_p:
+            value = re.sub(r"\s+", " ", " ".join(self._p)).strip()
+            if value:
+                self.paragraph_texts.append(value)
+            self._in_p = False
+            self._p = []
+
     def handle_data(self, data: str) -> None:
         self.text.append(data)
+        if self._in_p:
+            self._p.append(data)
 
-def partner_errors(path: Path, html: str) -> list[str]:
+
+def partner_errors(path: Path, source: str) -> list[str]:
     errors: list[str] = []
-    if 'class="partner-label"' not in html:
+    if 'class="partner-label"' not in source:
         errors.append(f"{path}: affiliate label missing")
     for partner_id, (offer_id, destination, tracking) in PARTNER_CONTRACTS.items():
         match = re.search(
             rf'<section class="partner-option" data-partner-id="{partner_id}" data-offer-id="{offer_id}">(.*?)</section>',
-            html,
+            source,
             re.DOTALL,
         )
         if not match:
@@ -60,12 +83,23 @@ def partner_errors(path: Path, html: str) -> list[str]:
                 errors.append(f"{path}: partner contract mismatch: {partner_id}: {required}")
     return errors
 
+
+def duplicate_errors(path: Path, paragraphs: list[str]) -> list[str]:
+    normalized = [re.sub(r"\s+", " ", p).strip().lower() for p in paragraphs if len(p) >= 120]
+    counts = Counter(normalized)
+    repeated = [(text, count) for text, count in counts.items() if count >= 3]
+    if not repeated:
+        return []
+    max_count = max(count for _, count in repeated)
+    return [f"{path}: repeated long-form paragraph detected ({max_count} occurrences)"]
+
+
 def validate(path: Path, locale: str, *, evergreen: bool = False) -> list[str]:
     if not path.exists():
         return [f"{path.relative_to(ROOT)}: missing"]
-    html = path.read_text(encoding="utf-8")
+    source = path.read_text(encoding="utf-8")
     parser = Parser()
-    parser.feed(html)
+    parser.feed(source)
     visible = " ".join(parser.text)
     errors: list[str] = []
     if parser.h1 != 1:
@@ -85,27 +119,47 @@ def validate(path: Path, locale: str, *, evergreen: bool = False) -> list[str]:
     for marker in FORBIDDEN:
         if marker in visible:
             errors.append(f"{path}: reader-irrelevant/internal marker found: {marker}")
-    if "https://career.hdnjapan.com/" in html and 'rel="canonical"' not in html and not evergreen:
+    if "https://career.hdnjapan.com/" in source and 'rel="canonical"' not in source and not evergreen:
         errors.append(f"{path}: canonical missing")
     if not evergreen:
         for hreflang in ('hreflang="ja"', 'hreflang="en"', 'hreflang="x-default"'):
-            if hreflang not in html:
+            if hreflang not in source:
                 errors.append(f"{path}: {hreflang} missing")
-    errors.extend(partner_errors(path, html))
+        errors.extend(duplicate_errors(path, parser.paragraph_texts))
+    errors.extend(partner_errors(path, source))
     return errors
+
+
+def generated_published_ids() -> list[str]:
+    cadence = ROOT / "data" / "editorial_cadence.json"
+    if not cadence.is_file():
+        return []
+    payload = json.loads(cadence.read_text(encoding="utf-8"))
+    result = []
+    for item in payload.get("release_queue", []):
+        if item.get("status") != "published":
+            continue
+        if item.get("published_at", "") >= "2026-09-03":
+            result.append(item["article_id"])
+    return result
+
 
 def main() -> int:
     errors: list[str] = []
     for path in EVERGREEN:
         errors.extend(validate(path, "ja", evergreen=True))
-    for article_id in BILINGUAL_IDS[1:]:
+
+    ids = list(dict.fromkeys([*BASELINE_BILINGUAL_IDS, *generated_published_ids()]))
+    for article_id in ids:
         errors.extend(validate(ROOT / "ja" / "articles" / f"{article_id}.html", "ja"))
         errors.extend(validate(ROOT / "en" / "articles" / f"{article_id}.html", "en"))
+
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    print(f"Validated {len(EVERGREEN)} evergreen articles and {len(BILINGUAL_IDS) - 1} bilingual article pairs.")
+    print(f"Validated {len(EVERGREEN)} evergreen articles and {len(ids)} bilingual article pairs with duplication guard.")
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
