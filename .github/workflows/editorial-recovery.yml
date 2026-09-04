@@ -10,6 +10,7 @@ on:
       - "scripts/expand_generated_articles.py"
       - "scripts/build_bootstrap_search_hubs.py"
       - "scripts/generate_social_pack.py"
+      - "scripts/build_traffic_dashboard.py"
       - "scripts/check_content_quality.py"
       - "scripts/check_editorial_cadence.py"
       - "scripts/inject_analytics.py"
@@ -51,6 +52,8 @@ jobs:
         run: python scripts/inject_analytics.py
       - name: Generate LinkedIn Facebook and X distribution copy
         run: python scripts/generate_social_pack.py
+      - name: Build one-screen traffic operations dashboard
+        run: python scripts/build_traffic_dashboard.py
       - name: Validate content quality and duplication
         run: python scripts/check_content_quality.py
       - name: Validate editorial health after recovery
@@ -63,8 +66,8 @@ jobs:
           fi
           git config user.name "career-radar-editorial-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/editorial_cadence.json data/social index.html sitemap.xml ja/articles ja/topics en/articles articles assets *.html
-          git commit -m "Auto-publish and prepare CareerRadar distribution pack"
+          git add data/editorial_cadence.json data/social index.html sitemap.xml traffic-dashboard.html ja/articles ja/topics en/articles articles assets *.html
+          git commit -m "Auto-publish and refresh CareerRadar traffic dashboard"
           for attempt in 1 2 3; do
             git fetch origin main
             if git rebase origin/main && git push origin HEAD:main; then
