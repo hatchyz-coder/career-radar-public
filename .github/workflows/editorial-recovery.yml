@@ -10,6 +10,7 @@ on:
       - "scripts/expand_generated_articles.py"
       - "scripts/build_bootstrap_search_hubs.py"
       - "scripts/check_content_quality.py"
+      - "scripts/check_editorial_cadence.py"
       - "scripts/inject_analytics.py"
       - "assets/analytics.js"
       - ".github/workflows/editorial-recovery.yml"
