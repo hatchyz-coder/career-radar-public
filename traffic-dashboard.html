@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="description" content="CareerRadar daily traffic operations dashboard">
+  <title>CareerRadar Traffic Dashboard</title>
+  <link rel="stylesheet" href="assets/site.css">
+  <style>
+    :root { color-scheme: light; }
+    body { background:#f6f7f9; }
+    .dash { max-width:1180px; margin:0 auto; padding:28px 20px 56px; }
+    .dash-header { display:flex; justify-content:space-between; gap:20px; align-items:flex-start; margin-bottom:22px; }
+    .dash-header h1 { margin:.15rem 0 .4rem; }
+    .muted { color:#667085; }
+    .status-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin:18px 0 26px; }
+    .status-card, .post-card, .today-card { background:#fff; border:1px solid #e4e7ec; border-radius:16px; padding:18px; box-shadow:0 1px 2px rgba(16,24,40,.04); }
+    .status-card strong { display:block; font-size:1.02rem; margin-top:5px; overflow-wrap:anywhere; }
+    .kicker { font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; color:#667085; }
+    .today-card { margin-bottom:18px; }
+    .today-card h2 { margin:.25rem 0 .5rem; }
+    .today-actions { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+    .today-actions a { text-decoration:none; }
+    .post-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .post-card:first-child { grid-column:1 / -1; }
+    .post-head { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; margin-bottom:10px; }
+    .post-head h2 { margin:.25rem 0 0; }
+    .priority { display:inline-block; font-size:.74rem; font-weight:700; background:#101828; color:#fff; border-radius:999px; padding:4px 8px; }
+    textarea { width:100%; min-height:280px; border:1px solid #d0d5dd; border-radius:12px; padding:14px; box-sizing:border-box; resize:vertical; font:inherit; line-height:1.6; background:#fcfcfd; }
+    .post-card:first-child textarea { min-height:360px; }
+    button.copy { border:0; border-radius:10px; padding:10px 14px; font-weight:700; cursor:pointer; background:#111827; color:#fff; }
+    button.copy.done { background:#027a48; }
+    .footer-note { margin-top:18px; color:#667085; font-size:.9rem; }
+    @media (max-width:800px) {
+      .status-grid { grid-template-columns:1fr 1fr; }
+      .post-grid { grid-template-columns:1fr; }
+      .post-card:first-child { grid-column:auto; }
+      .dash-header { display:block; }
+    }
+    @media (max-width:520px) { .status-grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<main class="dash">
+  <header class="dash-header">
+    <div>
+      <div class="kicker">CareerRadar Operator</div>
+      <h1>Traffic Dashboard</h1>
+      <div class="muted">今日やることを1画面に集約。投稿文はそのままコピーできます。</div>
+    </div>
+    <a class="button secondary" href="index.html">CareerRadar本体を見る</a>
+  </header>
+
+  <section class="status-grid">
+    <div class="status-card"><span class="kicker">Latest publication</span><strong>2026-09-04</strong><span class="muted">consulting-market-signal-matrix</span></div>
+    <div class="status-card"><span class="kicker">Next release</span><strong>2026-09-07</strong><span class="muted">portfolio-evidence-scorecard</span></div>
+    <div class="status-card"><span class="kicker">Search Console</span><strong>Search Consoleウォームアップ中</strong><span class="muted">開始 2026-09-03 / 最大7日間は0件でも正常</span></div>
+    <div class="status-card"><span class="kicker">Traffic actions</span><strong>0件</strong><span class="muted">Search Console由来の優先アクション</span></div>
+  </section>
+
+  <section class="today-card">
+    <span class="priority">TODAY / 最優先</span>
+    <h2>LinkedInへ1投稿</h2>
+    <p><strong>コンサル案件で市場評価を見誤らないSignal Matrix</strong></p>
+    <p class="muted">まずLinkedIn。余力があればFacebook → Xの順で配信。各リンクはUTM付きです。</p>
+    <div class="today-actions">
+      <a class="button primary" href="https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=linkedin&amp;utm_medium=social&amp;utm_campaign=career_radar_editorial&amp;utm_content=consulting-market-signal-matrix_ja" target="_blank" rel="noopener">日本語記事を開く</a>
+      <a class="button secondary" href="https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html?utm_source=linkedin&amp;utm_medium=social&amp;utm_campaign=career_radar_editorial&amp;utm_content=consulting-market-signal-matrix_en" target="_blank" rel="noopener">英語記事を開く</a>
+    </div>
+  </section>
+
+  <section class="post-grid">
+    <section class="post-card">
+          <div class="post-head"><div><span class="priority">P0</span><h2>LinkedIn</h2></div><button class="copy" data-copy="linkedin">コピー</button></div>
+          <textarea id="copy-linkedin" readonly>【コンサル案件で市場評価を見誤らないSignal Matrix / A Signal Matrix for Reading Your Consulting Market Value】
+
+案件が来ないと、市場価値そのものを否定された気持ちになりがちです。ですが、見えているのは市場全体ではなく、特定チャネルの在庫や担当者の得意領域にすぎないことがあります。
+
+CareerRadarでは今回、次の3点に分けて整理しました。
+・肩書きではなく『何を任せられる人か』で見る
+・成果・役割・業界知識・推進力・経営層対応を分けて見る
+・1社の評価ではなく複数チャネルの反応を重ねる
+
+いま受けている評価は、本当に『市場の評価』でしょうか。それとも一つの窓口から見えた景色でしょうか。
+
+記事はこちら
+https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=linkedin&amp;utm_medium=social&amp;utm_campaign=career_radar_editorial&amp;utm_content=consulting-market-signal-matrix_ja
+
+English follows below.
+
+A weak response from one channel is not the same thing as weak market value. Recruiter inventory, timing and role fit can distort the signal.
+
+Read the full article:
+https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html?utm_source=linkedin&amp;utm_medium=social&amp;utm_campaign=career_radar_editorial&amp;utm_content=consulting-market-signal-matrix_en
+
+#CareerRadar #キャリア #転職 #市場価値</textarea>
+        </section>
+    <section class="post-card">
+          <div class="post-head"><div><span class="priority">P1</span><h2>Facebook</h2></div><button class="copy" data-copy="facebook">コピー</button></div>
+          <textarea id="copy-facebook" readonly>【コンサル案件で市場評価を見誤らないSignal Matrix】
+
+案件が来ないと、市場価値そのものを否定された気持ちになりがちです。ですが、見えているのは市場全体ではなく、特定チャネルの在庫や担当者の得意領域にすぎないことがあります。
+
+キャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。
+
+でも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。
+
+今回のCareerRadarでは、
+・肩書きではなく『何を任せられる人か』で見る
+・成果・役割・業界知識・推進力・経営層対応を分けて見る
+・1社の評価ではなく複数チャネルの反応を重ねる
+という視点で整理しました。
+
+いま受けている評価は、本当に『市場の評価』でしょうか。それとも一つの窓口から見えた景色でしょうか。
+
+転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。
+
+https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=career_radar_editorial&amp;utm_content=consulting-market-signal-matrix_ja
+
+#CareerRadar #キャリア #転職 #市場価値</textarea>
+        </section>
+    <section class="post-card">
+          <div class="post-head"><div><span class="priority">P2</span><h2>X</h2></div><button class="copy" data-copy="x">コピー</button></div>
+          <textarea id="copy-x" readonly>【コンサル案件で市場評価を見誤らないSignal Matrix】
+一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。
+https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=x&amp;utm_medium=social
+#CareerRadar</textarea>
+        </section>
+  </section>
+
+  <p class="footer-note">このページは検索エンジン向けではなく運用確認用です。Search Consoleの検索語そのものは表示しません。</p>
+</main>
+<script>
+  document.querySelectorAll('button.copy').forEach((button) => {
+    button.addEventListener('click', async () => {
+      const key = button.dataset.copy;
+      const text = document.getElementById('copy-' + key).value;
+      try {
+        await navigator.clipboard.writeText(text);
+        button.textContent = 'コピー済み';
+        button.classList.add('done');
+        setTimeout(() => { button.textContent = 'コピー'; button.classList.remove('done'); }, 1600);
+      } catch (e) {
+        const area = document.getElementById('copy-' + key);
+        area.focus(); area.select(); document.execCommand('copy');
+        button.textContent = 'コピー済み';
+      }
+    });
+  });
+</script>
+</body>
+</html>
