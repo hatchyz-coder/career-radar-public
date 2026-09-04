@@ -5,10 +5,10 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "freelance-to-employment-return-path",
-    "published_at": "2026-09-03",
-    "article_count": 5,
-    "locale_page_count": 10
+    "article_id": "consulting-market-signal-matrix",
+    "published_at": "2026-09-04",
+    "article_count": 1,
+    "locale_page_count": 2
   },
   "release_queue": [
     {
@@ -68,7 +68,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-04"
     },
     {
       "article_id": "portfolio-evidence-scorecard",
@@ -100,6 +101,15 @@
     {
       "article_id": "salary-vs-career-capital-tradeoff",
       "due_at": "2026-09-10",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "direct-client-acquisition-playbook",
+      "due_at": "2026-09-11",
       "locales": [
         "ja",
         "en"
