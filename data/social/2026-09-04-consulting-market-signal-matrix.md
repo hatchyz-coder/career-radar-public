@@ -16,14 +16,14 @@ CareerRadarでは今回、次の3点に分けて整理しました。
 いま受けている評価は、本当に『市場の評価』でしょうか。それとも一つの窓口から見えた景色でしょうか。
 
 記事はこちら
-https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix
+https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_ja
 
 English follows below.
 
 A weak response from one channel is not the same thing as weak market value. Recruiter inventory, timing and role fit can distort the signal.
 
 Read the full article:
-https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix
+https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_en
 
 #CareerRadar #キャリア #転職 #市場価値
 
@@ -49,7 +49,7 @@ https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm
 
 転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。
 
-https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix
+https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_ja
 
 #CareerRadar #キャリア #転職 #市場価値
 
