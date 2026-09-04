@@ -9,6 +9,7 @@ on:
       - "scripts/polish_generated_articles.py"
       - "scripts/expand_generated_articles.py"
       - "scripts/build_bootstrap_search_hubs.py"
+      - "scripts/enhance_pv_discovery.py"
       - "scripts/generate_social_pack.py"
       - "scripts/build_traffic_dashboard.py"
       - "scripts/check_content_quality.py"
@@ -48,6 +49,8 @@ jobs:
         run: python scripts/expand_generated_articles.py
       - name: Build bootstrap search hubs and internal link graph
         run: python scripts/build_bootstrap_search_hubs.py
+      - name: Add article library related-reading feeds and structured metadata
+        run: python scripts/enhance_pv_discovery.py
       - name: Inject CareerRadar analytics into all HTML
         run: python scripts/inject_analytics.py
       - name: Generate LinkedIn Facebook and X distribution copy
@@ -66,8 +69,8 @@ jobs:
           fi
           git config user.name "career-radar-editorial-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/editorial_cadence.json data/social index.html sitemap.xml traffic-dashboard.html ja/articles ja/topics en/articles articles assets *.html
-          git commit -m "Auto-publish and refresh CareerRadar traffic dashboard"
+          git add data/editorial_cadence.json data/social index.html sitemap.xml traffic-dashboard.html ja/articles ja/topics ja/feed.xml en/articles en/feed.xml articles assets *.html
+          git commit -m "Auto-publish and refresh CareerRadar discovery surfaces"
           for attempt in 1 2 3; do
             git fetch origin main
             if git rebase origin/main && git push origin HEAD:main; then
