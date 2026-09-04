@@ -62,11 +62,11 @@ def extract(path: Path) -> tuple[str, str]:
     return clean(h1.group(1)), clean(desc.group(1))
 
 
-def tracked_url(article_id: str, platform: str) -> str:
+def tracked_url(article_id: str, platform: str, locale: str = "ja") -> str:
     params = {"utm_source": platform, "utm_medium": "social"}
     if platform != "x":
-        params.update({"utm_campaign": "career_radar_editorial", "utm_content": article_id})
-    return f"{SITE}/ja/articles/{article_id}.html?{urlencode(params)}"
+        params.update({"utm_campaign": "career_radar_editorial", "utm_content": f"{article_id}_{locale}"})
+    return f"{SITE}/{locale}/articles/{article_id}.html?{urlencode(params)}"
 
 
 def main() -> None:
@@ -83,11 +83,12 @@ def main() -> None:
         en_desc,
     ))
     bullets = "\n".join(f"・{p}" for p in points)
-    linkedin_url = tracked_url(article_id, "linkedin")
-    facebook_url = tracked_url(article_id, "facebook")
-    x_url = tracked_url(article_id, "x")
+    linkedin_url_ja = tracked_url(article_id, "linkedin", "ja")
+    linkedin_url_en = tracked_url(article_id, "linkedin", "en")
+    facebook_url = tracked_url(article_id, "facebook", "ja")
+    x_url = tracked_url(article_id, "x", "ja")
 
-    linkedin = f"""【{ja_title} / {en_title}】\n\n{hook}\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n{bullets}\n\n{question}\n\n記事はこちら\n{linkedin_url}\n\nEnglish follows below.\n\n{en_hook}\n\nRead the full article:\n{linkedin_url}\n\n#CareerRadar #キャリア #転職 #市場価値"""
+    linkedin = f"""【{ja_title} / {en_title}】\n\n{hook}\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n{bullets}\n\n{question}\n\n記事はこちら\n{linkedin_url_ja}\n\nEnglish follows below.\n\n{en_hook}\n\nRead the full article:\n{linkedin_url_en}\n\n#CareerRadar #キャリア #転職 #市場価値"""
 
     facebook = f"""【{ja_title}】\n\n{hook}\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n{bullets}\nという視点で整理しました。\n\n{question}\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\n{facebook_url}\n\n#CareerRadar #キャリア #転職 #市場価値"""
 
@@ -104,7 +105,7 @@ def main() -> None:
         "published_at": published_at,
         "article": {"ja_title": ja_title, "en_title": en_title, "ja_description": ja_desc, "en_description": en_desc},
         "posts": {"linkedin": linkedin, "facebook": facebook, "x": x},
-        "urls": {"linkedin": linkedin_url, "facebook": facebook_url, "x": x_url},
+        "urls": {"linkedin_ja": linkedin_url_ja, "linkedin_en": linkedin_url_en, "facebook": facebook_url, "x": x_url},
     }
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     md = f"# CareerRadar Social Pack — {published_at}\n\nArticle: `{article_id}`\n\n## LinkedIn\n\n{linkedin}\n\n---\n\n## Facebook\n\n{facebook}\n\n---\n\n## X\n\n{x}\n"
