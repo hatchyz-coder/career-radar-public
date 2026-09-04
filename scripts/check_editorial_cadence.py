@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 import json
 from pathlib import Path
 import sys
@@ -12,6 +12,21 @@ CADENCE = ROOT / "data" / "editorial_cadence.json"
 
 def parse_date(value: str) -> date:
     return datetime.strptime(value, "%Y-%m-%d").date()
+
+
+def business_gap_days(start: date, end: date) -> int:
+    """Count scheduled publication days between two dates, excluding weekends.
+
+    The publisher deliberately replenishes on business days. A Friday -> Monday
+    transition must therefore count as one publication day, not a three-day outage.
+    """
+    if end <= start:
+        return 0
+    return sum(
+        1
+        for offset in range(1, (end - start).days + 1)
+        if (start + timedelta(days=offset)).weekday() < 5
+    )
 
 
 def fail(message: str) -> int:
@@ -28,7 +43,7 @@ def main() -> int:
     if weekly < 5:
         return fail("Publication target must remain at least five articles per week.")
     if maximum_gap > 2:
-        return fail("Maximum publication gap must not exceed two days.")
+        return fail("Maximum publication gap must not exceed two business days.")
 
     queue = payload.get("release_queue", [])
     queued = [item for item in queue if item.get("status") == "queued"]
@@ -58,10 +73,10 @@ def main() -> int:
 
     last = parse_date(payload["last_publication"]["published_at"])
     first_due = due_dates[0]
-    if (first_due - last).days > maximum_gap:
-        return fail("First queued release exceeds maximum publication gap.")
+    if business_gap_days(last, first_due) > maximum_gap:
+        return fail("First queued release exceeds maximum business-day publication gap.")
 
-    if (date.today() - last).days > maximum_gap and first_due <= date.today():
+    if business_gap_days(last, date.today()) > maximum_gap and first_due <= date.today():
         return fail("Last publication is stale and no current release has replaced it.")
 
     print(
