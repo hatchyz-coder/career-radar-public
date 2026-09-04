@@ -57,7 +57,7 @@ jobs:
         run: python scripts/check_editorial_cadence.py
       - name: Commit generated publication artifacts
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No due editorial changes."
             exit 0
           fi
