@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-09-06T03:12:56.343374+09:00",
+  "generated_at": "2026-09-06T06:10:36.629871+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
