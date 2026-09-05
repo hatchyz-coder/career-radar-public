@@ -1,0 +1,57 @@
+{
+  "schema_version": "hdn-editorial-desk-source.v1",
+  "source_id": "career_radar",
+  "source_label": "CareerRadar",
+  "generated_at": "2026-09-05T19:19:06.777765+09:00",
+  "timezone": "Asia/Tokyo",
+  "lookback_days": 14,
+  "manual_publish_only": true,
+  "consumer_state_contract": {
+    "owner": "HDN Editorial Desk",
+    "upsert_key": "stable_id",
+    "rule": "Upsert feed content by stable_id. Never reset local completed, carry-over, scheduled, or postponed state during source sync."
+  },
+  "item_count": 1,
+  "warnings": [],
+  "items": [
+    {
+      "stable_id": "career_radar:2026-09-04:consulting-market-signal-matrix",
+      "source_id": "career_radar",
+      "source_label": "CareerRadar",
+      "article_id": "consulting-market-signal-matrix",
+      "published_at": "2026-09-04",
+      "title": "コンサル案件で市場評価を見誤らないSignal Matrix",
+      "content_version": "efe4e6ad12ddd308",
+      "default_state": "ready_for_review",
+      "manual_publish_only": true,
+      "recommended_platform_order": [
+        "linkedin",
+        "facebook",
+        "x"
+      ],
+      "platforms": {
+        "linkedin": {
+          "priority": "P0",
+          "copy": "【コンサル案件で市場評価を見誤らないSignal Matrix / A Signal Matrix for Reading Your Consulting Market Value】\n\n案件が来ないと、市場価値そのものを否定された気持ちになりがちです。ですが、見えているのは市場全体ではなく、特定チャネルの在庫や担当者の得意領域にすぎないことがあります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・肩書きではなく『何を任せられる人か』で見る\n・成果・役割・業界知識・推進力・経営層対応を分けて見る\n・1社の評価ではなく複数チャネルの反応を重ねる\n\nいま受けている評価は、本当に『市場の評価』でしょうか。それとも一つの窓口から見えた景色でしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_ja\n\nEnglish follows below.\n\nA weak response from one channel is not the same thing as weak market value. Recruiter inventory, timing and role fit can distort the signal.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_en\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url_ja": "https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_ja",
+          "url_en": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_en"
+        },
+        "facebook": {
+          "priority": "P1",
+          "copy": "【コンサル案件で市場評価を見誤らないSignal Matrix】\n\n案件が来ないと、市場価値そのものを否定された気持ちになりがちです。ですが、見えているのは市場全体ではなく、特定チャネルの在庫や担当者の得意領域にすぎないことがあります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・肩書きではなく『何を任せられる人か』で見る\n・成果・役割・業界知識・推進力・経営層対応を分けて見る\n・1社の評価ではなく複数チャネルの反応を重ねる\nという視点で整理しました。\n\nいま受けている評価は、本当に『市場の評価』でしょうか。それとも一つの窓口から見えた景色でしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url": "https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-market-signal-matrix_ja"
+        },
+        "x": {
+          "priority": "P2",
+          "copy": "【コンサル案件で市場評価を見誤らないSignal Matrix】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=x&utm_medium=social\n#CareerRadar",
+          "url": "https://career.hdnjapan.com/ja/articles/consulting-market-signal-matrix.html?utm_source=x&utm_medium=social"
+        }
+      },
+      "redistribution": {
+        "day_3": "2026-09-07",
+        "day_7": "2026-09-11",
+        "mode": "candidate_only_review_before_repost"
+      }
+    }
+  ]
+}
