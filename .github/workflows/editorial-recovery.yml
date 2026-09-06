@@ -49,10 +49,10 @@ jobs:
         run: python scripts/recover_editorial_queue.py
       - name: Apply semantic polish to generated articles
         run: python scripts/polish_generated_articles.py
-      - name: Humanize generated Japanese prose
-        run: python scripts/humanize_generated_articles.py
       - name: Expand section-specific depth
         run: python scripts/expand_generated_articles.py
+      - name: Humanize generated Japanese prose
+        run: python scripts/humanize_generated_articles.py
       - name: Build bootstrap search hubs and internal link graph
         run: python scripts/build_bootstrap_search_hubs.py
       - name: Add article library related-reading feeds and structured metadata
