@@ -37,7 +37,11 @@ def main() -> None:
     require('id="agent-options"' in gateway, "affiliate gateway anchor missing")
     require('data-affiliate-funnel-gateway="true"' in gateway, "affiliate gateway marker missing")
     require('data-placement="high_class_transition_after_action"' in gateway, "approved placement marker missing")
-    require("※アフィリエイト広告です。" in gateway, "affiliate disclosure missing")
+    require('<div class="partner-label">広告</div>' in gateway, "clear advertising label missing")
+    require(
+        "※アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。" not in gateway,
+        "redundant affiliate disclosure copy remains",
+    )
 
     for partner_id, token in PARTNERS.items():
         require(f'data-partner-id="{partner_id}"' in gateway, f"partner missing: {partner_id}")
@@ -59,6 +63,7 @@ def main() -> None:
         require(text.count("<!-- AFFILIATE_FUNNEL_START -->") == 1, f"funnel block missing/duplicated: {path}")
         require("high-class-transition.html#agent-options" in text, f"gateway route missing: {path}")
         require('data-affiliate-funnel-link="true"' in text, f"funnel tracking attribute missing: {path}")
+        require("アフィリエイト報酬額では決めていません" not in text, f"unnecessary defensive copy remains: {path}")
         start = text.index("<!-- AFFILIATE_FUNNEL_START -->")
         end = text.index("<!-- AFFILIATE_FUNNEL_END -->", start)
         block = text[start:end]

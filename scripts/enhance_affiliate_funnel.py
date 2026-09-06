@@ -14,6 +14,9 @@ LEGACY_PARTNER_RE = re.compile(
     r'<aside class="partner-action partner-comparison"[^>]*>.*?</aside>',
     re.S,
 )
+REDUNDANT_GATEWAY_DISCLOSURE_RE = re.compile(
+    r'<p class="small">※アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。</p>'
+)
 
 ARTICLE_TARGETS = [
     "brandless-high-income-path.html",
@@ -69,7 +72,7 @@ def inject_article_block(path: Path) -> None:
     block = (
         f'{ARTICLE_START}<aside class="callout affiliate-funnel" data-affiliate-funnel-source="{slug}">'
         '<strong>転職を選択肢に入れるなら、1社の反応だけで市場価値を決めない。</strong>'
-        '<p>CareerRadarでは、ハイクラス・外資・IT/SaaSなど狙う市場に応じて、現在利用できる転職支援サービスを比較できる導線を用意しています。掲載順や案内はアフィリエイト報酬額では決めていません。</p>'
+        '<p>CareerRadarでは、ハイクラス・外資・IT/SaaSなど狙う市場に応じて、現在利用できる転職支援サービスを比較できます。</p>'
         f'<div class="actions"><a class="button secondary" href="{href}" data-affiliate-funnel-link="true" data-affiliate-funnel-source="{slug}">転職支援サービスを比較する</a></div>'
         f'</aside>{ARTICLE_END}'
     )
@@ -126,7 +129,7 @@ def update_home() -> None:
     path.write_text(updated, encoding="utf-8")
 
 
-def update_gateway() -> None:
+def update_gateway() -> int:
     path = ROOT / "articles" / "high-class-transition.html"
     text = path.read_text(encoding="utf-8")
     for partner_id in PARTNER_IDS:
@@ -138,12 +141,19 @@ def update_gateway() -> None:
         text = text.replace(old, new, 1)
     elif 'id="agent-options"' not in text:
         raise SystemExit("Gateway partner comparison anchor not found")
+
+    # A single, clear "広告" label is sufficient UI disclosure here. Remove
+    # the redundant explanatory sentence below the comparison block.
+    text, removed_disclosure = REDUNDANT_GATEWAY_DISCLOSURE_RE.subn("", text)
+    if '<div class="partner-label">広告</div>' not in text:
+        raise SystemExit("Gateway advertising label missing")
     path.write_text(text, encoding="utf-8")
+    return removed_disclosure
 
 
 def main() -> None:
     removed = remove_generated_partner_comparisons()
-    update_gateway()
+    removed_disclosure = update_gateway()
     update_home()
     for name in ARTICLE_TARGETS:
         path = ROOT / "ja" / "articles" / name
@@ -158,7 +168,7 @@ def main() -> None:
     print(
         "Affiliate funnel ready: gateway=1, home=1, "
         f"article_routes={len(ARTICLE_TARGETS)}, topic_routes={len(TOPIC_TARGETS)}, "
-        f"legacy_direct_blocks_removed={removed}"
+        f"legacy_direct_blocks_removed={removed}, redundant_disclosure_removed={removed_disclosure}"
     )
 
 
