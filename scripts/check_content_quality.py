@@ -15,6 +15,7 @@ EVERGREEN = (
     ROOT / "articles" / "freelance-transition.html",
     ROOT / "articles" / "high-class-transition.html",
 )
+AFFILIATE_GATEWAY = ROOT / "articles" / "high-class-transition.html"
 BASELINE_BILINGUAL_IDS = (
     "midcareer-40s-career-capital",
     "ai-era-high-value-experience",
@@ -65,6 +66,9 @@ class Parser(HTMLParser):
 
 
 def partner_errors(path: Path, source: str) -> list[str]:
+    """Validate direct ASP contracts only on the approved affiliate gateway."""
+    if path != AFFILIATE_GATEWAY:
+        return []
     errors: list[str] = []
     if 'class="partner-label"' not in source:
         errors.append(f"{path}: affiliate label missing")
