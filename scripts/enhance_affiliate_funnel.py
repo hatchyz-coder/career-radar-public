@@ -10,6 +10,10 @@ ARTICLE_START = "<!-- AFFILIATE_FUNNEL_START -->"
 ARTICLE_END = "<!-- AFFILIATE_FUNNEL_END -->"
 HOME_START = "<!-- AFFILIATE_FUNNEL_HOME_START -->"
 HOME_END = "<!-- AFFILIATE_FUNNEL_HOME_END -->"
+LEGACY_PARTNER_RE = re.compile(
+    r'<aside class="partner-action partner-comparison"[^>]*>.*?</aside>',
+    re.S,
+)
 
 ARTICLE_TARGETS = [
     "brandless-high-income-path.html",
@@ -37,6 +41,25 @@ def replace_block(text: str, start: str, end: str, block: str) -> str:
     if re.search(pattern, text, re.S):
         return re.sub(pattern, block, text, flags=re.S)
     return text
+
+
+def remove_generated_partner_comparisons() -> int:
+    """Keep direct ASP creatives on the approved gateway only.
+
+    Older generated JA/EN editorial pages embedded the full partner comparison.
+    Current partner policy records the production placement at the legacy
+    high-class transition gateway, so generated articles must route there
+    rather than duplicate direct ASP creatives.
+    """
+    removed = 0
+    for locale in ("ja", "en"):
+        for path in (ROOT / locale / "articles").glob("*.html"):
+            text = path.read_text(encoding="utf-8")
+            updated, count = LEGACY_PARTNER_RE.subn("", text)
+            if count:
+                path.write_text(updated, encoding="utf-8")
+                removed += count
+    return removed
 
 
 def inject_article_block(path: Path) -> None:
@@ -119,6 +142,7 @@ def update_gateway() -> None:
 
 
 def main() -> None:
+    removed = remove_generated_partner_comparisons()
     update_gateway()
     update_home()
     for name in ARTICLE_TARGETS:
@@ -133,7 +157,8 @@ def main() -> None:
         inject_topic_block(path)
     print(
         "Affiliate funnel ready: gateway=1, home=1, "
-        f"article_routes={len(ARTICLE_TARGETS)}, topic_routes={len(TOPIC_TARGETS)}"
+        f"article_routes={len(ARTICLE_TARGETS)}, topic_routes={len(TOPIC_TARGETS)}, "
+        f"legacy_direct_blocks_removed={removed}"
     )
 
 
