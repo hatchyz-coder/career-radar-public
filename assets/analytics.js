@@ -21,7 +21,27 @@
   }
 
   function cleanLabel(link) {
-    return (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 120);
+    var label = (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 120);
+    if (!label && link.querySelector) {
+      var image = link.querySelector('img[alt]');
+      if (image) label = (image.getAttribute('alt') || '').trim().slice(0, 120);
+    }
+    return label;
+  }
+
+  function trackGatewayView() {
+    var gateway = document.querySelector('[data-affiliate-funnel-gateway="true"]');
+    if (!gateway) return;
+    track('affiliate_gateway_view', {
+      page_path: window.location.pathname,
+      placement: gateway.getAttribute('data-placement') || ''
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', trackGatewayView, { once: true });
+  } else {
+    trackGatewayView();
   }
 
   document.addEventListener('click', function (event) {
@@ -41,6 +61,28 @@
 
     if (/\/review\.html$/.test(targetPath)) {
       track('career_review_click', {
+        link_url: absolute.href,
+        link_text: label,
+        source_path: sourcePath
+      });
+    }
+
+    if (link.getAttribute('data-affiliate-funnel-link') === 'true') {
+      track('affiliate_funnel_click', {
+        target_path: targetPath,
+        source_path: sourcePath,
+        source_surface: link.getAttribute('data-affiliate-funnel-source') || '',
+        link_text: label
+      });
+    }
+
+    var partnerContainer = link.closest && link.closest('[data-partner-id]');
+    if (partnerContainer && absolute.origin !== window.location.origin) {
+      var placementContainer = link.closest('[data-placement]');
+      track('affiliate_partner_click', {
+        partner_id: partnerContainer.getAttribute('data-partner-id') || '',
+        offer_id: partnerContainer.getAttribute('data-offer-id') || '',
+        placement: placementContainer ? (placementContainer.getAttribute('data-placement') || '') : '',
         link_url: absolute.href,
         link_text: label,
         source_path: sourcePath

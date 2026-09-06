@@ -10,6 +10,8 @@ on:
       - "scripts/expand_generated_articles.py"
       - "scripts/build_bootstrap_search_hubs.py"
       - "scripts/enhance_pv_discovery.py"
+      - "scripts/enhance_affiliate_funnel.py"
+      - "scripts/check_affiliate_funnel.py"
       - "scripts/generate_social_pack.py"
       - "scripts/export_editorial_desk_feed.py"
       - "scripts/build_traffic_dashboard.py"
@@ -52,6 +54,8 @@ jobs:
         run: python scripts/build_bootstrap_search_hubs.py
       - name: Add article library related-reading feeds and structured metadata
         run: python scripts/enhance_pv_discovery.py
+      - name: Build user-first affiliate funnel routes
+        run: python scripts/enhance_affiliate_funnel.py
       - name: Inject CareerRadar analytics into all HTML
         run: python scripts/inject_analytics.py
       - name: Generate LinkedIn Facebook and X distribution copy
@@ -60,6 +64,8 @@ jobs:
         run: python scripts/export_editorial_desk_feed.py
       - name: Build one-screen traffic operations dashboard
         run: python scripts/build_traffic_dashboard.py
+      - name: Validate affiliate monetization funnel
+        run: python scripts/check_affiliate_funnel.py
       - name: Validate content quality and duplication
         run: python scripts/check_content_quality.py
       - name: Validate editorial health after recovery

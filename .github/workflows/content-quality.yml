@@ -18,6 +18,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Build affiliate funnel surfaces for validation
+        run: python scripts/enhance_affiliate_funnel.py
+      - name: Validate affiliate monetization funnel
+        run: python scripts/check_affiliate_funnel.py
       - name: Validate evergreen article depth
         run: python scripts/check_content_quality.py
       - name: Validate LLM site guide
