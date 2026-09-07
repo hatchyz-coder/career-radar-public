@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "consulting-market-signal-matrix",
-    "published_at": "2026-09-04",
+    "article_id": "portfolio-evidence-scorecard",
+    "published_at": "2026-09-07",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -78,7 +78,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-07"
     },
     {
       "article_id": "ai-assisted-career-research",
@@ -110,6 +111,15 @@
     {
       "article_id": "direct-client-acquisition-playbook",
       "due_at": "2026-09-11",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "midcareer-skill-obsolescence-audit",
+      "due_at": "2026-09-14",
       "locales": [
         "ja",
         "en"

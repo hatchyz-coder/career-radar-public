@@ -189,4 +189,22 @@
   <url>
     <loc>https://career.hdnjapan.com/ja/topics/self-directed-job-search.html</loc>
   </url>
-<url><loc>https://career.hdnjapan.com/ja/articles/</loc></url><url><loc>https://career.hdnjapan.com/en/articles/</loc></url></urlset>
+  <url>
+    <loc>https://career.hdnjapan.com/ja/articles/</loc>
+  </url>
+  <url>
+    <loc>https://career.hdnjapan.com/en/articles/</loc>
+  </url>
+  <url>
+    <loc>https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://career.hdnjapan.com/en/articles/portfolio-evidence-scorecard.html" />
+  </url>
+  <url>
+    <loc>https://career.hdnjapan.com/en/articles/portfolio-evidence-scorecard.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://career.hdnjapan.com/en/articles/portfolio-evidence-scorecard.html" />
+  </url>
+</urlset>
