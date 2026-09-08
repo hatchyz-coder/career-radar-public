@@ -4,10 +4,10 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-08",
-    "end_date": "2026-09-04",
+    "start_date": "2026-08-09",
+    "end_date": "2026-09-05",
     "days": 28
   },
-  "generated_at": "2026-09-07T23:43:47+00:00",
+  "generated_at": "2026-09-08T23:38:18+00:00",
   "rows": []
 }
