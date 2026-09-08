@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "portfolio-evidence-scorecard",
-    "published_at": "2026-09-07",
+    "article_id": "ai-assisted-career-research",
+    "published_at": "2026-09-08",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -88,7 +88,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-08"
     },
     {
       "article_id": "high-value-pmo-deliverables",
@@ -120,6 +121,15 @@
     {
       "article_id": "midcareer-skill-obsolescence-audit",
       "due_at": "2026-09-14",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "project-rate-risk-adjustment",
+      "due_at": "2026-09-15",
       "locales": [
         "ja",
         "en"
