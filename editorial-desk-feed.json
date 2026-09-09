@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-09-09T06:48:42.343300+09:00",
+  "generated_at": "2026-09-09T09:09:46.127142+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -11,9 +11,48 @@
     "upsert_key": "stable_id",
     "rule": "Upsert feed content by stable_id. Never reset local completed, carry-over, scheduled, or postponed state during source sync."
   },
-  "item_count": 3,
+  "item_count": 4,
   "warnings": [],
   "items": [
+    {
+      "stable_id": "career_radar:2026-09-09:high-value-pmo-deliverables",
+      "source_id": "career_radar",
+      "source_label": "CareerRadar",
+      "article_id": "high-value-pmo-deliverables",
+      "published_at": "2026-09-09",
+      "title": "高単価PMOで評価される成果物と評価されない成果物",
+      "content_version": "df87036b4cada303",
+      "default_state": "ready_for_review",
+      "manual_publish_only": true,
+      "recommended_platform_order": [
+        "linkedin",
+        "facebook",
+        "x"
+      ],
+      "platforms": {
+        "linkedin": {
+          "priority": "P0",
+          "copy": "【高単価PMOで評価される成果物と評価されない成果物 / PMO Deliverables That Signal High Value—and Those That Do Not】\n\nPMOで資料をたくさん作っているのに、単価が上がらない。これは珍しくありません。評価されるのは資料の量ではなく、意思決定をどれだけ前に進めたかです。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・進捗表を意思決定につなげる\n・課題にオーナーと期限を置く\n・経営報告を短くし、判断点を明確にする\n\nあなたの成果物は『報告のための資料』でしょうか、それとも『決めるための道具』でしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=high-value-pmo-deliverables_ja\n\nEnglish follows below.\n\nPMO value does not come from the volume of trackers and minutes. It comes from making decisions faster and risks visible earlier.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/high-value-pmo-deliverables.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=high-value-pmo-deliverables_en\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url_ja": "https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=high-value-pmo-deliverables_ja",
+          "url_en": "https://career.hdnjapan.com/en/articles/high-value-pmo-deliverables.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=high-value-pmo-deliverables_en"
+        },
+        "facebook": {
+          "priority": "P1",
+          "copy": "【高単価PMOで評価される成果物と評価されない成果物】\n\nPMOで資料をたくさん作っているのに、単価が上がらない。これは珍しくありません。評価されるのは資料の量ではなく、意思決定をどれだけ前に進めたかです。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・進捗表を意思決定につなげる\n・課題にオーナーと期限を置く\n・経営報告を短くし、判断点を明確にする\nという視点で整理しました。\n\nあなたの成果物は『報告のための資料』でしょうか、それとも『決めるための道具』でしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=high-value-pmo-deliverables_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url": "https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=high-value-pmo-deliverables_ja"
+        },
+        "x": {
+          "priority": "P2",
+          "copy": "【高単価PMOで評価される成果物と評価されない成果物】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=x&utm_medium=social\n#CareerRadar",
+          "url": "https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=x&utm_medium=social"
+        }
+      },
+      "redistribution": {
+        "day_3": "2026-09-12",
+        "day_7": "2026-09-16",
+        "mode": "candidate_only_review_before_repost"
+      }
+    },
     {
       "stable_id": "career_radar:2026-09-08:ai-assisted-career-research",
       "source_id": "career_radar",
