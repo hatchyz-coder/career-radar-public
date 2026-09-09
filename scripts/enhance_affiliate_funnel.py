@@ -20,6 +20,7 @@ REDUNDANT_GATEWAY_DISCLOSURE_RE = re.compile(
 
 TOPIC_TARGETS = [
     "40s-career-market-value.html",
+    "pmo-high-rate-career.html",
     "self-directed-job-search.html",
 ]
 
