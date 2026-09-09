@@ -38,6 +38,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      TZ: Asia/Tokyo
     steps:
       - uses: actions/checkout@v4
         with:
