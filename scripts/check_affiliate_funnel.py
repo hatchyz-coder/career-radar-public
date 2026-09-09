@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 GATEWAY = ROOT / "articles" / "high-class-transition.html"
 TOPIC_TARGETS = [
     ROOT / "ja" / "topics" / "40s-career-market-value.html",
+    ROOT / "ja" / "topics" / "pmo-high-rate-career.html",
     ROOT / "ja" / "topics" / "self-directed-job-search.html",
 ]
 PARTNERS = {
