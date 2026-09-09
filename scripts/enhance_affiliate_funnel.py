@@ -18,14 +18,6 @@ REDUNDANT_GATEWAY_DISCLOSURE_RE = re.compile(
     r'<p class="small">※アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。</p>'
 )
 
-ARTICLE_TARGETS = [
-    "brandless-high-income-path.html",
-    "career-agent-comparison-framework.html",
-    "consulting-market-signal-matrix.html",
-    "midcareer-40s-career-capital.html",
-    "self-directed-job-search-system.html",
-]
-
 TOPIC_TARGETS = [
     "40s-career-market-value.html",
     "self-directed-job-search.html",
@@ -47,13 +39,7 @@ def replace_block(text: str, start: str, end: str, block: str) -> str:
 
 
 def remove_generated_partner_comparisons() -> int:
-    """Keep direct ASP creatives on the approved gateway only.
-
-    Older generated JA/EN editorial pages embedded the full partner comparison.
-    Current partner policy records the production placement at the legacy
-    high-class transition gateway, so generated articles must route there
-    rather than duplicate direct ASP creatives.
-    """
+    """Keep direct ASP creatives on the approved gateway only."""
     removed = 0
     for locale in ("ja", "en"):
         for path in (ROOT / locale / "articles").glob("*.html"):
@@ -65,17 +51,36 @@ def remove_generated_partner_comparisons() -> int:
     return removed
 
 
-def inject_article_block(path: Path) -> None:
-    text = path.read_text(encoding="utf-8")
-    slug = path.stem
+def article_block(slug: str, locale: str) -> str:
     href = "../../" + GATEWAY
-    block = (
-        f'{ARTICLE_START}<aside class="callout affiliate-funnel" data-affiliate-funnel-source="{slug}">'
-        '<strong>転職を選択肢に入れるなら、1社の反応だけで市場価値を決めない。</strong>'
-        '<p>CareerRadarでは、ハイクラス・外資・IT/SaaSなど狙う市場に応じて、現在利用できる転職支援サービスを比較できます。</p>'
-        f'<div class="actions"><a class="button secondary" href="{href}" data-affiliate-funnel-link="true" data-affiliate-funnel-source="{slug}">転職支援サービスを比較する</a></div>'
+    if locale == "en":
+        headline = "If a job move is one of your options, do not let one company's response define your market value."
+        body = (
+            "CareerRadar compares currently available career-support options across high-class, "
+            "global, and IT/SaaS markets so you can test where your experience is valued."
+        )
+        button = "Compare career-support options"
+    else:
+        headline = "転職を選択肢に入れるなら、1社の反応だけで市場価値を決めない。"
+        body = (
+            "CareerRadarでは、ハイクラス・外資・IT/SaaSなど狙う市場に応じて、"
+            "現在利用できる転職支援サービスを比較できます。"
+        )
+        button = "転職支援サービスを比較する"
+    return (
+        f'{ARTICLE_START}<aside class="callout affiliate-funnel" data-affiliate-funnel-source="{locale}:{slug}">'
+        f'<strong>{headline}</strong>'
+        f'<p>{body}</p>'
+        f'<div class="actions"><a class="button secondary" href="{href}" '
+        f'data-affiliate-funnel-link="true" data-affiliate-funnel-source="{locale}:{slug}">{button}</a></div>'
         f'</aside>{ARTICLE_END}'
     )
+
+
+def inject_article_block(path: Path, locale: str) -> None:
+    text = path.read_text(encoding="utf-8")
+    slug = path.stem
+    block = article_block(slug, locale)
     updated = replace_block(text, ARTICLE_START, ARTICLE_END, block)
     if updated == text and ARTICLE_START not in text:
         anchor = "<!-- PV_DISCOVERY_START -->"
@@ -88,6 +93,16 @@ def inject_article_block(path: Path) -> None:
     path.write_text(updated, encoding="utf-8")
 
 
+def inject_all_article_blocks() -> int:
+    count = 0
+    for locale in ("ja", "en"):
+        article_dir = ROOT / locale / "articles"
+        for path in sorted(article_dir.glob("*.html")):
+            inject_article_block(path, locale)
+            count += 1
+    return count
+
+
 def inject_topic_block(path: Path) -> None:
     text = path.read_text(encoding="utf-8")
     slug = path.stem
@@ -96,7 +111,8 @@ def inject_topic_block(path: Path) -> None:
         f'{ARTICLE_START}<aside class="callout affiliate-funnel" data-affiliate-funnel-source="topic:{slug}">'
         '<strong>実際に転職市場の反応も確認したい方へ</strong>'
         '<p>求人件数だけでなく、どの市場・役割で評価されるかを複数の窓口で確かめるための転職支援サービス比較へ進めます。</p>'
-        f'<div class="actions"><a class="button secondary" href="{href}" data-affiliate-funnel-link="true" data-affiliate-funnel-source="topic:{slug}">転職支援サービスを比較する</a></div>'
+        f'<div class="actions"><a class="button secondary" href="{href}" data-affiliate-funnel-link="true" '
+        f'data-affiliate-funnel-source="topic:{slug}">転職支援サービスを比較する</a></div>'
         f'</aside>{ARTICLE_END}'
     )
     updated = replace_block(text, ARTICLE_START, ARTICLE_END, block)
@@ -116,7 +132,8 @@ def update_home() -> None:
         '<div class="eyebrow">Market test</div>'
         '<h2>転職を考えるなら、紹介件数ではなく「どこで評価されるか」を比べる。</h2>'
         '<p class="section-intro">転職エージェントは市場全体そのものではありません。ハイクラス、外資、IT/SaaSなど複数の窓口を使い、自分の経験がどこで評価されるかを観測するための選択肢として使います。</p>'
-        f'<div class="actions"><a class="button primary" href="{GATEWAY}" data-affiliate-funnel-link="true" data-affiliate-funnel-source="home">転職支援サービスを比較する</a><a class="button secondary" href="review.html">Career Reviewを見る</a></div>'
+        f'<div class="actions"><a class="button primary" href="{GATEWAY}" data-affiliate-funnel-link="true" '
+        'data-affiliate-funnel-source="home">転職支援サービスを比較する</a><a class="button secondary" href="review.html">Career Reviewを見る</a></div>'
         f'</section>{HOME_END}'
     )
     updated = replace_block(text, HOME_START, HOME_END, block)
@@ -142,8 +159,6 @@ def update_gateway() -> int:
     elif 'id="agent-options"' not in text:
         raise SystemExit("Gateway partner comparison anchor not found")
 
-    # A single, clear "広告" label is sufficient UI disclosure here. Remove
-    # the redundant explanatory sentence below the comparison block.
     text, removed_disclosure = REDUNDANT_GATEWAY_DISCLOSURE_RE.subn("", text)
     if '<div class="partner-label">広告</div>' not in text:
         raise SystemExit("Gateway advertising label missing")
@@ -155,11 +170,7 @@ def main() -> None:
     removed = remove_generated_partner_comparisons()
     removed_disclosure = update_gateway()
     update_home()
-    for name in ARTICLE_TARGETS:
-        path = ROOT / "ja" / "articles" / name
-        if not path.exists():
-            raise SystemExit(f"Missing monetization target: {path}")
-        inject_article_block(path)
+    article_routes = inject_all_article_blocks()
     for name in TOPIC_TARGETS:
         path = ROOT / "ja" / "topics" / name
         if not path.exists():
@@ -167,7 +178,7 @@ def main() -> None:
         inject_topic_block(path)
     print(
         "Affiliate funnel ready: gateway=1, home=1, "
-        f"article_routes={len(ARTICLE_TARGETS)}, topic_routes={len(TOPIC_TARGETS)}, "
+        f"article_routes={article_routes}, topic_routes={len(TOPIC_TARGETS)}, "
         f"legacy_direct_blocks_removed={removed}, redundant_disclosure_removed={removed_disclosure}"
     )
 
