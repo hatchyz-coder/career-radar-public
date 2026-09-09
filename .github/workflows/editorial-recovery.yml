@@ -12,6 +12,8 @@ on:
       - "scripts/build_bootstrap_search_hubs.py"
       - "scripts/enhance_pv_discovery.py"
       - "scripts/enhance_affiliate_funnel.py"
+      - "scripts/optimize_conversion_ctas.py"
+      - "scripts/check_conversion_ctas.py"
       - "scripts/check_affiliate_funnel.py"
       - "scripts/generate_social_pack.py"
       - "scripts/export_editorial_desk_feed.py"
@@ -61,6 +63,8 @@ jobs:
         run: python scripts/enhance_pv_discovery.py
       - name: Build user-first affiliate funnel routes
         run: python scripts/enhance_affiliate_funnel.py
+      - name: Optimize conversion CTA coverage without CTA stacking
+        run: python scripts/optimize_conversion_ctas.py
       - name: Inject CareerRadar analytics into all HTML
         run: python scripts/inject_analytics.py
       - name: Generate LinkedIn Facebook and X distribution copy
@@ -71,6 +75,8 @@ jobs:
         run: python scripts/build_traffic_dashboard.py
       - name: Validate affiliate monetization funnel
         run: python scripts/check_affiliate_funnel.py
+      - name: Validate conversion CTA coverage
+        run: python scripts/check_conversion_ctas.py
       - name: Validate content quality and duplication
         run: python scripts/check_content_quality.py
       - name: Validate editorial health after recovery
