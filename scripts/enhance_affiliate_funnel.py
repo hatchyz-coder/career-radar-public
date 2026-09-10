@@ -39,11 +39,17 @@ def replace_block(text: str, start: str, end: str, block: str) -> str:
     return text
 
 
+def article_pages(locale: str):
+    for path in sorted((ROOT / locale / "articles").glob("*.html")):
+        if path.name != "index.html":
+            yield path
+
+
 def remove_generated_partner_comparisons() -> int:
     """Keep direct ASP creatives on the approved gateway only."""
     removed = 0
     for locale in ("ja", "en"):
-        for path in (ROOT / locale / "articles").glob("*.html"):
+        for path in article_pages(locale):
             text = path.read_text(encoding="utf-8")
             updated, count = LEGACY_PARTNER_RE.subn("", text)
             if count:
@@ -97,8 +103,7 @@ def inject_article_block(path: Path, locale: str) -> None:
 def inject_all_article_blocks() -> int:
     count = 0
     for locale in ("ja", "en"):
-        article_dir = ROOT / locale / "articles"
-        for path in sorted(article_dir.glob("*.html")):
+        for path in article_pages(locale):
             inject_article_block(path, locale)
             count += 1
     return count
