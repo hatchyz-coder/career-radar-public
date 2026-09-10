@@ -67,8 +67,6 @@ jobs:
         run: python scripts/enhance_affiliate_funnel.py
       - name: Optimize conversion CTA coverage without CTA stacking
         run: python scripts/optimize_conversion_ctas.py
-      - name: Localize Japanese-facing UI and terminology
-        run: python scripts/localize_japanese_ui.py
       - name: Inject CareerRadar analytics into all HTML
         run: python scripts/inject_analytics.py
       - name: Generate LinkedIn Facebook and X distribution copy
@@ -77,6 +75,8 @@ jobs:
         run: python scripts/export_editorial_desk_feed.py
       - name: Build one-screen traffic operations dashboard
         run: python scripts/build_traffic_dashboard.py
+      - name: Localize Japanese-facing UI and terminology after all page generation
+        run: python scripts/localize_japanese_ui.py
       - name: Validate affiliate monetization funnel
         run: python scripts/check_affiliate_funnel.py
       - name: Validate conversion CTA coverage
@@ -108,4 +108,4 @@ jobs:
           echo "Failed to publish editorial artifacts after 3 race-safe retries."
           exit 1
 
-# Keep Japanese-facing UI localization in every publisher run; this comment also intentionally retriggers the pipeline after rule changes.
+# Japanese-facing UI localization must run after every page generator so regenerated pages cannot reintroduce English-first labels.
