@@ -107,3 +107,5 @@ jobs:
           done
           echo "Failed to publish editorial artifacts after 3 race-safe retries."
           exit 1
+
+# Keep Japanese-facing UI localization in every publisher run; this comment also intentionally retriggers the pipeline after rule changes.
