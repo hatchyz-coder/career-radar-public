@@ -40,6 +40,15 @@ def validate_route(path: Path) -> None:
     require("h.accesstrade.net" not in block, f"direct affiliate placement leaked into route block: {path}")
 
 
+def routed_articles() -> list[Path]:
+    pages: list[Path] = []
+    for locale in ("ja", "en"):
+        for path in sorted((ROOT / locale / "articles").glob("*.html")):
+            if path.name != "index.html":
+                pages.append(path)
+    return pages
+
+
 def main() -> None:
     gateway = GATEWAY.read_text(encoding="utf-8")
     require('id="agent-options"' in gateway, "affiliate gateway anchor missing")
@@ -65,7 +74,7 @@ def main() -> None:
     require(home.count("<!-- AFFILIATE_FUNNEL_HOME_START -->") == 1, "home affiliate funnel marker missing/duplicated")
     require('data-affiliate-funnel-link="true"' in home, "home funnel tracking attribute missing")
 
-    generated_articles = sorted((ROOT / "ja" / "articles").glob("*.html")) + sorted((ROOT / "en" / "articles").glob("*.html"))
+    generated_articles = routed_articles()
     require(bool(generated_articles), "no generated articles found")
     for path in generated_articles:
         validate_route(path)
