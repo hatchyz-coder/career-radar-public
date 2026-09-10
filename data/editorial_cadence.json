@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "high-value-pmo-deliverables",
-    "published_at": "2026-09-09",
+    "article_id": "salary-vs-career-capital-tradeoff",
+    "published_at": "2026-09-10",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -108,7 +108,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-10"
     },
     {
       "article_id": "direct-client-acquisition-playbook",
@@ -140,6 +141,15 @@
     {
       "article_id": "executive-communication-career-signal",
       "due_at": "2026-09-16",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "career-optionality-portfolio",
+      "due_at": "2026-09-17",
       "locales": [
         "ja",
         "en"
