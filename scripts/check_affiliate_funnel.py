@@ -21,6 +21,12 @@ NON_JAC_TOKENS = {
     "enworld_it_saas": "0100ong600oxbh",
     "robert_walters": "0100ojgk00oxbh",
 }
+REDUNDANT_DISCLOSURE_SNIPPETS = (
+    "※アフィリエイト広告です",
+    "アフィリエイト広告です。登録前に",
+    "登録前に各社の対象条件と最新情報をご確認ください",
+    "各社の対象条件と最新情報をご確認ください",
+)
 
 
 def require(condition: bool, message: str) -> None:
@@ -40,6 +46,19 @@ def validate_route(path: Path) -> None:
     require("h.accesstrade.net" not in block, f"direct affiliate placement leaked into route block: {path}")
 
 
+def validate_sitewide_disclosure_copy() -> int:
+    pages = sorted(ROOT.rglob("*.html"))
+    require(bool(pages), "no HTML pages found for sitewide disclosure scan")
+    violations: list[str] = []
+    for path in pages:
+        text = path.read_text(encoding="utf-8")
+        for snippet in REDUNDANT_DISCLOSURE_SNIPPETS:
+            if snippet in text:
+                violations.append(f"{path.relative_to(ROOT)}: {snippet}")
+    require(not violations, "redundant affiliate disclaimer remains sitewide: " + " | ".join(violations))
+    return len(pages)
+
+
 def routed_articles() -> list[Path]:
     pages: list[Path] = []
     for locale in ("ja", "en"):
@@ -50,15 +69,14 @@ def routed_articles() -> list[Path]:
 
 
 def main() -> None:
+    checked_html = validate_sitewide_disclosure_copy()
+
     gateway = GATEWAY.read_text(encoding="utf-8")
     require('id="agent-options"' in gateway, "affiliate gateway anchor missing")
     require('data-affiliate-funnel-gateway="true"' in gateway, "affiliate gateway marker missing")
     require('data-placement="high_class_transition_after_action"' in gateway, "approved placement marker missing")
+    # Keep only the minimal clear advertising identification on the direct partner comparison surface.
     require('<div class="partner-label">広告</div>' in gateway, "clear advertising label missing")
-    require(
-        "※アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。" not in gateway,
-        "redundant affiliate disclosure copy remains",
-    )
 
     for partner_id, token in PARTNERS.items():
         require(f'data-partner-id="{partner_id}"' in gateway, f"partner missing: {partner_id}")
@@ -100,7 +118,7 @@ def main() -> None:
 
     print(
         f"Affiliate funnel healthy: partners={len(PARTNERS)}, routed_articles={len(generated_articles)}, "
-        f"topic_routes={len(TOPIC_TARGETS)}, gateway=1"
+        f"topic_routes={len(TOPIC_TARGETS)}, gateway=1, html_disclosure_scan={checked_html}"
     )
 
 
