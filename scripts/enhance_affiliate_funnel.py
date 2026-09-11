@@ -20,6 +20,8 @@ REDUNDANT_GATEWAY_DISCLOSURE_RE = re.compile(
 REDUNDANT_DISCLOSURE_PATTERNS = (
     re.compile(r'<p[^>]*>\s*※?アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。\s*</p>'),
     re.compile(r'※?アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。'),
+    re.compile(r'<p[^>]*>\s*※?アフィリエイト広告です[。]?\s*</p>'),
+    re.compile(r'※?アフィリエイト広告です[。]?'),
 )
 
 TOPIC_TARGETS = [
