@@ -17,6 +17,10 @@ LEGACY_PARTNER_RE = re.compile(
 REDUNDANT_GATEWAY_DISCLOSURE_RE = re.compile(
     r'<p class="small">※アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。</p>'
 )
+REDUNDANT_DISCLOSURE_PATTERNS = (
+    re.compile(r'<p[^>]*>\s*※?アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。\s*</p>'),
+    re.compile(r'※?アフィリエイト広告です。登録前に各社の対象条件と最新情報をご確認ください。'),
+)
 
 TOPIC_TARGETS = [
     "40s-career-market-value.html",
@@ -43,6 +47,21 @@ def article_pages(locale: str):
     for path in sorted((ROOT / locale / "articles").glob("*.html")):
         if path.name != "index.html":
             yield path
+
+
+def remove_redundant_disclosures_sitewide() -> int:
+    removed = 0
+    for path in sorted(ROOT.rglob("*.html")):
+        if ".git" in path.parts:
+            continue
+        text = path.read_text(encoding="utf-8")
+        updated = text
+        for pattern in REDUNDANT_DISCLOSURE_PATTERNS:
+            updated, count = pattern.subn("", updated)
+            removed += count
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
+    return removed
 
 
 def remove_generated_partner_comparisons() -> int:
@@ -173,6 +192,7 @@ def update_gateway() -> int:
 
 
 def main() -> None:
+    removed_sitewide_disclosures = remove_redundant_disclosures_sitewide()
     removed = remove_generated_partner_comparisons()
     removed_disclosure = update_gateway()
     update_home()
@@ -185,7 +205,8 @@ def main() -> None:
     print(
         "Affiliate funnel ready: gateway=1, home=1, "
         f"article_routes={article_routes}, topic_routes={len(TOPIC_TARGETS)}, "
-        f"legacy_direct_blocks_removed={removed}, redundant_disclosure_removed={removed_disclosure}"
+        f"legacy_direct_blocks_removed={removed}, redundant_disclosure_removed={removed_disclosure}, "
+        f"sitewide_redundant_disclosures_removed={removed_sitewide_disclosures}"
     )
 
 
