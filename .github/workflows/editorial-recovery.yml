@@ -18,6 +18,7 @@ on:
       - "scripts/check_japanese_ui_language.py"
       - "scripts/check_affiliate_funnel.py"
       - "scripts/generate_social_pack.py"
+      - "scripts/build_recognition_distribution.py"
       - "scripts/export_editorial_desk_feed.py"
       - "scripts/build_traffic_dashboard.py"
       - "scripts/check_content_quality.py"
@@ -71,6 +72,8 @@ jobs:
         run: python scripts/inject_analytics.py
       - name: Generate LinkedIn Facebook and X distribution copy
         run: python scripts/generate_social_pack.py
+      - name: Build day0 day3 day7 recognition distribution plan
+        run: python scripts/build_recognition_distribution.py
       - name: Export CareerRadar items for HDN Editorial Desk
         run: python scripts/export_editorial_desk_feed.py
       - name: Build one-screen traffic operations dashboard
