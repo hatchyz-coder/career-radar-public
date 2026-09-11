@@ -1,8 +1,22 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-09-10T23:22:17.288378+00:00",
+  "generated_at": "2026-09-11T23:30:45.450225+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
-  "items": []
+  "items": [
+    {
+      "rank": 1,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "キャリア",
+      "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "priority_score": 5.1,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    }
+  ]
 }

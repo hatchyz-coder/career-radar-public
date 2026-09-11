@@ -4,10 +4,19 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-11",
-    "end_date": "2026-09-07",
+    "start_date": "2026-08-12",
+    "end_date": "2026-09-08",
     "days": 28
   },
-  "generated_at": "2026-09-10T23:22:17+00:00",
-  "rows": []
+  "generated_at": "2026-09-11T23:30:45+00:00",
+  "rows": [
+    {
+      "query": "キャリア",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 63.0
+    }
+  ]
 }

@@ -2,20 +2,35 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-08-11",
-    "end_date": "2026-09-07",
+    "start_date": "2026-08-12",
+    "end_date": "2026-09-08",
     "days": 28
   },
-  "source_generated_at": "2026-09-10T23:22:17+00:00",
-  "input_rows": 0,
-  "scored_rows": 0,
+  "source_generated_at": "2026-09-11T23:30:45+00:00",
+  "input_rows": 1,
+  "scored_rows": 1,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 0
+    "observe": 1
   },
-  "top_opportunities": []
+  "top_opportunities": [
+    {
+      "query": "キャリア",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 63.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 5.1
+    }
+  ]
 }
