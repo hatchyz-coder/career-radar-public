@@ -1,39 +1,39 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-09-11T20:12:58.665757+09:00
+Generated: 2026-09-12T01:24:42.747412+09:00
 
-## Today — day0 — 人材紹介会社を介さず直接案件を取るための実績設計
+## Today — day3 — 高単価PMOで評価される成果物と評価されない成果物
 
 ### LinkedIn
 
-【人材紹介会社を介さず直接案件を取るための実績設計】
+【3日後にもう一度考えたい：高単価PMOで評価される成果物と評価されない成果物】
 
-仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。
+PMOの成果物は、枚数が多いほど価値が高いわけではありません。意思決定を速め、課題の滞留を減らし、リスクを早く見せるために使われて初めて価値になります。
 
-一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
+その資料がなくなったら、意思決定は本当に遅くなるでしょうか。
 
 CareerRadarで深掘り：
-https://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day0
+https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3
 
 #CareerRadar #キャリア #市場価値
 
 ### Facebook
 
-【人材紹介会社を介さず直接案件を取るための実績設計】
+【3日後にもう一度考えたい：高単価PMOで評価される成果物と評価されない成果物】
 
-仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。
+PMOの成果物は、枚数が多いほど価値が高いわけではありません。意思決定を速め、課題の滞留を減らし、リスクを早く見せるために使われて初めて価値になります。
 
-一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
+その資料がなくなったら、意思決定は本当に遅くなるでしょうか。
 
 CareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。
 
-https://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day0
+https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3
 
 #CareerRadar #キャリア
 
 ### X
 
-【人材紹介会社を介さず直接案件を取るための実績設計】
-一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
-https://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day0
+【高単価PMOで評価される成果物と評価されない成果物】
+その資料がなくなったら、意思決定は本当に遅くなるでしょうか。
+https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3
 #CareerRadar
