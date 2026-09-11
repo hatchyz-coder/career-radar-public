@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 SOCIAL_DIR = ROOT / "data" / "social"
+RECOGNITION_PLAN = SOCIAL_DIR / "recognition-plan.json"
 OUT = ROOT / "editorial-desk-feed.json"
 LOOKBACK_DAYS = 14
 JST = ZoneInfo("Asia/Tokyo")
@@ -96,6 +97,23 @@ def build_item(path: Path, published_at: str, article_id: str) -> dict:
     }
 
 
+def recognition_distribution() -> dict:
+    if not RECOGNITION_PLAN.exists():
+        return {
+            "status": "not_generated",
+            "selected_today": None,
+            "due_today": [],
+        }
+    payload = json.loads(RECOGNITION_PLAN.read_text(encoding="utf-8"))
+    return {
+        "status": "ready",
+        "schema_version": payload.get("schema_version"),
+        "policy": payload.get("policy", {}),
+        "selected_today": payload.get("selected_today"),
+        "due_today": payload.get("due_today", []),
+    }
+
+
 def main() -> None:
     now = datetime.now(JST)
     today = now.date()
@@ -117,6 +135,7 @@ def main() -> None:
             warnings.append(str(exc))
 
     items.sort(key=lambda item: (item["published_at"], item["article_id"]), reverse=True)
+    recognition = recognition_distribution()
     payload = {
         "schema_version": "hdn-editorial-desk-source.v1",
         "source_id": "career_radar",
@@ -130,12 +149,19 @@ def main() -> None:
             "upsert_key": "stable_id",
             "rule": "Upsert feed content by stable_id. Never reset local completed, carry-over, scheduled, or postponed state during source sync.",
         },
+        "recognition_distribution": recognition,
         "item_count": len(items),
         "warnings": warnings,
         "items": items,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"CareerRadar Editorial Desk feed ready: {len(items)} item(s), {len(warnings)} warning(s)")
+    selected = recognition.get("selected_today") or {}
+    selected_id = selected.get("article_id", "none")
+    selected_phase = selected.get("phase", "none")
+    print(
+        f"CareerRadar Editorial Desk feed ready: {len(items)} item(s), {len(warnings)} warning(s), "
+        f"recognition={selected_id}:{selected_phase}"
+    )
 
 
 if __name__ == "__main__":
