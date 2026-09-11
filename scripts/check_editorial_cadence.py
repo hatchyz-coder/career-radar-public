@@ -8,6 +8,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 CADENCE = ROOT / "data" / "editorial_cadence.json"
+MIN_FORWARD_RUNWAY = 4
 
 
 def parse_date(value: str) -> date:
@@ -47,8 +48,11 @@ def main() -> int:
 
     queue = payload.get("release_queue", [])
     queued = [item for item in queue if item.get("status") == "queued"]
-    if len(queued) < weekly:
-        return fail(f"Editorial runway too short: {len(queued)} queued article(s); at least {weekly} required.")
+    if len(queued) < MIN_FORWARD_RUNWAY:
+        return fail(
+            f"Editorial runway too short: {len(queued)} queued article(s); "
+            f"at least {MIN_FORWARD_RUNWAY} future business-day releases required."
+        )
 
     ids = [item["article_id"] for item in queued]
     if len(ids) != len(set(ids)):
