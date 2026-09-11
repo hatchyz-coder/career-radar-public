@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "salary-vs-career-capital-tradeoff",
-    "published_at": "2026-09-10",
+    "article_id": "direct-client-acquisition-playbook",
+    "published_at": "2026-09-11",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -118,7 +118,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-11"
     },
     {
       "article_id": "midcareer-skill-obsolescence-audit",
