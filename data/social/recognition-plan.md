@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-09-12T19:40:16.760595+09:00
+Generated: 2026-09-12T23:03:56.133085+09:00
 
 ## Today — day3 — 高単価PMOで評価される成果物と評価されない成果物
 
