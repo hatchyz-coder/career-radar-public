@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-09-13T04:33:37.772049+09:00
+Generated: 2026-09-13T07:13:40.696447+09:00
 
 ## Today — day3 — 年収アップとCareer Capital、どちらを優先すべきか
 
