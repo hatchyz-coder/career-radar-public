@@ -1,39 +1,39 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-09-12T23:03:56.133085+09:00
+Generated: 2026-09-13T02:06:20.478151+09:00
 
-## Today — day3 — 高単価PMOで評価される成果物と評価されない成果物
+## Today — day3 — 年収アップとCareer Capital、どちらを優先すべきか
 
 ### LinkedIn
 
-【3日後にもう一度考えたい：高単価PMOで評価される成果物と評価されない成果物】
+【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】
 
-PMOの成果物は、枚数が多いほど価値が高いわけではありません。意思決定を速め、課題の滞留を減らし、リスクを早く見せるために使われて初めて価値になります。
+年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。
 
-その資料がなくなったら、意思決定は本当に遅くなるでしょうか。
+目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。
 
 CareerRadarで深掘り：
-https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3
+https://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3
 
 #CareerRadar #キャリア #市場価値
 
 ### Facebook
 
-【3日後にもう一度考えたい：高単価PMOで評価される成果物と評価されない成果物】
+【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】
 
-PMOの成果物は、枚数が多いほど価値が高いわけではありません。意思決定を速め、課題の滞留を減らし、リスクを早く見せるために使われて初めて価値になります。
+年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。
 
-その資料がなくなったら、意思決定は本当に遅くなるでしょうか。
+目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。
 
 CareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。
 
-https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3
+https://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3
 
 #CareerRadar #キャリア
 
 ### X
 
-【高単価PMOで評価される成果物と評価されない成果物】
-その資料がなくなったら、意思決定は本当に遅くなるでしょうか。
-https://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3
+【年収アップとCareer Capital、どちらを優先すべきか】
+目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。
+https://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3
 #CareerRadar

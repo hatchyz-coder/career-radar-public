@@ -1,6 +1,6 @@
 {
   "schema_version": "career-radar-recognition-plan.v1",
-  "generated_at": "2026-09-12T23:03:56.133085+09:00",
+  "generated_at": "2026-09-13T02:06:20.478151+09:00",
   "timezone": "Asia/Tokyo",
   "policy": {
     "max_career_radar_topics_per_day": 1,
@@ -18,26 +18,26 @@
   },
   "due_count": 1,
   "selected_today": {
-    "article_id": "high-value-pmo-deliverables",
-    "title": "高単価PMOで評価される成果物と評価されない成果物",
+    "article_id": "salary-vs-career-capital-tradeoff",
+    "title": "年収アップとCareer Capital、どちらを優先すべきか",
     "phase": "day3",
-    "due_at": "2026-09-12",
+    "due_at": "2026-09-13",
     "posts": {
-      "linkedin": "【3日後にもう一度考えたい：高単価PMOで評価される成果物と評価されない成果物】\n\nPMOの成果物は、枚数が多いほど価値が高いわけではありません。意思決定を速め、課題の滞留を減らし、リスクを早く見せるために使われて初めて価値になります。\n\nその資料がなくなったら、意思決定は本当に遅くなるでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3\n\n#CareerRadar #キャリア #市場価値",
-      "facebook": "【3日後にもう一度考えたい：高単価PMOで評価される成果物と評価されない成果物】\n\nPMOの成果物は、枚数が多いほど価値が高いわけではありません。意思決定を速め、課題の滞留を減らし、リスクを早く見せるために使われて初めて価値になります。\n\nその資料がなくなったら、意思決定は本当に遅くなるでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3\n\n#CareerRadar #キャリア",
-      "x": "【高単価PMOで評価される成果物と評価されない成果物】\nその資料がなくなったら、意思決定は本当に遅くなるでしょうか。\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3\n#CareerRadar"
+      "linkedin": "【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】\n\n年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。\n\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n\n#CareerRadar #キャリア #市場価値",
+      "facebook": "【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】\n\n年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。\n\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n\n#CareerRadar #キャリア",
+      "x": "【年収アップとCareer Capital、どちらを優先すべきか】\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n#CareerRadar"
     }
   },
   "due_today": [
     {
-      "article_id": "high-value-pmo-deliverables",
-      "title": "高単価PMOで評価される成果物と評価されない成果物",
+      "article_id": "salary-vs-career-capital-tradeoff",
+      "title": "年収アップとCareer Capital、どちらを優先すべきか",
       "phase": "day3",
-      "due_at": "2026-09-12",
+      "due_at": "2026-09-13",
       "posts": {
-        "linkedin": "【3日後にもう一度考えたい：高単価PMOで評価される成果物と評価されない成果物】\n\nPMOの成果物は、枚数が多いほど価値が高いわけではありません。意思決定を速め、課題の滞留を減らし、リスクを早く見せるために使われて初めて価値になります。\n\nその資料がなくなったら、意思決定は本当に遅くなるでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【3日後にもう一度考えたい：高単価PMOで評価される成果物と評価されない成果物】\n\nPMOの成果物は、枚数が多いほど価値が高いわけではありません。意思決定を速め、課題の滞留を減らし、リスクを早く見せるために使われて初めて価値になります。\n\nその資料がなくなったら、意思決定は本当に遅くなるでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3\n\n#CareerRadar #キャリア",
-        "x": "【高単価PMOで評価される成果物と評価されない成果物】\nその資料がなくなったら、意思決定は本当に遅くなるでしょうか。\nhttps://career.hdnjapan.com/ja/articles/high-value-pmo-deliverables.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=high-value-pmo-deliverables_day3\n#CareerRadar"
+        "linkedin": "【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】\n\n年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。\n\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】\n\n年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。\n\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n\n#CareerRadar #キャリア",
+        "x": "【年収アップとCareer Capital、どちらを優先すべきか】\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n#CareerRadar"
       }
     }
   ],
