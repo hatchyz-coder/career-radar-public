@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "scripts/recover_editorial_queue.py"
+      - "scripts/recover_editorial_queue_v2.py"
       - "scripts/polish_generated_articles.py"
       - "scripts/humanize_generated_articles.py"
       - "scripts/expand_generated_articles.py"
@@ -27,6 +28,7 @@ on:
       - "assets/analytics.js"
       - ".github/workflows/editorial-recovery.yml"
       - "data/editorial_cadence.json"
+      - "data/editorial_topic_extension.json"
   schedule:
     - cron: "7 * * * *"
   workflow_dispatch:
@@ -53,7 +55,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Generate all due JP/EN releases and replenish runway
-        run: python scripts/recover_editorial_queue.py
+        run: python scripts/recover_editorial_queue_v2.py
       - name: Apply semantic polish to generated articles
         run: python scripts/polish_generated_articles.py
       - name: Expand section-specific depth
