@@ -1,6 +1,6 @@
 {
   "schema_version": "career-radar-recognition-plan.v1",
-  "generated_at": "2026-09-14T22:57:57.953089+09:00",
+  "generated_at": "2026-09-15T04:18:38.949260+09:00",
   "timezone": "Asia/Tokyo",
   "policy": {
     "max_career_radar_topics_per_day": 1,
@@ -16,54 +16,75 @@
     ],
     "manual_publish_only": true
   },
-  "due_count": 3,
+  "due_count": 2,
   "selected_today": {
-    "article_id": "midcareer-skill-obsolescence-audit",
-    "title": "40代から始めるスキル陳腐化Audit",
+    "article_id": "project-rate-risk-adjustment",
+    "title": "月100万円案件を年収1000万円と考えてはいけない理由",
     "phase": "day0",
-    "due_at": "2026-09-14",
+    "due_at": "2026-09-15",
     "posts": {
-      "linkedin": "【40代から始めるスキル陳腐化Audit】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0\n\n#CareerRadar #キャリア #市場価値",
-      "facebook": "【40代から始めるスキル陳腐化Audit】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0\n\n#CareerRadar #キャリア",
-      "x": "【40代から始めるスキル陳腐化Audit】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0\n#CareerRadar"
+      "linkedin": "【月100万円案件を年収1000万円と考えてはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n\n#CareerRadar #キャリア #市場価値",
+      "facebook": "【月100万円案件を年収1000万円と考えてはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n\n#CareerRadar #キャリア",
+      "x": "【月100万円案件を年収1000万円と考えてはいけない理由】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n#CareerRadar"
     }
   },
   "due_today": [
     {
-      "article_id": "midcareer-skill-obsolescence-audit",
-      "title": "40代から始めるスキル陳腐化Audit",
+      "article_id": "project-rate-risk-adjustment",
+      "title": "月100万円案件を年収1000万円と考えてはいけない理由",
       "phase": "day0",
-      "due_at": "2026-09-14",
+      "due_at": "2026-09-15",
       "posts": {
-        "linkedin": "【40代から始めるスキル陳腐化Audit】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【40代から始めるスキル陳腐化Audit】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0\n\n#CareerRadar #キャリア",
-        "x": "【40代から始めるスキル陳腐化Audit】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0\n#CareerRadar"
+        "linkedin": "【月100万円案件を年収1000万円と考えてはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【月100万円案件を年収1000万円と考えてはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n\n#CareerRadar #キャリア",
+        "x": "【月100万円案件を年収1000万円と考えてはいけない理由】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n#CareerRadar"
       }
     },
     {
-      "article_id": "direct-client-acquisition-playbook",
-      "title": "人材紹介会社を介さず直接案件を取るための実績設計",
-      "phase": "day3",
-      "due_at": "2026-09-14",
-      "posts": {
-        "linkedin": "【3日後にもう一度考えたい：人材紹介会社を介さず直接案件を取るための実績設計】\n\n紹介会社を使わないことが目的ではありません。目的は、一つの仲介者の都合で仕事の入口が止まらない状態を作ることです。\n\n元同僚、顧客、LinkedIn、専門コミュニティなど、別経路から案件を作れるでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day3\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【3日後にもう一度考えたい：人材紹介会社を介さず直接案件を取るための実績設計】\n\n紹介会社を使わないことが目的ではありません。目的は、一つの仲介者の都合で仕事の入口が止まらない状態を作ることです。\n\n元同僚、顧客、LinkedIn、専門コミュニティなど、別経路から案件を作れるでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day3\n\n#CareerRadar #キャリア",
-        "x": "【人材紹介会社を介さず直接案件を取るための実績設計】\n元同僚、顧客、LinkedIn、専門コミュニティなど、別経路から案件を作れるでしょうか。\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day3\n#CareerRadar"
-      }
-    },
-    {
-      "article_id": "portfolio-evidence-scorecard",
-      "title": "職務経歴書より強いPortfolio Evidence Scorecardの作り方",
+      "article_id": "ai-assisted-career-research",
+      "title": "AIを使って転職市場を調べるときに外してはいけない検証手順",
       "phase": "day7",
-      "due_at": "2026-09-14",
+      "due_at": "2026-09-15",
       "posts": {
-        "linkedin": "【1週間後の問い：職務経歴書より強いPortfolio Evidence Scorecardの作り方】\n\n1週間後に見直すなら、実績の数ではなく証拠の質です。数字、意思決定、第三者確認、成果物が同じ事実につながっているかを見ます。\n\n一つの実績を、職務経歴書・面談・ポートフォリオで一貫して説明できる状態でしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=portfolio-evidence-scorecard_day7\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【1週間後の問い：職務経歴書より強いPortfolio Evidence Scorecardの作り方】\n\n1週間後に見直すなら、実績の数ではなく証拠の質です。数字、意思決定、第三者確認、成果物が同じ事実につながっているかを見ます。\n\n一つの実績を、職務経歴書・面談・ポートフォリオで一貫して説明できる状態でしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=portfolio-evidence-scorecard_day7\n\n#CareerRadar #キャリア",
-        "x": "【職務経歴書より強いPortfolio Evidence Scorecardの作り方】\n一つの実績を、職務経歴書・面談・ポートフォリオで一貫して説明できる状態でしょうか。\nhttps://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=portfolio-evidence-scorecard_day7\n#CareerRadar"
+        "linkedin": "【1週間後の問い：AIを使って転職市場を調べるときに外してはいけない検証手順】\n\nAIを使った市場調査で本当に差が出るのは、要約の速さではなく検証の設計です。\n\nAIの回答と、自分で確認した一次情報を分けて記録できているでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-assisted-career-research_day7\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【1週間後の問い：AIを使って転職市場を調べるときに外してはいけない検証手順】\n\nAIを使った市場調査で本当に差が出るのは、要約の速さではなく検証の設計です。\n\nAIの回答と、自分で確認した一次情報を分けて記録できているでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-assisted-career-research_day7\n\n#CareerRadar #キャリア",
+        "x": "【AIを使って転職市場を調べるときに外してはいけない検証手順】\nAIの回答と、自分で確認した一次情報を分けて記録できているでしょうか。\nhttps://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-assisted-career-research_day7\n#CareerRadar"
       }
     }
   ],
   "items": [
+    {
+      "article_id": "project-rate-risk-adjustment",
+      "title": "月100万円案件を年収1000万円と考えてはいけない理由",
+      "published_at": "2026-09-15",
+      "canonical_url": "https://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html",
+      "variants": {
+        "day0": {
+          "due_at": "2026-09-15",
+          "posts": {
+            "linkedin": "【月100万円案件を年収1000万円と考えてはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n\n#CareerRadar #キャリア #市場価値",
+            "facebook": "【月100万円案件を年収1000万円と考えてはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n\n#CareerRadar #キャリア",
+            "x": "【月100万円案件を年収1000万円と考えてはいけない理由】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day0\n#CareerRadar"
+          }
+        },
+        "day3": {
+          "due_at": "2026-09-18",
+          "posts": {
+            "linkedin": "【3日後にもう一度考えたい：月100万円案件を年収1000万円と考えてはいけない理由】\n\n公開から3日たって、もう一度『月100万円案件を年収1000万円と考えてはいけない理由』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day3\n\n#CareerRadar #キャリア #市場価値",
+            "facebook": "【3日後にもう一度考えたい：月100万円案件を年収1000万円と考えてはいけない理由】\n\n公開から3日たって、もう一度『月100万円案件を年収1000万円と考えてはいけない理由』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day3\n\n#CareerRadar #キャリア",
+            "x": "【月100万円案件を年収1000万円と考えてはいけない理由】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day3\n#CareerRadar"
+          }
+        },
+        "day7": {
+          "due_at": "2026-09-22",
+          "posts": {
+            "linkedin": "【1週間後の問い：月100万円案件を年収1000万円と考えてはいけない理由】\n\n1週間後に『月100万円案件を年収1000万円と考えてはいけない理由』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day7\n\n#CareerRadar #キャリア #市場価値",
+            "facebook": "【1週間後の問い：月100万円案件を年収1000万円と考えてはいけない理由】\n\n1週間後に『月100万円案件を年収1000万円と考えてはいけない理由』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day7\n\n#CareerRadar #キャリア",
+            "x": "【月100万円案件を年収1000万円と考えてはいけない理由】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day7\n#CareerRadar"
+          }
+        }
+      }
+    },
     {
       "article_id": "midcareer-skill-obsolescence-audit",
       "title": "40代から始めるスキル陳腐化Audit",

@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "midcareer-skill-obsolescence-audit",
-    "published_at": "2026-09-14",
+    "article_id": "project-rate-risk-adjustment",
+    "published_at": "2026-09-15",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -138,7 +138,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-15"
     },
     {
       "article_id": "executive-communication-career-signal",
@@ -170,6 +171,15 @@
     {
       "article_id": "pmo-rate-negotiation-evidence",
       "due_at": "2026-09-21",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "resume-achievement-evidence",
+      "due_at": "2026-09-22",
       "locales": [
         "ja",
         "en"
