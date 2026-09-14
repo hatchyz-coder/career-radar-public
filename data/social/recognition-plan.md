@@ -1,39 +1,39 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-09-13T20:47:37.004712+09:00
+Generated: 2026-09-14T13:15:39.036720+09:00
 
-## Today — day3 — 年収アップとCareer Capital、どちらを優先すべきか
+## Today — day0 — 40代から始めるスキル陳腐化Audit
 
 ### LinkedIn
 
-【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】
+【40代から始めるスキル陳腐化Audit】
 
-年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。
+仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。
 
-目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。
+一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
 
 CareerRadarで深掘り：
-https://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3
+https://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0
 
 #CareerRadar #キャリア #市場価値
 
 ### Facebook
 
-【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】
+【40代から始めるスキル陳腐化Audit】
 
-年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。
+仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。
 
-目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。
+一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
 
 CareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。
 
-https://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3
+https://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0
 
 #CareerRadar #キャリア
 
 ### X
 
-【年収アップとCareer Capital、どちらを優先すべきか】
-目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。
-https://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3
+【40代から始めるスキル陳腐化Audit】
+一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
+https://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day0
 #CareerRadar

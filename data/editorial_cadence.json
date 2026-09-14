@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "direct-client-acquisition-playbook",
-    "published_at": "2026-09-11",
+    "article_id": "midcareer-skill-obsolescence-audit",
+    "published_at": "2026-09-14",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -128,7 +128,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-14"
     },
     {
       "article_id": "project-rate-risk-adjustment",
@@ -151,6 +152,24 @@
     {
       "article_id": "career-optionality-portfolio",
       "due_at": "2026-09-17",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "40s-market-value-reset",
+      "due_at": "2026-09-18",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "pmo-rate-negotiation-evidence",
+      "due_at": "2026-09-21",
       "locales": [
         "ja",
         "en"
