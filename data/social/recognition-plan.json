@@ -1,6 +1,6 @@
 {
   "schema_version": "career-radar-recognition-plan.v1",
-  "generated_at": "2026-09-14T15:11:56.717656+09:00",
+  "generated_at": "2026-09-14T22:57:57.953089+09:00",
   "timezone": "Asia/Tokyo",
   "policy": {
     "max_career_radar_topics_per_day": 1,
