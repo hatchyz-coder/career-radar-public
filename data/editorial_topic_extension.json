@@ -1,0 +1,102 @@
+{
+  "planned": [
+    "40s-market-value-reset",
+    "pmo-rate-negotiation-evidence",
+    "resume-achievement-evidence",
+    "side-job-career-capital",
+    "consulting-scope-creep-risk",
+    "ai-automation-role-redesign",
+    "career-market-test-30-days",
+    "salary-negotiation-decision-rights",
+    "client-concentration-career-risk",
+    "executive-presence-evidence",
+    "job-change-optionality-score",
+    "freelance-rate-increase-proof"
+  ],
+  "topics": {
+    "40s-market-value-reset": {
+      "ja": "40代で市場価値を上げ直すための経験棚卸し",
+      "en": "How to Reset and Raise Market Value in Your 40s",
+      "ja_intro": "40代のキャリアは、経験年数を増やすより、持ち運べる実績と希少性を再構成する方が重要です。",
+      "en_intro": "In your 40s, market value depends less on adding years and more on reorganizing portable evidence, scarcity, and decision ownership.",
+      "sections": [["社内評価と市場評価を分ける","Separate internal value from market value"],["成果を数字で残す","Capture outcomes with measurable evidence"],["意思決定範囲を見る","Map decision scope"],["業界知識を掛け合わせる","Combine domain depth with transferable skills"],["古い強みを捨てる","Retire obsolete strengths"],["新しい市場で試す","Test value in adjacent markets"],["第三者評価を増やす","Add external validation"],["90日で再設計する","Reset the portfolio every 90 days"]]
+    },
+    "pmo-rate-negotiation-evidence": {
+      "ja": "PMOの単価を上げるために必要な実績の見せ方",
+      "en": "Evidence That Helps PMOs Negotiate Higher Rates",
+      "ja_intro": "PMOの単価交渉では、経験年数より、意思決定・リスク低減・停滞解消をどう証明するかが重要です。",
+      "en_intro": "PMO rate negotiation is stronger when evidence shows decisions accelerated, risks reduced, and stalled work unblocked rather than years served.",
+      "sections": [["会議数ではなく決定数を見る","Measure decisions, not meetings"],["課題解消を証拠化する","Evidence issue resolution"],["経営報告の質を示す","Show executive-reporting quality"],["リスク低減を数字にする","Quantify risk reduction"],["部門横断の難易度を示す","Show cross-functional complexity"],["炎上対応を構造化する","Frame recovery work"],["役割境界を明確にする","Clarify scope ownership"],["単価交渉材料へ変換する","Convert evidence into rate arguments"]]
+    },
+    "resume-achievement-evidence": {
+      "ja": "職務経歴書の『担当しました』を市場価値に変える書き換え方",
+      "en": "Turn Resume Responsibilities into Marketable Achievement Evidence",
+      "ja_intro": "職務経歴書で評価されるのは担当業務の列挙ではなく、何を変え、何を決め、どこまで責任を持ったかです。",
+      "en_intro": "A strong resume does not list responsibilities. It shows what changed, what you decided, and how far your accountability extended.",
+      "sections": [["担当業務を分解する","Decompose responsibilities"],["変化を一文にする","State the change in one sentence"],["自分の寄与を切り出す","Isolate your contribution"],["数字の代替指標を探す","Find proxy metrics"],["複雑性を書く","Describe complexity"],["判断を残す","Capture decision ownership"],["守秘義務と両立する","Preserve confidentiality"],["役割別に並べ替える","Reorder evidence by target role"]]
+    },
+    "side-job-career-capital": {
+      "ja": "副業を小遣いではなくCareer Capitalに変える設計",
+      "en": "Design Side Work to Build Career Capital, Not Just Extra Income",
+      "ja_intro": "副業は収入だけでなく、本業では取れない責任・顧客接点・実績を作るために使えます。",
+      "en_intro": "Side work can create decision scope, client exposure, and proof that your main job may not provide.",
+      "sections": [["目的を収入だけにしない","Define goals beyond income"],["本業で足りない経験を補う","Fill missing experience"],["小さく責任を持つ","Own a small outcome"],["顧客の反応を残す","Capture client feedback"],["成果物を再利用する","Reuse artifacts"],["時間上限を置く","Set time boundaries"],["競業リスクを避ける","Avoid conflicts"],["次の仕事へ接続する","Connect side work to the next role"]]
+    },
+    "consulting-scope-creep-risk": {
+      "ja": "コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法",
+      "en": "How Scope Creep Quietly Destroys Consulting Rates",
+      "ja_intro": "高単価案件でも、役割と成果物の境界が曖昧だと実質単価は下がります。",
+      "en_intro": "Even premium consulting rates collapse when scope, ownership, and deliverables expand without control.",
+      "sections": [["役割境界を定義する","Define role boundaries"],["成果物を限定する","Bound deliverables"],["追加依頼を記録する","Log incremental asks"],["意思決定者を特定する","Identify decision owners"],["変更条件を決める","Set change rules"],["会議コストを見る","Price meeting overhead"],["再契約条件を明確にする","Clarify renewal terms"],["実質時給で検証する","Recalculate effective rate"]]
+    },
+    "ai-automation-role-redesign": {
+      "ja": "AIで仕事が減る人と市場価値が上がる人の違い",
+      "en": "Why AI Reduces Some Roles and Raises the Value of Others",
+      "ja_intro": "AIで自動化されやすいのは作業です。市場価値を残すには、判断・責任・例外処理へ役割を移す必要があります。",
+      "en_intro": "AI automates tasks first. Durable market value comes from shifting toward judgment, accountability, exceptions, and redesign.",
+      "sections": [["作業を棚卸しする","Inventory automatable tasks"],["判断を切り出す","Isolate judgment work"],["例外処理を見る","Map exception handling"],["責任範囲を増やす","Expand accountability"],["AI導入を成果化する","Turn AI adoption into evidence"],["品質管理を持つ","Own quality control"],["業務設計へ移る","Move into process redesign"],["役割を再定義する","Rewrite the role around durable value"]]
+    },
+    "career-market-test-30-days": {
+      "ja": "30日で自分の市場価値をテストする方法",
+      "en": "A 30-Day Market Test for Your Career Value",
+      "ja_intro": "市場価値は自己評価ではなく、市場の反応を複数経路で集めることで精度が上がります。",
+      "en_intro": "Career value becomes clearer when you collect market responses across multiple channels instead of relying on self-assessment.",
+      "sections": [["仮説を一つ決める","Set one market hypothesis"],["対象求人を集める","Collect target roles"],["直接応募を試す","Test direct applications"],["紹介会社を比較する","Compare recruiter reactions"],["LinkedIn反応を見る","Observe LinkedIn response"],["面談結果を記録する","Log interview outcomes"],["見送り理由を分類する","Classify rejection reasons"],["30日後に仮説を更新する","Update the hypothesis after 30 days"]]
+    },
+    "salary-negotiation-decision-rights": {
+      "ja": "年収交渉で金額だけ見てはいけない理由",
+      "en": "Why Salary Negotiation Should Include Decision Rights",
+      "ja_intro": "年収が上がっても、意思決定権や責任範囲が狭まれば将来の市場価値が落ちることがあります。",
+      "en_intro": "A higher salary can still weaken future market value if decision scope and ownership shrink.",
+      "sections": [["固定報酬を確認する","Clarify guaranteed compensation"],["変動報酬を見る","Understand variable pay"],["意思決定権を確認する","Map decision rights"],["予算権限を見る","Assess budget authority"],["人員責任を見る","Assess people responsibility"],["成果評価を確認する","Clarify success metrics"],["3年後の価値を置く","Model three-year value"],["交渉条件を優先順位化する","Prioritize negotiation terms"]]
+    },
+    "client-concentration-career-risk": {
+      "ja": "売上が増えても危険な『顧客集中』というキャリアリスク",
+      "en": "Client Concentration as a Hidden Career Risk",
+      "ja_intro": "高単価の一社依存は短期収益を上げても、選択肢と交渉力を弱めることがあります。",
+      "en_intro": "A single high-paying client can raise short-term income while reducing optionality and bargaining power.",
+      "sections": [["売上比率を測る","Measure revenue concentration"],["契約終了影響を見る","Model termination impact"],["案件依存を分ける","Separate client and domain dependence"],["営業経路を増やす","Diversify acquisition channels"],["実績を持ち運べる形にする","Make evidence portable"],["再契約確率を見る","Estimate renewal probability"],["代替顧客を作る","Build replacement options"],["集中上限を決める","Set a concentration limit"]]
+    },
+    "executive-presence-evidence": {
+      "ja": "『経営層と仕事をした』を市場価値に変える方法",
+      "en": "Turn Executive Exposure into Portable Career Evidence",
+      "ja_intro": "経営層との接点そのものではなく、どんな論点を整理し、何を決め、何を動かしたかが評価対象です。",
+      "en_intro": "Executive exposure matters only when you can explain which issues you framed, decisions you enabled, and outcomes you moved.",
+      "sections": [["会議参加を実績と混同しない","Do not confuse attendance with impact"],["論点設定を残す","Capture issue framing"],["選択肢を整理する","Frame alternatives"],["推奨案を示す","State recommendations"],["反対意見を扱う","Handle counterarguments"],["決定事項を追跡する","Track decisions"],["成果へ接続する","Connect decisions to outcomes"],["職務経歴書へ翻訳する","Translate into resume evidence"]]
+    },
+    "job-change-optionality-score": {
+      "ja": "転職先を『年収』ではなく選択肢の増え方で採点する",
+      "en": "Score Job Offers by Future Optionality, Not Salary Alone",
+      "ja_intro": "良い転職は次の会社を決めるだけでなく、その後の選択肢を増やします。",
+      "en_intro": "A strong job move does more than improve the next role; it expands credible options after that role.",
+      "sections": [["報酬を採点する","Score compensation"],["責任範囲を採点する","Score responsibility"],["希少経験を見る","Score scarce experience"],["市場横断性を見る","Score portability"],["ブランドを分解する","Unbundle brand value"],["学習密度を見る","Score learning density"],["撤退しやすさを見る","Score reversibility"],["総合点で比較する","Compare offers by total optionality"]]
+    },
+    "freelance-rate-increase-proof": {
+      "ja": "フリーランスが単価を上げる前に作るべき証拠",
+      "en": "Proof Freelancers Need Before Raising Their Rates",
+      "ja_intro": "単価アップは希望額ではなく、顧客が感じるリスクを下げる証拠で決まります。",
+      "en_intro": "Rate increases become credible when evidence reduces buyer risk rather than merely stating a higher desired price.",
+      "sections": [["成果を数字にする","Quantify outcomes"],["再依頼を証拠化する","Use repeat business as proof"],["紹介を残す","Capture referrals"],["専門領域を絞る","Narrow specialization"],["案件難易度を示す","Show engagement complexity"],["責任範囲を明確にする","Clarify ownership"],["代替候補と比較する","Benchmark against alternatives"],["値上げ条件を決める","Set evidence-based increase triggers"]]
+    }
+  }
+}
