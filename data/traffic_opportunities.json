@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-08-15",
-    "end_date": "2026-09-11",
+    "start_date": "2026-08-16",
+    "end_date": "2026-09-12",
     "days": 28
   },
-  "source_generated_at": "2026-09-14T23:58:16+00:00",
-  "input_rows": 1,
-  "scored_rows": 1,
+  "source_generated_at": "2026-09-15T23:40:00+00:00",
+  "input_rows": 2,
+  "scored_rows": 2,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 1
+    "observe": 2
   },
   "top_opportunities": [
     {
@@ -31,6 +31,20 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 8.1
+    },
+    {
+      "query": "評価 転職",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 5.1
     }
   ]
 }

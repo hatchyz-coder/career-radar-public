@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-15",
-    "end_date": "2026-09-11",
+    "start_date": "2026-08-16",
+    "end_date": "2026-09-12",
     "days": 28
   },
-  "generated_at": "2026-09-14T23:58:16+00:00",
+  "generated_at": "2026-09-15T23:40:00+00:00",
   "rows": [
     {
       "query": "キャリア",
@@ -17,6 +17,14 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 65.5
+    },
+    {
+      "query": "評価 転職",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0
     }
   ]
 }
