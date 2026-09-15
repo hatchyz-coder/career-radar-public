@@ -4,7 +4,7 @@ Article: `executive-communication-career-signal`
 
 ## LinkedIn
 
-【経営層への報告経験をCareer Capitalに変える方法 / Turn Executive Communication into Portable Career Capital】
+【経営層への報告経験をキャリア資本に変える方法 / Turn Executive Communication into Portable Career Capital】
 
 経営層への報告は、資料作成ではなく、複雑な状況を意思決定可能な形に圧縮する仕事です。
 
@@ -31,7 +31,7 @@ https://career.hdnjapan.com/en/articles/executive-communication-career-signal.ht
 
 ## Facebook
 
-【経営層への報告経験をCareer Capitalに変える方法】
+【経営層への報告経験をキャリア資本に変える方法】
 
 経営層への報告は、資料作成ではなく、複雑な状況を意思決定可能な形に圧縮する仕事です。
 
@@ -57,7 +57,7 @@ https://career.hdnjapan.com/ja/articles/executive-communication-career-signal.ht
 
 ## X
 
-【経営層への報告経験をCareer Capitalに変える方法】
+【経営層への報告経験をキャリア資本に変える方法】
 一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。
 https://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=x&utm_medium=social
 #CareerRadar
