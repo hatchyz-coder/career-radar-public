@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-16",
-    "end_date": "2026-09-12",
+    "start_date": "2026-08-17",
+    "end_date": "2026-09-13",
     "days": 28
   },
-  "generated_at": "2026-09-15T23:40:00+00:00",
+  "generated_at": "2026-09-16T23:47:42+00:00",
   "rows": [
     {
       "query": "キャリア",
