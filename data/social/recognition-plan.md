@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-09-16T07:11:07.821241+09:00
+Generated: 2026-09-16T10:22:34.799067+09:00
 
 ## Today — day0 — 経営層への報告経験をキャリア資本に変える方法
 
