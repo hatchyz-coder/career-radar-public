@@ -2,22 +2,50 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-08-17",
-    "end_date": "2026-09-13",
+    "start_date": "2026-08-18",
+    "end_date": "2026-09-14",
     "days": 28
   },
-  "source_generated_at": "2026-09-16T23:47:42+00:00",
-  "input_rows": 2,
-  "scored_rows": 2,
+  "source_generated_at": "2026-09-17T23:38:44+00:00",
+  "input_rows": 5,
+  "scored_rows": 5,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 2
+    "observe": 5
   },
   "top_opportunities": [
+    {
+      "query": "分析／評価職務経歴書",
+      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 20.0,
+      "expected_ctr": 0.015,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 19.4
+    },
+    {
+      "query": "評価 転職",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 62.67,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 10.3
+    },
     {
       "query": "キャリア",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
@@ -33,12 +61,26 @@
       "priority_score": 8.1
     },
     {
-      "query": "評価 転職",
+      "query": "転職",
       "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 62.0,
+      "position": 44.0,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 5.2
+    },
+    {
+      "query": "転職キャリア",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 75.0,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
