@@ -11,7 +11,7 @@ on:
       - "scripts/humanize_generated_articles.py"
       - "scripts/expand_generated_articles.py"
       - "scripts/build_bootstrap_search_hubs.py"
-      - "scripts/enhance_pv_discovery.py"
+      - "scripts/enhance_pv_discovery.py"\n      - "scripts/enhance_article_discovery.py"\n      - "scripts/check_article_discovery.py"
       - "scripts/enhance_affiliate_funnel.py"
       - "scripts/optimize_conversion_ctas.py"
       - "scripts/check_conversion_ctas.py"
@@ -66,7 +66,7 @@ jobs:
         run: python scripts/build_bootstrap_search_hubs.py
       - name: Add article library related-reading feeds and structured metadata
         run: python scripts/enhance_pv_discovery.py
-      - name: Build user-first affiliate funnel routes
+      - name: Add newest-first library and sequential article navigation\n        run: python scripts/enhance_article_discovery.py\n      - name: Build user-first affiliate funnel routes
         run: python scripts/enhance_affiliate_funnel.py
       - name: Optimize conversion CTA coverage without CTA stacking
         run: python scripts/optimize_conversion_ctas.py
@@ -82,7 +82,7 @@ jobs:
         run: python scripts/build_traffic_dashboard.py
       - name: Localize Japanese-facing UI and terminology after all page generation
         run: python scripts/localize_japanese_ui.py
-      - name: Validate affiliate monetization funnel
+      - name: Validate article discovery and sequential navigation\n        run: python scripts/check_article_discovery.py\n      - name: Validate affiliate monetization funnel
         run: python scripts/check_affiliate_funnel.py
       - name: Validate conversion CTA coverage
         run: python scripts/check_conversion_ctas.py
