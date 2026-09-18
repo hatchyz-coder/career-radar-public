@@ -46,6 +46,8 @@ def enhance_index(locale, items):
     block=f'<section class="section article-latest"><h2>{latest_title}</h2><p class="section-intro">{intro}</p><div class="grid">{latest}</div></section><section class="section article-all-heading"><h2>{all_title}</h2></section>'
     marker='<main>'
     if "article-latest" not in text: text=text.replace(marker,marker+block,1)
+    # Global navigation should take readers directly to the article library.
+    text=text.replace('href="#insights">記事</a>', 'href="ja/articles/index.html">記事</a>')
     path.write_text(text,encoding="utf-8")
 
 def enhance_home(items):
@@ -62,7 +64,8 @@ def enhance_home(items):
     if re.search(pattern,text,re.S):
         text=re.sub(pattern,block,text,flags=re.S)
     else:
-        anchor='<!-- SEARCH_HUBS_START -->'
+        # Article discovery is the primary homepage content surface: place it directly after the hero.
+        anchor='<section class="section" id="paths">'
         text=text.replace(anchor,block+anchor,1)
     path.write_text(text,encoding="utf-8")
 
