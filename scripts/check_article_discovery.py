@@ -15,6 +15,11 @@ if home.count("<!-- HOME_DISCOVERY_START -->")!=1: errors.append("home: discover
 for needle in ("新しい記事から読む","まず読んでほしいテーマ","新着記事をすべて見る"):
     if needle not in home: errors.append(f"home: missing {needle}")
 if "よく読まれている" in home: errors.append("home: unverified popularity label must not be shown")
+hero_end=home.find("</section>")
+discovery=home.find("<!-- HOME_DISCOVERY_START -->")
+paths=home.find('<section class="section" id="paths">')
+if not (hero_end < discovery < paths): errors.append("home: article discovery must sit directly after hero and before paths")
+if 'href="ja/articles/index.html">記事</a>' not in home: errors.append("home: global article nav must link directly to article library")
 
 if errors:
     raise SystemExit("\n".join(errors))
