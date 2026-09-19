@@ -46,8 +46,6 @@ def enhance_index(locale, items):
     block=f'<section class="section article-latest"><h2>{latest_title}</h2><p class="section-intro">{intro}</p><div class="grid">{latest}</div></section><section class="section article-all-heading"><h2>{all_title}</h2></section>'
     marker='<main>'
     if "article-latest" not in text: text=text.replace(marker,marker+block,1)
-    # Global navigation should take readers directly to the article library.
-    text=text.replace('href="#insights">記事</a>', 'href="ja/articles/index.html">記事</a>')
     path.write_text(text,encoding="utf-8")
 
 def enhance_home(items):
@@ -67,6 +65,7 @@ def enhance_home(items):
         # Article discovery is the primary homepage content surface: place it directly after the hero.
         anchor='<section class="section" id="paths">'
         text=text.replace(anchor,block+anchor,1)
+    text=text.replace('href="#insights">記事</a>', 'href="ja/articles/index.html">記事</a>')
     path.write_text(text,encoding="utf-8")
 
 
@@ -76,7 +75,8 @@ def main():
         base=ROOT/locale/"articles"
         items=sorted((meta(p) for p in base.glob("*.html") if p.name!="index.html"),key=lambda x:(x["date"],x["id"]),reverse=True)
         if len(items)<5: raise SystemExit(f"Too few {locale} articles: {len(items)}")
-        inject_sequence(locale,items); enhance_index(locale,items); count+=len(items)\n        if locale=="ja": enhance_home(items)
+        inject_sequence(locale,items); enhance_index(locale,items); count+=len(items)
+        if locale=="ja": enhance_home(items)
     print(f"Article discovery enhanced: {count} article pages, 2 newest-first libraries")
 
 if __name__=="__main__": main()
