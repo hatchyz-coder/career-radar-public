@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Recover due editorial releases in ephemeral CI checkout
+        run: python scripts/recover_editorial_queue_v2.py
       - name: Humanize generated Japanese prose for validation
         run: python scripts/humanize_generated_articles.py
       - name: Build affiliate funnel surfaces for validation
