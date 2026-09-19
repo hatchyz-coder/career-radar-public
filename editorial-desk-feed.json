@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-09-19T23:21:28.759419+09:00",
+  "generated_at": "2026-09-20T02:58:25.312343+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -29,37 +29,26 @@
       "manual_publish_only": true
     },
     "selected_today": {
-      "article_id": "40s-market-value-reset",
-      "title": "40代で市場価値を上げ直すための経験棚卸し",
-      "phase": "day0",
-      "due_at": "2026-09-19",
+      "article_id": "career-optionality-portfolio",
+      "title": "転職・副業・業務委託を同時に持つCareer Optionalityの作り方",
+      "phase": "day3",
+      "due_at": "2026-09-20",
       "posts": {
-        "linkedin": "【40代で市場価値を上げ直すための経験棚卸し】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day0\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【40代で市場価値を上げ直すための経験棚卸し】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day0\n\n#CareerRadar #キャリア",
-        "x": "【40代で市場価値を上げ直すための経験棚卸し】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day0\n#CareerRadar"
+        "linkedin": "【3日後にもう一度考えたい：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n公開から3日たって、もう一度『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【3日後にもう一度考えたい：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n公開から3日たって、もう一度『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n\n#CareerRadar #キャリア",
+        "x": "【転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n#CareerRadar"
       }
     },
     "due_today": [
       {
-        "article_id": "40s-market-value-reset",
-        "title": "40代で市場価値を上げ直すための経験棚卸し",
-        "phase": "day0",
-        "due_at": "2026-09-19",
-        "posts": {
-          "linkedin": "【40代で市場価値を上げ直すための経験棚卸し】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day0\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【40代で市場価値を上げ直すための経験棚卸し】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day0\n\n#CareerRadar #キャリア",
-          "x": "【40代で市場価値を上げ直すための経験棚卸し】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day0\n#CareerRadar"
-        }
-      },
-      {
-        "article_id": "executive-communication-career-signal",
-        "title": "経営層への報告経験をキャリア資本に変える方法",
+        "article_id": "career-optionality-portfolio",
+        "title": "転職・副業・業務委託を同時に持つCareer Optionalityの作り方",
         "phase": "day3",
-        "due_at": "2026-09-19",
+        "due_at": "2026-09-20",
         "posts": {
-          "linkedin": "【3日後にもう一度考えたい：経営層への報告経験をキャリア資本に変える方法】\n\n公開から3日たって、もう一度『経営層への報告経験をキャリア資本に変える方法』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=executive-communication-career-signal_day3\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【3日後にもう一度考えたい：経営層への報告経験をキャリア資本に変える方法】\n\n公開から3日たって、もう一度『経営層への報告経験をキャリア資本に変える方法』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=executive-communication-career-signal_day3\n\n#CareerRadar #キャリア",
-          "x": "【経営層への報告経験をキャリア資本に変える方法】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=executive-communication-career-signal_day3\n#CareerRadar"
+          "linkedin": "【3日後にもう一度考えたい：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n公開から3日たって、もう一度『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【3日後にもう一度考えたい：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n公開から3日たって、もう一度『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n\n#CareerRadar #キャリア",
+          "x": "【転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n#CareerRadar"
         }
       }
     ]
