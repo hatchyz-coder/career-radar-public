@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-09-19T23:28:34.531645+00:00",
+  "generated_at": "2026-09-20T23:28:27.640683+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -59,6 +59,19 @@
     },
     {
       "rank": 5,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "フリーランス 転身",
+      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "priority_score": 5.1,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 6,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
