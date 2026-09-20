@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-09-20T21:16:36.522116+09:00",
+  "generated_at": "2026-09-21T01:46:22.715768+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -29,26 +29,37 @@
       "manual_publish_only": true
     },
     "selected_today": {
-      "article_id": "career-optionality-portfolio",
-      "title": "転職・副業・業務委託を同時に持つCareer Optionalityの作り方",
-      "phase": "day3",
-      "due_at": "2026-09-20",
+      "article_id": "pmo-rate-negotiation-evidence",
+      "title": "PMOの単価を上げるために必要な実績の見せ方",
+      "phase": "day0",
+      "due_at": "2026-09-21",
       "posts": {
-        "linkedin": "【3日後にもう一度考えたい：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n公開から3日たって、もう一度『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【3日後にもう一度考えたい：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n公開から3日たって、もう一度『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n\n#CareerRadar #キャリア",
-        "x": "【転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n#CareerRadar"
+        "linkedin": "【PMOの単価を上げるために必要な実績の見せ方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【PMOの単価を上げるために必要な実績の見せ方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n\n#CareerRadar #キャリア",
+        "x": "【PMOの単価を上げるために必要な実績の見せ方】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n#CareerRadar"
       }
     },
     "due_today": [
       {
-        "article_id": "career-optionality-portfolio",
-        "title": "転職・副業・業務委託を同時に持つCareer Optionalityの作り方",
-        "phase": "day3",
-        "due_at": "2026-09-20",
+        "article_id": "pmo-rate-negotiation-evidence",
+        "title": "PMOの単価を上げるために必要な実績の見せ方",
+        "phase": "day0",
+        "due_at": "2026-09-21",
         "posts": {
-          "linkedin": "【3日後にもう一度考えたい：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n公開から3日たって、もう一度『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【3日後にもう一度考えたい：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n公開から3日たって、もう一度『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n\n#CareerRadar #キャリア",
-          "x": "【転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day3\n#CareerRadar"
+          "linkedin": "【PMOの単価を上げるために必要な実績の見せ方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【PMOの単価を上げるために必要な実績の見せ方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n\n#CareerRadar #キャリア",
+          "x": "【PMOの単価を上げるために必要な実績の見せ方】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n#CareerRadar"
+        }
+      },
+      {
+        "article_id": "midcareer-skill-obsolescence-audit",
+        "title": "40代から始めるスキル陳腐化Audit",
+        "phase": "day7",
+        "due_at": "2026-09-21",
+        "posts": {
+          "linkedin": "【1週間後の問い：40代から始めるスキル陳腐化Audit】\n\n1週間後に『40代から始めるスキル陳腐化Audit』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【1週間後の問い：40代から始めるスキル陳腐化Audit】\n\n1週間後に『40代から始めるスキル陳腐化Audit』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n\n#CareerRadar #キャリア",
+          "x": "【40代から始めるスキル陳腐化Audit】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n#CareerRadar"
         }
       }
     ]
@@ -56,6 +67,45 @@
   "item_count": 10,
   "warnings": [],
   "items": [
+    {
+      "stable_id": "career_radar:2026-09-21:pmo-rate-negotiation-evidence",
+      "source_id": "career_radar",
+      "source_label": "CareerRadar",
+      "article_id": "pmo-rate-negotiation-evidence",
+      "published_at": "2026-09-21",
+      "title": "PMOの単価を上げるために必要な実績の見せ方",
+      "content_version": "3b8d9a240180da36",
+      "default_state": "ready_for_review",
+      "manual_publish_only": true,
+      "recommended_platform_order": [
+        "linkedin",
+        "facebook",
+        "x"
+      ],
+      "platforms": {
+        "linkedin": {
+          "priority": "P0",
+          "copy": "【PMOの単価を上げるために必要な実績の見せ方 / Evidence That Helps PMOs Negotiate Higher Rates】\n\nPMOの単価交渉では、経験年数より、意思決定・リスク低減・停滞解消をどう証明するかが重要です。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=pmo-rate-negotiation-evidence_ja\n\nEnglish follows below.\n\nPMO rate negotiation is stronger when evidence shows decisions accelerated, risks reduced, and stalled work unblocked rather than years served.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=pmo-rate-negotiation-evidence_en\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url_ja": "https://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=pmo-rate-negotiation-evidence_ja",
+          "url_en": "https://career.hdnjapan.com/en/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=pmo-rate-negotiation-evidence_en"
+        },
+        "facebook": {
+          "priority": "P1",
+          "copy": "【PMOの単価を上げるために必要な実績の見せ方】\n\nPMOの単価交渉では、経験年数より、意思決定・リスク低減・停滞解消をどう証明するかが重要です。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=pmo-rate-negotiation-evidence_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url": "https://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=pmo-rate-negotiation-evidence_ja"
+        },
+        "x": {
+          "priority": "P2",
+          "copy": "【PMOの単価を上げるために必要な実績の見せ方】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=x&utm_medium=social\n#CareerRadar",
+          "url": "https://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=x&utm_medium=social"
+        }
+      },
+      "redistribution": {
+        "day_3": "2026-09-24",
+        "day_7": "2026-09-28",
+        "mode": "candidate_only_review_before_repost"
+      }
+    },
     {
       "stable_id": "career_radar:2026-09-19:40s-market-value-reset",
       "source_id": "career_radar",
@@ -404,45 +454,6 @@
       "redistribution": {
         "day_3": "2026-09-11",
         "day_7": "2026-09-15",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-09-07:portfolio-evidence-scorecard",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "portfolio-evidence-scorecard",
-      "published_at": "2026-09-07",
-      "title": "職務経歴書より強いPortfolio Evidence Scorecardの作り方",
-      "content_version": "1759ae72f030a4ec",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【職務経歴書より強いPortfolio Evidence Scorecardの作り方 / Build a Portfolio Evidence Scorecard Stronger Than a Resume】\n\n職務経歴書は長くなるほど強くなるわけではありません。採用側が知りたいのは、経験の量より『この人に任せても再現できそうか』です。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・担当業務ではなく変化を証拠化する\n・意思決定と第三者証明を残す\n・役割ごとにEvidenceを並び替える\n\nあなたの実績は、会社名や肩書きを外しても価値が伝わる形になっているでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-evidence-scorecard_ja\n\nEnglish follows below.\n\nA longer resume is not automatically a stronger one. Buyers need evidence that your results are repeatable and portable.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/portfolio-evidence-scorecard.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-evidence-scorecard_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-evidence-scorecard_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/portfolio-evidence-scorecard.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-evidence-scorecard_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【職務経歴書より強いPortfolio Evidence Scorecardの作り方】\n\n職務経歴書は長くなるほど強くなるわけではありません。採用側が知りたいのは、経験の量より『この人に任せても再現できそうか』です。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・担当業務ではなく変化を証拠化する\n・意思決定と第三者証明を残す\n・役割ごとにEvidenceを並び替える\nという視点で整理しました。\n\nあなたの実績は、会社名や肩書きを外しても価値が伝わる形になっているでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-evidence-scorecard_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-evidence-scorecard_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【職務経歴書より強いPortfolio Evidence Scorecardの作り方】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-09-10",
-        "day_7": "2026-09-14",
         "mode": "candidate_only_review_before_repost"
       }
     }

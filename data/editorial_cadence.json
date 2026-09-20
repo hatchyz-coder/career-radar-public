@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "40s-market-value-reset",
-    "published_at": "2026-09-19",
+    "article_id": "pmo-rate-negotiation-evidence",
+    "published_at": "2026-09-21",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -178,7 +178,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-21"
     },
     {
       "article_id": "resume-achievement-evidence",
@@ -210,6 +211,15 @@
     {
       "article_id": "ai-automation-role-redesign",
       "due_at": "2026-09-25",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "career-market-test-30-days",
+      "due_at": "2026-09-28",
       "locales": [
         "ja",
         "en"
