@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Test editorial release preflight and existing builder
+        run: python -m unittest discover -s tests -p "test_*.py"
       - name: Recover due editorial releases in ephemeral CI checkout
         run: python scripts/recover_editorial_queue_v2.py
       - name: Humanize generated Japanese prose for validation
@@ -32,3 +34,14 @@ jobs:
         run: python scripts/check_llms_file.py
       - name: Validate editorial release queue
         run: python scripts/check_editorial_cadence.py
+
+  preview-upcoming:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate and check all four due dates in an isolated copy
+        run: python scripts/preview_queued_editorial.py
