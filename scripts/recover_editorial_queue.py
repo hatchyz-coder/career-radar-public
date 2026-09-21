@@ -104,37 +104,51 @@ def partner_block(locale: str, article_id: str) -> str:
 def body_html(topic: dict, locale: str) -> str:
     intro = topic[f"{locale}_intro"]
     parts = [f"<p>{html.escape(intro)}</p>"]
-    ja_lenses = [
-        ("現状の記録", "まず直近の案件を時系列に並べ、着手前の状態と完了時の状態を区別します。関係者に説明できる成果だけを残し、自己評価と客観的な記録を混ぜないことが出発点です。"),
-        ("判断の所在", "誰が方針を決め、誰が実行し、どの判断を自分が引き受けたかを整理します。単に会議へ参加した事実と、対立する選択肢から方針を選んだ実績は分けて記述します。"),
-        ("数字の読み方", "売上や期間の数字だけを切り出さず、母数、比較対象、担当範囲を添えます。成果を誇張せず、変化が自分の行動にどこまで結び付くかを説明できるようにします。"),
-        ("再現条件", "同じ成果が別の組織でも出せるとは限りません。予算、権限、チーム規模、意思決定速度のうち、結果を左右した条件を明示してから応用可能性を検討します。"),
-        ("相手の評価軸", "採用側や発注側が解決したい課題を求人票と面談から抽出します。自分が話したい経験の羅列ではなく、相手の課題に対応する根拠を優先して提示します。"),
-        ("小さな市場テスト", "一度の不採用や無回答を能力の結論にせず、応募先と提案内容を変えて反応を記録します。反応の差が生まれた要因を、条件と表現の両面から検証します。"),
-        ("守秘と証拠", "顧客名や非公開数値は伏せても、課題の構造と自分の役割は説明できます。第三者に開示可能な成果物を選び、契約上の守秘義務を先に確認します。"),
-        ("次の行動", "検討だけで終わらせず、今週実行する一つの改善と、結果を確認する日を決めます。反応が得られなければ前提を見直し、次の応募や商談に学びを反映します。"),
-    ]
-    en_lenses = [
-        ("Baseline evidence", "Record the starting conditions and the observable end state of a recent assignment. Separate personal impressions from records a hiring manager or client could independently understand."),
-        ("Decision ownership", "Identify who chose the direction, who executed it, and which trade-offs you personally owned. Attending a meeting is different from resolving a conflict between competing options."),
-        ("Measurement context", "Attach a denominator, comparison period, and scope of responsibility to each number. A result without these boundaries can overstate the contribution of any single person."),
-        ("Transfer conditions", "A result may depend on budget, authority, team size, or decision speed. State these dependencies before claiming that the same approach will work in a different organization."),
-        ("Buyer requirements", "Extract the actual problem from a role description or client conversation. Present evidence that addresses that problem rather than listing every task you have performed."),
-        ("Market experiment", "Treat a rejection or silence as one observation rather than a verdict. Vary the target role and evidence presented, then compare responses while recording what changed."),
-        ("Confidentiality boundary", "Remove client identities and sensitive figures while retaining the problem structure and your specific contribution. Check contractual confidentiality duties before sharing artifacts."),
-        ("Next measurable action", "Choose one change to test this week and a date to review the result. If the evidence does not improve the response, revise the assumption rather than repeating the same application."),
-    ]
-    for section_index, (ja, en) in enumerate(topic["sections"]):
-        heading = ja if locale == "ja" else en
-        if locale == "ja":
-            lens, detail = ja_lenses[section_index % len(ja_lenses)]
-            p1 = f"{heading}については、{topic['ja_intro']} {JA_P1} この節では特に「{lens}」を検討します。{detail}"
-            p2 = f"{lens}を実行する際には、{heading}に関する自分の担当範囲、制約、関係者への説明を一枚の記録にまとめます。{detail} {JA_P2} {JA_P3}"
-        else:
-            lens, detail = en_lenses[section_index % len(en_lenses)]
-            p1 = f"Consider {heading} in the context of {topic['en_intro']} {EN_P1} This section focuses specifically on {lens.lower()}. {detail}"
-            p2 = f"To apply {lens.lower()} to {heading}, write down your own scope, constraints, and the evidence a prospective employer or client can check. {detail} {EN_P2} {EN_P3}"
-        parts.extend([f"<h2>{html.escape(heading)}</h2>", f"<p>{html.escape(p1)}</p>", f"<p>{html.escape(p2)}</p>"])
+    section_copy = topic.get("section_copy")
+    if section_copy is not None:
+        if len(section_copy) != len(topic["sections"]):
+            raise ValueError("Curated section count does not match the topic definition")
+        for i, (ja, en) in enumerate(topic["sections"]):
+            heading = ja if locale == "ja" else en
+            paragraphs = section_copy[i].get(locale)
+            if not isinstance(paragraphs, list) or len(paragraphs) < 2 or any(
+                not isinstance(value, str) or not value.strip() for value in paragraphs
+            ):
+                raise ValueError(f"Missing curated {locale} paragraphs at section {i}: {heading}")
+            parts.append(f"<h2>{html.escape(heading)}</h2>")
+            parts.extend(f"<p>{html.escape(value)}</p>" for value in paragraphs)
+    else:
+        ja_lenses = [
+            ("現状の記録", "まず直近の案件を時系列に並べ、着手前の状態と完了時の状態を区別します。関係者に説明できる成果だけを残し、自己評価と客観的な記録を混ぜないことが出発点です。"),
+            ("判断の所在", "誰が方針を決め、誰が実行し、どの判断を自分が引き受けたかを整理します。単に会議へ参加した事実と、対立する選択肢から方針を選んだ実績は分けて記述します。"),
+            ("数字の読み方", "売上や期間の数字だけを切り出さず、母数、比較対象、担当範囲を添えます。成果を誇張せず、変化が自分の行動にどこまで結び付くかを説明できるようにします。"),
+            ("再現条件", "同じ成果が別の組織でも出せるとは限りません。予算、権限、チーム規模、意思決定速度のうち、結果を左右した条件を明示してから応用可能性を検討します。"),
+            ("相手の評価軸", "採用側や発注側が解決したい課題を求人票と面談から抽出します。自分が話したい経験の羅列ではなく、相手の課題に対応する根拠を優先して提示します。"),
+            ("小さな市場テスト", "一度の不採用や無回答を能力の結論にせず、応募先と提案内容を変えて反応を記録します。反応の差が生まれた要因を、条件と表現の両面から検証します。"),
+            ("守秘と証拠", "顧客名や非公開数値は伏せても、課題の構造と自分の役割は説明できます。第三者に開示可能な成果物を選び、契約上の守秘義務を先に確認します。"),
+            ("次の行動", "検討だけで終わらせず、今週実行する一つの改善と、結果を確認する日を決めます。反応が得られなければ前提を見直し、次の応募や商談に学びを反映します。"),
+        ]
+        en_lenses = [
+            ("Baseline evidence", "Record the starting conditions and the observable end state of a recent assignment. Separate personal impressions from records a hiring manager or client could independently understand."),
+            ("Decision ownership", "Identify who chose the direction, who executed it, and which trade-offs you personally owned. Attending a meeting is different from resolving a conflict between competing options."),
+            ("Measurement context", "Attach a denominator, comparison period, and scope of responsibility to each number. A result without these boundaries can overstate the contribution of any single person."),
+            ("Transfer conditions", "A result may depend on budget, authority, team size, or decision speed. State these dependencies before claiming that the same approach will work in a different organization."),
+            ("Buyer requirements", "Extract the actual problem from a role description or client conversation. Present evidence that addresses that problem rather than listing every task you have performed."),
+            ("Market experiment", "Treat a rejection or silence as one observation rather than a verdict. Vary the target role and evidence presented, then compare responses while recording what changed."),
+            ("Confidentiality boundary", "Remove client identities and sensitive figures while retaining the problem structure and your specific contribution. Check contractual confidentiality duties before sharing artifacts."),
+            ("Next measurable action", "Choose one change to test this week and a date to review the result. If the evidence does not improve the response, revise the assumption rather than repeating the same application."),
+        ]
+        for section_index, (ja, en) in enumerate(topic["sections"]):
+            heading = ja if locale == "ja" else en
+            if locale == "ja":
+                lens, detail = ja_lenses[section_index % len(ja_lenses)]
+                p1 = f"{heading}については、{topic['ja_intro']} {JA_P1} この節では特に「{lens}」を検討します。{detail}"
+                p2 = f"{lens}を実行する際には、{heading}に関する自分の担当範囲、制約、関係者への説明を一枚の記録にまとめます。{detail} {JA_P2} {JA_P3}"
+            else:
+                lens, detail = en_lenses[section_index % len(en_lenses)]
+                p1 = f"Consider {heading} in the context of {topic['en_intro']} {EN_P1} This section focuses specifically on {lens.lower()}. {detail}"
+                p2 = f"To apply {lens.lower()} to {heading}, write down your own scope, constraints, and the evidence a prospective employer or client can check. {detail} {EN_P2} {EN_P3}"
+            parts.extend([f"<h2>{html.escape(heading)}</h2>", f"<p>{html.escape(p1)}</p>", f"<p>{html.escape(p2)}</p>"])
     if locale == "ja":
         parts.extend([
             "<h2>根拠の扱い方</h2>",
