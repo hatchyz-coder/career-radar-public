@@ -376,6 +376,88 @@
           "実質時給で検証する",
           "Recalculate effective rate"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "スコープ膨張は「追加の仕事が多い」だけではなく、契約上の責任と現場の期待が少しずつ食い違う状態です。最初に役割を、判断すること、実行すること、承認を得ること、対象外のことに分けて書きます。例えばPMO支援であれば、課題の可視化と会議運営を請け負うのか、業務部門の実装と品質保証まで引き受けるのかで必要な稼働もリスクも変わります。担当者の善意だけで境界を埋めないことが大切です。",
+            "開始時の合意文書には「週次の課題一覧更新と意思決定会議の運営を提供する。仕様決定と業務部門への指示は発注者が行う」のように、作業と最終判断を分けて記します。契約本文にすべてを書けない場合でも、提案書・議事録・役割分担表との整合性を確認します。曖昧な依頼にはすぐ「できません」と返す必要はありませんが、既存範囲に含むかを判断する前に期待される成果を尋ねます。"
+          ],
+          "en": [
+            "Scope creep starts when the responsibility agreed in a contract and the work expected on the ground diverge one request at a time. Define the engagement in four columns: decisions you own, execution you provide, approvals the client retains, and work that is excluded. For a PMO assignment, maintaining a risk register and facilitating a decision meeting is a different service from implementing operational changes and guaranteeing their business outcomes. The hours, expertise, and exposure to failure are different even if both activities are called ‘project support.’",
+            "Write an operating boundary that can be used in a real conversation: ‘The consultant will maintain the weekly issue log and facilitate the decision forum; the client owns business policy decisions and directs department staff.’ Reconcile that statement with the proposal, contract, and responsibility matrix. You do not have to reject every ambiguous request at once. First ask which result is needed and who is responsible for approval. Then decide whether it is an interpretation of the agreed deliverable or a change requiring separate acceptance."
+          ]
+        },
+        {
+          "ja": [
+            "「資料作成」「運用支援」などの成果物名だけでは、いつ納品が終わるのかを判定できません。資料なら目的・対象者・版数・レビュー回数、運用支援なら対象システム・対応時間帯・問い合わせの種類を限定します。週次会議の資料がいつの間にか部門別の個別報告へ増える場合、見た目が同じスライドでも必要なヒアリングと整合確認の時間は大幅に変わります。",
+            "成果物一覧には「月次サマリー1本、週次進捗表4回、各レビュー1回」のような目安を記載し、細かすぎる固定にしない場合も追加の判断基準を用意します。契約上の検収条件と、クライアントが実際に利用するための品質基準を分けておくと、修正依頼が未完成の是正なのか新規要望なのかを話し合えます。受領者と検収期限を明記して、無期限の修正待ちを防ぎます。"
+          ],
+          "en": [
+            "A deliverable named ‘project documentation’ or ‘operational support’ is not yet a clear unit of work. For a report, specify its audience, question, level of detail, version count, and review window. For operational support, specify the systems, service hours, types of requests, and escalation path. A weekly deck that gradually becomes a separate presentation for every department may look like the same deliverable while requiring many new interviews and reconciliation rounds.",
+            "Create a deliverables table with a practical baseline, such as one monthly steering summary and four weekly issue updates, each with one consolidated review. Add acceptance criteria showing what makes the original work complete. A correction required because an agreed requirement was missed is not necessarily a chargeable change; a request for a new audience, dataset, or decision purpose often is. Agree who accepts the work and by when, rather than allowing a document to stay open to indefinite revisions."
+          ]
+        },
+        {
+          "ja": [
+            "追加依頼の問題は、受けるか断るかの二択ではなく、何が増えたかを記録できないことから大きくなります。「ついでにこの部門の資料も」という依頼を受けた時点で、依頼日、依頼者、背景、見込工数、既存成果物への影響を記録します。議事録に残さない口頭依頼ほど、後から契約範囲の解釈が食い違いやすくなります。少額の変更も累積すると週次の稼働配分を変えるため、記録だけは省略しません。",
+            "変更ログは、依頼を非難するためではなく意思決定を早くする道具です。たとえば新たなデータ抽出を2時間と見積もったら、「既存の分析を翌週へずらす／対象を縮小する／追加工数を承認する」という選択肢を同時に提示します。承認者を記録し、未承認のまま作業だけが先行しないようにします。細かな善意の対応も、例外として扱った理由を残すと次回の契約更新時に実態を説明できます。"
+          ],
+          "en": [
+            "The practical problem with additional requests is often not whether to say yes or no; it is that the extra work is never recorded in a form that supports a decision. When a stakeholder asks for ‘one more departmental slide,’ log the date, requester, business purpose, estimated effort, and impact on an existing deliverable. Verbal requests that never reach a change log are especially likely to be interpreted differently during billing or renewal.",
+            "Use the log to present choices rather than to criticize a customer. If a new data extract takes an estimated two hours, offer to postpone the original analysis, reduce the scope of another output, or approve extra effort. Record who selected the option and when. Small favors may sometimes be sensible, but make them explicit exceptions instead of silently redefining the standard service. During renewal, the log shows which additions were isolated and which became a recurring part of the client’s needs."
+          ]
+        },
+        {
+          "ja": [
+            "スコープ変更の合意が取れない案件では、依頼者と費用・優先順位の決裁者が異なる場合があります。現場担当者が便利だからと依頼を増やしても、契約責任者が追加予算を認めるとは限りません。最初に、日々の作業指示を出す人、成果物を検収する人、優先順位を変える人、追加費用を承認する人を特定します。同じ人が複数を兼ねる場合も、権限を確認します。",
+            "たとえば部門長から緊急資料を依頼された時は、その部門長が契約全体の納期変更を承認できるとは限りません。「この作業を優先すると当初の成果物は翌週になります。どなたに変更を確認すべきでしょうか」と影響を具体的に伝えます。決裁者が不在なら、緊急対応に限定した暫定判断と期限を記録し、追加作業が正式な契約変更として扱われたと早合点しないことが必要です。"
+          ],
+          "en": [
+            "Scope negotiations fail when the person requesting work cannot approve a change in price, timing, or priorities. Identify at the start who directs daily tasks, who accepts deliverables, who can reorder work, and who approves additional spending. These roles may be held by one person, but that should be confirmed rather than assumed. A helpful department manager can ask for a new report without having authority to change the consulting agreement.",
+            "When an urgent request arrives, describe its consequence rather than hiding behind a contractual phrase: ‘If I prepare this analysis today, the agreed deliverable will move to next week. Who should approve that trade-off?’ If the decision owner is unavailable, record what minimal response can be provided temporarily and by when formal confirmation is needed. Avoid treating a verbal ‘please handle it’ from a busy stakeholder as evidence that the client approved new commercial terms."
+          ]
+        },
+        {
+          "ja": [
+            "契約変更の条件は、問題が起きてから作ると交渉になりがちです。成果物の対象追加、分析対象期間の延長、関係部署の増加、常駐時間の変更など、何が起きたら変更協議を始めるかを着手前に定めます。変更が必要になったときは追加費用だけでなく、納期・優先順位・人員・既存成果物への影響を一つの文書で示します。相手の承認がないまま無条件で作業を増やす運用を標準にしません。",
+            "変更提案は「現行の範囲／新しい要望／増分の成果物／見込工数／既存計画への影響／判断期限」の六欄で十分です。例えば新部署の現状分析が増えたなら、単に日額を請求するのではなく、既存の納品日を守る案と追加期間を取る案を並べます。合意が成立しなければ、契約に従って現行業務を継続するのか、正式な変更まで追加部分を保留するのかを確認します。"
+          ],
+          "en": [
+            "A change rule is most useful when it exists before anyone is under deadline pressure. Define which events trigger a scope conversation: a new business unit, an additional reporting period, an expanded user population, a change in on-site availability, or a new acceptance owner. A proposed change should include its effect on delivery dates and existing commitments, not only a revised price. Without that shared view, the customer may think an extra service has already become part of the original promise.",
+            "A concise change note can have six fields: existing scope, new request, incremental output, estimated effort, impact on the current plan, and decision deadline. For a request to assess a new department, compare a plan that keeps the original delivery date by removing another task with a plan that adds time or capacity. If agreement is not reached, use the contract’s actual terms to determine whether to continue only the original work or hold the additional portion. Do not silently perform work and negotiate its status afterwards."
+          ]
+        },
+        {
+          "ja": [
+            "会議は成果物として見えにくい一方、案件の実質単価を大きく変えます。1時間の定例会でも、事前資料、個別調整、議事録、持ち帰り課題が加われば、拘束時間は数倍になることがあります。毎週の会議を「当然のサービス」とみなさず、会議の目的、必要な参加者、自分に期待される役割、会議後の成果物を整理します。参加だけで意思決定が進まない会議は、運用の見直し対象です。",
+            "最初の二週間だけ、会議そのものと準備・後処理の時間を別々に記録します。例えば30分の進捗共有に毎回90分の資料更新が必要なら、事前の非同期更新へ切り替えられないか提案します。議事録は全発言の再現ではなく、決定事項、担当者、期限、未決論点を残す形式にします。会議の回数を減らすことが目的ではなく、合意した成果に対する時間配分を改善することが目的です。"
+          ],
+          "en": [
+            "Meetings often disappear from the rate calculation even though they can dominate the engagement. A one-hour steering meeting may require another hour of preparation, stakeholder alignment, notes, and follow-up. Define why each recurring meeting exists, who needs to attend, what the consultant is expected to decide or produce, and which action should result. A meeting that generates no decisions or clearer responsibilities deserves review before it becomes a permanent part of the weekly service.",
+            "For the first two weeks, record live meeting time separately from preparation and follow-up. If a thirty-minute status meeting requires ninety minutes of slide updates, propose an asynchronous update and reserve synchronous time for unresolved decisions. Replace transcript-style minutes with a compact record of decisions, owners, deadlines, and open issues. The goal is not simply fewer meetings; it is to spend more of the contracted effort on the outcomes that both parties actually chose to prioritize."
+          ]
+        },
+        {
+          "ja": [
+            "再契約時に役割が増えているなら、契約開始時と同じ条件で自動延長しない方がよい場合があります。前期の稼働実績、増えた成果物、顧客が本当に使った支援、不要になった定例会を棚卸しして、次期の役割を作り直します。単価だけを上げても、追加依頼に上限がなければ同じ問題が繰り返されます。一方、すべての付随作業を削ると顧客の目的達成を妨げることもあります。",
+            "更新提案には、継続する仕事、終了する仕事、新たに必要な仕事の三つを分けて書きます。例えば初期の業務可視化が終わっているなら、次期は例外監視と改善施策の効果測定に絞れるかもしれません。価格や稼働率の変更は、実際に必要な能力と対応時間を根拠に協議します。過去の無償対応を相手の落ち度として並べるより、次期の成果と判断権を具体化する方が建設的です。"
+          ],
+          "en": [
+            "A renewal should not automatically copy the initial statement of work when the assignment has changed. Review actual hours, added outputs, services the client relied on, and ceremonies that no longer serve a purpose. Raising the nominal rate without limiting recurring additions can leave the same scope problem intact. Conversely, deleting every supporting task may make the intended service impossible. Renewal is the point at which both sides can redesign the agreement around present needs rather than historical habits.",
+            "Present three categories: work to continue, work to stop, and genuinely new work. If the initial process-mapping phase has ended, the next term might focus on exception monitoring and measurement of improvement initiatives instead of repeating the original discovery workshops. Discuss price, utilization, response times, and decision authority together. Base the proposed change on recorded activities and the client’s next deliverable. The objective is an agreement that either side can explain and manage, not a retrospective argument about every small favor."
+          ]
+        },
+        {
+          "ja": [
+            "案件の表示単価だけでは、追加依頼の影響が見えません。実質時給を「対象期間に実際に受け取る報酬÷その案件に使った総時間」で計算します。分母には納品作業だけでなく、顧客連絡、会議準備、修正、契約事務、必要な移動を含めます。税・社会保険や案件の空白期間を無視した比較は、会社員の給与との単純な優劣判断には使えません。まず同じ範囲の数字を並べることが必要です。",
+            "例えば月額90万円の契約で160時間を想定していても、追加会議や調整で190時間かかれば、税や経費を引く前の単純時給は約5,625円から約4,737円へ変わります。これは実例や標準相場ではなく、工数増の影響を示す計算例です。毎月、見積工数、実績工数、未承認の増分を並べ、単価交渉だけでなく範囲変更や会議削減という選択肢を検討してください。"
+          ],
+          "en": [
+            "The headline monthly fee does not reveal the effect of extra work. Calculate an effective hourly figure as actual compensation received for the period divided by every hour attributable to the engagement: delivery, client communication, meeting preparation, revisions, contract administration, and necessary travel. Keep tax, expenses, downtime between assignments, and employment benefits visible as separate comparison items. Comparing a consulting invoice directly with an employee salary without aligning those boundaries can create a misleading impression.",
+            "Consider an illustrative monthly contract of ¥900,000 with 160 planned hours. The simple pre-tax, pre-expense rate is ¥5,625 an hour. If added meetings and coordination raise the actual time to 190 hours without changing the fee, the same calculation yields about ¥4,737 an hour. These figures illustrate arithmetic, not a market rate or an individual earnings promise. Review estimated hours, recorded hours, and unapproved additions each month. The next conversation may be about reducing meetings or redefining scope, not necessarily raising the advertised fee."
+          ]
+        }
       ]
     },
     "ai-automation-role-redesign": {
@@ -416,6 +498,88 @@
           "役割を再定義する",
           "Rewrite the role around durable value"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "自動化の対象を「職種」だけで判断すると、残すべき役割を見誤ります。同じ営業職でも、資料の下書き、見積情報の転記、顧客の利害調整、価格例外の承認は異なる作業です。まず一週間の仕事を、入力、検索・要約、判断、例外処理、対人交渉、最終承認に分け、必要な情報と失敗時の影響を記録します。AIに向くかどうかは部署名ではなく、個々の作業の条件から確認します。",
+            "棚卸し表には頻度、所要時間、情報の機密性、誤りを見つける方法を加えます。例えばFAQの一次案は試験しやすくても、個別の医療・人事判断の確定を同じ仕組みで自動化してよいとは限りません。最初の対象はルールが明確で取り消しや確認が容易な作業に限定し、誰が結果を確認するのかを決めてください。削減時間だけでなく、誤答訂正に必要な時間も記録します。"
+          ],
+          "en": [
+            "Do not treat a job title as a single unit of automation. A sales role includes drafting materials, transferring quotation data, resolving conflicting customer demands, and approving price exceptions; these tasks have different information needs and consequences when they go wrong. Map one week of work into input, retrieval and summarization, judgment, exception handling, negotiation, and final authorization. Evaluate each activity against its actual conditions rather than assuming a department can or cannot be automated as a whole.",
+            "Add frequency, time spent, confidentiality, and a practical method for detecting error to the inventory. Drafting an internal FAQ may be a reversible experiment; deciding an individualized medical or employment outcome requires a different level of accountability. Start with bounded tasks that have clear rules and a reliable review path. Assign a named person to accept or reject the output. Record time spent verifying and correcting responses alongside any time apparently saved by generating them."
+          ]
+        },
+        {
+          "ja": [
+            "AIが情報を要約できても、相反する目的のどれを優先するかは組織の責任を伴う判断です。例えば納期を守るために品質確認を短縮する案と、延期して不具合リスクを下げる案がある場合、選択の基準、承認者、顧客への説明方法を決める必要があります。自分の役割を「資料を作る人」から「比較する論点と停止条件を設計する人」へ移すなら、判断権の委任範囲も同時に確認します。",
+            "実際の案件で、AIの提案を採用しなかった例を一つ記録します。どの情報が不足し、どのリスクが許容できず、誰に判断を求めたかを整理すると、単なるプロンプト操作ではない能力を示せます。もっとも、AIを使わなかったから高付加価値というわけではありません。選択肢の質を上げ、決裁者が説明可能な形で判断できるようにしたかが重要です。"
+          ],
+          "en": [
+            "An AI system may summarize evidence without being authorized to decide which competing objective an organization should prioritize. Choosing between a faster launch with less testing and a delayed launch with a lower defect risk requires a decision criterion, an accountable approver, and a communication plan. A role built around designing those trade-offs is different from a role built around preparing the slides that describe them. Verify the scope of authority before representing yourself as the decision owner.",
+            "Keep one example in which an AI-generated recommendation was rejected or materially changed. Record what evidence was missing, which risk could not be accepted, who was consulted, and the basis of the eventual decision. This makes the contribution more specific than ‘used an AI tool to speed up analysis.’ Refusing automation is not automatically valuable either. The test is whether your work improved the quality of alternatives and allowed an authorized person to make a reasoned, reviewable decision."
+          ]
+        },
+        {
+          "ja": [
+            "通常ケースの処理速度が上がるほど、残った例外が少数でも難しい問題として集中することがあります。請求書の読取を自動化しても、取引先名称の不一致、二重請求の疑い、契約外の費用、承認者不在は別の判断が必要です。例外を単に「AIで処理できないもの」とまとめず、頻度、損失リスク、解決に必要な権限、エスカレーション先で分類します。例外の構造が見えれば、業務設計を改善する余地が生まれます。",
+            "例外ログには「発生日、検出理由、暫定処理、最終判断者、再発防止策」を残します。例えば請求先情報の不一致が同じ入力工程から繰り返されるなら、オペレーターへ毎回転送するより登録時の入力項目を改める方が有効かもしれません。ただし判断履歴には機密が含まれ得るため、利用者がアクセスできる範囲を設計してください。例外件数が減ったかは導入前後で同じ分類で比較します。"
+          ],
+          "en": [
+            "As routine cases become faster, the remaining exceptions can concentrate the most difficult work. Automating invoice extraction does not resolve an inconsistent supplier name, a suspected duplicate payment, a charge outside the contract, or an unavailable approver. Classify exceptions by frequency, potential impact, required authority, and escalation owner. ‘AI could not handle it’ is not an operational diagnosis. Understanding why a case failed is what makes the human role more valuable to process improvement.",
+            "Build an exception log containing the detection reason, temporary handling, final decision owner, and preventive action, with appropriate access controls for sensitive records. If the same supplier-matching problem keeps arising at intake, redesigning a registration field may be better than routing every occurrence to a senior operator. Compare exception rates using the same definitions before and after the change. An increase may reflect better detection rather than worse performance, so review both the count and the severity of the cases recorded."
+          ]
+        },
+        {
+          "ja": [
+            "AI導入で空いた時間を他の単純作業で埋めるだけでは、責任範囲は変わりません。成果物の受入基準、例外時の承認ルート、導入後の効果測定など、自分が継続して担える判断を明確にします。ただし責任だけが増え、予算・人員・運用ルールを変える権限がなければ、問題発生時の負担を一方的に背負う可能性があります。新しい役割は権限と責任を対で設計すべきです。",
+            "上長との役割整理では「AI出力の品質監査を担う場合、どの基準で差し戻せるか」「重大な例外を誰にエスカレーションするか」「改善提案をどの会議で承認するか」を確認します。新しい責任を職務経歴書へ書く際も、担当を始めた事実と成果が出た事実を混同しません。まず担当境界と測定方法を合意し、その後に実績として説明できるものを増やします。"
+          ],
+          "en": [
+            "Time released by automation is not automatically converted into greater responsibility. Identify a new outcome that the role can own: acceptance criteria for generated work, the route for escalating exceptional cases, or measurement of the process after deployment. Responsibility without authority to change budgets, staffing, or operating rules can instead leave a worker accountable for risks they cannot manage. Redesign both the decision rights and the accountability boundary.",
+            "In a role discussion, ask what gives you permission to reject an AI-generated output, who handles a high-impact exception, and which forum approves a process change. Set the acceptance standard before making an individual responsible for meeting it. On the resume, distinguish being assigned quality monitoring from showing that monitoring reduced a measured risk. New accountability is worth recording, but an unmeasured result should not be presented as a proven improvement."
+          ]
+        },
+        {
+          "ja": [
+            "「AIを導入した」だけでは成果の説明になりません。導入前の処理手順、対象件数、手作業時間、誤りの発見方法を記録し、試験範囲と停止条件を決めます。例えばFAQの初稿作成を支援したなら、作成時間の減少だけでなく、レビュー後の修正率や根拠リンクの正確性を確認します。試験対象の条件が異なるまま導入前後を比較すると、ツールの効果を過大評価する可能性があります。",
+            "説明できる実績は「どの課題に、どのような制限付きの方法を使い、どんな指標で、どの期間確認したか」です。初稿作成を10分から4分に短縮できても、確認に追加で8分かかれば総工数は増えています。効果がない場合はモデルの精度だけを疑わず、入力情報、レビュー工程、対象業務の選択を見直します。導入をやめる判断も、根拠とともに残せば再利用できる実務知識です。"
+          ],
+          "en": [
+            "‘Implemented AI’ is a tool description, not an outcome. Record the previous workflow, sample size, manual processing time, error-detection method, pilot boundary, and stop condition. For an internal FAQ drafting assistant, measure the time to create a first draft together with corrections after review and accuracy of source links. A before-and-after comparison made on different question types can misstate the benefit even if the output appears faster.",
+            "A portable case study explains the problem, bounded intervention, measurement method, review period, and result. If drafting falls from ten minutes to four but verification adds eight minutes, total work has increased. When a pilot does not deliver the expected benefit, investigate the input data, review design, and choice of task instead of asserting that the model alone was defective. Record a decision not to deploy and its evidence when appropriate. A disciplined negative result can improve the next automation project."
+          ]
+        },
+        {
+          "ja": [
+            "生成物の品質を「もっともらしい文章か」で評価しないことが基本です。必要な情報が欠けていないか、引用元が実在するか、顧客へ出してよい表現か、誤りを誰が訂正するかを業務別に定めます。社内メモの要約と、外部に出す医療・法務・人事関連の判断では、必要な確認水準が違います。品質確認を担当するなら、チェック結果を記録して問題の種類を分析できる仕組みが必要です。",
+            "具体的には、サンプルから入力例を集め、正解条件と不合格条件をあらかじめ定義します。数字の転記誤り、情報の欠落、誤った参照、機密漏えいの可能性などを別々に数え、同じ原因の再発を追います。自動チェックが通っても、人の判断が必要なケースは残ります。どの基準で運用を停止できるか、復旧後に誰が承認するかも品質管理者の役割に含めて設計します。"
+          ],
+          "en": [
+            "Output quality should not be judged by whether a paragraph sounds confident. For each workflow, define required information, valid evidence sources, prohibited disclosures, and the person responsible for corrections. An internal meeting summary and a customer-facing decision about health, employment, or legal rights require different review procedures. If your new role is quality owner, make the results of those reviews observable so that errors can be classified and corrected systematically.",
+            "Collect representative input examples and define passing and failing outcomes before rollout. Track transcription mistakes, omitted facts, incorrect references, and possible data disclosure as separate error types. Monitor whether the same root cause recurs, not just the total number of generated responses. Automated checks can reduce routine review work but do not remove the need for qualified human judgment in sensitive cases. State who can suspend the workflow after a serious failure and who approves restarting it; a quality title without that operational authority is incomplete."
+          ]
+        },
+        {
+          "ja": [
+            "既存の作業をAIへ渡して終わりにせず、入力から最終確認までの流れを再設計します。例えば社内問い合わせ対応では、質問を分類し、参照する正本を指定し、低リスクな回答案だけを生成し、権限が必要なケースは担当部署へ送ります。単に回答文章を速く作っても、承認待ちや誤った問い合わせ先が残れば、顧客や社員が感じる遅さは改善しません。処理全体のボトルネックを測る視点が必要です。",
+            "新しい業務図には「人が判断する節点」「誤りを検出する節点」「データが外部へ出る節点」を明示します。ツールの速度だけでなく、問い合わせから解決までの総時間、差戻しの割合、担当部署への誤送を導入前後で比較します。改善案が実行されなければ理由を記録し、部署横断で必要な合意を整理します。プロンプト作成の経験を、運用を変えた実績へつなげるための工程です。"
+          ],
+          "en": [
+            "Automation should trigger redesign of the whole workflow, not merely replace a person who used to type the first draft. In an internal help desk, classify requests, identify an authoritative knowledge source, generate drafts only for low-risk categories, and route requests requiring permissions to the responsible team. Faster drafting does not improve the employee’s experience if approval queues and misrouted tickets remain unchanged. Measure the time from request to resolution rather than celebrating the speed of one intermediate activity.",
+            "In a redesigned process map, identify where a person exercises judgment, where errors are detected, and where information may leave the organization. Compare end-to-end resolution time, rework, and incorrect routing before and after the change. When a proposed improvement is rejected, record the constraints and decisions that prevented adoption. Cross-functional alignment can be as important as writing a prompt. The valuable evidence is that the operating system changed in a controlled way, not simply that an AI feature was installed."
+          ]
+        },
+        {
+          "ja": [
+            "将来の役割を「AIを使える人」とだけ定義すると、道具が普及するたびに説明が弱くなります。担当する業務成果、扱う例外、守る品質基準、判断できる範囲を中心に職務を再記述してください。たとえば「月次報告を作成する担当」から「報告データの品質を管理し、経営判断に必要な例外を抽出する担当」へ変えるなら、成果物も責任者も異なります。自分が実際に引き受けていない権限を加えないことが前提です。",
+            "30日間の役割再定義では、最初の週に業務を棚卸しし、次に低リスクな一工程を試し、第三週に品質と総工数を比較し、最後に上長と役割境界を合意します。転職活動ではツール名よりも「何を自動化し、どの例外と品質を自分が管理し、結果をどう測定したか」を話せるようにします。市場価値が必ず上がると保証せず、狙う求人や顧客が実際に求める責任との適合を検証します。"
+          ],
+          "en": [
+            "Defining yourself only as ‘someone who can use AI’ becomes less informative as tools become widely available. Rewrite the role around the business outcome you support, the exceptions you manage, the quality standard you enforce, and the decisions you are actually authorized to make. Moving from ‘prepare the monthly report’ to ‘own reporting-data quality and surface exceptions requiring executive action’ changes both the output and the accountability. Do not add decision rights you have not been granted.",
+            "A practical thirty-day redesign starts by inventorying work in week one, piloting a low-risk step in week two, comparing end-to-end time and quality in week three, and agreeing a revised role boundary with the responsible manager in week four. In a job interview, describe what was automated, which risks and exceptions remained yours, and how the result was evaluated. Do not assume that learning a particular tool guarantees greater pay. Check whether the new responsibility matches what actual target roles and clients request."
+          ]
+        }
       ]
     },
     "career-market-test-30-days": {
