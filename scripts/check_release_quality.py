@@ -68,7 +68,7 @@ def repetition_errors(parsed, core_indexes, locale, aid):
                      else re.split(r"(?<=[.!?])\s+", text))
         for sentence in sentences:
             sentence = re.sub(r"\s+", " ", sentence).strip().lower()
-            if len(sentence) >= (70 if locale == "ja" else 110):
+            if len(sentence) >= (55 if locale == "ja" else 110):
                 by_sentence.setdefault(sentence, set()).add(section)
     counts = sorted(((len(sections), sentence) for sentence, sections in by_sentence.items()
                      if len(sections) >= 3), reverse=True)
