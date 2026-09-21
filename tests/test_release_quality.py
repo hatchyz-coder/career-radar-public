@@ -21,7 +21,7 @@ class QualityGateTests(unittest.TestCase):
         return parser
 
     def test_repeated_japanese_sentence_in_three_sections_is_rejected(self):
-        sentence = "この論点では実際の判断と担当範囲を記録して、再現可能な成果と自分の寄与を丁寧に切り分ける必要があります。" * 2
+        sentence = "守秘義務がある場合は固有名詞や機密数値を伏せ、課題の構造、自分の判断、トレードオフ、結果を中心に表現すれば、機密を守りながら実績を伝えられます。"
         sections = [sentence + f"固有の内容{i}。" for i in range(8)]
         issues = gate.repetition_errors(self.parse_sections(sections), set(range(8)), "ja", "fixture")
         self.assertTrue(issues, "repeated filler must fail")
