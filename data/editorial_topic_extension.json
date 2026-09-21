@@ -19,84 +19,644 @@
       "en": "How to Reset and Raise Market Value in Your 40s",
       "ja_intro": "40代のキャリアは、経験年数を増やすより、持ち運べる実績と希少性を再構成する方が重要です。",
       "en_intro": "In your 40s, market value depends less on adding years and more on reorganizing portable evidence, scarcity, and decision ownership.",
-      "sections": [["社内評価と市場評価を分ける","Separate internal value from market value"],["成果を数字で残す","Capture outcomes with measurable evidence"],["意思決定範囲を見る","Map decision scope"],["業界知識を掛け合わせる","Combine domain depth with transferable skills"],["古い強みを捨てる","Retire obsolete strengths"],["新しい市場で試す","Test value in adjacent markets"],["第三者評価を増やす","Add external validation"],["90日で再設計する","Reset the portfolio every 90 days"]]
+      "sections": [
+        [
+          "社内評価と市場評価を分ける",
+          "Separate internal value from market value"
+        ],
+        [
+          "成果を数字で残す",
+          "Capture outcomes with measurable evidence"
+        ],
+        [
+          "意思決定範囲を見る",
+          "Map decision scope"
+        ],
+        [
+          "業界知識を掛け合わせる",
+          "Combine domain depth with transferable skills"
+        ],
+        [
+          "古い強みを捨てる",
+          "Retire obsolete strengths"
+        ],
+        [
+          "新しい市場で試す",
+          "Test value in adjacent markets"
+        ],
+        [
+          "第三者評価を増やす",
+          "Add external validation"
+        ],
+        [
+          "90日で再設計する",
+          "Reset the portfolio every 90 days"
+        ]
+      ]
     },
     "pmo-rate-negotiation-evidence": {
       "ja": "PMOの単価を上げるために必要な実績の見せ方",
       "en": "Evidence That Helps PMOs Negotiate Higher Rates",
       "ja_intro": "PMOの単価交渉では、経験年数より、意思決定・リスク低減・停滞解消をどう証明するかが重要です。",
       "en_intro": "PMO rate negotiation is stronger when evidence shows decisions accelerated, risks reduced, and stalled work unblocked rather than years served.",
-      "sections": [["会議数ではなく決定数を見る","Measure decisions, not meetings"],["課題解消を証拠化する","Evidence issue resolution"],["経営報告の質を示す","Show executive-reporting quality"],["リスク低減を数字にする","Quantify risk reduction"],["部門横断の難易度を示す","Show cross-functional complexity"],["炎上対応を構造化する","Frame recovery work"],["役割境界を明確にする","Clarify scope ownership"],["単価交渉材料へ変換する","Convert evidence into rate arguments"]]
+      "sections": [
+        [
+          "会議数ではなく決定数を見る",
+          "Measure decisions, not meetings"
+        ],
+        [
+          "課題解消を証拠化する",
+          "Evidence issue resolution"
+        ],
+        [
+          "経営報告の質を示す",
+          "Show executive-reporting quality"
+        ],
+        [
+          "リスク低減を数字にする",
+          "Quantify risk reduction"
+        ],
+        [
+          "部門横断の難易度を示す",
+          "Show cross-functional complexity"
+        ],
+        [
+          "炎上対応を構造化する",
+          "Frame recovery work"
+        ],
+        [
+          "役割境界を明確にする",
+          "Clarify scope ownership"
+        ],
+        [
+          "単価交渉材料へ変換する",
+          "Convert evidence into rate arguments"
+        ]
+      ]
     },
     "resume-achievement-evidence": {
       "ja": "職務経歴書の『担当しました』を市場価値に変える書き換え方",
       "en": "Turn Resume Responsibilities into Marketable Achievement Evidence",
       "ja_intro": "職務経歴書で評価されるのは担当業務の列挙ではなく、何を変え、何を決め、どこまで責任を持ったかです。",
       "en_intro": "A strong resume does not list responsibilities. It shows what changed, what you decided, and how far your accountability extended.",
-      "sections": [["担当業務を分解する","Decompose responsibilities"],["変化を一文にする","State the change in one sentence"],["自分の寄与を切り出す","Isolate your contribution"],["数字の代替指標を探す","Find proxy metrics"],["複雑性を書く","Describe complexity"],["判断を残す","Capture decision ownership"],["守秘義務と両立する","Preserve confidentiality"],["役割別に並べ替える","Reorder evidence by target role"]]
+      "sections": [
+        [
+          "担当業務を分解する",
+          "Decompose responsibilities"
+        ],
+        [
+          "変化を一文にする",
+          "State the change in one sentence"
+        ],
+        [
+          "自分の寄与を切り出す",
+          "Isolate your contribution"
+        ],
+        [
+          "数字の代替指標を探す",
+          "Find proxy metrics"
+        ],
+        [
+          "複雑性を書く",
+          "Describe complexity"
+        ],
+        [
+          "判断を残す",
+          "Capture decision ownership"
+        ],
+        [
+          "守秘義務と両立する",
+          "Preserve confidentiality"
+        ],
+        [
+          "役割別に並べ替える",
+          "Reorder evidence by target role"
+        ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "「要件定義を担当」「システム導入を支援」のような業務名だけでは、どの範囲を任されたのかが伝わりません。案件を、着手前の問題、選択肢の比較、自分が決めた事項、実施内容、確認できた結果に分けてください。例えば受発注業務の改善なら、入力担当だったのか、例外処理のルールを決めたのか、部門間の合意を取り付けたのかで示す能力が違います。",
+            "実際の書き換えでは、まず職務経歴書の箇条書き一件に対して「自分がいなければ誰が何を判断したか」と問い直します。会議への参加を決裁権と混同せず、提案・承認・実行のどこを担ったかを動詞で記録します。人名や社名を伏せても、対象業務、関係部署、依頼された範囲は記述できます。採用側が確認したくなる担当境界を一文目に置くのが出発点です。"
+          ],
+          "en": [
+            "A responsibility label such as ‘supported implementation’ hides the work a hiring manager needs to evaluate. Separate the assignment into its initial problem, competing options, decisions you owned, execution, and observable outcome. In an order-processing improvement project, entering data, choosing how exceptions are handled, and negotiating a rule across departments are different contributions. Treat them as different claims rather than folding them into one impressive-sounding project name. The purpose is to make the actual boundary of your role visible to someone who did not attend the project meetings.",
+            "Take one existing resume bullet and ask what another person would have had to decide if you had been absent. Mark each action as proposed, approved, executed, or measured. Attendance at a steering meeting does not establish decision authority; approval records or a documented recommendation may establish your part more clearly. You can omit company names while retaining the workflow, number of participating teams where disclosable, and scope of the assignment. Put the role boundary before the list of tools: a reader should know what you personally did before learning which software was used."
+          ]
+        },
+        {
+          "ja": [
+            "「効率化した」を「何が、いつから、どの条件で変わったか」に直します。たとえば月末処理の遅延が常態化していた部署で、例外の受付時刻を決め、引継ぎ表を統一した結果、締め後の差戻しが減ったのであれば、対策と観測結果を一文でつなぎます。改善前後の実測がなければ「削減率」を創作せず、処理手順の統一や責任者の明確化という検証可能な変化を書くべきです。",
+            "書き換えの型は「対象の問題→自分の対応→確認した変化→測定条件」です。「遅延を改善」は結果が不明、「納期を50％短縮」は測定根拠が不明なら避けます。例えば「月次決算の差戻し原因を分類し、部門横断のチェック表を導入。導入後3回の締めで差戻し件数を記録」とすると、効果がまだ確定していない場合も調査設計まで含めて説明できます。"
+          ],
+          "en": [
+            "Replace ‘improved efficiency’ with a statement of what changed, when, and under which conditions. Suppose month-end processing was repeatedly delayed and you introduced a cut-off time for exceptions and a common handover sheet. The defensible claim is the specific intervention and what was observed afterwards, not an invented percentage of time saved. If before-and-after measurements do not exist, describe the verified process change, such as one agreed exception route or an assigned owner, and state that the impact was not quantified.",
+            "Draft a bullet in four parts: initial problem, your intervention, observed change, and measurement boundary. ‘Reduced delays’ leaves the comparison unclear; ‘cut processing time by 50 percent’ is worse if no reliable baseline was captured. A more careful example is: ‘Classified return causes in month-end close, introduced a cross-functional checklist, and tracked returns for three subsequent closing cycles.’ You can later add the measured result if the underlying log survives review. Keep a separate note showing the dates and source of every number you choose to publish."
+          ]
+        },
+        {
+          "ja": [
+            "大きなプロジェクトの成果を、そのまま個人の成果として書かないことが重要です。全社売上が伸びた案件で自分が担当したのが顧客データの統合作業なら、売上増を「自分が達成」とは記さず、どの判断材料を整備し、誰の意思決定を可能にしたかに分解します。チームの成果と自分の寄与を二段階で書けば、過小評価を避けながら誇張も防げます。",
+            "面談で「それはあなた以外でもできたのでは」と聞かれたら、担当範囲の説明だけでなく、代替案を比較した根拠を示します。たとえばデータ移行の順序を決めたなら、停止許容時間、現場の入力負荷、欠損値の扱いをどう比べたかを話します。成功した結果だけでなく、他部署が決めた事項と自身が関与しなかった事項も明確にすると証言の信頼性が増します。"
+          ],
+          "en": [
+            "Do not attribute the outcome of a large team or entire company to yourself. If revenue rose during an enterprise transformation but your contribution was consolidating customer records, name the records you reconciled, the decisions they supported, and who made the commercial decisions. A two-level description works better: first state the team-level outcome with a clear attribution, then identify your own contribution. This avoids both inflating your role and hiding meaningful work because the ultimate financial result belonged to another function.",
+            "Prepare for the question, ‘What did you do that would not otherwise have happened?’ If you chose a data-migration sequence, explain the trade-off among acceptable downtime, field-level missing data, and the workload imposed on frontline staff. Point to a design note, issue log, or signed-off option analysis where available. Say which decisions were made by the sponsor or another team and which you influenced but did not own. That boundary makes the story more credible than a generic claim that you led the whole transformation."
+          ]
+        },
+        {
+          "ja": [
+            "売上や削減時間を公表できない案件でも、成果の検証を諦める必要はありません。承認待ちの案件数、手戻りの発生箇所、問い合わせの分類数、月次締めに必要な確認工程など、業務の仕組みを示す代替指標を探します。ただし「資料を10本作成」は活動量であり、「差戻し理由が特定できるようになった」は業務上の変化です。活動量を成果と呼ばない区別が必要です。",
+            "代替指標は対象期間と測定方法を添えて使います。例えば「問い合わせを減らした」ではなく、「受付票の分類欄を統一し、翌月から問い合わせ内容を部署別に集計可能にした」と書けば、まだ問い合わせ件数が減っていなくても成果を正確に表せます。面談で数字の公開可否を聞かれた場合は、守秘義務に抵触しない範囲の割合や仕組みの改善を選び、未測定の効果は推測として分けてください。"
+          ],
+          "en": [
+            "When revenue and savings are confidential, look for a proxy that describes a verifiable operational change. Candidate measures include unresolved approval requests, categories of customer queries, places where work was returned for correction, or checkpoints required for closing. The number of slides produced is an activity count, not evidence that the work improved. A better claim describes a new capability, such as making return reasons traceable by department, and explains who used the information.",
+            "Give each proxy a time window, denominator, and collection method. Instead of claiming that you reduced incoming queries without an actual count, write that you standardized intake categories and enabled a monthly breakdown by service team. You can then separate the implementation result from a later outcome that someone may measure. If asked to disclose restricted figures in an interview, provide an approved range or describe the mechanism without revealing client data. An unmeasured improvement should remain a hypothesis, even when the proposed process looks sensible."
+          ]
+        },
+        {
+          "ja": [
+            "難しい案件を「大規模だった」とだけ書いても、評価軸にはなりません。複雑性を生んだ条件を分解します。例えば拠点ごとに業務ルールが異なり、停止できない基幹システムを切り替えた案件なら、例外ルールの数、承認者の多さ、移行可能な時間帯、利用者への影響といった制約が重要です。同じ予算規模でも、調整対象と失敗時の影響が違えば必要な能力は変わります。",
+            "職務経歴書には、複雑性を二つか三つに絞って示します。「複数部署を調整」より「物流・営業・経理で異なる締め時刻を確認し、どの部門の運用も止めない共通期限を合意」と書く方が、具体的な判断が伝わります。誇張された人数や予算を足すより、制約下で選んだ代替案と、採用しなかった案の理由を一つ残してください。"
+          ],
+          "en": [
+            "‘Large and complex project’ is too vague to be assessed. Describe the conditions that made delivery difficult: different processes across sites, a core system that could not be taken offline, many approval owners, a narrow migration window, or a failure that would affect customer service. Projects with the same budget can require very different judgment if their operational constraints and the consequences of error differ. Complexity is evidence only when the reader understands what you had to reconcile.",
+            "Choose two or three constraints for the resume rather than supplying an inflated list of stakeholders. ‘Coordinated multiple departments’ becomes more informative when you explain that sales, logistics, and finance used different closing cut-offs and you negotiated one deadline that avoided interruption to each process. In the interview, describe one alternative that was rejected and the criterion used to reject it. The point is not to imply that difficult conditions guarantee excellence; it is to show how you reasoned within them."
+          ]
+        },
+        {
+          "ja": [
+            "「方針を決めた」という一文は、誰から委任され、何を決められたのかが分からないと曖昧です。優先順位の提案と最終決裁は分け、予算・人員・納期・品質基準のうち自分が変更できた範囲を書きます。例えば新機能の導入順を判断した場合、顧客影響と技術負債を比較したのは自分でも、予算承認は経営会議だったかもしれません。この違いを正確に残します。",
+            "決定の証拠には、会議録の結論欄、承認済みの選択肢表、変更履歴、ステークホルダーへの合意メールなどを使えます。社外開示できない場合は、証拠そのものを持ち出さず、公開可能な抽象度で決定構造を説明します。「案を提出した」「判断基準を設計した」「最終承認を得た」のどこに責任があったかを職務経歴書と面談で一致させてください。"
+          ],
+          "en": [
+            "A claim that you ‘set the direction’ needs a decision boundary. Separate recommending priorities from authorizing the final plan, and state which levers you could change: budget, staffing, schedule, service level, or acceptance criteria. You may have evaluated customer impact and technical debt when sequencing a release while the investment committee retained budget authority. This distinction does not diminish your contribution; it allows the reader to understand the judgment you actually exercised.",
+            "Look for a decision record, approved options table, change log, or meeting minutes identifying the recommendation and the approver. If those records cannot leave the employer, do not remove or forward them for an interview. Instead, describe the decision structure at an approved level of abstraction and explain what you would do differently with another set of constraints. Keep the verbs in the resume consistent with the evidence: ‘proposed,’ ‘defined criteria,’ ‘recommended,’ and ‘approved’ are not interchangeable."
+          ]
+        },
+        {
+          "ja": [
+            "実績の証拠を残すことと、顧客の機密を持ち出すことは違います。社外秘の成果報告書や個人情報入りの画面を私物端末へ保存するのではなく、就業規則・契約上の守秘義務・公開可能範囲を確認してください。そのうえで、顧客が特定されない業務構造、課題の種類、自分の担当境界、一般化した対策を書きます。匿名化しても案件の組み合わせから特定される場合があります。",
+            "たとえば「大手A社の売上を何％改善」と書けない場合、「複数拠点の受注照合ルールを統一するプロジェクトで、例外処理手順の設計を担当」とする方法があります。公開可能な資格・登壇・一般公開資料は別途リンクを添えます。機密に当たるか判断できない情報は、本人の推測で公開せず、必要に応じて組織の所定の承認手続きで確認してください。"
+          ],
+          "en": [
+            "Evidence of work is not permission to remove confidential work products. Do not copy internal dashboards, customer files, sensitive screenshots, or protected presentation decks to a personal device merely to strengthen a portfolio. Review the confidentiality obligations in your contract and employer policies. Then describe the type of business problem, your role boundary, and an appropriately generalized intervention. Even a case with names removed can be identifiable through its combination of dates, industry, and project characteristics.",
+            "If you cannot disclose a customer or a commercial result, a careful alternative is: ‘Designed exception-handling rules for the reconciliation process in a multi-site order management project.’ Publicly released credentials, talks, or genuinely open-source artifacts can be linked separately. Do not claim that a percentage is safe simply because the company name is hidden. When the disclosure boundary is uncertain, use the organization’s approval process rather than deciding privately that anonymization is sufficient. The resume should show judgment without creating a new information-security risk."
+          ]
+        },
+        {
+          "ja": [
+            "同じ職歴でも、応募先によって先頭に置く証拠は変わります。業務改善職なら改善前後の業務構造と再発防止、PM職なら意思決定とリスク管理、事業企画職なら選択肢比較と経営判断への貢献を先に示します。求人票にある職務名だけをなぞるのではなく、その職務で最初の90日に解くと期待される問題を読み取り、関連する実績を対応づけてください。",
+            "職務経歴書の原本は一つ保ち、応募先ごとに冒頭3件を並べ替えます。例えば同じ業務移行案件でも「部門別の差戻し削減に向けた手順設計」と「切替日の判断基準と停止条件の管理」は異なる訴求です。順序を変えても、数字・担当範囲・日付・承認者を改変してはいけません。応募後は、どの証拠に質問が集まったかを記録し、次の版の順序を検証してください。"
+          ],
+          "en": [
+            "The same work history should not lead with the same evidence for every role. An operations-improvement vacancy may value the before-and-after workflow and recurrence controls; a project-management vacancy may prioritize decision gates and risk ownership; a strategy role may want evidence of option analysis and recommendations to executives. Read the role description for the problem the successful candidate will be expected to solve in the first ninety days, then select evidence that matches that problem.",
+            "Keep a single factual master resume and reorder the first three examples for each application. An order-system migration can support a process-design story about reducing returns or a program-delivery story about cutover criteria and stop conditions. Changing emphasis must not change the underlying dates, measurement boundaries, decision owners, or actual authority. After an interview, note which evidence prompted detailed questions and which was ignored. Use that feedback to improve the order of future versions, not to invent a different contribution."
+          ]
+        }
+      ]
     },
     "side-job-career-capital": {
       "ja": "副業を小遣いではなくCareer Capitalに変える設計",
       "en": "Design Side Work to Build Career Capital, Not Just Extra Income",
       "ja_intro": "副業は収入だけでなく、本業では取れない責任・顧客接点・実績を作るために使えます。",
       "en_intro": "Side work can create decision scope, client exposure, and proof that your main job may not provide.",
-      "sections": [["目的を収入だけにしない","Define goals beyond income"],["本業で足りない経験を補う","Fill missing experience"],["小さく責任を持つ","Own a small outcome"],["顧客の反応を残す","Capture client feedback"],["成果物を再利用する","Reuse artifacts"],["時間上限を置く","Set time boundaries"],["競業リスクを避ける","Avoid conflicts"],["次の仕事へ接続する","Connect side work to the next role"]]
+      "sections": [
+        [
+          "目的を収入だけにしない",
+          "Define goals beyond income"
+        ],
+        [
+          "本業で足りない経験を補う",
+          "Fill missing experience"
+        ],
+        [
+          "小さく責任を持つ",
+          "Own a small outcome"
+        ],
+        [
+          "顧客の反応を残す",
+          "Capture client feedback"
+        ],
+        [
+          "成果物を再利用する",
+          "Reuse artifacts"
+        ],
+        [
+          "時間上限を置く",
+          "Set time boundaries"
+        ],
+        [
+          "競業リスクを避ける",
+          "Avoid conflicts"
+        ],
+        [
+          "次の仕事へ接続する",
+          "Connect side work to the next role"
+        ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "副業の目的を「月いくら増やすか」だけにすると、時間を切り売りする案件を選びやすくなります。先に、収入、取得したい意思決定経験、顧客接点、公開できる実績の四つを分けて優先順位を決めます。高報酬でも本業の延長作業だけなら、次の職種へ移るための証拠が増えない場合があります。一方、小規模でも要件整理から納品評価まで一貫して担える案件は、役割を広げる材料になります。",
+            "案件を受ける前に「終了後に、どの成果を誰へ示せるか」を具体的に書いてください。例えば月2回の分析支援なら、売上への貢献を約束する代わりに、毎回の問い、改善提案、採否の理由を合意済みの範囲で残せるか確認します。収入と学習のどちらを優先するかは生活条件で変わりますが、どちらの場合も作業時間と引き換えに残るものを事前に把握できます。"
+          ],
+          "en": [
+            "Side work is easy to evaluate only by monthly income, yet the highest immediate rate may purchase exactly the routine execution you already perform in your main job. Define separate goals for cash income, decision-making experience, direct exposure to customers, and evidence you can legitimately show to future employers or clients. A small assignment that gives you responsibility from scoping through acceptance may build an option that repetitive subcontracting does not. The useful comparison is what remains after the hours have been worked, not merely the invoice total.",
+            "Before accepting a project, write down what you will be able to demonstrate after delivery and who may verify it. For a twice-monthly analytics assignment, ask whether you can retain an approved description of the initial business question, your recommendation, the customer’s decision, and subsequent evaluation. Do not guarantee revenue growth that you cannot control. Income versus learning is a personal trade-off that changes with household needs, but you can still make the time cost, confidentiality boundary, and evidence value explicit before signing."
+          ]
+        },
+        {
+          "ja": [
+            "本業で不足している経験を、まず役割として特定します。たとえば社内のPMOで進捗集計を担当しているなら、社外では顧客への課題ヒアリングや契約範囲の設定を経験したいのかもしれません。「マーケティングを学ぶ」のように分野だけを選ぶと、結局は同じ集計作業を引き受ける可能性があります。どの判断を自分で行うかが、副業を学習機会に変える要点です。",
+            "不足している経験を三つ挙げ、それぞれを小さな成果物に変えます。顧客発見ならインタビュー記録と仮説の変更、価格設定なら提案した料金体系と採否、運用設計なら例外時の対応表です。最初の案件で全部を得ようとせず、一案件一つの経験を選びます。契約上の裁量を持てない仕事なら、その制約を把握したうえで次の案件候補を探します。"
+          ],
+          "en": [
+            "Identify the missing experience as a responsibility rather than a fashionable skill category. If your day job in a PMO consists mainly of collecting status updates, you might seek a side engagement where you interview a customer, define scope, or negotiate the acceptance criteria. An assignment labelled ‘marketing’ could still be routine reporting with no new decision rights. What matters is which choice you are authorized to make and whether another person will evaluate its result.",
+            "List three experience gaps and turn each into a small deliverable. Customer discovery could produce a hypothesis log showing how an interview changed your proposed solution. Pricing practice could produce a documented price option and the client’s acceptance or rejection. Operations design could produce an exception-handling table accepted by the user team. Choose one gap for the first engagement instead of promising to acquire all three. If the contract grants no relevant discretion, record that fact rather than pretending that performing tasks under supervision created ownership."
+          ]
+        },
+        {
+          "ja": [
+            "小さな副業でも、責任範囲を「作業を終える」から「合意した状態を実現する」へ一段広げられます。例えばWebサイトの更新担当なら、ページ公開だけでなく、更新ミスのチェック手順を作り、担当者が再現できる形で引き渡す範囲を提案できます。ただし、顧客の売上や流入数など自分が制御できない指標を無条件で請け負わないことが前提です。",
+            "着手前に、納品物、検収者、検収方法、変更依頼の窓口を短い文書で確定します。「問い合わせが増えたら成功」だけでなく、計測設定が正常か、フォームが動作するか、保守担当が手順を理解したかなどを分けます。成功と失敗の境界が明確なら、小さい案件からでも説明可能な実績を残せます。小さく責任を持つことは、無制限の責任を引き受けることではありません。"
+          ],
+          "en": [
+            "A small assignment can build ownership when the obligation moves from ‘complete a task’ to ‘deliver an agreed operating state.’ A website update contractor might propose not only publishing new pages but also creating a repeatable release checklist and handing it to the client’s administrator. Do not, however, accept open-ended responsibility for sales or traffic that depend on advertising budgets, customer demand, and decisions outside your control. Ownership needs a defined boundary, not heroic promises.",
+            "Agree in writing on the deliverable, acceptance owner, test method, and channel for changes before work starts. Separate technical acceptance, such as a functioning form and a working analytics event, from commercial performance, such as the number of inquiries. Record whether the client could repeat the process after handover. This makes a modest engagement a useful case study without pretending it was an executive transformation. Learning to say where your responsibility ends is itself part of the experience."
+          ]
+        },
+        {
+          "ja": [
+            "顧客の「よかった」という感想だけでは、どの価値を提供したのかを他者が判断しにくくなります。納品後に、期待していたこと、実際に役立った箇所、使いにくかった点、次回も依頼する条件を短く確認します。好意的なコメントだけを抜き出すと、改善の材料を失います。顧客が一度も成果物を使っていない場合は、満足度より利用開始の障害を調べる方が重要です。",
+            "フィードバックは、顧客が書いた言葉と自分の解釈を分けて保存します。公開の推薦文として使う際は事前に掲載許可を取り、匿名でも特定可能性がないか確認します。たとえば「報告書が分かりやすい」は印象ですが、「意思決定会議で比較表を使った」は利用事実です。両者を混同せず、次の提案書には確認できた使われ方と改善点を反映します。"
+          ],
+          "en": [
+            "A glowing comment from a client is useful but does not explain what was valuable. After delivery, ask what the client expected, which part was used, where the work was confusing, and under what conditions they would commission a similar task again. Include negative and ambiguous responses in the private learning log. If a client has not adopted the deliverable at all, investigating the adoption barrier is more useful than collecting a satisfaction score.",
+            "Store the client’s actual words separately from your interpretation. Get permission before turning a comment into a public testimonial, and consider whether an anonymous quotation could still identify the customer. ‘The report was clear’ is an impression; ‘the team used the options table at its planning meeting’ is a specific usage observation. Neither proves that revenue increased. Use the difference between what the client liked and what they actually used to improve the next deliverable and to describe your contribution accurately."
+          ]
+        },
+        {
+          "ja": [
+            "副業で毎回同じ説明資料をゼロから作ると、収益性も学習速度も上がりません。繰り返し現れる課題だけを一般化して、質問票、意思決定表、チェックリストなどに変換します。一方、顧客の固有データ、社内資料、契約上帰属が決まっている成果物を無断でテンプレート化してはいけません。再利用できるのは自分が権利を持ち、機密を含まない方法論です。",
+            "例えば小規模事業者の予約改善支援なら、共通化するのは「予約経路→離脱地点→改善仮説→確認方法」の検討手順であって、前の顧客の利用者名簿ではありません。案件終了時に、顧客へ引き渡す成果物と自分が持ち帰れる汎用ノウハウを分けて確認します。再利用した結果、次の案件で準備時間がどれほど減ったかも記録すれば、方法論の価値を測れます。"
+          ],
+          "en": [
+            "Starting every side engagement from a blank page makes it harder to improve either quality or effective earnings. Turn recurring problems into methods you have the right to reuse: an intake questionnaire, options matrix, quality checklist, or project closeout guide. Never copy a customer’s data, internal documents, or contracted intellectual property into your own template library. What can travel across clients is your independently developed, nonconfidential way of approaching a problem.",
+            "For example, a booking-process improvement project might yield a reusable sequence: map booking channels, locate abandonment points, draft a testable intervention, and agree how to measure its effect. It must not yield a personal copy of the previous client’s patient or customer list. At closeout, clarify which artifacts belong to the client and which generic techniques you retain. On the next engagement, record whether the reusable method shortened preparation time without reducing the care required for the new client’s circumstances."
+          ]
+        },
+        {
+          "ja": [
+            "本業と副業の稼働時間を足して予定を埋め切ると、学習や営業の余力が消えます。まず本業の繁忙期、家族の予定、休息を固定し、その後に副業の実稼働と連絡対応の上限を決めます。請求できる制作時間だけでなく、見積もり、打ち合わせ、修正、請求処理に使う時間も含めて考えます。月額報酬を想定稼働時間で割るだけでは、持続可能性を見誤ります。",
+            "例えば週6時間を上限とする場合、作業4時間、顧客連絡1時間、見積もり・振り返り1時間と仮置きし、実績を二週間記録します。上限を超えたら顧客に納期・範囲・報酬の再調整を相談する基準を契約前に用意します。深夜の無償対応を繰り返して売上を維持するモデルは、得たい経験より疲労の方が増えている可能性を点検してください。"
+          ],
+          "en": [
+            "Side work can undermine career capital if it consumes every hour available for learning, relationships, and recovery. Reserve time for your primary job’s peak periods, personal obligations, and rest before allocating hours to a contract. Count unpaid sales calls, scoping, invoicing, and revision rounds as well as billable production. Dividing the headline fee by only the planned delivery hours can make an unsustainable engagement appear attractive.",
+            "If six hours per week is your tentative limit, you might allocate four to delivery, one to customer communication, and one to planning and review, then record actual time for two weeks. Agree what happens when the limit is exceeded: a later deadline, narrower scope, or revised fee. Set a response-time expectation instead of making midnight messages the normal service level. The right limit depends on your circumstances, but the decision should be made from actual work patterns rather than guilt about declining an additional request."
+          ]
+        },
+        {
+          "ja": [
+            "副業案件を探す前に、本業の就業規則、競業・秘密保持条項、顧客との契約関係を確認します。同業の企業を支援すること自体が常に禁止とは限りませんが、競合サービスの価格情報や未公開の顧客データへ接するなら、利益相反が生じる可能性があります。勤務時間や会社の機器を副業へ転用しないのは基本です。曖昧なまま契約してから説明すると、双方の信用を損ないかねません。",
+            "検討中の案件を、顧客の業界、担当業務、利用する情報、勤務時間との重なりで整理します。外部の仕事を受ける前に必要な届出・承認がある場合は、定められた経路で確認してください。成果物の再利用も、本業と副業のそれぞれで権利の所在が異なります。「匿名にすれば問題ない」と自分だけで判断せず、守秘範囲を守れる案件だけを受ける設計が先です。"
+          ],
+          "en": [
+            "Review your employment rules, confidentiality obligations, non-compete terms, and existing customer relationships before taking a side assignment. Work in the same industry is not automatically prohibited everywhere, but access to a competitor’s pricing, unpublished product plans, or customer data may create a conflict. Company equipment and paid work hours should not be quietly redirected to an outside client. A conflict that is disclosed only after a contract has started can damage both relationships.",
+            "Map the proposed engagement against four questions: who is the customer, what tasks will you perform, what information will you use, and when will the work happen? Follow any applicable notification or approval process rather than relying on an informal assumption that permission is unnecessary. Ownership of reusable work products may differ between your employment and the outside contract. Avoid bringing protected methods, data, or files from one role into the other, even when you believe removing the names makes them harmless."
+          ]
+        },
+        {
+          "ja": [
+            "副業を続けても、次の仕事にどう接続するかが曖昧なら、単なる別収入で終わりかねません。案件開始時に「次に狙う役割で示したい能力」を一つ選び、終了時にその証拠が得られたか確認します。例えば事業企画職を目指すなら、制作件数よりも選択肢比較と顧客の採否判断の記録が有効な場合があります。ただし、顧客の非公開資料を応募先へ提出するのは避けます。",
+            "四半期ごとに、案件から得た事実を職務経歴書の一文に落とします。「月2件の資料を作った」だけでなく、「顧客の選択肢を比較する評価表を設計し、採用案の判断根拠を整理した」のように、意思決定への寄与を明確にします。反応が薄い場合は案件数を増やす前に、その証拠が狙う役割の採用基準に合っているかを求人票や面談で確かめます。"
+          ],
+          "en": [
+            "Side work does not automatically translate into a stronger candidacy for a different role. Before starting an engagement, choose one capability you want to demonstrate in the next position, and check at closeout whether there is legitimate evidence of that capability. Someone targeting business planning may benefit more from a documented option analysis and the client’s adoption decision than from a long list of documents produced. The evidence should be portable without exposing the client’s restricted material.",
+            "Once a quarter, convert one verified side-project outcome into a factual resume bullet. ‘Produced two reports per month’ can become ‘Designed a comparison framework for the client’s operating options and documented the basis for the selected approach,’ but only if that is what actually happened. If the new evidence receives little response, compare it against the target role’s published requirements or the questions raised in interviews. Do not increase the number of engagements simply to create a larger list when the underlying experience remains unchanged."
+          ]
+        }
+      ]
     },
     "consulting-scope-creep-risk": {
       "ja": "コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法",
       "en": "How Scope Creep Quietly Destroys Consulting Rates",
       "ja_intro": "高単価案件でも、役割と成果物の境界が曖昧だと実質単価は下がります。",
       "en_intro": "Even premium consulting rates collapse when scope, ownership, and deliverables expand without control.",
-      "sections": [["役割境界を定義する","Define role boundaries"],["成果物を限定する","Bound deliverables"],["追加依頼を記録する","Log incremental asks"],["意思決定者を特定する","Identify decision owners"],["変更条件を決める","Set change rules"],["会議コストを見る","Price meeting overhead"],["再契約条件を明確にする","Clarify renewal terms"],["実質時給で検証する","Recalculate effective rate"]]
+      "sections": [
+        [
+          "役割境界を定義する",
+          "Define role boundaries"
+        ],
+        [
+          "成果物を限定する",
+          "Bound deliverables"
+        ],
+        [
+          "追加依頼を記録する",
+          "Log incremental asks"
+        ],
+        [
+          "意思決定者を特定する",
+          "Identify decision owners"
+        ],
+        [
+          "変更条件を決める",
+          "Set change rules"
+        ],
+        [
+          "会議コストを見る",
+          "Price meeting overhead"
+        ],
+        [
+          "再契約条件を明確にする",
+          "Clarify renewal terms"
+        ],
+        [
+          "実質時給で検証する",
+          "Recalculate effective rate"
+        ]
+      ]
     },
     "ai-automation-role-redesign": {
       "ja": "AIで仕事が減る人と市場価値が上がる人の違い",
       "en": "Why AI Reduces Some Roles and Raises the Value of Others",
       "ja_intro": "AIで自動化されやすいのは作業です。市場価値を残すには、判断・責任・例外処理へ役割を移す必要があります。",
       "en_intro": "AI automates tasks first. Durable market value comes from shifting toward judgment, accountability, exceptions, and redesign.",
-      "sections": [["作業を棚卸しする","Inventory automatable tasks"],["判断を切り出す","Isolate judgment work"],["例外処理を見る","Map exception handling"],["責任範囲を増やす","Expand accountability"],["AI導入を成果化する","Turn AI adoption into evidence"],["品質管理を持つ","Own quality control"],["業務設計へ移る","Move into process redesign"],["役割を再定義する","Rewrite the role around durable value"]]
+      "sections": [
+        [
+          "作業を棚卸しする",
+          "Inventory automatable tasks"
+        ],
+        [
+          "判断を切り出す",
+          "Isolate judgment work"
+        ],
+        [
+          "例外処理を見る",
+          "Map exception handling"
+        ],
+        [
+          "責任範囲を増やす",
+          "Expand accountability"
+        ],
+        [
+          "AI導入を成果化する",
+          "Turn AI adoption into evidence"
+        ],
+        [
+          "品質管理を持つ",
+          "Own quality control"
+        ],
+        [
+          "業務設計へ移る",
+          "Move into process redesign"
+        ],
+        [
+          "役割を再定義する",
+          "Rewrite the role around durable value"
+        ]
+      ]
     },
     "career-market-test-30-days": {
       "ja": "30日で自分の市場価値をテストする方法",
       "en": "A 30-Day Market Test for Your Career Value",
       "ja_intro": "市場価値は自己評価ではなく、市場の反応を複数経路で集めることで精度が上がります。",
       "en_intro": "Career value becomes clearer when you collect market responses across multiple channels instead of relying on self-assessment.",
-      "sections": [["仮説を一つ決める","Set one market hypothesis"],["対象求人を集める","Collect target roles"],["直接応募を試す","Test direct applications"],["紹介会社を比較する","Compare recruiter reactions"],["LinkedIn反応を見る","Observe LinkedIn response"],["面談結果を記録する","Log interview outcomes"],["見送り理由を分類する","Classify rejection reasons"],["30日後に仮説を更新する","Update the hypothesis after 30 days"]]
+      "sections": [
+        [
+          "仮説を一つ決める",
+          "Set one market hypothesis"
+        ],
+        [
+          "対象求人を集める",
+          "Collect target roles"
+        ],
+        [
+          "直接応募を試す",
+          "Test direct applications"
+        ],
+        [
+          "紹介会社を比較する",
+          "Compare recruiter reactions"
+        ],
+        [
+          "LinkedIn反応を見る",
+          "Observe LinkedIn response"
+        ],
+        [
+          "面談結果を記録する",
+          "Log interview outcomes"
+        ],
+        [
+          "見送り理由を分類する",
+          "Classify rejection reasons"
+        ],
+        [
+          "30日後に仮説を更新する",
+          "Update the hypothesis after 30 days"
+        ]
+      ]
     },
     "salary-negotiation-decision-rights": {
       "ja": "年収交渉で金額だけ見てはいけない理由",
       "en": "Why Salary Negotiation Should Include Decision Rights",
       "ja_intro": "年収が上がっても、意思決定権や責任範囲が狭まれば将来の市場価値が落ちることがあります。",
       "en_intro": "A higher salary can still weaken future market value if decision scope and ownership shrink.",
-      "sections": [["固定報酬を確認する","Clarify guaranteed compensation"],["変動報酬を見る","Understand variable pay"],["意思決定権を確認する","Map decision rights"],["予算権限を見る","Assess budget authority"],["人員責任を見る","Assess people responsibility"],["成果評価を確認する","Clarify success metrics"],["3年後の価値を置く","Model three-year value"],["交渉条件を優先順位化する","Prioritize negotiation terms"]]
+      "sections": [
+        [
+          "固定報酬を確認する",
+          "Clarify guaranteed compensation"
+        ],
+        [
+          "変動報酬を見る",
+          "Understand variable pay"
+        ],
+        [
+          "意思決定権を確認する",
+          "Map decision rights"
+        ],
+        [
+          "予算権限を見る",
+          "Assess budget authority"
+        ],
+        [
+          "人員責任を見る",
+          "Assess people responsibility"
+        ],
+        [
+          "成果評価を確認する",
+          "Clarify success metrics"
+        ],
+        [
+          "3年後の価値を置く",
+          "Model three-year value"
+        ],
+        [
+          "交渉条件を優先順位化する",
+          "Prioritize negotiation terms"
+        ]
+      ]
     },
     "client-concentration-career-risk": {
       "ja": "売上が増えても危険な『顧客集中』というキャリアリスク",
       "en": "Client Concentration as a Hidden Career Risk",
       "ja_intro": "高単価の一社依存は短期収益を上げても、選択肢と交渉力を弱めることがあります。",
       "en_intro": "A single high-paying client can raise short-term income while reducing optionality and bargaining power.",
-      "sections": [["売上比率を測る","Measure revenue concentration"],["契約終了影響を見る","Model termination impact"],["案件依存を分ける","Separate client and domain dependence"],["営業経路を増やす","Diversify acquisition channels"],["実績を持ち運べる形にする","Make evidence portable"],["再契約確率を見る","Estimate renewal probability"],["代替顧客を作る","Build replacement options"],["集中上限を決める","Set a concentration limit"]]
+      "sections": [
+        [
+          "売上比率を測る",
+          "Measure revenue concentration"
+        ],
+        [
+          "契約終了影響を見る",
+          "Model termination impact"
+        ],
+        [
+          "案件依存を分ける",
+          "Separate client and domain dependence"
+        ],
+        [
+          "営業経路を増やす",
+          "Diversify acquisition channels"
+        ],
+        [
+          "実績を持ち運べる形にする",
+          "Make evidence portable"
+        ],
+        [
+          "再契約確率を見る",
+          "Estimate renewal probability"
+        ],
+        [
+          "代替顧客を作る",
+          "Build replacement options"
+        ],
+        [
+          "集中上限を決める",
+          "Set a concentration limit"
+        ]
+      ]
     },
     "executive-presence-evidence": {
       "ja": "『経営層と仕事をした』を市場価値に変える方法",
       "en": "Turn Executive Exposure into Portable Career Evidence",
       "ja_intro": "経営層との接点そのものではなく、どんな論点を整理し、何を決め、何を動かしたかが評価対象です。",
       "en_intro": "Executive exposure matters only when you can explain which issues you framed, decisions you enabled, and outcomes you moved.",
-      "sections": [["会議参加を実績と混同しない","Do not confuse attendance with impact"],["論点設定を残す","Capture issue framing"],["選択肢を整理する","Frame alternatives"],["推奨案を示す","State recommendations"],["反対意見を扱う","Handle counterarguments"],["決定事項を追跡する","Track decisions"],["成果へ接続する","Connect decisions to outcomes"],["職務経歴書へ翻訳する","Translate into resume evidence"]]
+      "sections": [
+        [
+          "会議参加を実績と混同しない",
+          "Do not confuse attendance with impact"
+        ],
+        [
+          "論点設定を残す",
+          "Capture issue framing"
+        ],
+        [
+          "選択肢を整理する",
+          "Frame alternatives"
+        ],
+        [
+          "推奨案を示す",
+          "State recommendations"
+        ],
+        [
+          "反対意見を扱う",
+          "Handle counterarguments"
+        ],
+        [
+          "決定事項を追跡する",
+          "Track decisions"
+        ],
+        [
+          "成果へ接続する",
+          "Connect decisions to outcomes"
+        ],
+        [
+          "職務経歴書へ翻訳する",
+          "Translate into resume evidence"
+        ]
+      ]
     },
     "job-change-optionality-score": {
       "ja": "転職先を『年収』ではなく選択肢の増え方で採点する",
       "en": "Score Job Offers by Future Optionality, Not Salary Alone",
       "ja_intro": "良い転職は次の会社を決めるだけでなく、その後の選択肢を増やします。",
       "en_intro": "A strong job move does more than improve the next role; it expands credible options after that role.",
-      "sections": [["報酬を採点する","Score compensation"],["責任範囲を採点する","Score responsibility"],["希少経験を見る","Score scarce experience"],["市場横断性を見る","Score portability"],["ブランドを分解する","Unbundle brand value"],["学習密度を見る","Score learning density"],["撤退しやすさを見る","Score reversibility"],["総合点で比較する","Compare offers by total optionality"]]
+      "sections": [
+        [
+          "報酬を採点する",
+          "Score compensation"
+        ],
+        [
+          "責任範囲を採点する",
+          "Score responsibility"
+        ],
+        [
+          "希少経験を見る",
+          "Score scarce experience"
+        ],
+        [
+          "市場横断性を見る",
+          "Score portability"
+        ],
+        [
+          "ブランドを分解する",
+          "Unbundle brand value"
+        ],
+        [
+          "学習密度を見る",
+          "Score learning density"
+        ],
+        [
+          "撤退しやすさを見る",
+          "Score reversibility"
+        ],
+        [
+          "総合点で比較する",
+          "Compare offers by total optionality"
+        ]
+      ]
     },
     "freelance-rate-increase-proof": {
       "ja": "フリーランスが単価を上げる前に作るべき証拠",
       "en": "Proof Freelancers Need Before Raising Their Rates",
       "ja_intro": "単価アップは希望額ではなく、顧客が感じるリスクを下げる証拠で決まります。",
       "en_intro": "Rate increases become credible when evidence reduces buyer risk rather than merely stating a higher desired price.",
-      "sections": [["成果を数字にする","Quantify outcomes"],["再依頼を証拠化する","Use repeat business as proof"],["紹介を残す","Capture referrals"],["専門領域を絞る","Narrow specialization"],["案件難易度を示す","Show engagement complexity"],["責任範囲を明確にする","Clarify ownership"],["代替候補と比較する","Benchmark against alternatives"],["値上げ条件を決める","Set evidence-based increase triggers"]]
+      "sections": [
+        [
+          "成果を数字にする",
+          "Quantify outcomes"
+        ],
+        [
+          "再依頼を証拠化する",
+          "Use repeat business as proof"
+        ],
+        [
+          "紹介を残す",
+          "Capture referrals"
+        ],
+        [
+          "専門領域を絞る",
+          "Narrow specialization"
+        ],
+        [
+          "案件難易度を示す",
+          "Show engagement complexity"
+        ],
+        [
+          "責任範囲を明確にする",
+          "Clarify ownership"
+        ],
+        [
+          "代替候補と比較する",
+          "Benchmark against alternatives"
+        ],
+        [
+          "値上げ条件を決める",
+          "Set evidence-based increase triggers"
+        ]
+      ]
     }
   }
 }
