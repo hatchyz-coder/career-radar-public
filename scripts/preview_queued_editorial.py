@@ -3,7 +3,8 @@
 from __future__ import annotations
 
 from datetime import date
-import os
+import json
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -11,6 +12,7 @@ import sys
 import tempfile
 
 from check_release_quality import TARGETS, evaluate
+from check_content_quality import Parser
 
 ROOT = Path(__file__).resolve().parents[1]
 DAYS = ("2026-09-22", "2026-09-23", "2026-09-24", "2026-09-25")
@@ -46,7 +48,8 @@ def main():
         site = Path(td) / "site"
         shutil.copytree(ROOT, site, ignore=shutil.ignore_patterns(".git", "__pycache__", ".venv", "*.pyc"))
         generated = set()
-        for day in DAYS:
+        validated_locales = set()
+        for index, day in enumerate(DAYS):
             # Date override is process-local, in the ephemeral copy, and never reaches the publisher.
             code = (
                 "from datetime import date\n"
@@ -62,12 +65,33 @@ def main():
             execute(site, ["-c", code], f"generator on {day}")
             for script in POST:
                 execute(site, [str(site / "scripts" / script)], f"{script} on {day}")
+            # A zero-error result alone is not evidence that the expected article was built.
+            # Assert each scheduled ID was actually published on the simulated date.
+            cadence = json.loads((site / "data" / "editorial_cadence.json").read_text(encoding="utf-8"))
+            expected_id = TARGETS[index]
+            rows = [row for row in cadence["release_queue"] if row.get("article_id") == expected_id]
+            if len(rows) != 1 or rows[0].get("status") != "published" or rows[0].get("published_at") != day:
+                errors.append(f"{day}: expected {expected_id} published on that date, got {rows}")
+            for locale in ("ja", "en"):
+                page_path = site / locale / "articles" / f"{expected_id}.html"
+                if not page_path.is_file():
+                    errors.append(f"{day}: missing rendered HTML {locale}/{expected_id}")
+                    continue
+                parser = Parser()
+                parser.feed(page_path.read_text(encoding="utf-8"))
+                visible = " ".join(parser.text)
+                amount = (len(re.findall(r"[\u3040-\u30ff\u3400-\u9fff]", visible)) if locale == "ja"
+                          else len(re.findall(r"\b[\w’'-]+\b", visible)))
+                validated_locales.add((expected_id, locale))
+                print(f"Rendered {day}: {expected_id}/{locale} H2={parser.h2} paragraphs={parser.paragraphs} visible_units={amount}")
             # All four scheduled days must be covered even if the first article fails quality.
             current = evaluate(site)
             day_errors = [error for error in current if error.split("/")[0] in TARGETS]
             errors.extend(f"{day}: {error}" for error in day_errors if error not in generated)
             generated.update(day_errors)
             print(f"Preview {day}: validated postprocessed HTML; issue count={len(current)}")
+        if validated_locales != {(aid, locale) for aid in TARGETS for locale in ("ja", "en")}:
+            errors.append(f"Preview incomplete: validated {len(validated_locales)} of 8 required locale pages")
         for script in CHECKS:
             try:
                 execute(site, [str(site / "scripts" / script)], f"{script} after last preview date")
