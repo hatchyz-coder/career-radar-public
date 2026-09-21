@@ -165,7 +165,13 @@ class EditorialReleasePreflightTests(unittest.TestCase):
     def test_12_english_html_blocks_even_if_queue_lists_japanese_only(self):
         self.write_queue([queued("first", locales=["ja"])])
         self.path("first", "en").write_text("PRESERVE PEER", encoding="utf-8")
-        self.assert_stopped_unchanged()
+        before = self.snapshot()
+        with self.assertRaises(SystemExit):
+            EDITORIAL.main()
+        self.assertEqual(before, self.snapshot())
+        self.assertEqual("PRESERVE PEER", self.path("first", "en").read_text(encoding="utf-8"))
+        self.assertFalse(self.path("first", "ja").exists())
+        self.page_mock.assert_not_called()
 
 
 if __name__ == "__main__":
