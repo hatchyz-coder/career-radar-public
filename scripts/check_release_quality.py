@@ -72,8 +72,8 @@ def repetition_errors(parsed, core_indexes, locale, aid):
                 by_sentence.setdefault(sentence, set()).add(section)
     counts = sorted(((len(sections), sentence) for sentence, sections in by_sentence.items()
                      if len(sections) >= 3), reverse=True)
-    return ([f"{aid}/{locale}: same long-form sentence appears in {count} different core sections: {sentence[:90]}"]
-            for count, sentence in counts[:3])
+    return [f"{aid}/{locale}: same long-form sentence appears in {count} different core sections: {sentence[:90]}"
+            for count, sentence in counts[:3]]
 
 
 def validate_article(root, topic, aid, locale, cadence, index, sitemap):
