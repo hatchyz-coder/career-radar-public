@@ -243,28 +243,53 @@ def replenish(payload: dict, today: date) -> None:
         known.add(article_id)
 
 
+def release_preflight(payload: dict, today: date) -> list[dict]:
+    """Fail closed before any output is written, even for a later queued article."""
+    due = []
+    seen: set[str] = set()
+    for item in payload.get("release_queue", []):
+        if item.get("status") != "queued":
+            continue
+        article_id = item["article_id"]
+        if article_id in seen:
+            raise SystemExit(f"STOP: duplicate queued article ID: {article_id}")
+        seen.add(article_id)
+        locales = item.get("locales", ["ja", "en"])
+        if (not isinstance(locales, list) or not locales
+                or len(locales) != len(set(locales))
+                or any(locale not in ("ja", "en") for locale in locales)):
+            raise SystemExit(f"STOP: invalid queued locales: {article_id}")
+        # Inspect BOTH language paths, including the language not listed in the queue.
+        # A stale queued record must never overwrite an existing public artifact.
+        for locale in ("ja", "en"):
+            path = ROOT / locale / "articles" / f"{article_id}.html"
+            if path.exists() or path.is_symlink():
+                raise SystemExit(f"STOP: queued article has existing HTML; preserve {path.relative_to(ROOT)}")
+        if date.fromisoformat(item["due_at"]) <= today:
+            if article_id not in TOPICS:
+                raise SystemExit(f"STOP: due article has no topic definition: {article_id}")
+            due.append(item)
+    return due
+
+
 def main() -> int:
     today = date.today()
     payload = json.loads(CADENCE.read_text(encoding="utf-8"))
+    due = release_preflight(payload, today)
     index = INDEX.read_text(encoding="utf-8")
     index = index.replace('href="ja/articles/brandless-high-income-path.html"<span', 'href="ja/articles/brandless-high-income-path.html"><span')
     sitemap = SITEMAP.read_text(encoding="utf-8")
     published = []
+    rendered_pages: list[tuple[Path, str]] = []
 
-    for item in payload.get("release_queue", []):
-        if item.get("status") != "queued":
-            continue
-        if date.fromisoformat(item["due_at"]) > today:
-            continue
+    # Render every due page and build navigation metadata in memory first.
+    # A failure in a later article must not leave earlier article files behind.
+    for item in due:
         article_id = item["article_id"]
-        if article_id not in TOPICS:
-            print(f"No deterministic topic definition for queued article: {article_id}", file=sys.stderr)
-            return 1
         published_at = today.isoformat()
         for locale in item.get("locales", ["ja", "en"]):
             path = ROOT / locale / "articles" / f"{article_id}.html"
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(page(article_id, locale, published_at), encoding="utf-8")
+            rendered_pages.append((path, page(article_id, locale, published_at)))
         index = add_card(index, article_id)
         sitemap = update_sitemap(sitemap, article_id, published_at)
         item["status"] = "published"
@@ -275,6 +300,10 @@ def main() -> int:
         payload["last_publication"] = {"article_id": published[-1], "published_at": today.isoformat(), "article_count": len(published), "locale_page_count": len(published) * 2}
 
     replenish(payload, today)
+    # No filesystem writes occurred before the global check and full render.
+    for path, content in rendered_pages:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8")
     INDEX.write_text(index, encoding="utf-8")
     SITEMAP.write_text(sitemap, encoding="utf-8")
     CADENCE.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
