@@ -50,6 +50,8 @@ def main():
             # Date override is process-local, in the ephemeral copy, and never reaches the publisher.
             code = (
                 "from datetime import date\n"
+                "import sys\n"
+                f"sys.path.insert(0, {str(site / 'scripts')!r})\n"
                 "import recover_editorial_queue as legacy\n"
                 "import recover_editorial_queue_v2 as publisher\n"
                 "class PreviewDate(date):\n"
