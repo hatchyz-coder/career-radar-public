@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-09-21T23:01:07.246970+09:00",
+  "generated_at": "2026-09-22T04:21:49.649413+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -29,37 +29,48 @@
       "manual_publish_only": true
     },
     "selected_today": {
-      "article_id": "pmo-rate-negotiation-evidence",
-      "title": "PMOの単価を上げるために必要な実績の見せ方",
+      "article_id": "resume-achievement-evidence",
+      "title": "職務経歴書の『担当しました』を市場価値に変える書き換え方",
       "phase": "day0",
-      "due_at": "2026-09-21",
+      "due_at": "2026-09-22",
       "posts": {
-        "linkedin": "【PMOの単価を上げるために必要な実績の見せ方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【PMOの単価を上げるために必要な実績の見せ方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n\n#CareerRadar #キャリア",
-        "x": "【PMOの単価を上げるために必要な実績の見せ方】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n#CareerRadar"
+        "linkedin": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day0\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day0\n\n#CareerRadar #キャリア",
+        "x": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day0\n#CareerRadar"
       }
     },
     "due_today": [
       {
-        "article_id": "pmo-rate-negotiation-evidence",
-        "title": "PMOの単価を上げるために必要な実績の見せ方",
+        "article_id": "resume-achievement-evidence",
+        "title": "職務経歴書の『担当しました』を市場価値に変える書き換え方",
         "phase": "day0",
-        "due_at": "2026-09-21",
+        "due_at": "2026-09-22",
         "posts": {
-          "linkedin": "【PMOの単価を上げるために必要な実績の見せ方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【PMOの単価を上げるために必要な実績の見せ方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n\n#CareerRadar #キャリア",
-          "x": "【PMOの単価を上げるために必要な実績の見せ方】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day0\n#CareerRadar"
+          "linkedin": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day0\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day0\n\n#CareerRadar #キャリア",
+          "x": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day0\n#CareerRadar"
         }
       },
       {
-        "article_id": "midcareer-skill-obsolescence-audit",
-        "title": "40代から始めるスキル陳腐化Audit",
-        "phase": "day7",
-        "due_at": "2026-09-21",
+        "article_id": "40s-market-value-reset",
+        "title": "40代で市場価値を上げ直すための経験棚卸し",
+        "phase": "day3",
+        "due_at": "2026-09-22",
         "posts": {
-          "linkedin": "【1週間後の問い：40代から始めるスキル陳腐化Audit】\n\n1週間後に『40代から始めるスキル陳腐化Audit』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【1週間後の問い：40代から始めるスキル陳腐化Audit】\n\n1週間後に『40代から始めるスキル陳腐化Audit』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n\n#CareerRadar #キャリア",
-          "x": "【40代から始めるスキル陳腐化Audit】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n#CareerRadar"
+          "linkedin": "【3日後にもう一度考えたい：40代で市場価値を上げ直すための経験棚卸し】\n\n公開から3日たって、もう一度『40代で市場価値を上げ直すための経験棚卸し』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day3\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【3日後にもう一度考えたい：40代で市場価値を上げ直すための経験棚卸し】\n\n公開から3日たって、もう一度『40代で市場価値を上げ直すための経験棚卸し』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day3\n\n#CareerRadar #キャリア",
+          "x": "【40代で市場価値を上げ直すための経験棚卸し】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day3\n#CareerRadar"
+        }
+      },
+      {
+        "article_id": "project-rate-risk-adjustment",
+        "title": "月100万円案件を年収1000万円と考えてはいけない理由",
+        "phase": "day7",
+        "due_at": "2026-09-22",
+        "posts": {
+          "linkedin": "【1週間後の問い：月100万円案件を年収1000万円と考えてはいけない理由】\n\n1週間後に『月100万円案件を年収1000万円と考えてはいけない理由』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day7\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【1週間後の問い：月100万円案件を年収1000万円と考えてはいけない理由】\n\n1週間後に『月100万円案件を年収1000万円と考えてはいけない理由』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day7\n\n#CareerRadar #キャリア",
+          "x": "【月100万円案件を年収1000万円と考えてはいけない理由】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/project-rate-risk-adjustment.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=project-rate-risk-adjustment_day7\n#CareerRadar"
         }
       }
     ]
@@ -67,6 +78,45 @@
   "item_count": 10,
   "warnings": [],
   "items": [
+    {
+      "stable_id": "career_radar:2026-09-22:resume-achievement-evidence",
+      "source_id": "career_radar",
+      "source_label": "CareerRadar",
+      "article_id": "resume-achievement-evidence",
+      "published_at": "2026-09-22",
+      "title": "職務経歴書の『担当しました』を市場価値に変える書き換え方",
+      "content_version": "b981a30191ed0dd9",
+      "default_state": "ready_for_review",
+      "manual_publish_only": true,
+      "recommended_platform_order": [
+        "linkedin",
+        "facebook",
+        "x"
+      ],
+      "platforms": {
+        "linkedin": {
+          "priority": "P0",
+          "copy": "【職務経歴書の『担当しました』を市場価値に変える書き換え方 / Turn Resume Responsibilities into Marketable Achievement Evidence】\n\n職務経歴書で評価されるのは担当業務の列挙ではなく、何を変え、何を決め、どこまで責任を持ったかです。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=resume-achievement-evidence_ja\n\nEnglish follows below.\n\nA strong resume does not list responsibilities. It shows what changed, what you decided, and how far your accountability extended.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/resume-achievement-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=resume-achievement-evidence_en\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url_ja": "https://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=resume-achievement-evidence_ja",
+          "url_en": "https://career.hdnjapan.com/en/articles/resume-achievement-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=resume-achievement-evidence_en"
+        },
+        "facebook": {
+          "priority": "P1",
+          "copy": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n職務経歴書で評価されるのは担当業務の列挙ではなく、何を変え、何を決め、どこまで責任を持ったかです。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=resume-achievement-evidence_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url": "https://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=resume-achievement-evidence_ja"
+        },
+        "x": {
+          "priority": "P2",
+          "copy": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=x&utm_medium=social\n#CareerRadar",
+          "url": "https://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=x&utm_medium=social"
+        }
+      },
+      "redistribution": {
+        "day_3": "2026-09-25",
+        "day_7": "2026-09-29",
+        "mode": "candidate_only_review_before_repost"
+      }
+    },
     {
       "stable_id": "career_radar:2026-09-21:pmo-rate-negotiation-evidence",
       "source_id": "career_radar",
@@ -415,45 +465,6 @@
       "redistribution": {
         "day_3": "2026-09-12",
         "day_7": "2026-09-16",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-09-08:ai-assisted-career-research",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "ai-assisted-career-research",
-      "published_at": "2026-09-08",
-      "title": "AIを使って転職市場を調べるときに外してはいけない検証手順",
-      "content_version": "e24b79344a490dba",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【AIを使って転職市場を調べるときに外してはいけない検証手順 / A Verification Workflow for AI-Assisted Career Market Research】\n\nAIで転職市場を調べるのは速い。ただし、速いことと正しいことは別です。古い求人、根拠の薄い年収相場、出典不明の要約をそのまま意思決定に使うのは危険です。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・一次情報から始める\n・観測とAIの解釈を分ける\n・求人の鮮度・サンプル数・報酬条件を検証する\n\nAIは調査を短縮できますが、最後の検証までAI任せになっていないでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-assisted-career-research_ja\n\nEnglish follows below.\n\nAI makes career research faster, but speed is not the same as reliability. Freshness, sample size and source quality still need verification.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/ai-assisted-career-research.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-assisted-career-research_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-assisted-career-research_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/ai-assisted-career-research.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-assisted-career-research_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【AIを使って転職市場を調べるときに外してはいけない検証手順】\n\nAIで転職市場を調べるのは速い。ただし、速いことと正しいことは別です。古い求人、根拠の薄い年収相場、出典不明の要約をそのまま意思決定に使うのは危険です。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・一次情報から始める\n・観測とAIの解釈を分ける\n・求人の鮮度・サンプル数・報酬条件を検証する\nという視点で整理しました。\n\nAIは調査を短縮できますが、最後の検証までAI任せになっていないでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-assisted-career-research_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-assisted-career-research_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【AIを使って転職市場を調べるときに外してはいけない検証手順】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/ai-assisted-career-research.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-09-11",
-        "day_7": "2026-09-15",
         "mode": "candidate_only_review_before_repost"
       }
     }
