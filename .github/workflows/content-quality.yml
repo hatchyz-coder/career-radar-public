@@ -34,3 +34,14 @@ jobs:
         run: python scripts/check_llms_file.py
       - name: Validate editorial release queue
         run: python scripts/check_editorial_cadence.py
+
+  preview-upcoming:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate and check all four due dates in an isolated copy
+        run: python scripts/preview_queued_editorial.py
