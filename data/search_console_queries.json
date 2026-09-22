@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-21",
-    "end_date": "2026-09-17",
+    "start_date": "2026-08-23",
+    "end_date": "2026-09-19",
     "days": 28
   },
-  "generated_at": "2026-09-20T23:28:27+00:00",
+  "generated_at": "2026-09-22T00:15:32+00:00",
   "rows": [
     {
       "query": "評価 転職",
@@ -17,6 +17,14 @@
       "impressions": 3,
       "ctr": 0.0,
       "position": 62.667
+    },
+    {
+      "query": "signals for category mapping retail consulting roles",
+      "page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 6.5
     },
     {
       "query": "分析／評価職務経歴書",

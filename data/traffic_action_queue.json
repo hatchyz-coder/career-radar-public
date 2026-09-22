@@ -1,12 +1,25 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-09-20T23:28:27.640683+00:00",
+  "generated_at": "2026-09-22T00:15:32.529169+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
   "items": [
     {
       "rank": 1,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "signals for category mapping retail consulting roles",
+      "target_page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
+      "priority_score": 29.9,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 2,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -19,7 +32,7 @@
       "status": "observing"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -32,7 +45,7 @@
       "status": "observing"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -45,7 +58,7 @@
       "status": "observing"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -58,7 +71,7 @@
       "status": "observing"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -71,7 +84,7 @@
       "status": "observing"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
