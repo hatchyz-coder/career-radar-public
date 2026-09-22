@@ -4,7 +4,7 @@ Article: `side-job-career-capital`
 
 ## LinkedIn
 
-【副業を小遣いではなくCareer Capitalに変える設計 / Design Side Work to Build Career Capital, Not Just Extra Income】
+【副業を小遣いではなくキャリア資本に変える設計 / Design Side Work to Build Career Capital, Not Just Extra Income】
 
 副業は収入だけでなく、本業では取れない責任・顧客接点・実績を作るために使えます。
 
@@ -31,7 +31,7 @@ https://career.hdnjapan.com/en/articles/side-job-career-capital.html?utm_source=
 
 ## Facebook
 
-【副業を小遣いではなくCareer Capitalに変える設計】
+【副業を小遣いではなくキャリア資本に変える設計】
 
 副業は収入だけでなく、本業では取れない責任・顧客接点・実績を作るために使えます。
 
@@ -57,7 +57,7 @@ https://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=
 
 ## X
 
-【副業を小遣いではなくCareer Capitalに変える設計】
+【副業を小遣いではなくキャリア資本に変える設計】
 一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。
 https://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=x&utm_medium=social
 #CareerRadar
