@@ -620,6 +620,88 @@
           "30日後に仮説を更新する",
           "Update the hypothesis after 30 days"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "30日で検証する仮説は「市場価値を知りたい」では広すぎます。「業務改善を主導した経験を、従業員300〜1,000人規模の事業会社におけるPMO候補として評価してもらえるか」のように、対象職種、相手、提示する証拠を一文にします。希望年収や働き方も条件として分け、何への反応を測る実験なのかを固定します。",
+            "合格条件を応募前に決めます。例えば30日で対象20求人を確認し、条件を満たす8件へ応募、書類通過2件または採用担当者との有効な対話2件を暫定シグナルとします。この数字は普遍的な市場基準ではなく、自分の実験を途中で都合よく解釈しないための仮置きです。達しなかった場合も能力不足と即断せず、仮説、証拠、対象市場のどこを更新するかを判断します。"
+          ],
+          "en": [
+            "A useful thirty-day hypothesis is narrower than ‘find out what I am worth.’ Write one sentence that names the role, buyer, and evidence: for example, whether experience leading operational improvement is credible for PMO roles at companies with 300–1,000 employees. Keep compensation and working-pattern preferences as separate constraints so that you know which proposition the market is actually reacting to.",
+            "Set a provisional pass condition before applying. One experiment might review twenty relevant openings, apply to eight that meet the stated criteria, and look for either two screening advances or two substantive conversations with hiring decision-makers. Those numbers are not universal benchmarks; they prevent the target from moving after results arrive. A miss is not proof of low ability. It is evidence for revising the role, proof, channel, or market assumption."
+          ]
+        },
+        {
+          "ja": [
+            "求人は検索上位から漫然と集めず、仮説に合うものだけを同じ表へ入れます。会社、役割、必須経験、任される判断、成果指標、年収帯、勤務地、掲載日、応募経路を記録し、重複求人を除きます。20件程度でも、同じ要件が繰り返されるのか、企業ごとに名称だけが同じなのかを見分けやすくなります。",
+            "「自分ができそう」という印象ではなく、求人文の要求と手元の証拠を一対一で照合します。要件ごとに、職務経歴書で示せる成果、数字の根拠、説明できない空白を記載してください。出現回数が少ない魅力的な語句を経歴へ詰め込むのではなく、複数求人で求められる責任と、自分が実際に担った責任の重なりを探します。"
+          ],
+          "en": [
+            "Do not build the sample from whichever listings rank first in search. Put only roles that match the hypothesis into one table and record employer, responsibilities, required experience, decision scope, success measures, compensation range, location, posting date, and application route. Remove duplicates. Even a sample of about twenty can reveal whether a requirement recurs across employers or whether similar titles describe different work.",
+            "Match each requirement to evidence you can defend rather than to a feeling that you could do the job. For every repeated requirement, note the achievement available in your resume, the source of any number, and the gap you cannot yet explain. Do not copy attractive keywords that appear once. Look for overlap between responsibilities repeatedly requested by employers and responsibilities you have genuinely held."
+          ]
+        },
+        {
+          "ja": [
+            "直接応募では、応募数を増やす前に比較可能性を作ります。最初の4件は同じ仮説と証拠構成で応募し、次の4件で変更するのは冒頭要約や実績の並びなど一要素だけにします。求人への適合度が大きく違う案件を同じ母数に混ぜると、書類の変更が効いたのか、単に求人選びが違ったのか判断できません。",
+            "記録するのは送信日、求人URL、使用した経歴書版、反応日、次段階、辞退理由です。連絡がない状態と明示的な不採用を分け、募集終了も別にします。少数の応募から統計的な結論は出せませんが、「どの証拠を出したとき、どの種類の相手から対話が始まったか」という次の検証材料は残せます。"
+          ],
+          "en": [
+            "Make direct applications comparable before increasing volume. Use the same hypothesis and evidence structure for the first four suitable roles. In the next four, change only one element, such as the opening summary or ordering of achievements. If one group contains much better-fit jobs, you cannot tell whether the document change mattered or the selection criteria changed.",
+            "Log the submission date, listing URL, resume version, response date, next stage, and any stated reason for rejection or withdrawal. Separate no response from an explicit rejection and from a closed vacancy. Eight applications cannot establish a market-wide conversion rate, but they can show which evidence started a conversation with which type of employer and what should be tested next."
+          ]
+        },
+        {
+          "ja": [
+            "紹介会社の反応は一社の評価で決めません。少なくとも性格の異なる2社へ同じ経歴と希望条件を提示し、「いま紹介可能な求人」「紹介が難しい要件」「企業へ説明しやすい実績」「希望条件を変えた場合の差」を具体的に尋ねます。抽象的な『市場価値は高い』より、実際に示された求人と理由を証拠にします。",
+            "紹介会社は採用決定者ではなく、保有求人や営業方針によって反応が変わります。面談件数を増やすための年収調整案と、企業側から得た評価を混同しないでください。二社の見解が割れたら平均を取るのではなく、対象企業、職種、契約形態の違いを確認し、仮説の適用範囲を狭めます。"
+          ],
+          "en": [
+            "Do not let one recruiter define the result. Give the same profile and constraints to at least two firms with different coverage, then ask for concrete evidence: roles they could present today, requirements blocking an introduction, achievements that are easy to explain to clients, and what changes if one constraint moves. Treat actual role examples and stated reasons as stronger signals than a general compliment about marketability.",
+            "A recruiter is an intermediary, not the final hiring authority, and responses depend on inventory and commercial incentives. Distinguish advice intended to increase interview volume from feedback received from an employer. If two firms disagree, do not average their opinions. Compare the employers, role types, and contract models behind each view, then narrow the scope of the hypothesis."
+          ]
+        },
+        {
+          "ja": [
+            "LinkedInでは肩書きを頻繁に変えるより、仮説を裏づける一つの証拠を公開します。例えば業務改善の担当者なら、機密を除いた判断フロー、失敗を防いだチェック項目、改善前後を測る方法を短い投稿や資料にします。架空の数値や顧客名は使わず、公開できない成果は構造と自分の担当範囲だけを説明します。",
+            "見るべき反応は『いいね』の総数ではなく、対象職種の人によるプロフィール閲覧、具体的な質問、採用担当者や同業者との会話です。投稿時間や既存ネットワークの大きさでも数字は動くため、反応が少ないことを市場否定と断定しません。誰が何に反応したかを記録し、応募経路の結果と組み合わせて判断します。"
+          ],
+          "en": [
+            "On LinkedIn, publish one piece of evidence supporting the hypothesis instead of repeatedly changing the headline. An operations-improvement candidate might share a sanitized decision flow, a checklist that prevented a known failure, or a method for measuring a process change. Never invent metrics or client names. When outcomes are confidential, explain the structure, constraints, and your own responsibility without exposing protected details.",
+            "Count signals from relevant people: profile views by target-role professionals, specific questions, and conversations with recruiters, operators, or hiring managers. Total likes are a weak measure because timing and network size affect them. Low engagement does not by itself disprove the career hypothesis. Record who responded and what evidence prompted the response, then compare it with direct-application and recruiter results."
+          ]
+        },
+        {
+          "ja": [
+            "面談後24時間以内に、質問された内容、深掘りされた実績、答えが曖昧だった箇所、次段階の有無を記録します。「雰囲気が良かった」ではなく、相手がどの証拠を確認し、どこで追加説明を求めたかを残してください。面談官の発言は許可なく公開せず、自分の分析用メモとして扱います。",
+            "面談ごとに求人適合度が違うため、通過・不通過だけで比較しません。役割理解、実績証拠、業界知識、報酬条件、働き方、面談技術を別項目で評価します。同じ弱点が二つ以上の独立した面談で現れたら改善候補にし、一度だけの質問は仮説として保留します。"
+          ],
+          "en": [
+            "Within twenty-four hours of an interview, record the questions asked, achievements examined in depth, answers that became vague, and whether a next step was offered. Replace ‘the conversation felt positive’ with observable details about which proof the interviewer tested and where more explanation was requested. Keep interviewer comments private unless you have permission to disclose them.",
+            "Do not compare interviews only by pass or fail because role fit varies. Score role understanding, evidence of achievement, domain knowledge, compensation constraints, working arrangement, and interview execution separately. Treat a weakness that appears in two independent conversations as a stronger improvement candidate. Keep a one-off question as a tentative signal rather than rewriting the whole profile around it."
+          ]
+        },
+        {
+          "ja": [
+            "見送りは「市場価値がない」にまとめず、無反応、必須条件不足、証拠不足、職種不一致、報酬・勤務地条件、募集都合、面談での説明不足に分類します。企業から理由が示されていない場合は、推測を事実欄へ書かず「理由不明」とし、自分の仮説を別欄へ置きます。",
+            "分類の目的は気持ちを数値化することではなく、次に変えられる要素を見つけることです。必須資格が原因なら対象求人を変え、成果の説明不足なら実績の根拠を補い、勤務地条件が原因なら譲れない条件として市場範囲を再計算します。すべてを自己改善課題にせず、構造的に適合しない市場から撤退する判断も残します。"
+          ],
+          "en": [
+            "Do not collapse every rejection into ‘the market does not value me.’ Use categories such as no response, missing mandatory qualification, insufficient evidence, role mismatch, compensation or location constraint, vacancy timing, and weak interview explanation. When an employer gives no reason, record ‘unknown’ in the fact field and keep your interpretation in a separate hypothesis field.",
+            "The purpose of classification is to find the next changeable variable, not to turn disappointment into a score. A mandatory credential gap may require changing the target set; weak evidence may require documenting an achievement; a location constraint may require recalculating the reachable market. Not every result demands self-improvement. Preserve the option to leave a structurally mismatched segment instead of repeatedly applying to it."
+          ]
+        },
+        {
+          "ja": [
+            "30日後は応募数ではなく、最初の仮説と三つの経路から得た証拠を見直します。直接応募、紹介会社、LinkedInのうち、対象者との具体的な対話につながった経路はどれか。繰り返し評価された実績は何か。理由が確認できた見送りは何か。事実、相手の意見、自分の推測を分けて一枚に整理します。",
+            "結論は『継続』『再定位』『停止』のいずれかにします。反応があり証拠も通じたなら対象を絞って続けます。関心はあるが役割がずれるなら肩書きより提供価値を再定義します。信頼できる反応がない場合は、期限を延ばす前に標本、経路、証拠を点検します。内定や年収上昇を保証する企画ではなく、次の一手を自己評価だけで決めないための小さな市場実験です。"
+          ],
+          "en": [
+            "After thirty days, return to the original hypothesis and evidence from the three channels rather than celebrating application volume. Which of direct applications, recruiters, or LinkedIn produced substantive dialogue with the intended audience? Which achievements were tested repeatedly? Which rejection reasons were actually stated? Put facts, other people’s opinions, and your own interpretations in separate columns.",
+            "Choose one decision: continue, reposition, or stop. Continue with a narrower target when relevant people respond to defensible evidence. Reposition the value proposition when interest exists but the assumed role is wrong. If there is no credible signal, inspect the sample, channel, and proof before merely extending the deadline. The experiment does not promise an offer or higher pay; it replaces unsupported self-assessment with a bounded basis for the next action."
+          ]
+        }
       ]
     },
     "salary-negotiation-decision-rights": {
@@ -824,3 +906,4 @@
     }
   }
 }
+

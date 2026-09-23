@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail-closed quality gate for the four scheduled September editorial releases.
+"""Fail-closed quality gate for scheduled September editorial releases.
 
 This is a mechanical rejection gate, not a substitute for human semantic review.
 """
@@ -22,6 +22,7 @@ TARGETS = (
     "side-job-career-capital",
     "consulting-scope-creep-risk",
     "ai-automation-role-redesign",
+    "career-market-test-30-days",
 )
 
 
@@ -152,3 +153,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
