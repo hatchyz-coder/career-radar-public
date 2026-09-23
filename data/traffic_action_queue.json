@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-09-22T23:46:58.510294+00:00",
+  "generated_at": "2026-09-23T23:55:39.100945+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -12,7 +12,7 @@
       "action_type": "observe",
       "query": "signals for category mapping retail consulting roles",
       "target_page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
-      "priority_score": 29.9,
+      "priority_score": 34.5,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",

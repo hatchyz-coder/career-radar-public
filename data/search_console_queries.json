@@ -4,12 +4,20 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-23",
-    "end_date": "2026-09-19",
+    "start_date": "2026-08-24",
+    "end_date": "2026-09-20",
     "days": 28
   },
-  "generated_at": "2026-09-22T23:46:58+00:00",
+  "generated_at": "2026-09-23T23:55:38+00:00",
   "rows": [
+    {
+      "query": "signals for category mapping retail consulting roles",
+      "page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 6.25
+    },
     {
       "query": "評価 転職",
       "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
@@ -17,14 +25,6 @@
       "impressions": 3,
       "ctr": 0.0,
       "position": 62.667
-    },
-    {
-      "query": "signals for category mapping retail consulting roles",
-      "page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 6.5
     },
     {
       "query": "分析／評価職務経歴書",
