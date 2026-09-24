@@ -23,6 +23,7 @@ TARGETS = (
     "consulting-scope-creep-risk",
     "ai-automation-role-redesign",
     "career-market-test-30-days",
+    "salary-negotiation-decision-rights",
 )
 
 
