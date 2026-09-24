@@ -742,6 +742,88 @@
           "交渉条件を優先順位化する",
           "Prioritize negotiation terms"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "提示額を見るときは、月給だけでなく、基本給、固定残業代、手当、賞与の算定基礎、支給条件を同じ表へ分けます。たとえば年収720万円でも、基本給が低く賞与の比率が高い案と、基本給中心の案では、欠勤・休職・退職時や次回交渉の基準が異なります。口頭の「年収」ではなく、雇用条件通知書やオファーレターに記載される保証部分を確認してください。",
+            "比較表には金額、支給時期、条件、根拠文書、未確認事項を記録します。通勤費や在宅手当を年収へ含めているか、試用期間中の減額があるか、みなし時間を超えた残業が別途支給されるかも分けます。税・社会保険後の手取りは個人条件で変わるため、会社の概算を保証額として扱いません。不明点は入社後に解釈せず、合意前に文書で照合します。"
+          ],
+          "en": [
+            "Break the headline salary into base pay, fixed overtime, allowances, the amount used to calculate bonuses, and each payment condition. Two offers described as the same annual compensation can behave differently when one relies on a discretionary bonus and the other is mostly guaranteed base pay. The distinction can affect leave, termination timing, and the reference point for a later negotiation. Evaluate the guaranteed amount from the written offer or employment terms, not from a rounded figure stated in conversation.",
+            "Use columns for amount, payment date, condition, source document, and unresolved question. Check whether commuting or home-office allowances are included in the advertised total, whether pay changes during probation, and how hours beyond any fixed-overtime allowance are treated. Net income depends on personal tax and social-insurance circumstances, so an employer estimate is not a guaranteed take-home figure. Resolve material ambiguity in writing before acceptance rather than relying on an interpretation after joining."
+          ]
+        },
+        {
+          "ja": [
+            "変動報酬は上限額より、何を満たせば誰が支給を決めるかを確認します。個人目標、部門目標、会社業績の比率、最低保証、初年度の按分、評価期間、退職時の扱いを分けてください。「最大200万円」は到達可能性を示しません。過去の平均支給率が示されても、自分の職位・入社時期・評価制度に適用できる事実かを確認する必要があります。",
+            "株式報酬やコミッションも現金と同額には数えません。権利確定日、行使条件、失効条件、価格変動、換金可能性を別欄に置きます。営業職なら案件の帰属、入金前退職、返品・解約時の控除、共同受注の配分を具体例で質問します。担当者の説明と制度文書が食い違う場合は、好意的な方を採用せず、未確定として意思決定から割り引きます。"
+          ],
+          "en": [
+            "Evaluate variable compensation by the decision rule, not the advertised maximum. Separate individual, team, and company measures; identify who approves payment; and record thresholds, performance period, first-year proration, guarantees, and treatment on departure. A statement such as ‘up to two million yen’ says nothing about attainability. Historical averages are useful only when the population, level, start date, and plan design are comparable to the role you are considering.",
+            "Do not value equity or commission as guaranteed cash. Record vesting dates, exercise conditions, forfeiture clauses, price exposure, and realistic liquidity separately. For a sales role, test the plan with examples involving account ownership, payment received after departure, refunds, cancellations, and shared deals. If a recruiter’s explanation conflicts with the formal plan, do not select the more favorable interpretation. Mark the value uncertain until the responsible party resolves the discrepancy in writing."
+          ]
+        },
+        {
+          "ja": [
+            "意思決定権は「裁量があります」という言葉では測れません。価格、優先順位、仕様、取引先、期限、例外対応のうち、自分が単独で決められること、提案だけできること、上位承認が必要なことを分けます。前任者が決めていた事例を一つ聞き、最終承認者と否決された場合の経路まで確認すると、役割名では見えない実態が分かります。",
+            "責任だけが増え、決定権がない役割は注意が必要です。納期遅延の説明責任を持つのに、人員・範囲・優先順位を変えられない場合、成果を再現しにくくなります。面談では「最初の90日で本人が決める事項」「週次会議へ上げる事項」「経営承認が必要な事項」を例示してもらいます。回答が曖昧なら、入社後に広がる期待ではなく、現時点の狭い範囲で評価します。"
+          ],
+          "en": [
+            "Do not measure decision rights from a phrase such as ‘high autonomy.’ Separate what you may decide, recommend, and only execute across pricing, priorities, product scope, vendors, deadlines, and exceptions. Ask for one decision made by the previous role holder, who gave final approval, and what happened when a recommendation was rejected. A concrete path reveals more than the job title because organizations use the same title for very different authority.",
+            "Be cautious when accountability expands without the levers needed to produce the result. A person responsible for schedule recovery but unable to change staffing, scope, or priorities may struggle to create portable evidence of leadership. Ask what the role decides in its first ninety days, what goes to a weekly governance meeting, and what requires executive approval. When the answer remains vague, value the authority that exists today rather than an optimistic promise that the scope may expand later."
+          ]
+        },
+        {
+          "ja": [
+            "予算権限は総額の大きさではなく、どの種類の支出をどの段階で動かせるかを見ます。年間予算の作成、費目間の振替、追加投資の提案、発注先の選定、契約承認では権限が異なります。「1億円の予算を担当」は、集計担当なのか配分を決める責任者なのかを明らかにしない限り、市場価値の証拠になりません。",
+            "具体例として、予定外の障害対応で200万円が必要になった場合を尋ねます。本人が予備費から承認できるのか、複数社の見積比較を作るだけなのか、CFO決裁まで何日かかるのかを確認します。金額基準だけでなく、監査・調達・法務の制約も記録してください。権限が小さくても判断基準を設計できる役割なら価値がありますが、単なる伝票処理とは分けて評価します。"
+          ],
+          "en": [
+            "Budget authority is not the size of a number associated with the department. Distinguish preparing the annual plan, moving funds between categories, recommending incremental investment, selecting a vendor, and approving a contract. A claim that the role ‘manages a one-hundred-million-yen budget’ is weak if the person only consolidates requests while another executive allocates every amount. The transferable evidence comes from the decisions and trade-offs the role is authorized to make.",
+            "Test the process with a scenario: an unplanned service failure requires two million yen. Can the role approve contingency funds, only prepare competing quotations, or must it wait for a CFO decision? Record approval thresholds and the procurement, audit, security, or legal constraints surrounding them. Limited signing authority can still be valuable when the role designs allocation criteria and defends priorities. Treat that differently from processing invoices against decisions already made elsewhere."
+          ]
+        },
+        {
+          "ja": [
+            "人員責任は部下の人数だけでなく、採用、配置、評価、育成、報酬提案、契約終了のどこへ関与するかを分けます。「10人をマネジメント」は、日々の相談相手、プロジェクト上のリーダー、正式な評価者で意味が変わります。兼務者や業務委託を含む場合も、命令系統と契約上の責任を混同しないようにします。",
+            "面談では、成果が出ないメンバーへの対応例を聞きます。期待値を設定できるか、改善計画を作れるか、配置を変えられるか、最終判断は誰かを確認します。採用枠が凍結されたときに、本人が優先順位を変えられるかも重要です。人数が多いほど価値が高いとは限りません。小規模でも採用から評価まで一貫して担う方が、肩書きだけの大人数管理より明確な経験になる場合があります。"
+          ],
+          "en": [
+            "People responsibility is broader than the number of direct reports. Separate participation in hiring, assignment, performance evaluation, development, compensation recommendations, and ending an employment or vendor relationship. ‘Managed ten people’ can mean informal coaching, project coordination, or formal line management. If contractors and shared staff are included, identify the reporting line and contractual responsibility rather than treating every collaborator as a subordinate.",
+            "Ask for an example involving a team member who was not meeting expectations. Could the role define the standard, create an improvement plan, change the assignment, or only report the problem to another manager? Also ask what happens when hiring is frozen and priorities exceed capacity. More reports do not automatically create more valuable experience. End-to-end responsibility for a smaller team may provide clearer evidence than a large nominal team whose consequential people decisions sit elsewhere."
+          ]
+        },
+        {
+          "ja": [
+            "評価指標は入社後に初めて知るものにしません。売上、利益、品質、顧客継続、納期、組織能力など、何が何％で評価されるか、計測元、評価者、途中変更の可能性を確認します。結果だけでなく、本人が制御できる先行指標があるかも重要です。市場環境だけで決まる売上目標を単独責任にされるなら、権限との不均衡を記録します。",
+            "目標の衝突も確認します。短期売上を伸ばすと解約率や品質が悪化する場合、どちらを優先するのか、例外を誰が判断するのかを尋ねます。評価制度の説明が「総合的に判断」だけなら、直近の同職位で評価された具体例を求めます。実績を次の職場へ持ち運ぶには、成果の数字だけでなく、測定条件と自分が選んだ判断を説明できることが必要です。"
+          ],
+          "en": [
+            "Do not wait until after joining to discover the scorecard. Identify the weight given to revenue, margin, quality, retention, delivery, and organizational capability; the data source; the evaluator; and whether measures may change during the period. Look for leading indicators the role can influence as well as final outcomes. If revenue depends heavily on market conditions while the role lacks pricing, staffing, or product authority, record the mismatch between accountability and control.",
+            "Test how conflicting measures are resolved. If short-term sales growth increases cancellations or quality failures, which result takes priority and who approves an exception? When the explanation is only ‘performance is assessed holistically,’ request a concrete example from the same level. Portable career evidence requires more than the final number. You should be able to explain the measurement boundary, the trade-off you chose, and which part of the outcome was actually attributable to your decision."
+          ]
+        },
+        {
+          "ja": [
+            "3年後の価値は将来予測ではなく、獲得できる証拠の設計として考えます。業界固有知識、複数部門を動かす判断、顧客接点、予算・人員責任、公開可能な成果のうち、次の市場でも説明できるものを挙げます。高い初年度年収でも、既存手順の維持だけで新しい判断を持てない役割なら、選択肢が狭まる可能性があります。",
+            "三つのシナリオを置きます。期待どおり権限が広がる場合、現状のままの場合、組織変更で狭まる場合です。それぞれで、12か月後に職務経歴書へ書ける事実と、退職・異動の選択肢を確認します。昇進や株価上昇を確実な前提にせず、契約上確定した範囲と期待を分けます。報酬差は、その不確実性と学習機会を含む複数軸の一つとして扱います。"
+          ],
+          "en": [
+            "Treat three-year value as a design for evidence, not as a forecast of guaranteed promotion. List the domain knowledge, cross-functional decisions, customer exposure, budget or people authority, and publishable outcomes that could be explained in another market. A high first-year salary may still narrow options when the work consists only of maintaining an inherited process and produces no new decision ownership. The question is what defensible proof the role can create.",
+            "Model three cases: authority expands as described, the role remains unchanged, and a reorganization narrows it. For each case, write what could truthfully appear on the resume after twelve months and which transfer or exit options would remain. Do not assume a promotion, successful funding round, or rising share price. Separate contractual commitments from expectations. Compensation is one dimension of the decision, alongside uncertainty, learning density, reversibility, and the evidence created."
+          ]
+        },
+        {
+          "ja": [
+            "交渉前に条件を「必須」「交換可能」「あれば望ましい」に分けます。例えば基本給の下限は必須、入社一時金と開始日は交換可能、肩書きは望ましい、という形です。すべてを同じ強さで要求すると、本当に守るべき条件が見えなくなります。各項目には理由と代替案を一つ置き、相手が難しい理由を説明したときに、その場で新しい条件を増やさないようにします。",
+            "最終比較は、保証報酬、変動報酬の確度、意思決定権、予算・人員責任、評価指標、3年後の証拠、撤退しやすさを一枚にまとめます。点数だけで自動決定せず、低得点でも譲れない項目があれば不合格とします。合意した変更は必ず正式文書へ反映されているか確認します。この記事は個別の法務・税務助言ではないため、契約解釈に重要な疑問があれば適切な専門家へ確認してください。"
+          ],
+          "en": [
+            "Before negotiating, classify each term as required, tradable, or desirable. A minimum base salary might be required, a signing payment and start date might be tradable, and a preferred title might be desirable. Treating every request as equally important obscures the conditions that actually protect the decision. Give each item a reason and one acceptable alternative so that a difficult response does not cause new demands to appear impulsively during the conversation.",
+            "Build one final comparison across guaranteed pay, confidence in variable pay, decision rights, budget and people authority, success measures, three-year evidence, and reversibility. Do not let a total score override a failed non-negotiable condition. Confirm that every agreed amendment appears in the final document rather than only in email or conversation. This framework is not individualized legal or tax advice; seek an appropriate professional when interpretation of a material contract term remains uncertain."
+          ]
+        }
       ]
     },
     "client-concentration-career-risk": {
