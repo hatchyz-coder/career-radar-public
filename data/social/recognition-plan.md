@@ -1,25 +1,25 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-09-24T18:56:07.297688+09:00
+Generated: 2026-09-25T00:00:21.564197+09:00
 
-## Today — day0 — コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法
+## Today — day0 — AIで仕事が減る人と市場価値が上がる人の違い
 
 ### LinkedIn
 
-【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】
+【AIで仕事が減る人と市場価値が上がる人の違い】
 
 仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。
 
 一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
 
 CareerRadarで深掘り：
-https://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0
+https://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0
 
 #CareerRadar #キャリア #市場価値
 
 ### Facebook
 
-【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】
+【AIで仕事が減る人と市場価値が上がる人の違い】
 
 仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。
 
@@ -27,13 +27,13 @@ https://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_sou
 
 CareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。
 
-https://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0
+https://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0
 
 #CareerRadar #キャリア
 
 ### X
 
-【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】
+【AIで仕事が減る人と市場価値が上がる人の違い】
 一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
-https://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0
+https://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0
 #CareerRadar
