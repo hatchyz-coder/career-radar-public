@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-09-25T22:41:26.351308+09:00",
+  "generated_at": "2026-09-26T03:32:07.676115+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -29,37 +29,37 @@
       "manual_publish_only": true
     },
     "selected_today": {
-      "article_id": "ai-automation-role-redesign",
-      "title": "AIで仕事が減る人と市場価値が上がる人の違い",
-      "phase": "day0",
-      "due_at": "2026-09-25",
+      "article_id": "side-job-career-capital",
+      "title": "副業を小遣いではなくキャリア資本に変える設計",
+      "phase": "day3",
+      "due_at": "2026-09-26",
       "posts": {
-        "linkedin": "【AIで仕事が減る人と市場価値が上がる人の違い】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【AIで仕事が減る人と市場価値が上がる人の違い】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n\n#CareerRadar #キャリア",
-        "x": "【AIで仕事が減る人と市場価値が上がる人の違い】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n#CareerRadar"
+        "linkedin": "【3日後にもう一度考えたい：副業を小遣いではなくキャリア資本に変える設計】\n\n公開から3日たって、もう一度『副業を小遣いではなくキャリア資本に変える設計』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【3日後にもう一度考えたい：副業を小遣いではなくキャリア資本に変える設計】\n\n公開から3日たって、もう一度『副業を小遣いではなくキャリア資本に変える設計』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n\n#CareerRadar #キャリア",
+        "x": "【副業を小遣いではなくキャリア資本に変える設計】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n#CareerRadar"
       }
     },
     "due_today": [
       {
-        "article_id": "ai-automation-role-redesign",
-        "title": "AIで仕事が減る人と市場価値が上がる人の違い",
-        "phase": "day0",
-        "due_at": "2026-09-25",
+        "article_id": "side-job-career-capital",
+        "title": "副業を小遣いではなくキャリア資本に変える設計",
+        "phase": "day3",
+        "due_at": "2026-09-26",
         "posts": {
-          "linkedin": "【AIで仕事が減る人と市場価値が上がる人の違い】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【AIで仕事が減る人と市場価値が上がる人の違い】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n\n#CareerRadar #キャリア",
-          "x": "【AIで仕事が減る人と市場価値が上がる人の違い】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n#CareerRadar"
+          "linkedin": "【3日後にもう一度考えたい：副業を小遣いではなくキャリア資本に変える設計】\n\n公開から3日たって、もう一度『副業を小遣いではなくキャリア資本に変える設計』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【3日後にもう一度考えたい：副業を小遣いではなくキャリア資本に変える設計】\n\n公開から3日たって、もう一度『副業を小遣いではなくキャリア資本に変える設計』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n\n#CareerRadar #キャリア",
+          "x": "【副業を小遣いではなくキャリア資本に変える設計】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n#CareerRadar"
         }
       },
       {
-        "article_id": "resume-achievement-evidence",
-        "title": "職務経歴書の『担当しました』を市場価値に変える書き換え方",
-        "phase": "day3",
-        "due_at": "2026-09-25",
+        "article_id": "40s-market-value-reset",
+        "title": "40代で市場価値を上げ直すための経験棚卸し",
+        "phase": "day7",
+        "due_at": "2026-09-26",
         "posts": {
-          "linkedin": "【3日後にもう一度考えたい：職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n公開から3日たって、もう一度『職務経歴書の『担当しました』を市場価値に変える書き換え方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day3\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【3日後にもう一度考えたい：職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n公開から3日たって、もう一度『職務経歴書の『担当しました』を市場価値に変える書き換え方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day3\n\n#CareerRadar #キャリア",
-          "x": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day3\n#CareerRadar"
+          "linkedin": "【1週間後の問い：40代で市場価値を上げ直すための経験棚卸し】\n\n1週間後に『40代で市場価値を上げ直すための経験棚卸し』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day7\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【1週間後の問い：40代で市場価値を上げ直すための経験棚卸し】\n\n1週間後に『40代で市場価値を上げ直すための経験棚卸し』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day7\n\n#CareerRadar #キャリア",
+          "x": "【40代で市場価値を上げ直すための経験棚卸し】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day7\n#CareerRadar"
         }
       }
     ]
