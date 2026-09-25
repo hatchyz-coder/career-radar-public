@@ -1,6 +1,6 @@
 {
   "schema_version": "career-radar-recognition-plan.v1",
-  "generated_at": "2026-09-24T01:51:34.630638+09:00",
+  "generated_at": "2026-09-26T03:32:07.637894+09:00",
   "timezone": "Asia/Tokyo",
   "policy": {
     "max_career_radar_topics_per_day": 1,
@@ -16,54 +16,75 @@
     ],
     "manual_publish_only": true
   },
-  "due_count": 3,
+  "due_count": 2,
   "selected_today": {
-    "article_id": "consulting-scope-creep-risk",
-    "title": "コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法",
-    "phase": "day0",
-    "due_at": "2026-09-24",
+    "article_id": "side-job-career-capital",
+    "title": "副業を小遣いではなくキャリア資本に変える設計",
+    "phase": "day3",
+    "due_at": "2026-09-26",
     "posts": {
-      "linkedin": "【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0\n\n#CareerRadar #キャリア #市場価値",
-      "facebook": "【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0\n\n#CareerRadar #キャリア",
-      "x": "【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0\n#CareerRadar"
+      "linkedin": "【3日後にもう一度考えたい：副業を小遣いではなくキャリア資本に変える設計】\n\n公開から3日たって、もう一度『副業を小遣いではなくキャリア資本に変える設計』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n\n#CareerRadar #キャリア #市場価値",
+      "facebook": "【3日後にもう一度考えたい：副業を小遣いではなくキャリア資本に変える設計】\n\n公開から3日たって、もう一度『副業を小遣いではなくキャリア資本に変える設計』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n\n#CareerRadar #キャリア",
+      "x": "【副業を小遣いではなくキャリア資本に変える設計】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n#CareerRadar"
     }
   },
   "due_today": [
     {
-      "article_id": "consulting-scope-creep-risk",
-      "title": "コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法",
-      "phase": "day0",
-      "due_at": "2026-09-24",
-      "posts": {
-        "linkedin": "【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0\n\n#CareerRadar #キャリア",
-        "x": "【コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/consulting-scope-creep-risk.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-scope-creep-risk_day0\n#CareerRadar"
-      }
-    },
-    {
-      "article_id": "pmo-rate-negotiation-evidence",
-      "title": "PMOの単価を上げるために必要な実績の見せ方",
+      "article_id": "side-job-career-capital",
+      "title": "副業を小遣いではなくキャリア資本に変える設計",
       "phase": "day3",
-      "due_at": "2026-09-24",
+      "due_at": "2026-09-26",
       "posts": {
-        "linkedin": "【3日後にもう一度考えたい：PMOの単価を上げるために必要な実績の見せ方】\n\n公開から3日たって、もう一度『PMOの単価を上げるために必要な実績の見せ方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day3\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【3日後にもう一度考えたい：PMOの単価を上げるために必要な実績の見せ方】\n\n公開から3日たって、もう一度『PMOの単価を上げるために必要な実績の見せ方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day3\n\n#CareerRadar #キャリア",
-        "x": "【PMOの単価を上げるために必要な実績の見せ方】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/pmo-rate-negotiation-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=pmo-rate-negotiation-evidence_day3\n#CareerRadar"
+        "linkedin": "【3日後にもう一度考えたい：副業を小遣いではなくキャリア資本に変える設計】\n\n公開から3日たって、もう一度『副業を小遣いではなくキャリア資本に変える設計』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【3日後にもう一度考えたい：副業を小遣いではなくキャリア資本に変える設計】\n\n公開から3日たって、もう一度『副業を小遣いではなくキャリア資本に変える設計』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n\n#CareerRadar #キャリア",
+        "x": "【副業を小遣いではなくキャリア資本に変える設計】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/side-job-career-capital.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=side-job-career-capital_day3\n#CareerRadar"
       }
     },
     {
-      "article_id": "career-optionality-portfolio",
-      "title": "転職・副業・業務委託を同時に持つCareer Optionalityの作り方",
+      "article_id": "40s-market-value-reset",
+      "title": "40代で市場価値を上げ直すための経験棚卸し",
       "phase": "day7",
-      "due_at": "2026-09-24",
+      "due_at": "2026-09-26",
       "posts": {
-        "linkedin": "【1週間後の問い：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n1週間後に『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day7\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【1週間後の問い：転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\n1週間後に『転職・副業・業務委託を同時に持つCareer Optionalityの作り方』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day7\n\n#CareerRadar #キャリア",
-        "x": "【転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-optionality-portfolio_day7\n#CareerRadar"
+        "linkedin": "【1週間後の問い：40代で市場価値を上げ直すための経験棚卸し】\n\n1週間後に『40代で市場価値を上げ直すための経験棚卸し』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day7\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【1週間後の問い：40代で市場価値を上げ直すための経験棚卸し】\n\n1週間後に『40代で市場価値を上げ直すための経験棚卸し』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day7\n\n#CareerRadar #キャリア",
+        "x": "【40代で市場価値を上げ直すための経験棚卸し】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/40s-market-value-reset.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=40s-market-value-reset_day7\n#CareerRadar"
       }
     }
   ],
   "items": [
+    {
+      "article_id": "ai-automation-role-redesign",
+      "title": "AIで仕事が減る人と市場価値が上がる人の違い",
+      "published_at": "2026-09-25",
+      "canonical_url": "https://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html",
+      "variants": {
+        "day0": {
+          "due_at": "2026-09-25",
+          "posts": {
+            "linkedin": "【AIで仕事が減る人と市場価値が上がる人の違い】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n\n#CareerRadar #キャリア #市場価値",
+            "facebook": "【AIで仕事が減る人と市場価値が上がる人の違い】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n\n#CareerRadar #キャリア",
+            "x": "【AIで仕事が減る人と市場価値が上がる人の違い】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day0\n#CareerRadar"
+          }
+        },
+        "day3": {
+          "due_at": "2026-09-28",
+          "posts": {
+            "linkedin": "【3日後にもう一度考えたい：AIで仕事が減る人と市場価値が上がる人の違い】\n\n公開から3日たって、もう一度『AIで仕事が減る人と市場価値が上がる人の違い』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day3\n\n#CareerRadar #キャリア #市場価値",
+            "facebook": "【3日後にもう一度考えたい：AIで仕事が減る人と市場価値が上がる人の違い】\n\n公開から3日たって、もう一度『AIで仕事が減る人と市場価値が上がる人の違い』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day3\n\n#CareerRadar #キャリア",
+            "x": "【AIで仕事が減る人と市場価値が上がる人の違い】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day3\n#CareerRadar"
+          }
+        },
+        "day7": {
+          "due_at": "2026-10-02",
+          "posts": {
+            "linkedin": "【1週間後の問い：AIで仕事が減る人と市場価値が上がる人の違い】\n\n1週間後に『AIで仕事が減る人と市場価値が上がる人の違い』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day7\n\n#CareerRadar #キャリア #市場価値",
+            "facebook": "【1週間後の問い：AIで仕事が減る人と市場価値が上がる人の違い】\n\n1週間後に『AIで仕事が減る人と市場価値が上がる人の違い』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day7\n\n#CareerRadar #キャリア",
+            "x": "【AIで仕事が減る人と市場価値が上がる人の違い】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day7\n#CareerRadar"
+          }
+        }
+      }
+    },
     {
       "article_id": "consulting-scope-creep-risk",
       "title": "コンサル案件で単価を下げる『スコープ膨張』を防ぐ方法",
@@ -348,70 +369,6 @@
             "linkedin": "【1週間後の問い：40代から始めるスキル陳腐化Audit】\n\n1週間後に『40代から始めるスキル陳腐化Audit』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n\n#CareerRadar #キャリア #市場価値",
             "facebook": "【1週間後の問い：40代から始めるスキル陳腐化Audit】\n\n1週間後に『40代から始めるスキル陳腐化Audit』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n\n#CareerRadar #キャリア",
             "x": "【40代から始めるスキル陳腐化Audit】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/midcareer-skill-obsolescence-audit.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-skill-obsolescence-audit_day7\n#CareerRadar"
-          }
-        }
-      }
-    },
-    {
-      "article_id": "direct-client-acquisition-playbook",
-      "title": "人材紹介会社を介さず直接案件を取るための実績設計",
-      "published_at": "2026-09-11",
-      "canonical_url": "https://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html",
-      "variants": {
-        "day0": {
-          "due_at": "2026-09-11",
-          "posts": {
-            "linkedin": "【人材紹介会社を介さず直接案件を取るための実績設計】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day0\n\n#CareerRadar #キャリア #市場価値",
-            "facebook": "【人材紹介会社を介さず直接案件を取るための実績設計】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day0\n\n#CareerRadar #キャリア",
-            "x": "【人材紹介会社を介さず直接案件を取るための実績設計】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day0\n#CareerRadar"
-          }
-        },
-        "day3": {
-          "due_at": "2026-09-14",
-          "posts": {
-            "linkedin": "【3日後にもう一度考えたい：人材紹介会社を介さず直接案件を取るための実績設計】\n\n紹介会社を使わないことが目的ではありません。目的は、一つの仲介者の都合で仕事の入口が止まらない状態を作ることです。\n\n元同僚、顧客、LinkedIn、専門コミュニティなど、別経路から案件を作れるでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day3\n\n#CareerRadar #キャリア #市場価値",
-            "facebook": "【3日後にもう一度考えたい：人材紹介会社を介さず直接案件を取るための実績設計】\n\n紹介会社を使わないことが目的ではありません。目的は、一つの仲介者の都合で仕事の入口が止まらない状態を作ることです。\n\n元同僚、顧客、LinkedIn、専門コミュニティなど、別経路から案件を作れるでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day3\n\n#CareerRadar #キャリア",
-            "x": "【人材紹介会社を介さず直接案件を取るための実績設計】\n元同僚、顧客、LinkedIn、専門コミュニティなど、別経路から案件を作れるでしょうか。\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day3\n#CareerRadar"
-          }
-        },
-        "day7": {
-          "due_at": "2026-09-18",
-          "posts": {
-            "linkedin": "【1週間後の問い：人材紹介会社を介さず直接案件を取るための実績設計】\n\n直接案件で必要なのは営業トークより、相手が安心して任せられる証拠です。Case Card、成果、第三者評価、再依頼がその役割を持ちます。\n\n『何ができます』ではなく『何を変えました』で説明できる実績があるでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day7\n\n#CareerRadar #キャリア #市場価値",
-            "facebook": "【1週間後の問い：人材紹介会社を介さず直接案件を取るための実績設計】\n\n直接案件で必要なのは営業トークより、相手が安心して任せられる証拠です。Case Card、成果、第三者評価、再依頼がその役割を持ちます。\n\n『何ができます』ではなく『何を変えました』で説明できる実績があるでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day7\n\n#CareerRadar #キャリア",
-            "x": "【人材紹介会社を介さず直接案件を取るための実績設計】\n『何ができます』ではなく『何を変えました』で説明できる実績があるでしょうか。\nhttps://career.hdnjapan.com/ja/articles/direct-client-acquisition-playbook.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=direct-client-acquisition-playbook_day7\n#CareerRadar"
-          }
-        }
-      }
-    },
-    {
-      "article_id": "salary-vs-career-capital-tradeoff",
-      "title": "年収アップとCareer Capital、どちらを優先すべきか",
-      "published_at": "2026-09-10",
-      "canonical_url": "https://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html",
-      "variants": {
-        "day0": {
-          "due_at": "2026-09-10",
-          "posts": {
-            "linkedin": "【年収アップとCareer Capital、どちらを優先すべきか】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day0\n\n#CareerRadar #キャリア #市場価値",
-            "facebook": "【年収アップとCareer Capital、どちらを優先すべきか】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day0\n\n#CareerRadar #キャリア",
-            "x": "【年収アップとCareer Capital、どちらを優先すべきか】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day0\n#CareerRadar"
-          }
-        },
-        "day3": {
-          "due_at": "2026-09-13",
-          "posts": {
-            "linkedin": "【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】\n\n年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。\n\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n\n#CareerRadar #キャリア #市場価値",
-            "facebook": "【3日後にもう一度考えたい：年収アップとCareer Capital、どちらを優先すべきか】\n\n年収が上がる転職でも、意思決定権や希少経験が減れば、3年後の選択肢は狭くなることがあります。\n\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n\n#CareerRadar #キャリア",
-            "x": "【年収アップとCareer Capital、どちらを優先すべきか】\n目先の報酬差と、3年後に持ち運べる実績を別々に採点しているでしょうか。\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day3\n#CareerRadar"
-          }
-        },
-        "day7": {
-          "due_at": "2026-09-17",
-          "posts": {
-            "linkedin": "【1週間後の問い：年収アップとCareer Capital、どちらを優先すべきか】\n\n転職条件を1週間置いて見直すと、年収以外の差が見えます。権限、専門性、ブランド、学習速度、次の市場への接続性です。\n\nその仕事は、今より高く売れる自分を作るでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day7\n\n#CareerRadar #キャリア #市場価値",
-            "facebook": "【1週間後の問い：年収アップとCareer Capital、どちらを優先すべきか】\n\n転職条件を1週間置いて見直すと、年収以外の差が見えます。権限、専門性、ブランド、学習速度、次の市場への接続性です。\n\nその仕事は、今より高く売れる自分を作るでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day7\n\n#CareerRadar #キャリア",
-            "x": "【年収アップとCareer Capital、どちらを優先すべきか】\nその仕事は、今より高く売れる自分を作るでしょうか。\nhttps://career.hdnjapan.com/ja/articles/salary-vs-career-capital-tradeoff.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-vs-career-capital-tradeoff_day7\n#CareerRadar"
           }
         }
       }

@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "consulting-scope-creep-risk",
-    "published_at": "2026-09-24",
+    "article_id": "ai-automation-role-redesign",
+    "published_at": "2026-09-25",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -218,7 +218,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-25"
     },
     {
       "article_id": "career-market-test-30-days",
@@ -250,6 +251,15 @@
     {
       "article_id": "executive-presence-evidence",
       "due_at": "2026-10-01",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "job-change-optionality-score",
+      "due_at": "2026-10-02",
       "locales": [
         "ja",
         "en"

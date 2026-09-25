@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-08-23",
-    "end_date": "2026-09-19",
+    "start_date": "2026-08-25",
+    "end_date": "2026-09-21",
     "days": 28
   },
-  "source_generated_at": "2026-09-22T23:46:58+00:00",
+  "source_generated_at": "2026-09-24T23:58:43+00:00",
   "input_rows": 7,
   "scored_rows": 7,
   "summary": {
@@ -22,15 +22,15 @@
       "query": "signals for category mapping retail consulting roles",
       "page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 6.5,
-      "expected_ctr": 0.05,
-      "estimated_missed_clicks": 0.1,
+      "position": 7.33,
+      "expected_ctr": 0.04,
+      "estimated_missed_clicks": 0.2,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 29.9
+      "priority_score": 36.4
     },
     {
       "query": "分析／評価職務経歴書",
