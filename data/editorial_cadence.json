@@ -265,6 +265,15 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "freelance-rate-increase-proof",
+      "due_at": "2026-10-05",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
