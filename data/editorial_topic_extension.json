@@ -880,6 +880,104 @@
           "集中上限を決める",
           "Set a concentration limit"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "売上集中は金額ではなく、同じ期間・同じ定義で測ります。直近12か月の請求額を顧客別に集計し、最大顧客、上位3社、単発案件を分けてください。入金日だけで見ると前払い・支払遅延で比率が歪むため、原則は役務を提供した月へ対応させます。税・立替経費・再委託分を売上へ含めるかも最初に固定します。",
+            "比率だけで安全・危険を決めません。一社が60％でも長期契約と十分な現金余力がある場合と、30％でも翌月解約可能で代替案件がない場合では耐性が違います。売上比率に、契約残期間、粗利、支払条件、自分が必要とする稼働時間を並べ、依存の種類を見えるようにします。",
+            "表には事実と仮定を分けます。請求済み金額と契約書の終了条件は事実、来期の継続見込みは仮定です。見込み売上を現在売上へ足して比率を薄めず、確定契約・提案中・相談段階を別列に置きます。数字の目的は不安を煽ることではなく、どの顧客が止まると選択肢が狭まるかを特定することです。"
+          ],
+          "en": [
+            "Measure concentration with one period and one revenue definition. Aggregate the previous twelve months by client, separating the largest account, top three accounts, and one-off work. Cash-receipt dates can distort the ratio when invoices are prepaid or late, so align revenue with the service period where practical. Decide in advance whether taxes, reimbursed expenses, and subcontracted pass-through amounts are included.",
+            "A percentage alone does not determine safety. Sixty percent from one client may be supported by a long contract and substantial reserves, while thirty percent can be fragile when termination is immediate and no replacement pipeline exists. Put concentration beside remaining term, gross contribution, payment conditions, and the time the work consumes. This shows whether dependency comes from money, capacity, contract design, or several factors together.",
+            "Keep facts and assumptions in separate fields. Invoiced revenue and a written termination clause are facts; confidence about next year’s renewal is an estimate. Do not dilute current concentration by adding unsigned pipeline. Mark contracted, proposed, and exploratory work separately. The purpose of the calculation is not to manufacture alarm but to identify which interruption would materially reduce choice."
+          ]
+        },
+        {
+          "ja": [
+            "最大顧客が今日終了通知を出した場合を想定し、最終業務日、最終入金日、未回収債権、必要な引継ぎ工数を時系列にします。30日前通知でも、入金サイトが翌々月なら現金が尽きる時点は別です。違約金や最低利用期間を期待する場合は、契約文言と適用条件を確認し、口頭説明を資金計画の保証にしません。",
+            "影響は売上減だけではありません。顧客専用ツール、貸与端末、メールアドレス、作業場所、紹介経路を同時に失う可能性があります。自分の業務で何が顧客環境に残るのか、終了日に使えなくなる資産は何か、法的に保持できる記録は何かを確認します。機密資料や個人情報を将来の営業用に持ち出してはいけません。",
+            "三つの停止ケースを置きます。通常終了、30日以内の急な終了、未払いを伴う停止です。それぞれで固定費を何か月賄えるか、既存案件へ振り替えられる時間、営業再開までの日数を記録します。これは倒産確率の予言ではなく、契約終了が起きたときに最初の一週間で何をするかを事前に決める復旧訓練です。"
+          ],
+          "en": [
+            "Model what happens if the largest client gives notice today. Put the final service date, last expected payment, outstanding invoices, and handover workload on one timeline. A thirty-day notice period does not equal thirty days of cash when payment arrives two months later. If the plan relies on a termination fee or minimum term, verify the written conditions rather than treating a verbal explanation as guaranteed liquidity.",
+            "The loss may extend beyond revenue. Client-specific tools, loaned equipment, email accounts, workspace, and referral channels can disappear together. Identify what remains in the client environment, what access ends on the final day, and which records you may lawfully retain. Do not remove confidential documents, personal data, or internal screens to support future marketing. Portable evidence must be created within the agreed confidentiality boundary.",
+            "Use three interruption cases: orderly termination, termination within thirty days, and suspension accompanied by unpaid invoices. For each, estimate months of fixed costs covered, capacity that can be shifted to other work, and time required to restart sales. This is not a prediction of business failure. It is a recovery exercise defining the first week of action before pressure distorts decisions."
+          ]
+        },
+        {
+          "ja": [
+            "顧客依存と業界依存、案件依存を分けます。一社との契約が終わっても、同じ課題を他社で解決できるなら顧客依存は高くても専門性は持ち運べます。反対に複数社へ売っていても、すべて同じ元請や同じ規制変更に左右されるなら実質的な分散は弱いままです。",
+            "作業を顧客固有、業界固有、汎用の三層へ分類します。社内コード名や独自システム操作は顧客固有、診療報酬や金融規制の理解は業界固有、要件整理や業務可視化は汎用です。稼働時間だけでなく、成果を説明できる範囲も記録し、顧客名を伏せても価値を示せる実績があるかを確認します。",
+            "紹介元の集中も見落とさないでください。契約先が五社でも、すべて一人の代理店から来ていれば獲得経路は一つです。顧客、業界、課題、紹介元、契約形態を別々に集計します。同時に失われる要因を探すことで、単純な顧客数では見えない共通原因リスクを発見できます。"
+          ],
+          "en": [
+            "Separate client dependence from sector and engagement dependence. If one contract ends but the same problem can be solved for other organizations, the client share may be high while the expertise remains portable. Conversely, several clients may offer weak diversification when every engagement depends on the same prime contractor, regulation, or temporary market condition.",
+            "Classify work into client-specific, sector-specific, and transferable layers. Internal code names and proprietary system operations are client-specific; knowledge of reimbursement or financial regulation may be sector-specific; process mapping and requirements analysis may transfer. Record both hours and the evidence you can explain. Ask whether value remains visible after removing the client’s name and protected details.",
+            "Examine acquisition-source concentration as well. Five contracts introduced by one intermediary still depend on one channel. Calculate client, sector, problem type, referral source, and contract model separately. Then look for causes that could remove several rows at once. This common-cause view reveals exposure that a simple customer count conceals."
+          ]
+        },
+        {
+          "ja": [
+            "営業経路を増やすとは、SNSを増やすことではありません。既存顧客の紹介、過去顧客への再接点、専門家ネットワーク、直接提案、公開コンテンツなど、相手が相談へ至る経路を分けます。各経路について、対象者、提供する証拠、初回接点から商談までの日数、守るべき規約を記録します。",
+            "一度に全経路を試すと、何が効いたか分かりません。30日間は一つの対象課題に対し、紹介依頼、個別連絡、公開記事の三経路などに絞り、同じ価値提案で反応を比較します。送信数ではなく、対象者との具体的な会話、課題の一致、次の行動へ進んだ件数を記録します。",
+            "大量送信や無断取得リストで分散を作らないことも重要です。連絡先の取得目的、オプトアウト、プラットフォーム規約、個人情報の扱いを守ります。新規経路が売上にならなくても、誰がどの証拠へ反応したかが分かれば、次の実験材料になります。外部送信は必ず所定の承認と手順を通します。"
+          ],
+          "en": [
+            "Diversifying acquisition does not mean opening more social accounts. Separate referrals from current clients, reconnection with former clients, professional networks, direct proposals, and public evidence. For each route, record the intended buyer, proof offered, typical time from contact to conversation, and applicable communication or platform rules.",
+            "Testing every channel at once prevents learning. For thirty days, keep one target problem and compare a limited set such as referral requests, selected direct outreach, and one public article. Use the same value proposition. Measure substantive conversations, confirmed problem fit, and advancement to a defined next step rather than raw message volume.",
+            "Do not create diversification through scraped lists or indiscriminate sending. Respect the purpose for which contact data was obtained, opt-out requirements, platform terms, and privacy obligations. A channel can still produce useful evidence without immediate revenue if it shows who responded to which proof. External sending must remain behind the organization’s approval and operating process."
+          ]
+        },
+        {
+          "ja": [
+            "実績を持ち運ぶとは、顧客資料をコピーすることではありません。契約と公開範囲を確認したうえで、課題の構造、自分の担当境界、比較した選択肢、採用した判断、測定方法を一般化します。顧客名や正確な数字を伏せても、何をどう変えたかが説明できる形を目指します。",
+            "案件中に証拠を残します。意思決定記録、公開可能な成果指標の定義、自分の役割メモを定期的に更新し、終了時に記憶だけで再構成しないようにします。ただし社内文書を私物環境へ保存せず、公開可否が不明な情報は持ち出しません。許可された登壇・公開事例・資格は別に整理します。",
+            "一つの実績を複数の市場向けに誇張して言い換えないでください。医療機関の予約改善なら、医療知識、顧客導線設計、データ分析のどれが実際の担当だったかを分けます。次の顧客が検証できる主張だけを使い、チーム成果と自分の寄与、事実と推測を明確にします。"
+          ],
+          "en": [
+            "Portable evidence does not mean copying client material. Within contractual and disclosure boundaries, generalize the problem structure, your role, options compared, decision made, and method used to measure change. The aim is to explain what changed and how you contributed even when the client name and exact figures cannot be disclosed.",
+            "Capture evidence during the engagement. Maintain a decision log, definitions for any publishable outcome measure, and a note of your responsibility so the story is not reconstructed from memory after termination. Do not save internal documents in a personal environment, and do not remove information when permission is unclear. Approved talks, public case studies, and credentials can be tracked separately.",
+            "Do not exaggerate one result into expertise across unrelated markets. In a clinic-booking improvement, separate healthcare context, customer-journey design, and analysis according to the work actually performed. Use claims a future buyer can examine. Distinguish team outcome from personal contribution and observed fact from interpretation."
+          ]
+        },
+        {
+          "ja": [
+            "再契約確率は一つの数字を当てる作業ではありません。契約終了日、更新手続き、予算確定時期、意思決定者、利用状況、未解決課題を事実として整理します。担当者の「続けたい」は好意的な意見ですが、予算承認や契約更新とは別です。確定・条件付き・未確認に分けて扱います。",
+            "先行指標を決めます。更新三か月前の成果レビュー実施、次期範囲の合意、予算担当者の参加、正式見積依頼など、更新に必要な行動が期限までに起きたかを確認します。関係の良さや会議数だけを指標にせず、意思決定が進んだ証拠を使います。",
+            "楽観・標準・悲観の三ケースで次期売上を置き、各ケースの根拠を一文で残します。確率を精密に見せても、標本が一件なら客観性は増えません。予測が外れたら、誰かを責めるためでなく、見落とした承認者、予算周期、競合条件を更新し、次回の判断を改善します。"
+          ],
+          "en": [
+            "Renewal likelihood is not a single number to guess. Record the contract end date, renewal process, budget calendar, decision owners, usage evidence, and unresolved problems as facts. A stakeholder saying they want to continue is a favorable opinion, not the same as approved budget or an executed renewal. Classify signals as confirmed, conditional, or unknown.",
+            "Define leading indicators. Examples include completing an outcome review three months before expiry, agreeing the next scope, involving the budget owner, or receiving a formal request for quotation. Do not use relationship warmth or meeting volume alone. Look for observable evidence that the organization’s decision process has advanced.",
+            "Model an optimistic, standard, and downside case, with one sentence explaining each basis. A precise percentage does not become objective when the sample is a single account. When the forecast fails, update the missing approver, budget cycle, or competitive condition. The purpose is to improve the next decision, not assign blame."
+          ]
+        },
+        {
+          "ja": [
+            "代替顧客は、現在の顧客に似た社名の一覧ではありません。同じ課題を持ち、自分の証拠が通じ、適法かつ現実的に接触できる組織を定義します。業界、規模、意思決定者、困っている兆候、既存取引との競合を確認し、守秘義務や競業避止の範囲を越えないようにします。",
+            "候補ごとに次の一歩を一つ置きます。紹介を依頼する、公開資料を送る、課題仮説を検証する面談を申し込む、などです。まだ接点のない企業を見込み売上に数えません。候補数より、誰が課題を認識し、誰が予算を持ち、どの証拠で会話が始まるかの具体性を優先します。",
+            "既存顧客へ提供する品質を落として代替を探すと、集中解消前に信用を失います。営業時間の上限を決め、納期と契約を守ります。利益率の低い案件を穴埋めで受ける場合も、期間と撤退条件を先に設定します。代替顧客づくりは緊急時の乱獲ではなく、平時の選択肢整備です。"
+          ],
+          "en": [
+            "A replacement client is not a list of companies with similar names. Define organizations that share the problem, can evaluate your evidence, and may be approached lawfully and realistically. Check sector, size, decision owner, observable need, and conflicts with current work. Stay within confidentiality, non-solicitation, and any enforceable post-engagement restrictions.",
+            "Assign one next step to each candidate: request an introduction, share approved public evidence, or seek a conversation to test the problem hypothesis. A company with no contact is not pipeline revenue. Prefer specificity about the problem owner, budget owner, and proof that could start dialogue over a large unqualified list.",
+            "Do not degrade delivery to the current client while searching for alternatives. Set a limit on business-development time and continue meeting contractual commitments. If lower-margin work is accepted as a temporary bridge, define its duration and exit condition. Replacement building is a routine option-creation practice, not emergency harvesting after trust is already at risk."
+          ]
+        },
+        {
+          "ja": [
+            "集中上限は他人の正解をコピーせず、自分の固定費、現金余力、契約期間、営業に必要な時間から決めます。例えば最大顧客比率だけでなく、「終了通知から代替売上が立つまでを現金で耐えられるか」「一社の稼働が営業時間を消していないか」を条件にします。比率は判断を促す警報であり、万能な安全基準ではありません。",
+            "上限を超えたときの行動を先に決めます。新規受注の優先、契約期間の延長交渉、最低発注量、前払い、稼働上限、紹介経路への投資など、変えられる要素を一つ選びます。既存顧客の仕事を突然断るのではなく、サービス品質と関係を守りながら新規比率を増やす移行計画にします。",
+            "毎月同じ定義で比率と復旧余力を更新し、四半期ごとに上限自体を見直します。新規事業の初期や大型案件の立ち上げでは一時的な集中が合理的な場合もあります。その場合は期限、得たい証拠、終了条件を記録します。この記事は個別の法務・税務・投資助言ではないため、重要な契約判断は適切な専門家へ確認してください。"
+          ],
+          "en": [
+            "Set a concentration limit from your fixed costs, cash capacity, contract terms, and time required to sell, rather than copying another business’s threshold. Ask whether cash can cover the period from notice to replacement revenue and whether one engagement consumes the time needed to maintain a pipeline. The ratio is a prompt for action, not a universal safety standard.",
+            "Predefine the response when the limit is crossed. Choose one lever such as prioritizing new-account work, negotiating a longer term, minimum commitment, prepayment, a capacity ceiling, or investment in another acquisition channel. Do not abruptly abandon a valuable client. Build a transition that preserves delivery quality and increases the share of other work over time.",
+            "Update concentration and recovery capacity with the same definition each month, then review the limit quarterly. Temporary concentration may be rational during a launch or major engagement. If so, record the end date, evidence to be gained, and exit condition. This framework is not individualized legal, tax, or investment advice; obtain appropriate professional review for material contractual decisions."
+          ]
+        }
       ]
     },
     "executive-presence-evidence": {
