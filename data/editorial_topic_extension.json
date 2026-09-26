@@ -11,7 +11,8 @@
     "client-concentration-career-risk",
     "executive-presence-evidence",
     "job-change-optionality-score",
-    "freelance-rate-increase-proof"
+    "freelance-rate-increase-proof",
+    "counteroffer-career-risk"
   ],
   "topics": {
     "40s-market-value-reset": {
@@ -1097,6 +1098,46 @@
         [
           "値上げ条件を決める",
           "Set evidence-based increase triggers"
+        ]
+      ]
+    },
+    "counteroffer-career-risk": {
+      "ja": "カウンターオファーを年収だけで決めないための判断基準",
+      "en": "Evaluate a Counteroffer Beyond the Salary Increase",
+      "ja_intro": "退職意向を伝えた後の昇給提案は、残る理由と将来の役割が変わるかを分けて判断する必要があります。",
+      "en_intro": "A counteroffer should be evaluated by whether the reasons for leaving and the future role actually change, not by the raise alone.",
+      "sections": [
+        [
+          "退職理由を再確認する",
+          "Restate the reasons for leaving"
+        ],
+        [
+          "提示条件を分解する",
+          "Decompose the counteroffer"
+        ],
+        [
+          "変更の決裁者を見る",
+          "Identify who authorized the change"
+        ],
+        [
+          "役割の持続性を確認する",
+          "Test whether the role change will last"
+        ],
+        [
+          "信頼関係への影響を見る",
+          "Assess the effect on trust"
+        ],
+        [
+          "外部オファーと比較する",
+          "Compare with the external offer"
+        ],
+        [
+          "残留後90日を設計する",
+          "Define the first 90 days after staying"
+        ],
+        [
+          "撤退条件を決める",
+          "Set an exit condition"
         ]
       ]
     }
