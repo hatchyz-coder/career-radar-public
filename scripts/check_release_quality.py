@@ -24,6 +24,7 @@ TARGETS = (
     "ai-automation-role-redesign",
     "career-market-test-30-days",
     "salary-negotiation-decision-rights",
+    "client-concentration-career-risk",
 )
 
 
