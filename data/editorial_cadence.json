@@ -283,6 +283,15 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "role-scope-change-warning-signs",
+      "due_at": "2026-10-07",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
