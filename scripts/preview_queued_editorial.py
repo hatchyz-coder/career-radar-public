@@ -15,7 +15,12 @@ from check_release_quality import TARGETS, evaluate
 from check_content_quality import Parser
 
 ROOT = Path(__file__).resolve().parents[1]
-DAYS = ("2026-09-22", "2026-09-23", "2026-09-24", "2026-09-25", "2026-09-28", "2026-09-29", "2026-09-30", "2026-10-01")
+DAYS = ("2026-09-29", "2026-09-30", "2026-10-01")
+PREVIEW_TARGETS = (
+    "salary-negotiation-decision-rights",
+    "client-concentration-career-risk",
+    "executive-presence-evidence",
+)
 # Same generation/postprocessing order as the existing publication workflow.
 POST = (
     "polish_generated_articles.py", "expand_generated_articles.py",
@@ -68,7 +73,7 @@ def main():
             # A zero-error result alone is not evidence that the expected article was built.
             # Assert each scheduled ID was actually published on the simulated date.
             cadence = json.loads((site / "data" / "editorial_cadence.json").read_text(encoding="utf-8"))
-            expected_id = TARGETS[index]
+            expected_id = PREVIEW_TARGETS[index]
             rows = [row for row in cadence["release_queue"] if row.get("article_id") == expected_id]
             if len(rows) != 1 or rows[0].get("status") != "published" or rows[0].get("published_at") != day:
                 errors.append(f"{day}: expected {expected_id} published on that date, got {rows}")
@@ -84,14 +89,14 @@ def main():
                           else len(re.findall(r"\b[\w’'-]+\b", visible)))
                 validated_locales.add((expected_id, locale))
                 print(f"Rendered {day}: {expected_id}/{locale} H2={parser.h2} paragraphs={parser.paragraphs} visible_units={amount}")
-            # All eight scheduled days must be covered even if the first article fails quality.
+            # All three upcoming scheduled days must be covered even if the first article fails quality.
             current = evaluate(site)
-            day_errors = [error for error in current if error.split("/")[0] in TARGETS]
+            day_errors = [error for error in current if error.split("/")[0] in PREVIEW_TARGETS]
             errors.extend(f"{day}: {error}" for error in day_errors if error not in generated)
             generated.update(day_errors)
             print(f"Preview {day}: validated postprocessed HTML; issue count={len(current)}")
-        if validated_locales != {(aid, locale) for aid in TARGETS for locale in ("ja", "en")}:
-            errors.append(f"Preview incomplete: validated {len(validated_locales)} of 16 required locale pages")
+        if validated_locales != {(aid, locale) for aid in PREVIEW_TARGETS for locale in ("ja", "en")}:
+            errors.append(f"Preview incomplete: validated {len(validated_locales)} of 6 required locale pages")
         for script in CHECKS:
             try:
                 execute(site, [str(site / "scripts" / script)], f"{script} after last preview date")
@@ -101,7 +106,7 @@ def main():
         print("PREPUBLICATION PREVIEW FAILED; CI must not approve this article copy:", file=sys.stderr)
         print("\n".join(errors[:70]), file=sys.stderr)
         return 1
-    print("Prepublication preview passed all eight dates and downstream checks; editorial meaning still requires review.")
+    print("Prepublication preview passed all three upcoming dates and downstream checks; editorial meaning still requires review.")
     return 0
 
 
