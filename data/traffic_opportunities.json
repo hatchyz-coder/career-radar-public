@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-08-27",
-    "end_date": "2026-09-23",
+    "start_date": "2026-08-28",
+    "end_date": "2026-09-24",
     "days": 28
   },
-  "source_generated_at": "2026-09-26T23:50:38+00:00",
-  "input_rows": 7,
-  "scored_rows": 7,
+  "source_generated_at": "2026-09-27T23:55:48+00:00",
+  "input_rows": 8,
+  "scored_rows": 8,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 7
+    "observe": 8
   },
   "top_opportunities": [
     {
@@ -33,18 +33,32 @@
       "priority_score": 37.6
     },
     {
-      "query": "分析／評価職務経歴書",
-      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "query": "フリーランス リスク",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 20.0,
-      "expected_ctr": 0.015,
+      "position": 7.0,
+      "expected_ctr": 0.04,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 19.4
+      "priority_score": 26.2
+    },
+    {
+      "query": "分析／評価職務経歴書",
+      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 21.5,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 22.1
     },
     {
       "query": "評価 転職",
