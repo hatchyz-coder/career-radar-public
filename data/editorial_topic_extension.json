@@ -1025,81 +1025,97 @@
         {
           "ja": [
             "経営会議や役員報告に同席した事実だけでは、市場価値の証拠になりません。まず会議ごとに、依頼された目的、自分が準備した論点、提示した選択肢、誰が決めたか、決定後に変わった行動を分けます。発言回数や参加者の肩書きではなく、意思決定の質や速度に自分の仕事がどう寄与したかを確認します。",
-            "「社長へ直接報告」と書く前に、単なる進捗読み上げ、質問への回答、判断材料の設計を区別してください。例えば売上悪化の説明で、既存資料を転記しただけなら接点の記録です。顧客別粗利と解約要因を再分類し、撤退・改善・継続の比較軸を示したなら、論点設計として説明できます。経営層の名前や非公開発言は持ち出しません。"
+            "「社長へ直接報告」と書く前に、単なる進捗読み上げ、質問への回答、判断材料の設計を区別してください。例えば売上悪化の説明で、既存資料を転記しただけなら接点の記録です。顧客別粗利と解約要因を再分類し、撤退・改善・継続の比較軸を示したなら、論点設計として説明できます。経営層の名前や非公開発言は持ち出しません。",
+            "最低限の記録表は「会議名」ではなく「判断対象」「自分の成果物」「採用された基準」「承認者」「次の行動」「検証日」で構成します。同じ会議へ何度出たかを積み上げず、判断単位で一行にします。これにより、経営接点を誇張せず、再現可能な仕事へ変換できます。"
           ],
           "en": [
             "Attendance at an executive meeting is not portable evidence by itself. For each meeting, separate the requested purpose, the issue you framed, the options you prepared, the person who made the decision, and the action that changed afterwards. Count neither speaking time nor senior titles as impact. The useful question is whether your work improved the information, criteria, or timing of a decision.",
-            "Before writing ‘reported directly to the CEO,’ distinguish reading a status update, answering questions, and designing decision material. Reformatting an existing slide is exposure. Reclassifying customer margin and churn evidence so leaders can compare exit, repair, and continue options may be decision support. Describe the work without exporting private remarks, naming individuals unnecessarily, or implying that proximity created authority."
+            "Before writing ‘reported directly to the CEO,’ distinguish reading a status update, answering questions, and designing decision material. Reformatting an existing slide is exposure. Reclassifying customer margin and churn evidence so leaders can compare exit, repair, and continue options may be decision support. Describe the work without exporting private remarks, naming individuals unnecessarily, or implying that proximity created authority.",
+            "Use a decision-level log with fields for decision, your artifact, adopted criteria, approver, next action, and review date. Do not count repeated attendance at the same forum as repeated impact. One row per decision turns executive exposure into work another reviewer can inspect without exaggerating access."
           ]
         },
         {
           "ja": [
             "良い論点は「売上を上げるには」のような大問ではなく、期限と意思決定を含みます。例えば「更新率低下の主因は対象顧客の選定か導入後支援か。来期予算を配分する前にどちらを検証するか」と置けば、必要なデータと次の判断が明確になります。事実、第三者の意見、自分の仮説を資料上で分けます。",
-            "論点設定の証拠として、最初の依頼、除外した問い、採用された判断基準、期限を記録します。後から成功した結果に合わせて論点を書き換えず、当時不明だった情報も残してください。論点が経営判断に採用されなかった場合も、何が不足し、誰の権限や追加データが必要だったかを説明できれば、判断の質を示せます。"
+            "論点設定の証拠として、最初の依頼、除外した問い、採用された判断基準、期限を記録します。後から成功した結果に合わせて論点を書き換えず、当時不明だった情報も残してください。論点が経営判断に採用されなかった場合も、何が不足し、誰の権限や追加データが必要だったかを説明できれば、判断の質を示せます。",
+            "案件終了後に記憶で整えるのではなく、当日に論点の版と根拠を残します。追加情報で仮説が変わった場合は旧版を削除せず、変更理由を記載します。採用されなかった論点も残すと、後知恵ではなく当時の判断条件を説明できます。"
           ],
           "en": [
             "A useful issue is narrower than ‘how do we grow revenue.’ Include a decision and a deadline: for example, whether renewal decline is driven more by customer selection or post-onboarding support, and which cause must be tested before next year’s budget is allocated. Label observed facts, stakeholder opinions, and your hypothesis separately so that confidence is visible.",
-            "Preserve the original request, questions you excluded, criteria adopted, and the decision date. Do not rewrite the issue after a successful outcome to make the reasoning appear inevitable. If leaders rejected the frame, record the missing evidence, authority, or business constraint. Explaining why a frame did not support a decision can demonstrate better judgment than claiming every recommendation was accepted."
+            "Preserve the original request, questions you excluded, criteria adopted, and the decision date. Do not rewrite the issue after a successful outcome to make the reasoning appear inevitable. If leaders rejected the frame, record the missing evidence, authority, or business constraint. Explaining why a frame did not support a decision can demonstrate better judgment than claiming every recommendation was accepted.",
+            "Capture the issue version and evidence on the day of the work instead of reconstructing it after the project. When new information changes the hypothesis, preserve the earlier version and explain the change. Rejected frames are useful because they show the conditions under which the original reasoning failed."
           ]
         },
         {
           "ja": [
             "経営層へ出す選択肢は、賛成案と形だけの反対案にしません。現状維持を含め、費用、実行期間、顧客影響、可逆性、必要人員、失敗時の損失を同じ定義で比較します。数字の出典と基準日を添え、取得できない数字は推定値として範囲を示します。",
-            "選択肢表には、採用しなかった案の理由も残します。例えば新機能開発、既存運用改善、対象顧客の絞り込みを比べるなら、どの案が魅力的かではなく、解く問題と前提が同じかを確かめます。比較軸を途中で変えた場合は変更理由を記録し、自分の推奨案だけ有利な尺度にしないことが信頼につながります。"
+            "選択肢表には、採用しなかった案の理由も残します。例えば新機能開発、既存運用改善、対象顧客の絞り込みを比べるなら、どの案が魅力的かではなく、解く問題と前提が同じかを確かめます。比較軸を途中で変えた場合は変更理由を記録し、自分の推奨案だけ有利な尺度にしないことが信頼につながります。",
+            "比較には実行しない場合の費用も含めます。現状維持は無料ではなく、解約、手作業、機会損失が続く可能性があります。ただし未観測の損失を確定額にせず、計算式と幅を示します。各案で同じ期間と対象を使うことが比較の前提です。"
           ],
           "en": [
             "Executive options should not consist of one preferred plan and a token alternative. Include the status quo and compare cost, time to execute, customer impact, reversibility, staffing, and downside using the same definitions. Attach sources and dates to numbers. When data is unavailable, show a range and label the estimate rather than presenting false precision.",
-            "Keep the reason each rejected option was declined. When comparing a new feature, an operational repair, and narrower customer selection, confirm that every option addresses the same decision and assumptions. If criteria change during analysis, document why. Using one favorable measure only for your preferred option turns an options paper into advocacy and makes the evidence less portable."
+            "Keep the reason each rejected option was declined. When comparing a new feature, an operational repair, and narrower customer selection, confirm that every option addresses the same decision and assumptions. If criteria change during analysis, document why. Using one favorable measure only for your preferred option turns an options paper into advocacy and makes the evidence less portable.",
+            "Include the cost of doing nothing. The status quo may preserve churn, manual effort, or foregone opportunities, but unobserved losses should not become certain amounts. Show the calculation and range. Every option needs the same period, population, and accounting boundary or the comparison will favor whichever case was measured differently."
           ]
         },
         {
           "ja": [
             "推奨案は結論だけでなく、成立条件と反証条件を含めます。「Aを推奨。更新対象20社のうち解約理由が導入支援に集中していること、4週間で支援手順を変更できることが前提。原因が価格へ分散するなら再検討」のように、何が崩れれば判断を変えるかを書きます。",
-            "推奨時に自分が決められる範囲も明示します。調査設計を任されても、予算、人員、契約変更の最終権限は別にあるかもしれません。提案、推奨、承認、実行を同じ『決定した』でまとめず、職務経歴書では実際の動詞を使います。結果が未確定なら、合意された次の検証までを成果として記載します。"
+            "推奨時に自分が決められる範囲も明示します。調査設計を任されても、予算、人員、契約変更の最終権限は別にあるかもしれません。提案、推奨、承認、実行を同じ『決定した』でまとめず、職務経歴書では実際の動詞を使います。結果が未確定なら、合意された次の検証までを成果として記載します。",
+            "推奨の強さを証拠に合わせます。実測が十分なら推奨、標本が小さければ限定試行、重大な情報が欠ければ判断延期とします。早く結論を出すことより、不確実性に適した次の一歩を提案できることが、経営判断を支える能力です。"
           ],
           "en": [
             "A recommendation needs conditions and disconfirming evidence, not only a conclusion. A defensible form is: recommend option A if cancellation reasons are concentrated in onboarding and the support process can change within four weeks; revisit if pricing explains a comparable share. State what observation would reverse the recommendation before results are known.",
-            "Also state your authority boundary. You may own the analysis while budget, staffing, or contract approval belongs elsewhere. Do not collapse proposed, recommended, approved, and executed into ‘decided.’ Use the verb supported by the record. When the commercial result is not yet known, claim the approved experiment or next decision, not an outcome that has not occurred."
+            "Also state your authority boundary. You may own the analysis while budget, staffing, or contract approval belongs elsewhere. Do not collapse proposed, recommended, approved, and executed into ‘decided.’ Use the verb supported by the record. When the commercial result is not yet known, claim the approved experiment or next decision, not an outcome that has not occurred.",
+            "Match recommendation strength to evidence. Recommend when observations are sufficient, propose a limited test when the sample is small, and defer when a material dependency is unknown. Executive support is not the speed of reaching certainty. It is selecting a next action that fits the uncertainty and limits avoidable downside."
           ]
         },
         {
           "ja": [
             "反対意見は障害ではなく、判断の失敗条件を見つける材料です。誰が反対したかより、どの前提、顧客影響、運用負荷、法務・セキュリティ懸念を指摘したかを残します。反対を説得で消したと書くのではなく、案を変更した点、受容した残存リスク、保留した判断を区別します。",
-            "経営層の前で異論を扱った証拠は、強く主張したことではありません。事前に反論を集め、主張と根拠を分け、追加データで解ける論点と価値判断として経営が決める論点を整理したことです。守秘義務に触れる発言を引用せず、「法務確認を完了条件へ追加」のようにプロセス変更で示します。"
+            "経営層の前で異論を扱った証拠は、強く主張したことではありません。事前に反論を集め、主張と根拠を分け、追加データで解ける論点と価値判断として経営が決める論点を整理したことです。守秘義務に触れる発言を引用せず、「法務確認を完了条件へ追加」のようにプロセス変更で示します。",
+            "異論を記録した後は、誰の懸念が正しかったかを競いません。検証項目、担当、期限へ変換し、解けない懸念は残存リスクとして承認者に戻します。反対者の人格や部署を問題化せず、判断材料を改善した差分を成果として扱います。"
           ],
           "en": [
             "Counterarguments are inputs for discovering failure conditions, not obstacles to overcome. Record the challenged assumption, customer consequence, operational burden, or legal and security concern rather than who objected. Separate changes made to the proposal, residual risks explicitly accepted, and decisions deferred. ‘Won the argument’ is not evidence of sound executive work.",
-            "Evidence of handling dissent is the preparation: collecting objections, separating claims from support, and distinguishing questions answerable with more data from value judgments reserved for accountable leaders. Do not quote confidential remarks. Describe process changes such as adding legal review to the acceptance criteria or delaying a rollout until an operational owner is assigned."
+            "Evidence of handling dissent is the preparation: collecting objections, separating claims from support, and distinguishing questions answerable with more data from value judgments reserved for accountable leaders. Do not quote confidential remarks. Describe process changes such as adding legal review to the acceptance criteria or delaying a rollout until an operational owner is assigned.",
+            "After recording dissent, convert it into a test, owner, and date. Return concerns that cannot be resolved as residual risks to the accountable approver. Do not make the objector’s personality or department the problem. The evidence is the specific improvement made to the decision process."
           ]
         },
         {
           "ja": [
             "会議後は決定、決定者、期限、担当、前提、再検討条件を一行で残します。議事録全体を作ることが目的ではなく、何が決まり、何が未決かを実行者が同じように理解できる状態を作ります。決定が口頭なら、承認者へ要約を送り、誤りを訂正できる経路を設けます。",
-            "追跡では、決定済みと実行済みを分けます。予算承認があっても人員が割り当てられなければ進みません。期限超過、前提変化、重複決定を検知し、再度経営判断が必要な条件だけを上げます。個人用メモへ機密をコピーせず、組織の承認された記録場所と保管規程に従います。"
+            "追跡では、決定済みと実行済みを分けます。予算承認があっても人員が割り当てられなければ進みません。期限超過、前提変化、重複決定を検知し、再度経営判断が必要な条件だけを上げます。個人用メモへ機密をコピーせず、組織の承認された記録場所と保管規程に従います。",
+            "Decision Logは後から責任を押し付けるための文書ではありません。前提が変わったときに再判断を早める仕組みです。週次で未決事項だけを確認し、完了後は結果と学習を追記します。監査証跡と業務改善の両方に使える粒度を保ちます。"
           ],
           "en": [
             "After the meeting, capture the decision, accountable owner, deadline, assignee, assumptions, and reconsideration trigger in a compact record. The goal is not a transcript. It is a shared understanding of what was decided and what remains open. When approval was verbal, send an authorized summary that gives the decision owner a clear correction path.",
-            "Track decided separately from implemented. Budget approval without assigned capacity does not produce delivery. Flag overdue actions, changed assumptions, and duplicate decisions, escalating only the conditions that require renewed executive judgment. Keep records in the organization’s approved system and retention boundary; do not copy confidential decision logs into a personal portfolio."
+            "Track decided separately from implemented. Budget approval without assigned capacity does not produce delivery. Flag overdue actions, changed assumptions, and duplicate decisions, escalating only the conditions that require renewed executive judgment. Keep records in the organization’s approved system and retention boundary; do not copy confidential decision logs into a personal portfolio.",
+            "A decision log is not documentation for assigning blame later. It should accelerate reconsideration when assumptions change. Review open decisions, append outcomes and lessons, and retain the approved record according to policy. The artifact should be useful both for operational follow-through and for an audit of why action was reasonable."
           ]
         },
         {
           "ja": [
             "成果は最終売上だけでなく、決定から実行へつながった因果の範囲で記述します。例えば「役員会資料で売上を伸ばした」ではなく、「解約要因の分類と選択肢比較を作成し、導入支援の4週間検証が承認された。更新率への影響は検証中」とすれば、確定事実と未確定効果を分けられます。",
-            "結果が出た場合も、自分の寄与とチーム成果を分けます。基準期間、対象顧客、測定方法、外部要因を確認し、都合の良い期間だけを切り取りません。判断が失敗した場合は、当時の情報で合理的だったか、停止条件が働いたか、次のDecision Logへ何を反映したかを示します。失敗を隠さないことも経営品質です。"
+            "結果が出た場合も、自分の寄与とチーム成果を分けます。基準期間、対象顧客、測定方法、外部要因を確認し、都合の良い期間だけを切り取りません。判断が失敗した場合は、当時の情報で合理的だったか、停止条件が働いたか、次のDecision Logへ何を反映したかを示します。失敗を隠さないことも経営品質です。",
+            "因果を主張できない場合は、時系列と寄与に留めます。提案後に売上が増えても、価格改定や季節性が同時にあれば自分の資料が原因とは断定できません。比較対象や反証がない限り、承認された施策と観測結果を別文で書きます。"
           ],
           "en": [
             "Connect a decision to the portion of the outcome you can support. Replace ‘increased revenue through a board presentation’ with: classified churn causes, compared options, and obtained approval for a four-week onboarding-support test; renewal impact remains under evaluation. This separates the completed decision contribution from a commercial effect that has not yet been observed.",
-            "When results exist, distinguish your contribution from the team outcome. Check the baseline period, customer cohort, measurement method, and external changes instead of selecting the most favorable window. For an unsuccessful decision, explain whether the reasoning was defensible with information available, whether stop conditions worked, and what changed in the next decision record. Hiding a failed recommendation is not executive maturity."
+            "When results exist, distinguish your contribution from the team outcome. Check the baseline period, customer cohort, measurement method, and external changes instead of selecting the most favorable window. For an unsuccessful decision, explain whether the reasoning was defensible with information available, whether stop conditions worked, and what changed in the next decision record. Hiding a failed recommendation is not executive maturity.",
+            "When causation cannot be supported, limit the claim to sequence and contribution. Revenue increasing after a proposal does not prove the presentation caused it when pricing, seasonality, or another launch changed simultaneously. Without a comparison or falsification test, write the approved action and observed result as separate statements."
           ]
         },
         {
           "ja": [
             "職務経歴書では、経営層との接点を見出しにせず、解いた問いと責任範囲を先に置きます。「役員向け報告を担当」ではなく、「更新率低下の原因を顧客群別に再分類し、3案の費用・可逆性を比較。事業責任者による4週間検証の承認を支援」のように、対象、判断材料、権限境界を書きます。",
-            "面談用には、状況、論点、選択肢、自分の推奨、反対意見、決定、結果の順で一件を90秒で説明できるようにします。公開できない数字は無理に出さず、測定方法や範囲で具体性を保ちます。肩書きの借用、意思決定者との親密さ、会社全体の成果を自分の権威として使わず、確認可能な仕事だけを持ち運びます。"
+            "面談用には、状況、論点、選択肢、自分の推奨、反対意見、決定、結果の順で一件を90秒で説明できるようにします。公開できない数字は無理に出さず、測定方法や範囲で具体性を保ちます。肩書きの借用、意思決定者との親密さ、会社全体の成果を自分の権威として使わず、確認可能な仕事だけを持ち運びます。",
+            "公開前に、元上司や同僚が読んだとき事実誤認と感じないかを反証します。数字の出典、権限の動詞、チーム成果の帰属、機密境界を一項目ずつ確認します。説明できない肩書きや成果は削り、質問に耐える具体性を残します。"
           ],
           "en": [
             "On a resume, lead with the question solved and your responsibility rather than executive proximity. Replace ‘prepared executive reporting’ with a bounded claim: reclassified renewal decline by customer cohort, compared three options on cost and reversibility, and supported the business owner’s approval of a four-week test. The subject, decision material, and authority boundary are more useful than the audience’s title.",
-            "For interviews, prepare one ninety-second account in this order: situation, issue frame, options, recommendation, dissent, decision, and result. If numbers cannot be disclosed, retain specificity through the measurement method and scope. Do not borrow authority from a senior title, personal access, or a company-wide outcome. Portable evidence consists of work a reviewer could question and you could defend without breaching confidentiality."
+            "For interviews, prepare one ninety-second account in this order: situation, issue frame, options, recommendation, dissent, decision, and result. If numbers cannot be disclosed, retain specificity through the measurement method and scope. Do not borrow authority from a senior title, personal access, or a company-wide outcome. Portable evidence consists of work a reviewer could question and you could defend without breaching confidentiality.",
+            "Before publication, test whether a former manager or colleague would identify a factual error. Check the source of every number, each authority verb, attribution of team outcomes, and the confidentiality boundary. Remove titles or results you cannot defend. Keep the operational detail that can survive informed questioning."
           ]
         }
       ]
