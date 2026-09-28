@@ -13,7 +13,8 @@
     "job-change-optionality-score",
     "freelance-rate-increase-proof",
     "counteroffer-career-risk",
-    "role-scope-change-warning-signs"
+    "role-scope-change-warning-signs",
+    "career-recovery-after-burnout"
   ],
   "topics": {
     "40s-market-value-reset": {
@@ -1158,6 +1159,88 @@
           "総合点で比較する",
           "Compare offers by total optionality"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "報酬は提示年収だけで採点しません。固定給、変動給、入社一時金、退職金、株式、残業、通勤、福利厚生を分け、初年度と平常年度を別に計算します。未確認の賞与や売却できない株式を確定収入へ含めず、税・社会保険は専門家確認が必要な項目として残します。最低・標準・上振れの三ケースを作り、誰が評価し、いつ確定し、途中入社や退職時にどう扱われるかを質問します。",
+            "現職との差額は追加労働時間、出社日、転居費、失う制度まで含めます。年収が100万円増えても毎週10時間の追加稼働が必要なら、一時間あたりの改善は小さくなります。架空の手取り額を断定せず、確認できる契約条件と生活負担を並べます。金額が高いだけでなく、保証性と再現性がある報酬を高く採点します。"
+          ],
+          "en": [
+            "Do not score compensation from headline salary alone. Separate guaranteed base, variable pay, signing payment, pension, equity, overtime, commuting, and benefits, then calculate the first year separately from a normal year. Do not treat an unverified bonus condition or illiquid equity as guaranteed income. Build floor, standard, and upside scenarios, asking who evaluates performance, when an award becomes final, and how joining or leaving partway through a cycle changes eligibility.",
+            "Compare the difference from your current role after adding hours, office attendance, relocation, and benefits you give up. A nominal increase can produce little hourly improvement if the role adds ten hours of work each week. Do not invent precise take-home figures. Put confirmed contractual facts beside personal costs and label every assumption. Score compensation for guarantee and repeatability, not only for the most attractive number in a recruiter’s presentation."
+          ]
+        },
+        {
+          "ja": [
+            "責任範囲は肩書きではなく、変えられる対象で測ります。予算、人員、優先順位、品質基準、顧客対応のどこを提案でき、どこを最終決定できるかを書き分けます。最初の90日で解く問題、引き継ぐチーム、既に決まっている制約を採用担当、配属上司、将来の同僚へ同じように質問し、答えの差を記録します。",
+            "責任が増えるなら、停止する旧業務と支援資源も必要です。欠員補充なしで複数役割を兼務する、決裁者が不明、成功指標が後から決まる場合は減点します。「リード」や「責任者」という語だけでは、成果を求められるのに権限がない役割を見抜けません。大きな仕事ではなく、結果を生み出せる責任と権限の対を評価します。"
+          ],
+          "en": [
+            "Measure responsibility by what you can change, not by title. Separate authority to recommend from authority to decide budget, staffing, priority, quality standards, and customer actions. Ask what problem must be solved in the first ninety days, which team and backlog you inherit, and which constraints are fixed. Put the same questions to the recruiter, manager, and a future peer when available, then record differences instead of resolving them with optimism.",
+            "Expanded responsibility needs resources and work that will stop. Deduct points when the role combines vacancies without replacement, lacks a known approver, or defines success only after joining. Words such as lead or owner do not reveal whether you are accountable for an outcome while another person controls every necessary lever. Portable evidence comes from responsibility paired with enough authority to produce and measure a result."
+          ]
+        },
+        {
+          "ja": [
+            "希少経験は流行語ではなく、獲得方法の難しさで見ます。規制産業での承認、複数国展開、P&L責任、大規模移行など、実際に意思決定へ関与できるかを確認します。ツールを触るだけ、会議を傍聴するだけなら、希少な環境でも希少経験とは限りません。対象求人を20件ほど同じ条件で確認し、必須要件か歓迎要件か、どの成果証拠が求められるかを記録します。",
+            "入社後いつ、誰の承認で、どの案件へ参加できるのかが不明なら、希少経験は約束ではなく期待です。求人票、面談回答、オファー文書を分け、確認された機会と推測を混同しません。一社だけが使う内部用語なら、別の企業が理解できる問題、判断、成果へ翻訳できるかを確認してから加点します。"
+          ],
+          "en": [
+            "Scarcity is not the presence of a fashionable keyword. Ask whether you will participate in difficult decisions behind regulated approval, multinational rollout, profit responsibility, or a high-risk migration. Using a tool or observing a senior meeting may occur in a rare environment without giving you rare experience. Test demand with a consistent sample of relevant vacancies, recording whether the experience is required, preferred, and supported by which outcome evidence.",
+            "Score access probability as well. If nobody can say when, by whose approval, or on which project you would gain the experience, treat it as an expectation rather than an offer term. Keep the listing, interview statement, and written offer separate. When one company uses an internal label, determine whether the underlying problem, judgment, and result can be explained in language another employer recognizes."
+          ]
+        },
+        {
+          "ja": [
+            "市場横断性は「どこでも通用する」という自己評価では測れません。成果を業界固有知識、会社固有手順、汎用的な判断へ分解します。顧客名や内部システムを伏せても、問題、選択肢、判断、測定結果を説明できる部分が持ち運べる証拠です。隣接する三市場の求人票で、同じ経験がどの言葉と条件で求められるかを確認します。",
+            "守秘義務が強く成果を一切説明できない役割は、実務価値が高くても市場へ持ち運びにくい場合があります。公開可能な成果指標、資格、登壇、一般化したケース記録を在職中に作れるかを確認します。顧客資料の持ち出しは選択肢にせず、業界ごとに追加で必要な資格や経験も減点要素として残します。"
+          ],
+          "en": [
+            "Portability is not a personal belief that your skills work everywhere. Decompose each outcome into sector knowledge, company-specific procedure, and transferable judgment. The portable part is the problem, options, decision, and measured result you can explain after removing client names and proprietary system details. Check how the same experience is described in three adjacent markets and which additional credentials each requires.",
+            "A highly confidential role may create real value while leaving little evidence you can share. Ask whether you can build approved metrics, qualifications, public presentations, or generalized case records during employment. Copying customer documents is never the solution. Score the legitimate evidence path and deduct for dependencies that disappear outside one employer, rather than assuming that difficult work is automatically portable."
+          ]
+        },
+        {
+          "ja": [
+            "会社ブランドは、知名度、選考シグナル、顧客接点、学習環境、卒業生ネットワークへ分解します。有名企業に在籍した事実が次の選択肢を保証するわけではありません。自分が担当する事業や職種が市場で理解されるか、具体的な成果を作れるかを確認し、ロゴの印象と実際の仕事内容を別々に採点します。",
+            "卒業生の進路を公開情報で調べる場合、成功例だけを選びません。同じ職種・在籍期間に近い複数人がどの市場へ移ったかを確認し、個人事情を一般化しないようにします。無名企業でも顧客課題、決定権、公開可能な成果が明確なら証拠を作れます。ブランド点で責任や学習の低得点を自動的に埋めません。"
+          ],
+          "en": [
+            "Unbundle brand into recognition, selection signal, customer access, learning environment, and alumni network. Employment at a famous company does not guarantee another option. Ask whether the specific business and role are understood outside the firm and whether the work can produce evidence beyond the logo. Score the external signal separately from the work you will actually perform.",
+            "When reviewing public alumni paths, do not select only visible success stories. Look at several people with comparable functions and tenure, noting that personal circumstances limit inference. A little-known company can provide clear customer problems, decision authority, and publishable evidence. Brand remains a supporting signal and should not automatically compensate for weak responsibility, poor learning access, or an evidence boundary."
+          ]
+        },
+        {
+          "ja": [
+            "学習密度は研修時間ではなく、難しい仕事、具体的なフィードバック、再試行が短い周期であるかで測ります。誰から何を学ぶか、レビュー頻度、任される成果物、失敗時の支援を確認します。面談では「直近でメンバーの提案をどう改善したか」「半年後に任せる判断は何か」を質問し、抽象的な成長機会しか返らなければ不確実性として減点します。",
+            "過剰な長時間労働は学習密度と違います。振り返りや修正の時間がなく、同じ作業を急いで繰り返すだけなら経験年数は増えても判断は深まりません。週、月、四半期で得るフィードバックと成果物を想定し、生活維持可能性も見ます。動画教材の本数や研修費だけを能力増加の証拠にしません。"
+          ],
+          "en": [
+            "Learning density is not training hours. It is the frequency of difficult work, specific feedback, and another attempt. Ask who provides feedback, how often review occurs, what artifact you will own, and what support exists after failure. Request examples of how a team member’s proposal was improved and which decisions a new hire may own after six months. Abstract growth promises remain uncertainty.",
+            "Long hours are not learning density. Repeating urgent work without reflection or correction can add tenure without improving judgment. Map the expected weekly, monthly, and quarterly feedback loops and the evidence each should produce. Score whether the workload leaves capacity to absorb feedback and maintain health. A large video library or education allowance does not establish growth in applied judgment."
+          ]
+        },
+        {
+          "ja": [
+            "撤退しやすさは悲観ではなく、誤差を限定する設計です。試用期間、通知期間、競業避止、返還義務、株式権利確定、転居、在留資格、家族負担を確認します。法的効力は自己判断せず、重大な条項は専門家へ確認します。転職後6か月と12か月に、外部選択肢と役割の実態を再評価する日を置きます。",
+            "金銭的余力も撤退条件です。保証報酬、生活費、転職活動期間から、何か月耐えられるかを幅で見ます。現職へ戻れる希望や紹介会社の楽観発言を確定した退路に数えません。問題が起きたら即退職するのではなく、修正期限と観測項目を置き、それでも改善しない場合の行動を事前に決めます。"
+          ],
+          "en": [
+            "Reversibility limits the cost of an incorrect assumption. Check probation, notice, restrictive covenants, repayment clauses, equity vesting, relocation, immigration, and family burden. Do not decide enforceability yourself; material terms require appropriate professional advice. Set six- and twelve-month reviews of the actual role and external options, defining which completed evidence would make another move explainable.",
+            "Financial capacity is part of reversibility. Use guaranteed pay, essential spending, and a range for search duration to estimate how long you can absorb disruption. Hope that a former employer will take you back, or a recruiter’s encouraging comment, is not a confirmed exit path. Set a repair period and observable conditions, then predefine what follows if they do not improve."
+          ]
+        },
+        {
+          "ja": [
+            "総合点は報酬20、責任20、希少経験15、市場横断性15、ブランド10、学習10、撤退しやすさ10など、目的に合わせて比較前に重みを固定します。各項目を0〜5点で採点し、根拠文書、発言者、未確認事項を一行で残します。不明を中間点で埋めず、重大な欠格条件を合計点で相殺しません。",
+            "最後は受諾・交渉・辞退の三択にし、交渉する上位三項目を決めます。合計点が高くても健康、倫理、安全の下限を破る案は選びません。このスコアは将来の予言ではなく、比較条件を固定し、判断後に何が外れたかを学ぶDecision Logです。感覚も、どの事実や不一致から生じたかを記録します。"
+          ],
+          "en": [
+            "Choose weights before seeing the attractive parts of an offer. One model may allocate 20 to compensation, 20 to responsibility, 15 each to scarce experience and portability, and 10 each to brand, learning, and reversibility. Score each category from zero to five with one evidence line. Unknown is not a neutral midpoint, and a critical disqualifier is not offset by total points.",
+            "Finish with accept, negotiate, or decline, and select the three negotiation items with the greatest effect on optionality. Reject an option that breaches a non-negotiable health, ethical, or safety floor even if its total is high. The score is not a prediction. It is a decision log that freezes comparison conditions and later reveals which assumptions proved wrong."
+          ]
+        }
       ]
     },
     "freelance-rate-increase-proof": {
@@ -1277,6 +1360,46 @@
         [
           "撤退条件を合意する",
           "Agree on an exit condition"
+        ]
+      ]
+    },
+    "career-recovery-after-burnout": {
+      "ja": "燃え尽き後の転職で同じ働き方を繰り返さない確認項目",
+      "en": "Avoid Repeating the Same Work Pattern After Burnout",
+      "ja_intro": "回復後の転職では、意欲だけでなく負荷の原因と再発条件を具体的に確認します。",
+      "en_intro": "A post-burnout move should test the causes and recurrence conditions of overload, not rely on renewed motivation.",
+      "sections": [
+        [
+          "負荷の原因を分ける",
+          "Separate the causes of overload"
+        ],
+        [
+          "回復状態を確認する",
+          "Assess current recovery"
+        ],
+        [
+          "役割の境界を聞く",
+          "Ask about role boundaries"
+        ],
+        [
+          "労働時間の実態を見る",
+          "Examine actual working patterns"
+        ],
+        [
+          "支援と代替要員を見る",
+          "Check support and backup"
+        ],
+        [
+          "評価制度を確認する",
+          "Review performance expectations"
+        ],
+        [
+          "再発兆候を決める",
+          "Define recurrence signals"
+        ],
+        [
+          "段階的な復帰を設計する",
+          "Design a staged return"
         ]
       ]
     }
