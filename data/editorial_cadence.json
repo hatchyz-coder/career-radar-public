@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "career-market-test-30-days",
-    "published_at": "2026-09-28",
+    "article_id": "salary-negotiation-decision-rights",
+    "published_at": "2026-09-29",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -238,7 +238,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-09-29"
     },
     {
       "article_id": "client-concentration-career-risk",
@@ -270,24 +271,6 @@
     {
       "article_id": "freelance-rate-increase-proof",
       "due_at": "2026-10-05",
-      "locales": [
-        "ja",
-        "en"
-      ],
-      "status": "queued"
-    },
-    {
-      "article_id": "counteroffer-career-risk",
-      "due_at": "2026-10-06",
-      "locales": [
-        "ja",
-        "en"
-      ],
-      "status": "queued"
-    },
-    {
-      "article_id": "role-scope-change-warning-signs",
-      "due_at": "2026-10-07",
       "locales": [
         "ja",
         "en"
