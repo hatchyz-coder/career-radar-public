@@ -15,11 +15,11 @@ from check_release_quality import TARGETS, evaluate
 from check_content_quality import Parser
 
 ROOT = Path(__file__).resolve().parents[1]
-DAYS = ("2026-09-29", "2026-09-30", "2026-10-01")
+DAYS = ("2026-09-30", "2026-10-01", "2026-10-02")
 PREVIEW_TARGETS = (
-    "salary-negotiation-decision-rights",
     "client-concentration-career-risk",
     "executive-presence-evidence",
+    "job-change-optionality-score",
 )
 # Same generation/postprocessing order as the existing publication workflow.
 POST = (
