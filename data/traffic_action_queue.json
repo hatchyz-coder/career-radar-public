@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-09-27T23:55:48.538322+00:00",
+  "generated_at": "2026-09-29T01:13:20.761246+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -25,7 +25,7 @@
       "action_type": "observe",
       "query": "フリーランス リスク",
       "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "priority_score": 26.2,
+      "priority_score": 33.6,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -33,6 +33,19 @@
     },
     {
       "rank": 3,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "転職エージェント 成功報酬 比較",
+      "target_page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "priority_score": 22.4,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 4,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -45,7 +58,20 @@
       "status": "observing"
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "職務経歴書分析評価職",
+      "target_page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "priority_score": 14.9,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 6,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -58,7 +84,7 @@
       "status": "observing"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -71,7 +97,7 @@
       "status": "observing"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -84,7 +110,20 @@
       "status": "observing"
     },
     {
-      "rank": 7,
+      "rank": 9,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "職務経歴書分析評価職",
+      "target_page": "https://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html",
+      "priority_score": 5.1,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 10,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -97,7 +136,7 @@
       "status": "observing"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
