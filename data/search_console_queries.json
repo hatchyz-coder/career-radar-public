@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-30",
-    "end_date": "2026-09-26",
+    "start_date": "2026-08-31",
+    "end_date": "2026-09-27",
     "days": 28
   },
-  "generated_at": "2026-09-29T01:13:20+00:00",
+  "generated_at": "2026-09-30T00:44:30+00:00",
   "rows": [
     {
       "query": "signals for category mapping retail consulting roles",
@@ -30,9 +30,17 @@
       "query": "分析／評価職務経歴書",
       "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 21.5
+      "position": 21.8
+    },
+    {
+      "query": "フリーランス月収最低",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 6.0
     },
     {
       "query": "評価 転職",

@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-09-29T01:13:20.761246+00:00",
+  "generated_at": "2026-09-30T00:44:30.940605+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -36,9 +36,9 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "転職エージェント 成功報酬 比較",
-      "target_page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
-      "priority_score": 22.4,
+      "query": "フリーランス月収最低",
+      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "priority_score": 32.7,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -51,7 +51,7 @@
       "action_type": "observe",
       "query": "分析／評価職務経歴書",
       "target_page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "priority_score": 22.1,
+      "priority_score": 23.3,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -59,6 +59,19 @@
     },
     {
       "rank": 5,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "転職エージェント 成功報酬 比較",
+      "target_page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "priority_score": 22.4,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 6,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -71,7 +84,7 @@
       "status": "observing"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -84,7 +97,7 @@
       "status": "observing"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -97,7 +110,7 @@
       "status": "observing"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -110,7 +123,7 @@
       "status": "observing"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -123,7 +136,7 @@
       "status": "observing"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -136,7 +149,7 @@
       "status": "observing"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
