@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-08-31",
-    "end_date": "2026-09-27",
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-28",
     "days": 28
   },
-  "source_generated_at": "2026-09-30T00:44:30+00:00",
-  "input_rows": 12,
-  "scored_rows": 12,
+  "source_generated_at": "2026-10-01T00:48:05+00:00",
+  "input_rows": 13,
+  "scored_rows": 13,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 12
+    "observe": 13
   },
   "top_opportunities": [
     {
@@ -101,6 +101,20 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 14.9
+    },
+    {
+      "query": "キャリア相談 40代 役職",
+      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 26.0,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 11.8
     },
     {
       "query": "評価 転職",

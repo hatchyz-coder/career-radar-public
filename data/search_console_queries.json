@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-31",
-    "end_date": "2026-09-27",
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-28",
     "days": 28
   },
-  "generated_at": "2026-09-30T00:44:30+00:00",
+  "generated_at": "2026-10-01T00:48:05+00:00",
   "rows": [
     {
       "query": "signals for category mapping retail consulting roles",
@@ -73,6 +73,14 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 65.5
+    },
+    {
+      "query": "キャリア相談 40代 役職",
+      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 26.0
     },
     {
       "query": "転職",
