@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-08-28",
-    "end_date": "2026-09-24",
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-28",
     "days": 28
   },
-  "source_generated_at": "2026-09-27T23:55:48+00:00",
-  "input_rows": 8,
-  "scored_rows": 8,
+  "source_generated_at": "2026-10-01T00:48:05+00:00",
+  "input_rows": 13,
+  "scored_rows": 13,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 8
+    "observe": 13
   },
   "top_opportunities": [
     {
@@ -36,29 +36,85 @@
       "query": "フリーランス リスク",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 7.0,
-      "expected_ctr": 0.04,
-      "estimated_missed_clicks": 0.0,
+      "position": 10.33,
+      "expected_ctr": 0.025,
+      "estimated_missed_clicks": 0.2,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 26.2
+      "priority_score": 33.6
+    },
+    {
+      "query": "フリーランス月収最低",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 6.0,
+      "expected_ctr": 0.05,
+      "estimated_missed_clicks": 0.2,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 32.7
     },
     {
       "query": "分析／評価職務経歴書",
       "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 21.5,
+      "position": 21.8,
       "expected_ctr": 0.008,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 22.1
+      "priority_score": 23.3
+    },
+    {
+      "query": "転職エージェント 成功報酬 比較",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 16.0,
+      "expected_ctr": 0.015,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 22.4
+    },
+    {
+      "query": "職務経歴書分析評価職",
+      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 26.0,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 14.9
+    },
+    {
+      "query": "キャリア相談 40代 役職",
+      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 26.0,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 11.8
     },
     {
       "query": "評価 転職",
@@ -101,6 +157,20 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 5.2
+    },
+    {
+      "query": "職務経歴書分析評価職",
+      "page": "https://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 5.1
     },
     {
       "query": "フリーランス 転身",

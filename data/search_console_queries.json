@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-08-28",
-    "end_date": "2026-09-24",
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-28",
     "days": 28
   },
-  "generated_at": "2026-09-27T23:55:48+00:00",
+  "generated_at": "2026-10-01T00:48:05+00:00",
   "rows": [
     {
       "query": "signals for category mapping retail consulting roles",
@@ -19,12 +19,28 @@
       "position": 7.286
     },
     {
+      "query": "フリーランス リスク",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 10.333
+    },
+    {
       "query": "分析／評価職務経歴書",
       "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 21.5
+      "position": 21.8
+    },
+    {
+      "query": "フリーランス月収最低",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 6.0
     },
     {
       "query": "評価 転職",
@@ -35,6 +51,22 @@
       "position": 62.667
     },
     {
+      "query": "転職エージェント 成功報酬 比較",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 16.0
+    },
+    {
+      "query": "職務経歴書分析評価職",
+      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 26.0
+    },
+    {
       "query": "キャリア",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
@@ -43,12 +75,12 @@
       "position": 65.5
     },
     {
-      "query": "フリーランス リスク",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "query": "キャリア相談 40代 役職",
+      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 7.0
+      "position": 26.0
     },
     {
       "query": "転職",
@@ -57,6 +89,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 44.0
+    },
+    {
+      "query": "職務経歴書分析評価職",
+      "page": "https://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0
     },
     {
       "query": "フリーランス 転身",
