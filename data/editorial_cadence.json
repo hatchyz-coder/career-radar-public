@@ -276,6 +276,33 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "counteroffer-career-risk",
+      "due_at": "2026-10-06",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "role-scope-change-warning-signs",
+      "due_at": "2026-10-07",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "career-recovery-after-burnout",
+      "due_at": "2026-10-08",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
