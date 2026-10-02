@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-01",
-    "end_date": "2026-09-28",
+    "start_date": "2026-09-02",
+    "end_date": "2026-09-29",
     "days": 28
   },
-  "generated_at": "2026-10-01T00:48:05+00:00",
+  "generated_at": "2026-10-02T01:03:44+00:00",
   "rows": [
     {
       "query": "signals for category mapping retail consulting roles",
@@ -22,9 +22,9 @@
       "query": "フリーランス リスク",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 10.333
+      "position": 9.714
     },
     {
       "query": "分析／評価職務経歴書",
@@ -105,6 +105,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 65.0
+    },
+    {
+      "query": "キャリア戦略 作り方",
+      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 74.0
     },
     {
       "query": "転職キャリア",
