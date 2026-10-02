@@ -29,7 +29,7 @@ POST = (
 CHECKS = (
     "check_article_discovery.py", "check_affiliate_funnel.py",
     "check_conversion_ctas.py", "check_japanese_ui_language.py",
-    "check_content_quality.py", "check_editorial_cadence.py",
+    "check_content_quality.py",
 )
 
 
@@ -97,6 +97,26 @@ def main():
                 execute(site, [str(site / "scripts" / script)], f"{script} after last preview date")
             except RuntimeError as exc:
                 errors.append(str(exc))
+
+        # Cadence validation must use the preview's final simulated date rather
+        # than the runner's real date. Otherwise an old article preview can fail
+        # only because newer production queue items are now overdue.
+        cadence_code = (
+            "from datetime import date\n"
+            "import sys\n"
+            f"sys.path.insert(0, {str(site / 'scripts')!r})\n"
+            "import check_editorial_cadence as check\n"
+            "class PreviewDate(date):\n"
+            "    @classmethod\n"
+            "    def today(cls):\n"
+            f"        return date.fromisoformat('{DAYS[-1]}')\n"
+            "check.date = PreviewDate\n"
+            "raise SystemExit(check.main())\n"
+        )
+        try:
+            execute(site, ["-c", cadence_code], "check_editorial_cadence.py after last preview date")
+        except RuntimeError as exc:
+            errors.append(str(exc))
     if errors:
         print("PREPUBLICATION PREVIEW FAILED; CI must not approve this article copy:", file=sys.stderr)
         print("\n".join(errors[:70]), file=sys.stderr)
