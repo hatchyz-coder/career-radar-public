@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-09-29T17:23:19.685253+09:00",
+  "generated_at": "2026-10-02T20:58:56.280509+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -29,44 +29,94 @@
       "manual_publish_only": true
     },
     "selected_today": {
-      "article_id": "salary-negotiation-decision-rights",
-      "title": "年収交渉で金額だけ見てはいけない理由",
+      "article_id": "job-change-optionality-score",
+      "title": "転職先を『年収』ではなく選択肢の増え方で採点する",
       "phase": "day0",
-      "due_at": "2026-09-29",
+      "due_at": "2026-10-02",
       "posts": {
-        "linkedin": "【年収交渉で金額だけ見てはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day0\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【年収交渉で金額だけ見てはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day0\n\n#CareerRadar #キャリア",
-        "x": "【年収交渉で金額だけ見てはいけない理由】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day0\n#CareerRadar"
+        "linkedin": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day0\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day0\n\n#CareerRadar #キャリア",
+        "x": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day0\n#CareerRadar"
       }
     },
     "due_today": [
       {
-        "article_id": "salary-negotiation-decision-rights",
-        "title": "年収交渉で金額だけ見てはいけない理由",
+        "article_id": "job-change-optionality-score",
+        "title": "転職先を『年収』ではなく選択肢の増え方で採点する",
         "phase": "day0",
-        "due_at": "2026-09-29",
+        "due_at": "2026-10-02",
         "posts": {
-          "linkedin": "【年収交渉で金額だけ見てはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day0\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【年収交渉で金額だけ見てはいけない理由】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day0\n\n#CareerRadar #キャリア",
-          "x": "【年収交渉で金額だけ見てはいけない理由】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day0\n#CareerRadar"
+          "linkedin": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day0\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day0\n\n#CareerRadar #キャリア",
+          "x": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day0\n#CareerRadar"
         }
       },
       {
-        "article_id": "resume-achievement-evidence",
-        "title": "職務経歴書の『担当しました』を市場価値に変える書き換え方",
-        "phase": "day7",
-        "due_at": "2026-09-29",
+        "article_id": "salary-negotiation-decision-rights",
+        "title": "年収交渉で金額だけ見てはいけない理由",
+        "phase": "day3",
+        "due_at": "2026-10-02",
         "posts": {
-          "linkedin": "【1週間後の問い：職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n1週間後に『職務経歴書の『担当しました』を市場価値に変える書き換え方』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day7\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【1週間後の問い：職務経歴書の『担当しました』を市場価値に変える書き換え方】\n\n1週間後に『職務経歴書の『担当しました』を市場価値に変える書き換え方』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day7\n\n#CareerRadar #キャリア",
-          "x": "【職務経歴書の『担当しました』を市場価値に変える書き換え方】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=resume-achievement-evidence_day7\n#CareerRadar"
+          "linkedin": "【3日後にもう一度考えたい：年収交渉で金額だけ見てはいけない理由】\n\n公開から3日たって、もう一度『年収交渉で金額だけ見てはいけない理由』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day3\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【3日後にもう一度考えたい：年収交渉で金額だけ見てはいけない理由】\n\n公開から3日たって、もう一度『年収交渉で金額だけ見てはいけない理由』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day3\n\n#CareerRadar #キャリア",
+          "x": "【年収交渉で金額だけ見てはいけない理由】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=salary-negotiation-decision-rights_day3\n#CareerRadar"
+        }
+      },
+      {
+        "article_id": "ai-automation-role-redesign",
+        "title": "AIで仕事が減る人と市場価値が上がる人の違い",
+        "phase": "day7",
+        "due_at": "2026-10-02",
+        "posts": {
+          "linkedin": "【1週間後の問い：AIで仕事が減る人と市場価値が上がる人の違い】\n\n1週間後に『AIで仕事が減る人と市場価値が上がる人の違い』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day7\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【1週間後の問い：AIで仕事が減る人と市場価値が上がる人の違い】\n\n1週間後に『AIで仕事が減る人と市場価値が上がる人の違い』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day7\n\n#CareerRadar #キャリア",
+          "x": "【AIで仕事が減る人と市場価値が上がる人の違い】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-automation-role-redesign_day7\n#CareerRadar"
         }
       }
     ]
   },
-  "item_count": 10,
+  "item_count": 9,
   "warnings": [],
   "items": [
+    {
+      "stable_id": "career_radar:2026-10-02:job-change-optionality-score",
+      "source_id": "career_radar",
+      "source_label": "CareerRadar",
+      "article_id": "job-change-optionality-score",
+      "published_at": "2026-10-02",
+      "title": "転職先を『年収』ではなく選択肢の増え方で採点する",
+      "content_version": "eef0cc81c481d933",
+      "default_state": "ready_for_review",
+      "manual_publish_only": true,
+      "recommended_platform_order": [
+        "linkedin",
+        "facebook",
+        "x"
+      ],
+      "platforms": {
+        "linkedin": {
+          "priority": "P0",
+          "copy": "【転職先を『年収』ではなく選択肢の増え方で採点する / Score Job Offers by Future Optionality, Not Salary Alone】\n\n良い転職は次の会社を決めるだけでなく、その後の選択肢を増やします。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_ja\n\nEnglish follows below.\n\nA strong job move does more than improve the next role; it expands credible options after that role.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_en\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url_ja": "https://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_ja",
+          "url_en": "https://career.hdnjapan.com/en/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_en"
+        },
+        "facebook": {
+          "priority": "P1",
+          "copy": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n\n良い転職は次の会社を決めるだけでなく、その後の選択肢を増やします。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url": "https://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_ja"
+        },
+        "x": {
+          "priority": "P2",
+          "copy": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=x&utm_medium=social\n#CareerRadar",
+          "url": "https://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=x&utm_medium=social"
+        }
+      },
+      "redistribution": {
+        "day_3": "2026-10-05",
+        "day_7": "2026-10-09",
+        "mode": "candidate_only_review_before_repost"
+      }
+    },
     {
       "stable_id": "career_radar:2026-09-29:salary-negotiation-decision-rights",
       "source_id": "career_radar",
@@ -376,84 +426,6 @@
       "redistribution": {
         "day_3": "2026-09-22",
         "day_7": "2026-09-26",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-09-17:career-optionality-portfolio",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "career-optionality-portfolio",
-      "published_at": "2026-09-17",
-      "title": "転職・副業・業務委託を同時に持つCareer Optionalityの作り方",
-      "content_version": "8b468696e4747f49",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【転職・副業・業務委託を同時に持つCareer Optionalityの作り方 / Build Career Optionality Across Employment, Side Work, and Contracting】\n\nキャリアの強さは一つの肩書きではなく、複数の収入・経験・接点へ移れる選択肢の数でも決まります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-optionality-portfolio_ja\n\nEnglish follows below.\n\nCareer strength is partly the number of credible options you can move between—not just the title you hold today.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-optionality-portfolio_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-optionality-portfolio_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/career-optionality-portfolio.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-optionality-portfolio_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n\nキャリアの強さは一つの肩書きではなく、複数の収入・経験・接点へ移れる選択肢の数でも決まります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-optionality-portfolio_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-optionality-portfolio_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【転職・副業・業務委託を同時に持つCareer Optionalityの作り方】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/career-optionality-portfolio.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-09-20",
-        "day_7": "2026-09-24",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-09-16:executive-communication-career-signal",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "executive-communication-career-signal",
-      "published_at": "2026-09-16",
-      "title": "経営層への報告経験をキャリア資本に変える方法",
-      "content_version": "6cdcedb2c2b73a5c",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【経営層への報告経験をキャリア資本に変える方法 / Turn Executive Communication into Portable Career Capital】\n\n経営層への報告は、資料作成ではなく、複雑な状況を意思決定可能な形に圧縮する仕事です。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=executive-communication-career-signal_ja\n\nEnglish follows below.\n\nExecutive communication is not slide production. It is the work of compressing complexity into decision-ready information.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/executive-communication-career-signal.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=executive-communication-career-signal_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=executive-communication-career-signal_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/executive-communication-career-signal.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=executive-communication-career-signal_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【経営層への報告経験をキャリア資本に変える方法】\n\n経営層への報告は、資料作成ではなく、複雑な状況を意思決定可能な形に圧縮する仕事です。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=executive-communication-career-signal_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=executive-communication-career-signal_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【経営層への報告経験をキャリア資本に変える方法】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/executive-communication-career-signal.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-09-19",
-        "day_7": "2026-09-23",
         "mode": "candidate_only_review_before_repost"
       }
     }
