@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-10-02T20:58:56.210661+09:00
+Generated: 2026-10-02T21:25:21.308791+09:00
 
 ## Today — day0 — 転職先を『年収』ではなく選択肢の増え方で採点する
 
