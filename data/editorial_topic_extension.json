@@ -11,7 +11,15 @@
     "client-concentration-career-risk",
     "executive-presence-evidence",
     "job-change-optionality-score",
-    "freelance-rate-increase-proof"
+    "freelance-rate-increase-proof",
+    "career-narrative-role-transition",
+    "consulting-renewal-evidence",
+    "midcareer-risk-budget",
+    "ai-delegation-accountability",
+    "resume-decision-log",
+    "freelance-client-qualification",
+    "compensation-scope-tradeoff",
+    "career-experiment-review-loop"
   ],
   "topics": {
     "40s-market-value-reset": {
@@ -819,6 +827,326 @@
         [
           "値上げ条件を決める",
           "Set evidence-based increase triggers"
+        ]
+      ]
+    },
+    "career-narrative-role-transition": {
+      "ja": "職種転換で経験をつなぐキャリアストーリーの作り方",
+      "en": "How to Build a Credible Career Story for a Role Transition",
+      "ja_intro": "職種を変えるときは、肩書きの一致よりも、過去の経験が次の役割でどう再利用できるかを証拠でつなぐ必要があります。",
+      "en_intro": "A role transition becomes credible when prior evidence is translated into the decisions and outcomes required in the next role.",
+      "sections": [
+        [
+          "肩書きと能力を分ける",
+          "Separate titles from capabilities"
+        ],
+        [
+          "移転可能な経験を探す",
+          "Identify transferable experience"
+        ],
+        [
+          "判断経験を抽出する",
+          "Extract decision experience"
+        ],
+        [
+          "成果を次職種へ翻訳する",
+          "Translate outcomes to the target role"
+        ],
+        [
+          "不足経験を認める",
+          "Name the remaining gaps"
+        ],
+        [
+          "小さな実験で補う",
+          "Close gaps with small experiments"
+        ],
+        [
+          "応募先ごとに順序を変える",
+          "Reorder evidence for each target"
+        ],
+        [
+          "面談反応で更新する",
+          "Refine the story from interview feedback"
+        ]
+      ]
+    },
+    "consulting-renewal-evidence": {
+      "ja": "コンサル契約更新で示すべき継続価値の証拠",
+      "en": "Evidence That Supports a Consulting Contract Renewal",
+      "ja_intro": "契約更新では作業量ではなく、顧客が継続して買う理由を成果・判断・再現性に分けて示す必要があります。",
+      "en_intro": "Renewal is easier to justify when continued value is expressed through outcomes, decisions, and repeatable operating improvements rather than activity volume.",
+      "sections": [
+        [
+          "前期の成果を分解する",
+          "Decompose prior-term outcomes"
+        ],
+        [
+          "利用された成果物を見る",
+          "Identify deliverables actually used"
+        ],
+        [
+          "継続課題を確認する",
+          "Confirm unresolved business needs"
+        ],
+        [
+          "役割の変化を示す",
+          "Show how the role evolved"
+        ],
+        [
+          "無償対応を棚卸しする",
+          "Audit unpriced extra work"
+        ],
+        [
+          "次期の判断権を明確にする",
+          "Clarify next-term decision rights"
+        ],
+        [
+          "契約範囲を再設計する",
+          "Redesign the scope"
+        ],
+        [
+          "更新後の評価方法を決める",
+          "Define post-renewal measurement"
+        ]
+      ]
+    },
+    "midcareer-risk-budget": {
+      "ja": "40代の転職で先に作るべきキャリアリスク予算",
+      "en": "A Career Risk Budget for Mid-Career Job Changes",
+      "ja_intro": "転職リスクはゼロにできないため、年収・役割・空白期間・学習コストを同じ表で比較できる状態を作ることが重要です。",
+      "en_intro": "Mid-career transitions become easier to evaluate when salary, role scope, downtime, and learning costs are treated as one explicit risk budget.",
+      "sections": [
+        [
+          "失えるものを列挙する",
+          "List what can be lost"
+        ],
+        [
+          "収入変動を分ける",
+          "Separate income risks"
+        ],
+        [
+          "役割縮小を測る",
+          "Measure role-scope risk"
+        ],
+        [
+          "空白期間を想定する",
+          "Model transition downtime"
+        ],
+        [
+          "学習コストを入れる",
+          "Include learning costs"
+        ],
+        [
+          "撤退条件を決める",
+          "Set exit conditions"
+        ],
+        [
+          "複数シナリオを比較する",
+          "Compare multiple scenarios"
+        ],
+        [
+          "定期的に前提を更新する",
+          "Refresh assumptions regularly"
+        ]
+      ]
+    },
+    "ai-delegation-accountability": {
+      "ja": "AIへ仕事を任せるとき人間に残る責任をどう設計するか",
+      "en": "How to Design Human Accountability When Delegating Work to AI",
+      "ja_intro": "AIへ作業を移すほど、人間の価値は操作量ではなく、承認・例外処理・品質責任をどこで持つかに移ります。",
+      "en_intro": "As work is delegated to AI, human value shifts from producing each step to owning approval, exceptions, and quality boundaries.",
+      "sections": [
+        [
+          "委任する作業を分解する",
+          "Decompose delegated work"
+        ],
+        [
+          "失敗時の影響を見る",
+          "Map failure consequences"
+        ],
+        [
+          "承認点を残す",
+          "Keep explicit approval points"
+        ],
+        [
+          "例外処理を定義する",
+          "Define exception handling"
+        ],
+        [
+          "根拠確認を設計する",
+          "Design evidence verification"
+        ],
+        [
+          "停止条件を決める",
+          "Set stop conditions"
+        ],
+        [
+          "責任者を明確にする",
+          "Assign accountable owners"
+        ],
+        [
+          "役割記述を更新する",
+          "Update the role description"
+        ]
+      ]
+    },
+    "resume-decision-log": {
+      "ja": "職務経歴書のために意思決定ログを残す方法",
+      "en": "How to Keep a Decision Log That Strengthens Your Resume",
+      "ja_intro": "実績を後から思い出すのではなく、判断時点で選択肢・制約・結果を記録すると職務経歴書の証拠が蓄積します。",
+      "en_intro": "A lightweight decision log preserves options, constraints, ownership, and outcomes before they disappear from memory.",
+      "sections": [
+        [
+          "判断した案件を選ぶ",
+          "Select decisions worth recording"
+        ],
+        [
+          "選択肢を残す",
+          "Record the alternatives"
+        ],
+        [
+          "制約条件を書く",
+          "Capture constraints"
+        ],
+        [
+          "自分の権限を明記する",
+          "State your authority"
+        ],
+        [
+          "採用理由を記録する",
+          "Document the selection rationale"
+        ],
+        [
+          "結果を後から追記する",
+          "Add outcomes later"
+        ],
+        [
+          "守秘範囲を分ける",
+          "Separate confidential details"
+        ],
+        [
+          "職務経歴書へ圧縮する",
+          "Compress the log into resume evidence"
+        ]
+      ]
+    },
+    "freelance-client-qualification": {
+      "ja": "フリーランスが受注前に顧客を見極めるチェックポイント",
+      "en": "How Freelancers Can Qualify Clients Before Accepting Work",
+      "ja_intro": "単価だけで案件を選ぶと、意思決定者不在や無制限の追加依頼によって実質価値が下がることがあります。",
+      "en_intro": "Client qualification protects effective rate and delivery quality by checking decision authority, scope discipline, and working conditions before acceptance.",
+      "sections": [
+        [
+          "依頼目的を確認する",
+          "Confirm the business purpose"
+        ],
+        [
+          "決裁者を確認する",
+          "Identify the decision owner"
+        ],
+        [
+          "予算条件を見る",
+          "Clarify budget conditions"
+        ],
+        [
+          "成果物を具体化する",
+          "Define the deliverable"
+        ],
+        [
+          "変更依頼の扱いを決める",
+          "Set change-request rules"
+        ],
+        [
+          "連絡条件を確認する",
+          "Agree communication expectations"
+        ],
+        [
+          "支払条件を確認する",
+          "Verify payment terms"
+        ],
+        [
+          "断る基準を持つ",
+          "Define reasons to decline"
+        ]
+      ]
+    },
+    "compensation-scope-tradeoff": {
+      "ja": "年収アップと責任範囲のトレードオフを評価する方法",
+      "en": "How to Evaluate the Trade-Off Between Pay and Responsibility Scope",
+      "ja_intro": "報酬が上がっても判断権や成果責任が縮小すれば、次の市場価値に必ずしもプラスとは限りません。",
+      "en_intro": "Higher compensation does not automatically improve future options when decision rights and outcome ownership become narrower.",
+      "sections": [
+        [
+          "報酬差を分解する",
+          "Break down compensation changes"
+        ],
+        [
+          "判断権を比較する",
+          "Compare decision rights"
+        ],
+        [
+          "成果責任を見る",
+          "Compare outcome ownership"
+        ],
+        [
+          "学習機会を測る",
+          "Measure learning opportunity"
+        ],
+        [
+          "外部市場への証拠を見る",
+          "Assess portable evidence"
+        ],
+        [
+          "短期と長期を分ける",
+          "Separate short- and long-term value"
+        ],
+        [
+          "許容条件を決める",
+          "Set acceptable trade-offs"
+        ],
+        [
+          "入社後に検証する",
+          "Recheck the trade-off after joining"
+        ]
+      ]
+    },
+    "career-experiment-review-loop": {
+      "ja": "キャリア仮説を30日単位で検証するレビューサイクル",
+      "en": "A 30-Day Review Loop for Testing Career Hypotheses",
+      "ja_intro": "キャリア判断を一度で正解にしようとせず、応募・面談・副業・市場反応を小さな実験として定期的に更新します。",
+      "en_intro": "Career decisions become more robust when applications, interviews, side work, and market reactions are treated as recurring experiments.",
+      "sections": [
+        [
+          "仮説を一つに絞る",
+          "Choose one hypothesis"
+        ],
+        [
+          "検証指標を決める",
+          "Define observable signals"
+        ],
+        [
+          "小さな行動を設定する",
+          "Set a small experiment"
+        ],
+        [
+          "反応を記録する",
+          "Capture market responses"
+        ],
+        [
+          "事実と解釈を分ける",
+          "Separate evidence from interpretation"
+        ],
+        [
+          "失敗仮説を捨てる",
+          "Discard unsupported hypotheses"
+        ],
+        [
+          "次の実験を選ぶ",
+          "Choose the next experiment"
+        ],
+        [
+          "30日ごとに更新する",
+          "Review every 30 days"
         ]
       ]
     }
