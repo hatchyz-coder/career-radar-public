@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-02",
-    "end_date": "2026-09-29",
+    "start_date": "2026-09-03",
+    "end_date": "2026-09-30",
     "days": 28
   },
-  "generated_at": "2026-10-02T01:03:44+00:00",
+  "generated_at": "2026-10-03T00:42:22+00:00",
   "rows": [
     {
       "query": "signals for category mapping retail consulting roles",
