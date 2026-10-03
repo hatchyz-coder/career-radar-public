@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-10-03T17:01:14.700506+09:00
+Generated: 2026-10-03T22:19:37.251213+09:00
 
 ## Today
 
