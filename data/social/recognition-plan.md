@@ -1,7 +1,39 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-10-04T22:09:47.492296+09:00
+Generated: 2026-10-05T03:07:28.323801+09:00
 
-## Today
+## Today — day0 — フリーランスが単価を上げる前に作るべき証拠
 
-No CareerRadar redistribution candidate is due today.
+### LinkedIn
+
+【フリーランスが単価を上げる前に作るべき証拠】
+
+仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。
+
+一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
+
+CareerRadarで深掘り：
+https://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=freelance-rate-increase-proof_day0
+
+#CareerRadar #キャリア #市場価値
+
+### Facebook
+
+【フリーランスが単価を上げる前に作るべき証拠】
+
+仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。
+
+一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
+
+CareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。
+
+https://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=freelance-rate-increase-proof_day0
+
+#CareerRadar #キャリア
+
+### X
+
+【フリーランスが単価を上げる前に作るべき証拠】
+一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。
+https://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=freelance-rate-increase-proof_day0
+#CareerRadar

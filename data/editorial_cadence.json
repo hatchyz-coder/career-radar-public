@@ -5,10 +5,10 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "job-change-optionality-score",
-    "published_at": "2026-10-02",
-    "article_count": 3,
-    "locale_page_count": 6
+    "article_id": "freelance-rate-increase-proof",
+    "published_at": "2026-10-05",
+    "article_count": 1,
+    "locale_page_count": 2
   },
   "release_queue": [
     {
@@ -278,7 +278,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-10-05"
     },
     {
       "article_id": "career-narrative-role-transition",
@@ -310,6 +311,15 @@
     {
       "article_id": "ai-delegation-accountability",
       "due_at": "2026-10-09",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "resume-decision-log",
+      "due_at": "2026-10-12",
       "locales": [
         "ja",
         "en"
