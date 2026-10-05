@@ -908,6 +908,88 @@
           "更新後の評価方法を決める",
           "Define post-renewal measurement"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "契約更新の説明は、前期に何時間働いたかではなく、契約開始時に合意した課題がどう変わったかから始めます。まず、当初の課題、採用した指標、観測期間、実際に確認できた変化を一枚に分けてください。売上や工数に直接結び付けられない場合は、意思決定の待ち時間、差戻し件数、未解決事項、会議後の担当未確定など、仕事の流れを示す代替指標を使います。数字が残っていなければ効果を推定せず、「ルールを統一した」「責任者を明記した」のような検証可能な変化だけを書きます。",
+            "成果を記録するときは、顧客側の成果、自分の寄与、外部要因を分けます。例えば案件の納期が安定したとしても、自分が担当したのが課題一覧と週次判断会議の設計なら、その仕組みがどの判断を早めたかまでを主張範囲にします。景気や顧客の増員による改善を自分の実績へ混ぜません。更新資料には、証拠となるDecision Log、承認記録、利用された成果物、観測できなかった項目を並べ、反証可能な形で提示します。"
+          ],
+          "en": [
+            "A renewal case should begin with the problem agreed at the start of the term, not the number of hours delivered. Put the original condition, chosen measure, observation period, and verified change on one page. When revenue or hours cannot be attributed directly, use operational signals such as decision lead time, returned work, unresolved items, or actions left without an owner after meetings. If no baseline survived, do not estimate a percentage improvement. State only verifiable changes—for example, one exception rule replaced three conflicting practices, or every escalation now has a named decision owner—and identify the source record.",
+            "Separate the client-level outcome, your contribution, and external conditions. A project may have met deadlines more consistently while the client also added staff or reduced scope. If your work was the issue register and weekly decision forum, claim the decisions that became visible and the handoffs that changed, not the whole delivery result. Attach or reference a redacted decision log, approval trail, or adopted artifact. Include what could not be measured. A renewal argument becomes more credible when the buyer can challenge each claim and still trace it to evidence."
+          ]
+        },
+        {
+          "ja": [
+            "納品した資料の一覧ではなく、実際に誰が何の判断に使ったかを確認します。ダッシュボード、会議テンプレート、業務フロー、採用基準などを並べ、最終閲覧日、利用部署、利用目的、更新責任者を記録してください。提出後に一度も開かれていない資料は「成果物」ではあっても継続価値の証拠にはなりません。一方、担当者が毎週更新し、判断会議の入力として使う表は、派手でなくても運用資産です。",
+            "利用実績は、アクセス数だけで判断しません。閲覧されたが意思決定に使われなかった可能性があるため、会議議事録、決定事項、運用手順、担当者への確認を組み合わせます。顧客が自走できるようになった成果物は、作業継続の理由ではなく、次の支援範囲を高度化する根拠になります。「この資料を作り続ける」ではなく、「この仕組みで新たに見えるようになった問題を、次期はどこまで解決するか」へ更新提案をつなげます。"
+          ],
+          "en": [
+            "Do not present a catalogue of files as proof of value. For each dashboard, meeting template, workflow, hiring rubric, or analysis, record who used it, for which decision, when it was last used, and who maintains it. A polished document that was opened once is a deliverable, but it is weak evidence for another term. A modest table that an operating team updates every week and uses to approve exceptions can be a durable operating asset. The distinction matters because renewal should fund an outcome or capability, not the continued production of unused material.",
+            "Page views alone do not prove use. Combine access evidence with meeting minutes, decisions, process instructions, and confirmation from the responsible operator. When an artifact enables the client to work without the consultant, treat that as successful transfer—not as a reason to keep billing for the same task. The next-term proposal should move up one level: identify the new constraint that became visible because the artifact works, and explain which additional decision, experiment, or capability the renewed engagement will address."
+          ]
+        },
+        {
+          "ja": [
+            "更新時点で残っている課題は、「未完了だから続ける」の一言では不十分です。未解決の理由を、情報不足、意思決定待ち、実装能力不足、外部依存、優先順位変更に分けます。自分の作業遅延が原因なら、それを顧客の継続需要に置き換えてはいけません。顧客が次期に解決したい事業上の損失や機会と結び付く課題だけを、更新候補として残します。",
+            "各課題には、放置した場合の影響、次に必要な判断、責任者、期限、完了条件を置きます。影響が小さい、または顧客内部で解決可能な課題は、契約更新の根拠から外します。更新会議では「続ければ良くなる」ではなく、継続しない場合、限定的に継続する場合、全面継続する場合の三案を比較します。顧客が断る選択肢を理解できる状態にすることが、信頼できる提案の最低条件です。"
+          ],
+          "en": [
+            "An unresolved item is not automatically a reason to renew. Classify why it remains open: missing information, an unmade executive decision, insufficient implementation capacity, an external dependency, a priority change, or delayed consultant work. Do not convert your own unfinished delivery into artificial client demand. Keep only issues connected to a business loss, material risk, or opportunity the client still intends to address. This separates a genuine next-term need from a backlog that should be closed, handed over, or explicitly abandoned.",
+            "For each remaining issue, state the consequence of doing nothing, the next decision required, the accountable owner, a target date, and an observable completion condition. Remove items that are low impact or can be handled internally. In the renewal discussion, compare three options: stop with a documented handoff, retain a narrow advisory role, or continue with a defined delivery scope. The client should be able to understand and choose the no-renewal option. A proposal that hides that option is sales pressure, not decision support."
+          ]
+        },
+        {
+          "ja": [
+            "前期と同じ役割をそのまま延長する前に、顧客側へ移管できた仕事と、まだ外部支援が必要な仕事を分けます。初期には情報整理や会議運営が必要でも、運用が安定した後は顧客担当者が担える場合があります。そこで自分の役割を維持するために手順を複雑化してはいけません。移管済みの作業、共同で行う作業、次期に新たに担う判断支援を表にします。",
+            "役割の変化は単価や工数にも反映します。定型作業が減り、経営判断や難しい例外処理へ比重が移るなら、成果物の数ではなく責任とリスクで契約を設計します。逆に、顧客が実行支援を必要としているなら、助言契約のまま実務を抱え込まず、作業範囲と人員を明示します。更新後の役割記述を一文で言えない場合、契約は過去の惰性を引き継いでいる可能性があります。"
+          ],
+          "en": [
+            "Before extending the same role, separate work that has transferred to the client from work that still benefits from external support. Early in an engagement, information cleanup and meeting facilitation may be necessary. Once the operating rhythm is stable, an internal owner may be able to run those routines. Do not preserve dependency by making the procedure harder to transfer. Build a table with three categories: work fully handed over, work performed jointly during transition, and new decision support proposed for the next term.",
+            "Reflect the role change in price and capacity. If routine production falls while executive decisions and difficult exceptions become the focus, design the renewal around accountability and risk rather than the number of documents. If the client instead needs execution capacity, do not hide delivery work inside an advisory label; state the tasks, staffing assumption, and acceptance criteria. Write the renewed role in one sentence. If neither party can do that, the contract is probably carrying historical activity forward without a current business purpose."
+          ]
+        },
+        {
+          "ja": [
+            "契約書にない依頼を「関係維持のため」と無期限に受けると、実質単価だけでなく本来の成果も崩れます。前期のチャット、会議記録、成果物履歴から、追加分析、緊急対応、資料修正、他部署支援を抽出し、当初範囲との違いを整理します。ここでは顧客を責めるのではなく、依頼が生じた背景と受け入れ判断が曖昧だった箇所を確認します。",
+            "棚卸し後は、次期に含めるもの、別見積りにするもの、対応しないものを決めます。小さな依頼ごとに交渉する運用は双方の負担になるため、月間の変更枠、緊急度の定義、承認者、回答時間を契約へ組み込みます。過去の無償分を遡って請求するのではなく、再発防止として境界を更新します。範囲外対応を断る基準がない契約は、品質と関係の両方を損ないます。"
+          ],
+          "en": [
+            "Unlimited extra work weakens both the effective rate and the outcome the engagement was meant to deliver. Review chat requests, meeting records, and artifact history to identify additional analysis, emergency response, repeated revisions, and support for teams outside the original scope. Compare each item with the signed scope. The purpose is not to blame the client. Identify why the request appeared, who accepted it, and where the change-control decision was ambiguous or absent.",
+            "For the next term, classify extras as included, separately priced, or declined. Negotiating every small request creates friction, so define a monthly change allowance, what counts as urgent, who can authorize a change, and the expected response window. Do not retroactively invent fees for work already accepted without agreement. Use the evidence to redesign the boundary. A contract with no practical way to decline or reprice out-of-scope work eventually damages delivery quality and the relationship it was intended to protect."
+          ]
+        },
+        {
+          "ja": [
+            "次期契約では、誰が提案し、誰が承認し、誰が実行し、誰が結果を受け取るかを明記します。コンサルタントが分析しても、予算、人員、制度変更を決められなければ成果は止まります。一方で、顧客の承認待ちを理由に責任をすべて外すのも適切ではありません。承認に必要な材料をいつまでに出すか、判断が遅れた場合に何を停止するかまで決めます。",
+            "Decision Logには、選択肢、推奨案、根拠、反対意見、決定者、決定日、再評価条件を残します。これにより、後から結果だけを見て「最初から分かっていた」と評価する誤りを減らせます。更新交渉では、権限がない領域の成果を保証せず、自分が責任を持つ判断材料と実行範囲を具体化します。権限と責任の不一致は、努力量では解決できない構造問題です。"
+          ],
+          "en": [
+            "The renewed agreement should identify who proposes, who approves, who executes, and who receives the result. A consultant may produce sound analysis but cannot unilaterally change a budget, staffing plan, or policy. At the same time, client approval delays should not become a blanket excuse. Specify when decision material will be delivered, what information it must contain, the approval window, and which work pauses if a decision is not made. This makes dependencies visible before they become schedule disputes.",
+            "Use a decision log containing the alternatives considered, recommendation, evidence, objections, decision owner, decision date, and condition for review. This reduces hindsight rewriting after the outcome is known. In renewal language, do not guarantee an outcome in a domain where you have no authority. State the quality and timing of the decision support you own, plus any execution you control. A mismatch between authority and accountability is a structural defect; additional effort alone cannot solve it."
+          ]
+        },
+        {
+          "ja": [
+            "更新契約では「支援を継続する」ではなく、含む成果物、除外事項、会議、連絡経路、変更手続、顧客側の前提を具体化します。前期に使われなかった定例会や報告書は自動継続せず、判断に使われたものだけを残します。成果物単位、月額伴走、特定成果までの期間契約などを比較し、顧客の不確実性に合う形を選びます。",
+            "停止条件と縮小条件も契約時に決めます。必要なデータが提供されない、意思決定者が参加しない、前提となる施策が中止された場合、同じ金額と期限を維持することはできません。更新案には通常運用、縮小、停止の手順と引継ぎ方法を含めます。出口を明示することで、継続契約が依存関係ではなく、定期的に価値を再確認する選択になります。"
+          ],
+          "en": [
+            "Replace the phrase ‘continue support’ with a concrete operating contract: included outputs, exclusions, meetings, communication channel, change procedure, and client prerequisites. Do not automatically renew a status meeting or report that nobody used. Keep the mechanisms connected to decisions and remove ceremonial activity. Compare a deliverable-based scope, a fixed monthly advisory capacity, and a time-bounded outcome engagement. Choose the form that matches the uncertainty and authority in the work rather than the format used last term.",
+            "Define reduction and stop conditions at signing. If required data is unavailable, the decision owner does not participate, or the enabling initiative is cancelled, the same fee, output, and timeline may no longer be realistic. Include procedures for normal operation, reduced scope, suspension, and handoff. A visible exit path protects both parties. It turns renewal into a recurring decision about value rather than a dependency that continues because ending it feels operationally difficult."
+          ]
+        },
+        {
+          "ja": [
+            "更新後の評価は、契約終了時ではなく開始時に決めます。各目標について基準値、観測方法、確認頻度、判断者を置き、結果だけでなく先行指標も選びます。例えば採用支援なら採用人数だけでなく、要件確定までの日数、候補者評価の一致度、辞退理由の記録率など、改善途中を観測できる指標があります。ただし指標を増やし過ぎず、意思決定に使わない数字は集めません。",
+            "30日または月次で、継続、修正、停止のいずれかを判断します。レビューには達成事項だけでなく、外れた仮説、不要になった作業、顧客が内製化できる項目を含めます。次回更新まで評価を先送りせず、価値が薄れた仕事を早く終了できる設計にします。良い契約更新は継続を前提にせず、続ける理由と止める条件の両方を測定可能にします。"
+          ],
+          "en": [
+            "Define post-renewal evaluation at the beginning of the term, not at the final review. For each objective, record a baseline where one exists, observation method, review frequency, and decision owner. Include leading indicators that reveal whether the operating change is taking hold. In recruiting support, for example, hires are a late outcome; time to agree a role profile, consistency of candidate evaluation, and recorded reasons for withdrawal may reveal earlier constraints. Collect only measures that will influence a decision.",
+            "At a 30-day or monthly review, choose explicitly among continue, modify, and stop. Record completed outcomes, disproved assumptions, work that is no longer useful, and activities the client can now own. Do not wait until the next renewal negotiation to acknowledge that value has declined. A strong renewal does not assume continuation. It makes both the reason to continue and the condition to stop measurable, giving the client a genuine decision instead of a ceremonial approval."
+          ]
+        }
       ]
     },
     "midcareer-risk-budget": {
