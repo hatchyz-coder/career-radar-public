@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "freelance-rate-increase-proof",
-    "published_at": "2026-10-05",
+    "article_id": "career-narrative-role-transition",
+    "published_at": "2026-10-06",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -288,7 +288,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-10-06"
     },
     {
       "article_id": "consulting-renewal-evidence",
@@ -320,6 +321,15 @@
     {
       "article_id": "resume-decision-log",
       "due_at": "2026-10-12",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "freelance-client-qualification",
+      "due_at": "2026-10-13",
       "locales": [
         "ja",
         "en"
