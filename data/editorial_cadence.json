@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "career-narrative-role-transition",
-    "published_at": "2026-10-06",
+    "article_id": "consulting-renewal-evidence",
+    "published_at": "2026-10-07",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -298,7 +298,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-10-07"
     },
     {
       "article_id": "midcareer-risk-budget",
@@ -330,6 +331,15 @@
     {
       "article_id": "freelance-client-qualification",
       "due_at": "2026-10-13",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "compensation-scope-tradeoff",
+      "due_at": "2026-10-14",
       "locales": [
         "ja",
         "en"
