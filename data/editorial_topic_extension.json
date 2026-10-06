@@ -948,6 +948,88 @@
           "定期的に前提を更新する",
           "Refresh assumptions regularly"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "転職で失う可能性があるものを、現在の年収だけでまとめないでください。固定給、賞与、退職金、福利厚生、通勤負担、在宅勤務の自由度、意思決定権、社内で築いた信用、健康を守れる勤務時間を別々に記録します。金額にできる項目は手取りと税引前を混ぜず、金額にできない項目には「週何回」「誰の承認が必要か」のような観測条件を付けます。新しい会社の説明資料だけで確認できない事項は、確定情報ではなく未確認として残します。",
+            "失うものの反対側には、残留することで失う選択肢もあります。担当領域が縮小する、特定システムだけの経験になる、健康負担が続く、外部市場で通用する実績を作れない、といった機会費用です。現職維持をゼロリスクの基準にせず、「転職する」「残る」「小さく市場を試す」の三案で同じ項目を比較します。会社名の印象ではなく、12か月後に保持できる収入・役割・健康・選択肢を基準にします。"
+          ],
+          "en": [
+            "A mid-career move can put more than headline salary at risk. Record base pay, variable compensation, retirement contributions, benefits, commuting cost, remote-work flexibility, working hours, decision authority, internal trust, and access to useful projects as separate items. Keep gross and take-home figures distinct. For a non-financial item, attach an observable condition: days per week in the office, the budget you may approve, or the escalation you own. Anything supported only by a recruiter’s description remains unverified until the contract, policy, or hiring manager confirms it.",
+            "Also list what staying may cost. The current role can reduce future options through narrower scope, dependence on one internal system, continued health strain, or work that produces no portable evidence. Treat ‘stay’ as an active scenario rather than the zero-risk baseline. Compare at least three choices with the same fields: accept the offer, remain for a defined period, or run a smaller market test. Judge what income, authority, health capacity, and external options each choice is likely to preserve twelve months later."
+          ]
+        },
+        {
+          "ja": [
+            "収入リスクは、基本給の差だけでは判断できません。固定給、業績連動賞与、入社一時金、株式報酬、残業代、副業制限、試用期間、退職時に失効する報酬を分けます。求人票の年収レンジは支給保証ではないため、提示額、算定条件、評価時期、初年度だけの要素をオファー文書で確認します。将来の昇給や賞与は事実ではなくシナリオとして扱い、最低・標準・上振れを混ぜません。",
+            "家計側では月額の生活費、返済、保険、扶養、税・社会保険の時差を入れ、収入が途切れても維持すべき支出を特定します。手元資金を月間必須支出で割った数字を「安全月数」として使えますが、投資資産を即時換金できる現金と同一視しません。退職月、初回給与日、賞与基準日がずれるだけでも資金繰りは変わります。数字が不明なら楽観値で埋めず、確認期限と情報源を記録します。"
+          ],
+          "en": [
+            "Income risk is not the difference between two annual-salary labels. Separate guaranteed base pay, performance bonus, sign-on payment, equity, overtime, pension or retirement contributions, probation terms, side-work restrictions, and compensation forfeited when leaving. A posted salary range is not a payment promise. Verify the offered amount, calculation method, performance period, vesting rule, and any first-year-only component in written materials. Treat future raises and bonuses as scenarios, not facts, and never average a guaranteed amount with an aspirational one.",
+            "On the household side, map essential monthly spending, debt payments, insurance, dependants, and the timing of taxes and social contributions. Divide genuinely liquid cash by essential monthly outflow to estimate runway, while keeping volatile or inaccessible assets separate. Cash flow can change materially when the final salary, first new salary, bonus eligibility, or benefit coverage falls in a different month. If a number is unknown, do not fill the gap with the optimistic case. Assign a source and a deadline for confirming it."
+          ]
+        },
+        {
+          "ja": [
+            "役割縮小は肩書きの上下ではなく、決められる範囲の変化で測ります。現職と候補職について、予算、人員、優先順位、顧客対応、品質基準、例外承認のうち何を提案・承認・実行できるかを書き分けます。「マネージャー」「責任者」という名称が同じでも、決裁者への距離と持てる資源は会社ごとに違います。面談では成功条件だけでなく、直近にその役割が自分で決めた事項を具体的に確認します。",
+            "専門性が深まる移動と、単に裁量がなくなる移動も区別します。短期的に部下や予算が減っても、市場で希少な判断経験や持ち運べる成果を得られるなら合理的な場合があります。反対に年収が上がっても、会議資料の作成だけを担い意思決定から外れるなら選択肢が狭まる可能性があります。評価表には肩書きではなく、決定権、成果の証明可能性、次に移れる役割を記入します。"
+          ],
+          "en": [
+            "Measure scope loss through decision rights, not title prestige. For the current and proposed roles, mark what you may propose, approve, execute, or measure across budget, staffing, priorities, customer commitments, quality standards, and exceptions. Two employers may use the same word ‘manager’ while granting very different access to resources and decision owners. Ask for a recent example of a decision made by the person in the role, who could overturn it, and how the result was evaluated. A job description alone rarely establishes the real authority boundary.",
+            "Distinguish a deliberate specialization move from an accidental reduction in agency. A role with fewer direct reports can still be valuable if it provides scarce judgment, credible evidence, or entry into a target domain. Conversely, a higher-paying role may narrow future options when it consists mainly of preparing material for decisions made elsewhere. Score the move by authority, access to consequential problems, ability to verify outcomes, and the next roles the experience unlocks. Record the title only after those fields."
+          ]
+        },
+        {
+          "ja": [
+            "転職の空白期間は、退職日から入社日までだけではありません。応募準備、選考、現職の引継ぎ、入社後の立ち上がり、試用期間中の不確実性までを一つの回復期間として扱います。過去の平均転職期間を自分にそのまま当てはめず、希望職種、勤務地、年収下限、選考段階、健康状態から短期・標準・長期の三つを置きます。各期間で必要な現金と、延期する支出を先に決めます。",
+            "空白が長引いた場合の行動も日付で決めます。例えば四週目に応募条件を再確認し、八週目に隣接職種を追加し、十二週目に一時的な業務委託を検討するという段階です。ただし焦りから守秘義務に反する実績開示や、条件を確認しない契約へ進まないよう欠格条件は維持します。計画は失敗の予言ではなく、判断が遅れたときの選択肢を事前に確保する仕組みです。"
+          ],
+          "en": [
+            "Transition downtime is broader than the calendar gap between employers. Include preparation, interviews, notice and handover, onboarding, the time needed to become effective, and uncertainty during probation. Do not apply a market-wide average directly to yourself. Build short, expected, and extended cases using your target role, location, minimum acceptable compensation, current interview pipeline, and health capacity. For each case, calculate required liquid cash and identify discretionary spending that would be paused rather than pretending all spending can be cut immediately.",
+            "Attach dated actions to an extended search. You might review role criteria after four weeks, add adjacent roles after eight, and consider a bounded contract assignment after twelve. Preserve disqualifying conditions even under pressure: no role that depends on misrepresenting evidence, violating confidentiality, or accepting unclear payment terms. The scenario is not a prediction that the move will fail. It is a pre-commitment that prevents delayed decisions from consuming cash and narrowing choices without notice."
+          ]
+        },
+        {
+          "ja": [
+            "学習コストには講座代だけでなく、学習時間、収入を得られない時間、環境構築、資格更新、実務で使えるまでの練習期間を含めます。候補職で必要とされる能力を「入社前に必須」「入社後90日で習得」「あると有利」に分け、採用側にも確認します。求人票の長いスキル一覧をすべて購入対象にせず、最初の成果へ直接必要なものから優先します。",
+            "学習投資には検証方法を付けます。資格取得だけで終わらず、小さな成果物、模擬課題、公開可能なケース、面接で説明できる判断記録へ変換します。30日後に応募通過率や面談での質問が変わらなければ、学習テーマか見せ方を見直します。すでに持つ経験で代替できる部分も洗い出し、「不足している気がする」という感覚だけで高額な講座や長期休職を決めません。"
+          ],
+          "en": [
+            "Learning cost includes more than course fees. Count study hours, foregone paid work, software or equipment, examination and renewal fees, practice time, and the delay before the skill can be used credibly. Divide requirements into three groups: required before entry, learnable in the first ninety days, and merely preferred. Confirm that classification with the hiring team where possible. A long job-posting checklist should not become a shopping list. Fund the capabilities tied to the first expected outcome in the role.",
+            "Give every learning investment a validation method. Convert study into a small artifact, simulated task, publishable case, or decision record you can explain in an interview. Review whether applications, interview questions, or practical assessments change after a defined period. If they do not, reconsider the topic, evidence, or target role before spending more. Identify where existing experience substitutes for a new credential. Do not commit to an expensive programme or long employment break solely because you feel generally underqualified."
+          ]
+        },
+        {
+          "ja": [
+            "撤退条件は入社後に苦しくなってから考えるのではなく、応募・受諾前に決めます。重大な法令違反の要請、健康悪化、報酬未払い、説明と異なる恒常的業務、意思決定権の不存在など、即時に再評価すべき条件を列挙します。さらに、三か月時点で役割境界が確認できない、六か月時点で成果の証拠が残らないなど、期限付きの警戒条件も設定します。",
+            "撤退は即退職だけを意味しません。職務範囲の再交渉、配置変更、休養、社内異動、次の選考開始という段階があります。各条件について相談先、必要な証拠、家計への影響、次の行動を事前に書きます。感情的な一日の出来事と構造的な問題を区別するため、Decision Logに事実・解釈・未確認事項を分けて残します。安全や尊厳に関わる条件は合計点で相殺しません。"
+          ],
+          "en": [
+            "Set exit conditions before application or acceptance, not after the role becomes intolerable. Identify events that require immediate review: requests to break law or policy, material health deterioration, unpaid compensation, work that persistently contradicts the agreed role, or accountability without the authority needed to act. Add time-bound warnings, such as role boundaries still being unclear after three months or no verifiable outcome evidence after six. These conditions protect against normalizing a mismatch simply because changing jobs again feels costly.",
+            "Exit does not always mean resigning immediately. Possible stages include renegotiating scope, changing assignment, taking protected leave where applicable, seeking an internal move, and starting an external search. For each trigger, record the evidence required, person or adviser to contact, household cash effect, and next action. Use a decision log to separate the observed event from your interpretation and remaining unknowns. Safety, legality, and dignity are disqualifying conditions; a high total score elsewhere must not cancel them."
+          ]
+        },
+        {
+          "ja": [
+            "比較表は一つの合計点に依存させません。転職、残留、期限付き残留、業務委託など各案について、最低・標準・上振れの三シナリオを作り、収入、現金余力、役割、健康、学習、撤退可能性を並べます。発生確率が分からない項目に精密な百分率を置かず、「確認済み」「根拠ありの推定」「未確認」を表示します。数字の精密さより、前提がどこで崩れるかを見えるようにします。",
+            "合計点が高い案でも、欠格条件に触れる場合は選びません。また、期待値だけでなく最悪時から回復できるかを確認します。例えば年収上昇の可能性が大きくても、変動報酬が中心で現金余力が二か月しかないなら、受諾前に固定給や開始日を交渉する余地があります。表の目的は正解を自動計算することではなく、交渉すべき条件と追加確認を特定することです。"
+          ],
+          "en": [
+            "Do not let one total score decide the move. For each option—accept, stay, stay for a fixed period, or use bounded contract work—build downside, expected, and upside cases across income, cash runway, role scope, health, learning cost, and reversibility. When a probability is unknown, do not invent a precise percentage. Mark the input as verified, evidence-based estimate, or unverified. The useful output is not numerical polish; it is visibility into which assumptions can change the decision.",
+            "Apply disqualifying conditions before comparing totals. Then ask whether you can recover from the downside, not only whether the expected case looks attractive. A role may offer substantial upside while relying heavily on variable compensation and leaving only two months of household runway. That does not automatically reject it, but it identifies fixed pay, start date, or signing terms as negotiation points. The table should reveal what to verify and negotiate, not pretend to calculate a universally correct answer."
+          ]
+        },
+        {
+          "ja": [
+            "前提は受諾時に固定されません。選考中はオファー条件が変わり、入社後は担当範囲、上司、会社の資金状況、家計、健康が変化します。応募開始、内定、入社30日、90日、その後四半期ごとにリスク予算を更新します。変更がない項目も確認日を残し、古い求人票や面談時の口頭説明を現在の事実として扱いません。",
+            "更新時は予測が当たったかではなく、どの情報が不足し、どの兆候を早く捉えられたかを振り返ります。収入・役割・健康・学習・撤退可能性のいずれかが許容範囲を超えたら、交渉、支出調整、学習停止、次の市場テストを実行します。良いリスク予算は不安を数値で隠すものではありません。意思決定の前提、更新日、根拠、次に見直す条件を共有可能にする記録です。"
+          ],
+          "en": [
+            "Assumptions do not freeze when you accept an offer. Terms may change during selection, and after entry the manager, scope, company condition, household needs, or health capacity may change. Refresh the risk budget when applications begin, at offer, after thirty and ninety days, and then quarterly. Date every confirmation, including items that appear unchanged. A job posting or verbal interview statement must not remain a current fact after the operating reality provides newer evidence.",
+            "During review, ask which information was missing and which signal could have been observed earlier, rather than scoring yourself on prediction accuracy. If income, authority, health, learning load, or reversibility moves outside its stated boundary, trigger the corresponding action: negotiate, reduce spending, stop an unproductive course, or begin a new market test. A useful risk budget does not hide uncertainty behind numbers. It keeps the assumption, source, update date, and next review condition visible to the person making the decision."
+          ]
+        }
       ]
     },
     "ai-delegation-accountability": {
