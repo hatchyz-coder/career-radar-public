@@ -988,6 +988,88 @@
           "役割記述を更新する",
           "Update the role description"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "AIへ任せる対象は「メール作成」「分析」のような業務名ではなく、入力の収集、前提の解釈、候補の生成、事実確認、承認、実行、記録へ分解します。同じ文章作成でも、会議要約の草案と契約条件の確定では失敗時の影響が違います。各工程について、AIが提案するのか、自動実行するのか、人が必ず確認するのかを明記してください。曖昧な「AI活用」は、責任境界も検証条件も定められません。",
+            "分解表には入力元、期待する出力、利用者、判断期限、再実行の可否を加えます。個人情報、秘密情報、医療・法務・支払情報を扱う工程は、便利さだけで委任範囲を広げません。データ利用目的、保存先、提供先、削除条件を確認し、許可されていない情報は投入しない設計にします。入力が不足している場合にAIが推測で埋めるのか、処理を停止して人へ返すのかも工程ごとに決めます。"
+          ],
+          "en": [
+            "Do not define delegation with broad labels such as ‘write emails’ or ‘analyse data.’ Break the work into collecting inputs, interpreting assumptions, generating candidates, checking facts, approving, executing, and recording. Drafting a meeting summary and confirming a contract term may both involve text, but their failure consequences differ. For every step, state whether the AI proposes, acts automatically, or must wait for human review. The phrase ‘use AI’ is not an operating design because it names neither the responsibility boundary nor the evidence required for acceptance.",
+            "Add the input source, expected output, user, decision deadline, and whether an action can be reversed or safely repeated. Work involving personal, confidential, medical, legal, or payment information needs a separate purpose and data-boundary review; convenience is not permission. Record where data is processed, retained, shared, and deleted. Decide what happens when an input is incomplete: the system may request clarification, return the task to a person, or stop. It must not silently invent a value simply to complete the workflow."
+          ]
+        },
+        {
+          "ja": [
+            "失敗の影響は、誤字のように修正できるもの、意思決定を誤らせるもの、顧客や従業員へ害を与えるもの、法令・契約・プライバシーに触れるものへ分けます。発生頻度だけでなく、検出までの時間と回復可能性を評価します。頻度が低くても、誤送信、誤請求、誤った医療説明のように外部へ出た後の回収が難しい処理は、自動実行の候補にしません。",
+            "各失敗には、検出方法、影響範囲、一次対応者、停止手順、復旧に必要な記録を置きます。「人が見るから安全」では足りません。確認者が何を比較し、どの根拠を開き、何分以内に判断できるかを実測します。確認量が多すぎて承認が形骸化するなら、AIの出力数を減らす、対象を絞る、異常だけを提示するなど設計を変えます。人の注意力を無限の安全装置として扱わないことが重要です。"
+          ],
+          "en": [
+            "Classify failures by consequence: easily corrected presentation errors, errors that distort a decision, harm to a customer or employee, and breaches of law, contract, privacy, or safety. Estimate not only likelihood but also time to detection and reversibility. A rare error can still be unsuitable for automatic action when recovery after external release is difficult. Misaddressed messages, incorrect charges, medical statements, legal commitments, access changes, and destructive data actions need stricter controls than an internal draft.",
+            "For each failure mode, define detection, blast radius, first responder, stop procedure, and records required for recovery. ‘A human checks it’ is not sufficient. Specify what the reviewer compares, which source must be opened, and whether the review can be completed within the available time. If output volume turns approval into a ritual, reduce the number of outputs, narrow eligible cases, or surface only deviations. Human attention is a constrained resource, not an unlimited safety mechanism."
+          ]
+        },
+        {
+          "ja": [
+            "承認点は、すべての処理の最後に一つ置けばよいわけではありません。外部送信、支払、契約、権限変更、公開、個人への評価など、取り消しにくい行為の直前に置きます。承認画面にはAIの結論だけでなく、使用した入力、根拠、未確認事項、変更前後の差、実行対象を表示します。承認者が何を実行するか理解できないUIは、確認ボタンがあっても実質的な承認ではありません。",
+            "低リスクの定型処理は、個別承認ではなく事前承認された条件と監視で運用できます。ただし対象、上限、時間帯、許可された受信者、失敗時の停止条件を機械判定できる必要があります。条件外は自動で人へ戻し、AI自身が例外を承認しないようにします。承認記録には誰が、いつ、どのバージョンの入力と出力を見て、何を許可したかを残します。"
+          ],
+          "en": [
+            "One approval at the end of a long workflow is not enough. Place an explicit decision immediately before an action that is difficult to reverse: external sending, payment, contract commitment, permission change, publication, deletion, or evaluation of a person. The approval view should show the proposed result, source inputs, evidence, unresolved questions, the exact target, and a before-and-after diff. A button does not create meaningful approval if the reviewer cannot understand what will happen after pressing it.",
+            "Routine low-risk actions may use pre-approved policy rather than individual review, but the policy must be machine-testable. Define eligible cases, value or volume limits, approved recipients, operating windows, and stop conditions. Anything outside those bounds returns to a named person; the AI must not approve its own exception. Store who approved, when, which input and output versions were reviewed, and what action was authorised. That record enables both investigation and later improvement of the policy."
+          ]
+        },
+        {
+          "ja": [
+            "例外処理は、正常系を作った後に「必要なら人が対応」と付け足すものではありません。入力欠損、根拠の矛盾、同名人物、期限切れ資料、権限不足、モデル停止、外部API失敗、重複実行を先に列挙します。各例外について再試行する、別手段へ切り替える、人へ渡す、処理全体を止めるのいずれかを決めます。再試行しても結果が変わらない認証・権限エラーを無限に繰り返してはいけません。",
+            "人へ渡す場合は、エラーメッセージだけでなく、完了済み工程、失敗した工程、使用した入力、再実行時の重複リスク、次に選べる行動をまとめます。担当者が最初から調査し直す設計では、AI化によって手戻りが増えます。また、例外件数と解決時間を計測し、特定の例外が繰り返されるならプロンプトではなく入力契約、権限、業務手順を修正します。"
+          ],
+          "en": [
+            "Exception handling is not a final note that says ‘a person intervenes if needed.’ List missing inputs, conflicting evidence, ambiguous identities, expired sources, insufficient permission, model unavailability, external API failure, timeout, and duplicate execution before enabling the normal flow. For each case, choose retry, fallback, human handoff, or full stop. Retry only when the cause can plausibly change. Authentication and permission errors should not enter an expensive loop that repeats the same failing call.",
+            "A human handoff should include completed steps, the failed step, relevant inputs, the risk of duplicate execution, and the safe actions now available. If the operator must reconstruct the workflow from the beginning, automation has increased rework. Measure exception volume, resolution time, and recurrence. A repeated exception often indicates a broken input contract, permission model, or operating procedure rather than a need for a longer prompt. Fix the earliest reliable control point instead of teaching the AI to conceal the symptom."
+          ]
+        },
+        {
+          "ja": [
+            "AIの回答に引用リンクがあっても、そのリンクが主張を支えているとは限りません。重要な事実について、一次資料の該当箇所、更新日、適用範囲を確認し、事実・意見・推測を分けます。検索結果の要約や別のAI回答を根拠の代わりにしません。数値は定義、対象期間、母集団、単位を揃え、比較できない数字を同じ表に置かないようにします。",
+            "根拠確認の負担を下げるには、出力と証拠を一対一で近づけます。各重要主張の直後に根拠URLや内部記録IDを表示し、確認不能な部分には未検証ラベルを付けます。引用元が削除・更新された場合に再確認できるよう、取得日時と文書版を残します。根拠が見つからない場合は文章をもっともらしく補うのではなく、主張を削除するか、確認待ちとして処理を止めます。"
+          ],
+          "en": [
+            "A citation link does not prove that the cited page supports the claim. For material facts, inspect the relevant passage, update date, jurisdiction or scope, and whether the source is primary. Separate facts, opinions, and model inferences. A search-result summary or another AI answer is not a substitute for the underlying record. For numbers, preserve the definition, period, population, and unit. Do not place incompatible figures in one comparison merely because both appear precise.",
+            "Reduce verification cost by keeping each material claim close to its evidence. Show the source URL or internal record identifier immediately after the statement and label unresolved parts as unverified. Store retrieval time and document version so a changed or removed source can be investigated. When evidence cannot be found, do not complete the sentence with plausible language. Remove the claim or return it for confirmation. A system that stops visibly is safer and often more useful than one that always produces fluent output."
+          ]
+        },
+        {
+          "ja": [
+            "停止条件には、品質スコアの低下だけでなく、秘密情報の混入、許可されていない送信先、根拠欠落、同じ操作の重複、想定件数の超過、監査ログの停止を含めます。条件を検知したら新しい処理の受付を止め、進行中の処理と外部影響を特定します。停止後に自動で再開すると原因調査前に被害を広げるため、重大条件では明示的な再開承認を必要とします。",
+            "復旧手順は、単にAIサービスを再起動することではありません。影響した対象、実行済み操作、未完了操作、通知が必要な相手、取り消せる変更を整理し、安全なチェックポイントから再開します。再開条件には原因、修正、反証テスト、監視方法を含めます。停止が頻発する場合は停止閾値を緩める前に、対象業務が自動化に適しているかを見直します。"
+          ],
+          "en": [
+            "Stop conditions should cover more than a declining quality score. Include confidential data entering an unapproved path, an unauthorised recipient, missing evidence, duplicate side effects, volume beyond an agreed limit, and loss of audit logging. When triggered, stop accepting new work and identify in-flight actions and external effects. For material conditions, require explicit approval to resume. Automatic restart can expand harm before anyone understands why the control activated.",
+            "Recovery is not simply restarting an AI service. Identify affected records, completed actions, incomplete actions, people who may require notice, and changes that can be reversed. Resume from a verified checkpoint, not from an assumed last step. The restart decision should record the cause, corrective change, counterexample test, and monitoring plan. If stops recur, do not first weaken the threshold. Reconsider whether the task, input quality, or available authority makes the workflow suitable for automation."
+          ]
+        },
+        {
+          "ja": [
+            "責任者は「AIを使った部署」ではなく、結果を受け入れる一人の役割として定義します。業務責任者、システム運用者、情報管理者、法務・専門レビュー、承認者を分け、誰が最終結果、障害対応、データ利用、モデル変更を決めるかを表にします。提供会社やAIモデルが出力を生成しても、業務上その結果を採用した責任まで自動的に移るわけではありません。",
+            "責任と権限も一致させます。結果責任を持つ人が、処理停止、対象除外、追加確認、公開拒否を選べない設計は成立しません。複数部署が関わる場合も「全員が責任者」にせず、決定ごとに一人のaccountable ownerを置きます。担当者が不在の場合の代行者と連絡経路を決め、事故時に組織図を探すところから始めないようにします。"
+          ],
+          "en": [
+            "Name an accountable role that accepts the business result; ‘the team using AI’ is not an owner. Separate business ownership, system operation, information governance, specialist or legal review, and final approval. Record who decides whether the result is accepted, how an incident is handled, which data use is permitted, and when a model or prompt change may enter production. A vendor or model may generate the output, but that does not automatically transfer responsibility for adopting it in a business decision.",
+            "Authority must match accountability. A person cannot reasonably own the result if they cannot stop processing, exclude an unsafe case, request additional evidence, or reject publication. Where several departments participate, assign one accountable owner for each decision rather than declaring everyone responsible. Define a deputy and escalation channel for absence. During an incident, the first task should be containing the effect, not searching an organisation chart to discover who may act."
+          ]
+        },
+        {
+          "ja": [
+            "役割記述は「AIを使える人」の一文で終わらせず、任せる判断と人に残す判断を明記します。例えば担当者の価値を文章作成量ではなく、入力品質、根拠確認、例外の選別、承認、改善判断で評価します。ただしAI導入を理由に、確認時間をゼロとして人員計画を作らないでください。監督、修正、事故対応、業務知識の維持にも工数が必要です。",
+            "導入後30日、90日で、処理時間だけでなく、修正率、例外率、見逃し、重複、手戻り、停止回数、利用者の判断品質を確認します。自動化前より人の負担が増えた場合は、操作が減ったことだけで成功としません。役割記述、権限、研修、評価指標を更新し、誰がどの証拠を見て継続・縮小・停止を決めるかをDecision Logに残します。"
+          ],
+          "en": [
+            "Update the role description beyond ‘uses AI.’ State which judgments are delegated and which remain human. Measure the employee’s contribution through input quality, evidence review, exception triage, approval, and improvement decisions rather than the volume of text produced. Do not build a staffing plan that assumes review time falls to zero. Oversight, correction, incident response, and preservation of domain knowledge are real work even when the generation step becomes faster.",
+            "At thirty and ninety days, review correction rate, exception rate, missed defects, duplicate actions, rework, stops, and the quality of downstream decisions—not only processing time. If operators spend more time repairing or explaining output than before, fewer manual clicks do not establish success. Update authority, training, workload, and evaluation measures. Record who examined which evidence and decided to continue, narrow, redesign, or stop the workflow in a decision log."
+          ]
+        }
       ]
     },
     "resume-decision-log": {
