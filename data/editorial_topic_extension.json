@@ -19,7 +19,15 @@
     "resume-decision-log",
     "freelance-client-qualification",
     "compensation-scope-tradeoff",
-    "career-experiment-review-loop"
+    "career-experiment-review-loop",
+    "offer-risk-evidence-checklist",
+    "manager-change-career-risk",
+    "career-sabbatical-decision-framework",
+    "internal-promotion-vs-external-offer",
+    "skills-portfolio-concentration-risk",
+    "recruiter-claim-verification",
+    "career-decision-postmortem",
+    "ai-review-capacity-budget"
   ],
   "topics": {
     "40s-market-value-reset": {
@@ -1229,6 +1237,326 @@
         [
           "30日ごとに更新する",
           "Review every 30 days"
+        ]
+      ]
+    },
+    "offer-risk-evidence-checklist": {
+      "ja": "転職オファーを受諾する前に確認する証拠チェックリスト",
+      "en": "An Evidence Checklist Before Accepting a Job Offer",
+      "ja_intro": "求人票や面談の印象を、契約条件・役割境界・評価制度・撤退可能性の確認可能な証拠へ変換します。",
+      "en_intro": "Convert job-posting language and interview impressions into verifiable evidence about terms, authority, evaluation, and reversibility.",
+      "sections": [
+        [
+          "口頭説明と契約条件を分ける",
+          "Separate verbal claims from contract terms"
+        ],
+        [
+          "報酬の保証範囲を確認する",
+          "Verify guaranteed compensation"
+        ],
+        [
+          "意思決定権を具体例で確かめる",
+          "Test decision rights with examples"
+        ],
+        [
+          "評価制度の実績を聞く",
+          "Inspect how evaluation works in practice"
+        ],
+        [
+          "上司と組織変更リスクを見る",
+          "Assess manager and reorganization risk"
+        ],
+        [
+          "試用期間の条件を読む",
+          "Read probation conditions"
+        ],
+        [
+          "欠格条件を先に決める",
+          "Set disqualifying conditions"
+        ],
+        [
+          "未確認事項を受諾判断へ戻す",
+          "Return unknowns to the acceptance decision"
+        ]
+      ]
+    },
+    "manager-change-career-risk": {
+      "ja": "上司交代でキャリア計画が崩れるリスクをどう備えるか",
+      "en": "How to Prepare for Manager-Change Career Risk",
+      "ja_intro": "上司個人への依存を減らし、役割・評価・成果の証拠を組織に残す方法を整理します。",
+      "en_intro": "Reduce dependence on one manager by making role, evaluation, and outcome evidence durable across organizational change.",
+      "sections": [
+        [
+          "上司依存の項目を特定する",
+          "Identify manager-dependent conditions"
+        ],
+        [
+          "役割合意を記録する",
+          "Document role agreements"
+        ],
+        [
+          "評価基準を複数者で共有する",
+          "Share evaluation criteria beyond one person"
+        ],
+        [
+          "成果の証拠を残す",
+          "Preserve outcome evidence"
+        ],
+        [
+          "後任との再合意を準備する",
+          "Prepare to re-contract with a successor"
+        ],
+        [
+          "組織変更の兆候を読む",
+          "Observe reorganization signals"
+        ],
+        [
+          "社内外の選択肢を保つ",
+          "Keep internal and external options"
+        ],
+        [
+          "交代後90日を検証する",
+          "Review the first ninety days"
+        ]
+      ]
+    },
+    "career-sabbatical-decision-framework": {
+      "ja": "キャリア休職・離職期間を選ぶための判断フレーム",
+      "en": "A Decision Framework for a Career Break",
+      "ja_intro": "休む・学ぶ・働き方を変える選択を、健康、資金、復帰経路、検証可能な目的から判断します。",
+      "en_intro": "Evaluate a career break through health, runway, return paths, and a purpose that can be reviewed rather than romanticized.",
+      "sections": [
+        [
+          "休む目的を定義する",
+          "Define the purpose of the break"
+        ],
+        [
+          "医療判断とキャリア判断を分ける",
+          "Separate medical and career decisions"
+        ],
+        [
+          "資金余力を計算する",
+          "Calculate financial runway"
+        ],
+        [
+          "復帰条件を決める",
+          "Define return conditions"
+        ],
+        [
+          "学習計画を検証可能にする",
+          "Make learning testable"
+        ],
+        [
+          "空白期間の説明を準備する",
+          "Prepare an honest gap explanation"
+        ],
+        [
+          "予定変更の条件を置く",
+          "Set conditions for changing the plan"
+        ],
+        [
+          "月次で継続可否を判断する",
+          "Review continuation monthly"
+        ]
+      ]
+    },
+    "internal-promotion-vs-external-offer": {
+      "ja": "社内昇進と外部オファーを同じ基準で比較する方法",
+      "en": "How to Compare an Internal Promotion with an External Offer",
+      "ja_intro": "肩書きと年収だけでなく、権限、資源、成果の持ち運びやすさ、実現確度を同じ表で比較します。",
+      "en_intro": "Compare promotion and external offer using authority, resources, portable evidence, and delivery certainty—not title and salary alone.",
+      "sections": [
+        [
+          "約束と確定を分ける",
+          "Separate promises from confirmed terms"
+        ],
+        [
+          "権限と予算を比較する",
+          "Compare authority and budget"
+        ],
+        [
+          "実現時期を確認する",
+          "Verify timing"
+        ],
+        [
+          "成果の持ち運びやすさを見る",
+          "Assess portable evidence"
+        ],
+        [
+          "人間関係コストを見積もる",
+          "Estimate relationship costs"
+        ],
+        [
+          "報酬の変動条件を揃える",
+          "Normalize compensation conditions"
+        ],
+        [
+          "撤退可能性を比較する",
+          "Compare reversibility"
+        ],
+        [
+          "期限を決めて選ぶ",
+          "Make the decision by a defined date"
+        ]
+      ]
+    },
+    "skills-portfolio-concentration-risk": {
+      "ja": "一つの会社・技術に偏ったスキル資産を見直す方法",
+      "en": "How to Audit Concentration Risk in a Skills Portfolio",
+      "ja_intro": "経験年数ではなく、特定企業・製品・業界への依存度と隣接市場への移転可能性を点検します。",
+      "en_intro": "Audit dependence on one employer, product, or industry and test whether the evidence transfers to adjacent markets.",
+      "sections": [
+        [
+          "スキルを利用環境と分ける",
+          "Separate skill from operating context"
+        ],
+        [
+          "企業固有知識を識別する",
+          "Identify employer-specific knowledge"
+        ],
+        [
+          "市場で使う証拠を集める",
+          "Collect market-facing evidence"
+        ],
+        [
+          "隣接職種で試す",
+          "Test adjacent roles"
+        ],
+        [
+          "陳腐化の兆候を確認する",
+          "Observe obsolescence signals"
+        ],
+        [
+          "学習投資を優先順位付けする",
+          "Prioritize learning investment"
+        ],
+        [
+          "守秘義務と実績を両立する",
+          "Preserve confidentiality and evidence"
+        ],
+        [
+          "四半期ごとに集中度を更新する",
+          "Refresh concentration quarterly"
+        ]
+      ]
+    },
+    "recruiter-claim-verification": {
+      "ja": "転職エージェントの説明を事実確認する実務手順",
+      "en": "How to Verify Recruiter Claims Before a Career Decision",
+      "ja_intro": "求人の魅力を否定せず、報酬、役割、採用背景、選考状況を一次確認へつなげます。",
+      "en_intro": "Treat recruiter guidance as a useful lead, then verify compensation, role, hiring context, and process with primary evidence.",
+      "sections": [
+        [
+          "説明の情報源を確認する",
+          "Identify the claim source"
+        ],
+        [
+          "求人票との差分を記録する",
+          "Record differences from the posting"
+        ],
+        [
+          "採用企業へ直接確認する",
+          "Verify with the employer"
+        ],
+        [
+          "報酬条件を書面化する",
+          "Put compensation terms in writing"
+        ],
+        [
+          "独占・緊急性の主張を検証する",
+          "Test exclusivity and urgency claims"
+        ],
+        [
+          "利益相反を理解する",
+          "Understand incentives and conflicts"
+        ],
+        [
+          "個人情報の共有範囲を決める",
+          "Control personal-data sharing"
+        ],
+        [
+          "判断記録を残す",
+          "Keep a decision record"
+        ]
+      ]
+    },
+    "career-decision-postmortem": {
+      "ja": "転職判断を責めずに検証するキャリア・ポストモーテム",
+      "en": "A Blameless Postmortem for Career Decisions",
+      "ja_intro": "結果論で自分を評価せず、当時の情報、仮説、見落とした兆候、次回の判断ルールを整理します。",
+      "en_intro": "Review a career decision without hindsight blame by reconstructing information, assumptions, missed signals, and future rules.",
+      "sections": [
+        [
+          "当時の情報を復元する",
+          "Reconstruct information available then"
+        ],
+        [
+          "結果と判断品質を分ける",
+          "Separate outcome from decision quality"
+        ],
+        [
+          "仮説と未確認事項を並べる",
+          "List assumptions and unknowns"
+        ],
+        [
+          "見落とした兆候を探す",
+          "Identify missed signals"
+        ],
+        [
+          "外部要因を分離する",
+          "Separate external conditions"
+        ],
+        [
+          "再利用できる判断ルールを作る",
+          "Create reusable decision rules"
+        ],
+        [
+          "修復可能な行動を決める",
+          "Choose repair actions"
+        ],
+        [
+          "次回レビュー日を置く",
+          "Set the next review date"
+        ]
+      ]
+    },
+    "ai-review-capacity-budget": {
+      "ja": "AI導入後に人間のレビュー能力を枯らさない設計",
+      "en": "How to Preserve Human Review Capacity After AI Adoption",
+      "ja_intro": "生成量が増えても確認能力が追いつかなければ、承認は形式化します。レビュー量、専門知識、訓練、停止権限を一つの能力予算として設計します。",
+      "en_intro": "When generation volume exceeds review capacity, approval becomes ceremonial. Treat reviewer time, expertise, training, and stop authority as an explicit capacity budget.",
+      "sections": [
+        [
+          "生成量と確認量を測る",
+          "Measure generation and review volume"
+        ],
+        [
+          "重要度でレビューを分ける",
+          "Tier review by consequence"
+        ],
+        [
+          "専門知識の空洞化を防ぐ",
+          "Prevent domain knowledge erosion"
+        ],
+        [
+          "抜き取り検査を設計する",
+          "Design meaningful sampling"
+        ],
+        [
+          "異常検知を優先する",
+          "Prioritize anomaly detection"
+        ],
+        [
+          "レビュー品質を測る",
+          "Measure review quality"
+        ],
+        [
+          "担当者の負荷上限を置く",
+          "Set reviewer workload limits"
+        ],
+        [
+          "自動化範囲を定期的に戻す",
+          "Periodically reassess automation scope"
         ]
       ]
     }
