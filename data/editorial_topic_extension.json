@@ -1075,7 +1075,7 @@
           ],
           "en": [
             "Update the role description beyond ‘uses AI.’ State which judgments are delegated and which remain human. Measure the employee’s contribution through input quality, evidence review, exception triage, approval, and improvement decisions rather than the volume of text produced. Do not build a staffing plan that assumes review time falls to zero. Oversight, correction, incident response, and preservation of domain knowledge are real work even when the generation step becomes faster.",
-            "At thirty and ninety days, review correction rate, exception rate, missed defects, duplicate actions, rework, stops, and the quality of downstream decisions—not only processing time. If operators spend more time repairing or explaining output than before, fewer manual clicks do not establish success. Update authority, training, workload, and evaluation measures. Record who examined which evidence and decided to continue, narrow, redesign, or stop the workflow in a decision log."
+            "At thirty and ninety days, review correction rate, exception rate, missed defects, duplicate actions, rework, stops, and the quality of downstream decisions—not only processing time. If operators spend more time repairing or explaining output than before, fewer manual clicks do not establish success. Update authority, training, workload, and evaluation measures. Record who examined which evidence and decided to continue, narrow, redesign, or stop the workflow in a decision log. Compare reviewers on the same blinded sample periodically; disagreement can reveal ambiguous policy, missing training, or a task that no longer has a reliable human standard."
           ]
         }
       ]
