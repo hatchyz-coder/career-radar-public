@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "consulting-renewal-evidence",
-    "published_at": "2026-10-07",
+    "article_id": "midcareer-risk-budget",
+    "published_at": "2026-10-08",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -308,7 +308,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-10-08"
     },
     {
       "article_id": "ai-delegation-accountability",
@@ -340,6 +341,15 @@
     {
       "article_id": "compensation-scope-tradeoff",
       "due_at": "2026-10-14",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "career-experiment-review-loop",
+      "due_at": "2026-10-15",
       "locales": [
         "ja",
         "en"
