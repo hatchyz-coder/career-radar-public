@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-10-08T17:52:35.679177+09:00",
+  "generated_at": "2026-10-09T01:25:29.827311+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -29,37 +29,48 @@
       "manual_publish_only": true
     },
     "selected_today": {
-      "article_id": "midcareer-risk-budget",
-      "title": "40代の転職で先に作るべきキャリアリスク予算",
+      "article_id": "ai-delegation-accountability",
+      "title": "AIへ仕事を任せるとき人間に残る責任をどう設計するか",
       "phase": "day0",
-      "due_at": "2026-10-08",
+      "due_at": "2026-10-09",
       "posts": {
-        "linkedin": "【40代の転職で先に作るべきキャリアリスク予算】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day0\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【40代の転職で先に作るべきキャリアリスク予算】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day0\n\n#CareerRadar #キャリア",
-        "x": "【40代の転職で先に作るべきキャリアリスク予算】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day0\n#CareerRadar"
+        "linkedin": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-delegation-accountability_day0\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-delegation-accountability_day0\n\n#CareerRadar #キャリア",
+        "x": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-delegation-accountability_day0\n#CareerRadar"
       }
     },
     "due_today": [
       {
-        "article_id": "midcareer-risk-budget",
-        "title": "40代の転職で先に作るべきキャリアリスク予算",
+        "article_id": "ai-delegation-accountability",
+        "title": "AIへ仕事を任せるとき人間に残る責任をどう設計するか",
         "phase": "day0",
-        "due_at": "2026-10-08",
+        "due_at": "2026-10-09",
         "posts": {
-          "linkedin": "【40代の転職で先に作るべきキャリアリスク予算】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day0\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【40代の転職で先に作るべきキャリアリスク予算】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day0\n\n#CareerRadar #キャリア",
-          "x": "【40代の転職で先に作るべきキャリアリスク予算】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day0\n#CareerRadar"
+          "linkedin": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-delegation-accountability_day0\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-delegation-accountability_day0\n\n#CareerRadar #キャリア",
+          "x": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=ai-delegation-accountability_day0\n#CareerRadar"
         }
       },
       {
-        "article_id": "freelance-rate-increase-proof",
-        "title": "フリーランスが単価を上げる前に作るべき証拠",
+        "article_id": "career-narrative-role-transition",
+        "title": "職種転換で経験をつなぐキャリアストーリーの作り方",
         "phase": "day3",
-        "due_at": "2026-10-08",
+        "due_at": "2026-10-09",
         "posts": {
-          "linkedin": "【3日後にもう一度考えたい：フリーランスが単価を上げる前に作るべき証拠】\n\n公開から3日たって、もう一度『フリーランスが単価を上げる前に作るべき証拠』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=freelance-rate-increase-proof_day3\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【3日後にもう一度考えたい：フリーランスが単価を上げる前に作るべき証拠】\n\n公開から3日たって、もう一度『フリーランスが単価を上げる前に作るべき証拠』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=freelance-rate-increase-proof_day3\n\n#CareerRadar #キャリア",
-          "x": "【フリーランスが単価を上げる前に作るべき証拠】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=freelance-rate-increase-proof_day3\n#CareerRadar"
+          "linkedin": "【3日後にもう一度考えたい：職種転換で経験をつなぐキャリアストーリーの作り方】\n\n公開から3日たって、もう一度『職種転換で経験をつなぐキャリアストーリーの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-narrative-role-transition_day3\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【3日後にもう一度考えたい：職種転換で経験をつなぐキャリアストーリーの作り方】\n\n公開から3日たって、もう一度『職種転換で経験をつなぐキャリアストーリーの作り方』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-narrative-role-transition_day3\n\n#CareerRadar #キャリア",
+          "x": "【職種転換で経験をつなぐキャリアストーリーの作り方】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-narrative-role-transition_day3\n#CareerRadar"
+        }
+      },
+      {
+        "article_id": "job-change-optionality-score",
+        "title": "転職先を『年収』ではなく選択肢の増え方で採点する",
+        "phase": "day7",
+        "due_at": "2026-10-09",
+        "posts": {
+          "linkedin": "【1週間後の問い：転職先を『年収』ではなく選択肢の増え方で採点する】\n\n1週間後に『転職先を『年収』ではなく選択肢の増え方で採点する』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day7\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【1週間後の問い：転職先を『年収』ではなく選択肢の増え方で採点する】\n\n1週間後に『転職先を『年収』ではなく選択肢の増え方で採点する』を読み返すなら、知識として理解したかではなく、行動や判断が一つでも変わったかを見ます。\n\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day7\n\n#CareerRadar #キャリア",
+          "x": "【転職先を『年収』ではなく選択肢の増え方で採点する】\nこの1週間で、次の選択肢を増やす行動を一つ実行できたでしょうか。\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=job-change-optionality-score_day7\n#CareerRadar"
         }
       }
     ]
@@ -67,6 +78,45 @@
   "item_count": 8,
   "warnings": [],
   "items": [
+    {
+      "stable_id": "career_radar:2026-10-09:ai-delegation-accountability",
+      "source_id": "career_radar",
+      "source_label": "CareerRadar",
+      "article_id": "ai-delegation-accountability",
+      "published_at": "2026-10-09",
+      "title": "AIへ仕事を任せるとき人間に残る責任をどう設計するか",
+      "content_version": "533bb5f8a2ae2f40",
+      "default_state": "ready_for_review",
+      "manual_publish_only": true,
+      "recommended_platform_order": [
+        "linkedin",
+        "facebook",
+        "x"
+      ],
+      "platforms": {
+        "linkedin": {
+          "priority": "P0",
+          "copy": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか / How to Design Human Accountability When Delegating Work to AI】\n\nAIへ作業を移すほど、人間の価値は操作量ではなく、承認・例外処理・品質責任をどこで持つかに移ります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja\n\nEnglish follows below.\n\nAs work is delegated to AI, human value shifts from producing each step to owning approval, exceptions, and quality boundaries.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_en\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url_ja": "https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja",
+          "url_en": "https://career.hdnjapan.com/en/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_en"
+        },
+        "facebook": {
+          "priority": "P1",
+          "copy": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n\nAIへ作業を移すほど、人間の価値は操作量ではなく、承認・例外処理・品質責任をどこで持つかに移ります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url": "https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja"
+        },
+        "x": {
+          "priority": "P2",
+          "copy": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=x&utm_medium=social\n#CareerRadar",
+          "url": "https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=x&utm_medium=social"
+        }
+      },
+      "redistribution": {
+        "day_3": "2026-10-12",
+        "day_7": "2026-10-16",
+        "mode": "candidate_only_review_before_repost"
+      }
+    },
     {
       "stable_id": "career_radar:2026-10-08:midcareer-risk-budget",
       "source_id": "career_radar",
@@ -337,45 +387,6 @@
       "redistribution": {
         "day_3": "2026-10-01",
         "day_7": "2026-10-05",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-09-25:ai-automation-role-redesign",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "ai-automation-role-redesign",
-      "published_at": "2026-09-25",
-      "title": "AIで仕事が減る人と市場価値が上がる人の違い",
-      "content_version": "089f8ab219e044da",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【AIで仕事が減る人と市場価値が上がる人の違い / Why AI Reduces Some Roles and Raises the Value of Others】\n\nAIで自動化されやすいのは作業です。市場価値を残すには、判断・責任・例外処理へ役割を移す必要があります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-automation-role-redesign_ja\n\nEnglish follows below.\n\nAI automates tasks first. Durable market value comes from shifting toward judgment, accountability, exceptions, and redesign.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-automation-role-redesign_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-automation-role-redesign_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/ai-automation-role-redesign.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-automation-role-redesign_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【AIで仕事が減る人と市場価値が上がる人の違い】\n\nAIで自動化されやすいのは作業です。市場価値を残すには、判断・責任・例外処理へ役割を移す必要があります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-automation-role-redesign_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-automation-role-redesign_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【AIで仕事が減る人と市場価値が上がる人の違い】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/ai-automation-role-redesign.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-09-28",
-        "day_7": "2026-10-02",
         "mode": "candidate_only_review_before_repost"
       }
     }

@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "midcareer-risk-budget",
-    "published_at": "2026-10-08",
+    "article_id": "ai-delegation-accountability",
+    "published_at": "2026-10-09",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -318,7 +318,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-10-09"
     },
     {
       "article_id": "resume-decision-log",
