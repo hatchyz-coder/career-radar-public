@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-08",
-    "end_date": "2026-10-05",
+    "start_date": "2026-09-09",
+    "end_date": "2026-10-06",
     "days": 28
   },
-  "generated_at": "2026-10-08T01:16:07+00:00",
+  "generated_at": "2026-10-09T01:23:19+00:00",
   "rows": [
     {
       "query": "フリーランス リスク",
@@ -72,7 +72,15 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 65.5
+      "position": 60.5
+    },
+    {
+      "query": "転職 エージェント 成功 報酬 比較",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0
     },
     {
       "query": "転職エージェント 報酬 タイミング",

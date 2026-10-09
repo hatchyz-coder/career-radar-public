@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-09-08",
-    "end_date": "2026-10-05",
+    "start_date": "2026-09-09",
+    "end_date": "2026-10-06",
     "days": 28
   },
-  "source_generated_at": "2026-10-08T01:16:07+00:00",
-  "input_rows": 16,
-  "scored_rows": 16,
+  "source_generated_at": "2026-10-09T01:23:19+00:00",
+  "input_rows": 17,
+  "scored_rows": 17,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 16
+    "observe": 17
   },
   "top_opportunities": [
     {
@@ -89,6 +89,20 @@
       "priority_score": 23.3
     },
     {
+      "query": "転職 エージェント 成功 報酬 比較",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "expected_ctr": 0.015,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 23.0
+    },
+    {
       "query": "転職エージェント 報酬 タイミング",
       "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
@@ -150,7 +164,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 65.5,
+      "position": 60.5,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
