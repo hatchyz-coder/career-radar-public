@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-10-09T07:01:56.876722+09:00
+Generated: 2026-10-09T11:05:37.892242+09:00
 
 ## Today — day0 — AIへ仕事を任せるとき人間に残る責任をどう設計するか
 
