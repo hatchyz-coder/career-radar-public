@@ -19,7 +19,15 @@
     "resume-decision-log",
     "freelance-client-qualification",
     "compensation-scope-tradeoff",
-    "career-experiment-review-loop"
+    "career-experiment-review-loop",
+    "career-evidence-audit-trail",
+    "ai-work-review-boundary",
+    "offer-assumption-log",
+    "freelance-change-control",
+    "role-authority-interview",
+    "portfolio-claim-verification",
+    "recruiter-feedback-taxonomy",
+    "career-option-expiry"
   ],
   "topics": {
     "40s-market-value-reset": {
@@ -1147,6 +1155,326 @@
         [
           "30日ごとに更新する",
           "Review every 30 days"
+        ]
+      ]
+    },
+    "career-evidence-audit-trail": {
+      "ja": "キャリア実績の根拠を監査可能な形で残す方法",
+      "en": "How to Keep an Auditable Trail of Career Evidence",
+      "ja_intro": "成果の主張を後から検証できるよう、数値・判断・担当範囲・確認資料を守秘義務の範囲で結び付けます。",
+      "en_intro": "Career claims become more credible when metrics, decisions, scope, and permitted evidence remain traceable without exposing confidential data.",
+      "sections": [
+        [
+          "主張を一文にする",
+          "State the claim"
+        ],
+        [
+          "根拠資料を特定する",
+          "Identify supporting records"
+        ],
+        [
+          "自分の寄与を分ける",
+          "Separate personal contribution"
+        ],
+        [
+          "測定条件を残す",
+          "Record measurement conditions"
+        ],
+        [
+          "反証を確認する",
+          "Check counterevidence"
+        ],
+        [
+          "守秘境界を設定する",
+          "Set confidentiality boundaries"
+        ],
+        [
+          "更新履歴を持つ",
+          "Keep a revision history"
+        ],
+        [
+          "応募資料へ圧縮する",
+          "Compress evidence for applications"
+        ]
+      ]
+    },
+    "ai-work-review-boundary": {
+      "ja": "AIを使った仕事で人間のレビュー境界を決める方法",
+      "en": "How to Set Human Review Boundaries for AI-Assisted Work",
+      "ja_intro": "AI利用の有無ではなく、誤りの影響と検証可能性に応じて、人間が承認すべき箇所と停止条件を設計します。",
+      "en_intro": "Human review should be placed according to error impact and verifiability, with explicit approval points and stop conditions.",
+      "sections": [
+        [
+          "作業を分解する",
+          "Decompose the workflow"
+        ],
+        [
+          "誤りの影響を分類する",
+          "Classify error impact"
+        ],
+        [
+          "検証可能性を見る",
+          "Assess verifiability"
+        ],
+        [
+          "承認点を置く",
+          "Place approval points"
+        ],
+        [
+          "情報境界を守る",
+          "Protect information boundaries"
+        ],
+        [
+          "例外処理を決める",
+          "Define exception handling"
+        ],
+        [
+          "ログを残す",
+          "Keep review records"
+        ],
+        [
+          "役割記述へ反映する",
+          "Reflect ownership in the role"
+        ]
+      ]
+    },
+    "offer-assumption-log": {
+      "ja": "転職オファー比較で前提条件を取り違えない記録法",
+      "en": "An Assumption Log for Comparing Job Offers",
+      "ja_intro": "年収や肩書きだけでなく、変動報酬、権限、勤務地、評価条件など未確認の前提を分けて比較します。",
+      "en_intro": "Offer comparison improves when unverified assumptions about compensation, authority, location, and evaluation are recorded separately from confirmed terms.",
+      "sections": [
+        [
+          "確認済み条件を分ける",
+          "Separate confirmed terms"
+        ],
+        [
+          "未確認事項を列挙する",
+          "List open assumptions"
+        ],
+        [
+          "報酬構造をそろえる",
+          "Normalize compensation"
+        ],
+        [
+          "権限範囲を確認する",
+          "Verify authority"
+        ],
+        [
+          "評価条件を確認する",
+          "Check evaluation terms"
+        ],
+        [
+          "撤退条件を置く",
+          "Set walk-away conditions"
+        ],
+        [
+          "回答期限を管理する",
+          "Manage decision deadlines"
+        ],
+        [
+          "入社後に再検証する",
+          "Recheck after joining"
+        ]
+      ]
+    },
+    "freelance-change-control": {
+      "ja": "フリーランス案件の追加依頼を管理する変更手順",
+      "en": "A Change-Control Workflow for Freelance Scope Requests",
+      "ja_intro": "追加依頼を善意で吸収せず、目的・工数・期限・費用・既存成果物への影響を確認して合意を更新します。",
+      "en_intro": "Scope changes should update purpose, effort, timing, price, and impact instead of being absorbed as invisible extra work.",
+      "sections": [
+        [
+          "当初範囲を固定する",
+          "Baseline the original scope"
+        ],
+        [
+          "変更理由を確認する",
+          "Confirm the reason for change"
+        ],
+        [
+          "影響を見積もる",
+          "Estimate impact"
+        ],
+        [
+          "代替案を示す",
+          "Offer alternatives"
+        ],
+        [
+          "承認者を特定する",
+          "Identify the approver"
+        ],
+        [
+          "契約条件を更新する",
+          "Update commercial terms"
+        ],
+        [
+          "作業開始条件を決める",
+          "Set a start condition"
+        ],
+        [
+          "変更履歴を残す",
+          "Keep a change log"
+        ]
+      ]
+    },
+    "role-authority-interview": {
+      "ja": "面談で役割の意思決定権を確かめる質問",
+      "en": "Interview Questions That Reveal Real Decision Authority",
+      "ja_intro": "抽象的な「裁量がある」を、予算・人員・優先順位・品質・例外時の権限へ分解して確認します。",
+      "en_intro": "Vague autonomy becomes testable when interviews clarify authority over budget, people, priorities, quality, and exceptions.",
+      "sections": [
+        [
+          "役割目的を聞く",
+          "Ask the role purpose"
+        ],
+        [
+          "最終決定者を聞く",
+          "Identify final approvers"
+        ],
+        [
+          "予算権限を確認する",
+          "Check budget authority"
+        ],
+        [
+          "人員責任を確認する",
+          "Check people responsibility"
+        ],
+        [
+          "優先順位の決め方を聞く",
+          "Ask how priorities are set"
+        ],
+        [
+          "失敗時の責任を聞く",
+          "Clarify failure accountability"
+        ],
+        [
+          "評価指標を確認する",
+          "Verify success measures"
+        ],
+        [
+          "回答の矛盾を確認する",
+          "Test inconsistent answers"
+        ]
+      ]
+    },
+    "portfolio-claim-verification": {
+      "ja": "ポートフォリオの実績主張を公開前に検証するチェック",
+      "en": "A Pre-Publication Verification Check for Portfolio Claims",
+      "ja_intro": "公開実績は、帰属・測定期間・守秘義務・第三者の役割・再現条件を確認してから掲載します。",
+      "en_intro": "Portfolio claims need attribution, measurement boundaries, confidentiality review, and transfer conditions before publication.",
+      "sections": [
+        [
+          "主張と意見を分ける",
+          "Separate claims from opinion"
+        ],
+        [
+          "成果の帰属を確認する",
+          "Verify attribution"
+        ],
+        [
+          "数字の出所を確認する",
+          "Check metric sources"
+        ],
+        [
+          "期間と母数を残す",
+          "Record period and denominator"
+        ],
+        [
+          "第三者の役割を書く",
+          "State others' contributions"
+        ],
+        [
+          "公開許可を確認する",
+          "Confirm disclosure permission"
+        ],
+        [
+          "再現条件を書く",
+          "Describe transfer conditions"
+        ],
+        [
+          "更新日を明記する",
+          "Publish a review date"
+        ]
+      ]
+    },
+    "recruiter-feedback-taxonomy": {
+      "ja": "紹介会社のフィードバックを市場データへ変える分類法",
+      "en": "A Taxonomy for Turning Recruiter Feedback into Market Data",
+      "ja_intro": "一社の感想を結論にせず、求人在庫、役割適合、証拠不足、条件不一致などに分類して次の検証へつなげます。",
+      "en_intro": "Recruiter feedback is more useful when classified by inventory, role fit, evidence quality, and constraints rather than treated as a verdict.",
+      "sections": [
+        [
+          "発言をそのまま記録する",
+          "Record the exact feedback"
+        ],
+        [
+          "求人在庫と分ける",
+          "Separate inventory effects"
+        ],
+        [
+          "役割適合を分類する",
+          "Classify role fit"
+        ],
+        [
+          "証拠不足を特定する",
+          "Identify evidence gaps"
+        ],
+        [
+          "条件不一致を分ける",
+          "Separate constraint mismatches"
+        ],
+        [
+          "複数社で比較する",
+          "Compare across channels"
+        ],
+        [
+          "反証を探す",
+          "Seek disconfirming evidence"
+        ],
+        [
+          "次の実験を決める",
+          "Choose the next test"
+        ]
+      ]
+    },
+    "career-option-expiry": {
+      "ja": "キャリアの選択肢に期限を設定して見直す方法",
+      "en": "How to Review Expiring Career Options",
+      "ja_intro": "資格、紹介経路、顧客関係、社内公募などの選択肢は永続しないため、期限と維持コストを明示して更新します。",
+      "en_intro": "Career options such as credentials, referral paths, client relationships, and internal moves decay unless their expiry and maintenance cost are reviewed.",
+      "sections": [
+        [
+          "選択肢を一覧にする",
+          "Inventory current options"
+        ],
+        [
+          "有効期限を置く",
+          "Assign expiry dates"
+        ],
+        [
+          "維持コストを測る",
+          "Estimate maintenance cost"
+        ],
+        [
+          "利用条件を確認する",
+          "Verify access conditions"
+        ],
+        [
+          "価値の低下を検知する",
+          "Detect declining value"
+        ],
+        [
+          "延長か終了か決める",
+          "Renew or retire the option"
+        ],
+        [
+          "代替経路を作る",
+          "Create replacement paths"
+        ],
+        [
+          "四半期ごとに更新する",
+          "Review quarterly"
         ]
       ]
     }
