@@ -5,6 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 GATEWAY = ROOT / "articles" / "high-class-transition.html"
+REVIEW = ROOT / "review.html"
 TOPIC_TARGETS = [
     ROOT / "ja" / "topics" / "40s-career-market-value.html",
     ROOT / "ja" / "topics" / "pmo-high-rate-career.html",
@@ -15,11 +16,13 @@ PARTNERS = {
     "enworld": "0100o60a00oxbh",
     "enworld_it_saas": "0100ong600oxbh",
     "robert_walters": "0100ojgk00oxbh",
+    "assign": "0100p83l00oxbh",
 }
 NON_JAC_TOKENS = {
     "enworld": "0100o60a00oxbh",
     "enworld_it_saas": "0100ong600oxbh",
     "robert_walters": "0100ojgk00oxbh",
+    "assign": "0100p83l00oxbh",
 }
 REDUNDANT_DISCLOSURE_SNIPPETS = (
     "※アフィリエイト広告です",
@@ -88,6 +91,16 @@ def main() -> None:
         "exact enworld IT/SaaS 300x250 ASP creative missing",
     )
 
+    review = REVIEW.read_text(encoding="utf-8")
+    require('data-partner-id="assign"' in review, "ASSIGN Career Review placement missing")
+    require('data-offer-id="accesstrade_1057788"' in review, "ASSIGN offer id missing on Career Review")
+    require('data-placement="career_review_market_test"' in review, "ASSIGN Career Review placement marker missing")
+    require('<div class="partner-label">広告・PR</div>' in review, "ASSIGN Career Review disclosure missing")
+    require("https://h.accesstrade.net/sp/cc?rk=0100p83l00oxbh" in review, "ASSIGN Career Review destination missing")
+    require("https://h.accesstrade.net/sp/rr?rk=0100p83l00oxbh" in review, "ASSIGN Career Review tracking pixel missing")
+    require('rel="nofollow"' in review and 'referrerpolicy="no-referrer-when-downgrade"' in review,
+            "ASSIGN Career Review link attributes missing")
+
     home = (ROOT / "index.html").read_text(encoding="utf-8")
     require(home.count("<!-- AFFILIATE_FUNNEL_HOME_START -->") == 1, "home affiliate funnel marker missing/duplicated")
     require('data-affiliate-funnel-link="true"' in home, "home funnel tracking attribute missing")
@@ -114,7 +127,10 @@ def main() -> None:
     require("affiliate_gateway_view" in analytics, "affiliate gateway view event missing")
     require("affiliate_funnel_click" in analytics, "affiliate funnel event missing")
     require("affiliate_partner_click" in analytics, "affiliate partner event missing")
-    require("partner_id" in analytics and "offer_id" in analytics and "placement" in analytics, "affiliate event context incomplete")
+    require("affiliate_impression" in analytics, "affiliate impression event missing")
+    require("affiliate_click" in analytics, "normalized affiliate click event missing")
+    require("provider" in analytics and "partner_id" in analytics and "offer_id" in analytics and "placement" in analytics,
+            "affiliate event context incomplete")
 
     print(
         f"Affiliate funnel healthy: partners={len(PARTNERS)}, routed_articles={len(generated_articles)}, "

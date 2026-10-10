@@ -38,10 +38,52 @@
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', trackGatewayView, { once: true });
-  } else {
+  var seenAffiliateImpressions = [];
+
+  function trackAffiliateImpressions() {
+    var containers = Array.prototype.slice.call(document.querySelectorAll('[data-partner-id]'));
+    if (!containers.length) return;
+
+    function emit(container) {
+      var partnerId = container.getAttribute('data-partner-id') || '';
+      var offerId = container.getAttribute('data-offer-id') || '';
+      var placementContainer = container.closest && container.closest('[data-placement]');
+      var placement = placementContainer ? (placementContainer.getAttribute('data-placement') || '') : '';
+      var key = partnerId + '|' + offerId + '|' + placement;
+      if (seenAffiliateImpressions.indexOf(key) !== -1) return;
+      seenAffiliateImpressions.push(key);
+      track('affiliate_impression', {
+        provider: partnerId,
+        offer_id: offerId,
+        placement: placement,
+        source_path: window.location.pathname
+      });
+    }
+
+    if (!('IntersectionObserver' in window)) {
+      containers.forEach(emit);
+      return;
+    }
+
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting || entry.intersectionRatio < 0.25) return;
+        emit(entry.target);
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: [0.25] });
+    containers.forEach(function (container) { observer.observe(container); });
+  }
+
+  function initializeTracking() {
     trackGatewayView();
+    trackAffiliateImpressions();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeTracking, { once: true });
+  } else {
+    initializeTracking();
   }
 
   document.addEventListener('click', function (event) {
@@ -79,10 +121,19 @@
     var partnerContainer = link.closest && link.closest('[data-partner-id]');
     if (partnerContainer && absolute.origin !== window.location.origin) {
       var placementContainer = link.closest('[data-placement]');
+      var partnerId = partnerContainer.getAttribute('data-partner-id') || '';
+      var offerId = partnerContainer.getAttribute('data-offer-id') || '';
+      var placement = placementContainer ? (placementContainer.getAttribute('data-placement') || '') : '';
+      track('affiliate_click', {
+        provider: partnerId,
+        offer_id: offerId,
+        placement: placement,
+        source_path: sourcePath
+      });
       track('affiliate_partner_click', {
-        partner_id: partnerContainer.getAttribute('data-partner-id') || '',
-        offer_id: partnerContainer.getAttribute('data-offer-id') || '',
-        placement: placementContainer ? (placementContainer.getAttribute('data-placement') || '') : '',
+        partner_id: partnerId,
+        offer_id: offerId,
+        placement: placement,
         link_url: absolute.href,
         link_text: label,
         source_path: sourcePath
