@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-10-10T17:25:56.619258+09:00",
+  "generated_at": "2026-10-11T00:18:40.147441+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -29,26 +29,26 @@
       "manual_publish_only": true
     },
     "selected_today": {
-      "article_id": "consulting-renewal-evidence",
-      "title": "コンサル契約更新で示すべき継続価値の証拠",
+      "article_id": "midcareer-risk-budget",
+      "title": "40代の転職で先に作るべきキャリアリスク予算",
       "phase": "day3",
-      "due_at": "2026-10-10",
+      "due_at": "2026-10-11",
       "posts": {
-        "linkedin": "【3日後にもう一度考えたい：コンサル契約更新で示すべき継続価値の証拠】\n\n公開から3日たって、もう一度『コンサル契約更新で示すべき継続価値の証拠』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-renewal-evidence_day3\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【3日後にもう一度考えたい：コンサル契約更新で示すべき継続価値の証拠】\n\n公開から3日たって、もう一度『コンサル契約更新で示すべき継続価値の証拠』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-renewal-evidence_day3\n\n#CareerRadar #キャリア",
-        "x": "【コンサル契約更新で示すべき継続価値の証拠】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-renewal-evidence_day3\n#CareerRadar"
+        "linkedin": "【3日後にもう一度考えたい：40代の転職で先に作るべきキャリアリスク予算】\n\n公開から3日たって、もう一度『40代の転職で先に作るべきキャリアリスク予算』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【3日後にもう一度考えたい：40代の転職で先に作るべきキャリアリスク予算】\n\n公開から3日たって、もう一度『40代の転職で先に作るべきキャリアリスク予算』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n\n#CareerRadar #キャリア",
+        "x": "【40代の転職で先に作るべきキャリアリスク予算】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n#CareerRadar"
       }
     },
     "due_today": [
       {
-        "article_id": "consulting-renewal-evidence",
-        "title": "コンサル契約更新で示すべき継続価値の証拠",
+        "article_id": "midcareer-risk-budget",
+        "title": "40代の転職で先に作るべきキャリアリスク予算",
         "phase": "day3",
-        "due_at": "2026-10-10",
+        "due_at": "2026-10-11",
         "posts": {
-          "linkedin": "【3日後にもう一度考えたい：コンサル契約更新で示すべき継続価値の証拠】\n\n公開から3日たって、もう一度『コンサル契約更新で示すべき継続価値の証拠』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-renewal-evidence_day3\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【3日後にもう一度考えたい：コンサル契約更新で示すべき継続価値の証拠】\n\n公開から3日たって、もう一度『コンサル契約更新で示すべき継続価値の証拠』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-renewal-evidence_day3\n\n#CareerRadar #キャリア",
-          "x": "【コンサル契約更新で示すべき継続価値の証拠】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=consulting-renewal-evidence_day3\n#CareerRadar"
+          "linkedin": "【3日後にもう一度考えたい：40代の転職で先に作るべきキャリアリスク予算】\n\n公開から3日たって、もう一度『40代の転職で先に作るべきキャリアリスク予算』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【3日後にもう一度考えたい：40代の転職で先に作るべきキャリアリスク予算】\n\n公開から3日たって、もう一度『40代の転職で先に作るべきキャリアリスク予算』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n\n#CareerRadar #キャリア",
+          "x": "【40代の転職で先に作るべきキャリアリスク予算】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n#CareerRadar"
         }
       }
     ]
