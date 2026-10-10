@@ -1044,6 +1044,88 @@
           "職務経歴書へ圧縮する",
           "Compress the log into resume evidence"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "意思決定ログに残すのは、日々の作業すべてではありません。複数の選択肢があり、制約の中で方針を選び、その結果が業務へ影響した案件を選びます。例えば、納期を守るために機能を削った、障害を避けるために移行順序を変えた、顧客要望をそのまま受けず検証を先に置いた、といった判断です。会議へ参加しただけの案件や、上司の指示をそのまま実行した作業は、権限と判断材料が説明できない限り意思決定実績として扱いません。",
+            "最初の記録欄は「何を決めたか」ではなく「なぜ判断が必要になったか」にします。発生した問題、決定期限、影響を受ける利用者、判断を放置した場合の損失を一文ずつ書きます。採用面接で価値があるのは華やかな案件名より、不確実な状況で何を見極めたかです。週次で候補を一件選び、判断がなかった作業記録と混ぜない運用にすると、後から読み返せる実績が蓄積します。"
+          ],
+          "en": [
+            "A decision log should not capture every task. Select moments when several options existed, constraints mattered, and your choice changed delivery, risk, cost, or customer experience. Useful examples include reducing scope to protect a deadline, changing a migration sequence to limit outage risk, or requiring validation before accepting a customer request. Merely attending the meeting or executing an instruction is not decision evidence unless you can identify the authority you held and the judgment you exercised. This distinction keeps the log from becoming a diary of activity and makes each entry useful to a hiring manager.",
+            "Begin with why a decision became necessary, not with the final answer. Record the initial problem, decision deadline, affected users, and likely consequence of delay. A recognizable project name is less useful than a clear account of how you handled uncertainty. Review one week of work and select a single decision that involved a genuine trade-off. Keep routine execution in a separate work log. Over time, this produces a compact set of cases that can support a resume, interview, or portfolio without forcing you to reconstruct important context months later."
+          ]
+        },
+        {
+          "ja": [
+            "採用した案だけを書くと、判断の難しさと質が伝わりません。検討した選択肢を最低二つ記録し、「何もしない」案も含めます。システム改修なら、全面改修、限定的な暫定対応、現状維持と監視強化などです。候補を後から美化せず、判断時点で現実に選べた案だけを残します。既に不可能だった案や、予算・期限を無視した理想案を並べても、意思決定能力の証拠にはなりません。",
+            "各案には、期待できる効果、失敗した場合の影響、必要な時間・費用、元に戻せるかを同じ項目で記録します。比較軸を揃えることで「なんとなく良さそうだった」という説明を避けられます。面談用に圧縮するときは、候補をすべて話す必要はありません。最有力だった代替案と、最終的に採用しなかった決定的な理由を一つ示せば、結論だけでなく比較のプロセスを伝えられます。"
+          ],
+          "en": [
+            "Recording only the selected option hides the difficulty and quality of the judgment. Capture at least two realistic alternatives and include the option to do nothing. For a system change, the choices might have been a full rebuild, a limited interim fix, or continued operation with stronger monitoring. Record only options that were genuinely available at the time. An ideal solution that ignored the budget or deadline should not be presented later as if it had been a credible alternative. Contemporary alternatives are evidence; reconstructed theater is not.",
+            "Use the same comparison fields for every option: expected benefit, failure consequence, required time and cost, and reversibility. A consistent frame replaces statements such as 'it seemed best' with an auditable explanation. The resume does not need the complete matrix. Compress the entry by naming the strongest rejected alternative and the decisive reason it lost. That single contrast often demonstrates judgment better than a long description of the selected plan. Preserve the full comparison privately so that an interviewer can ask deeper questions without forcing you to invent details from memory."
+          ]
+        },
+        {
+          "ja": [
+            "判断は制約から切り離せません。予算上限、利用可能な人員、法令・契約、停止できる時間、品質基準、決定期限を分けて書きます。「時間がなかった」のような表現ではなく、いつまでに何を決める必要があり、遅れると誰に何が起きたかを記録します。制約を具体化すると、単に最善策を選んだのではなく、現実の条件下で実行可能な案を選んだことが説明できます。",
+            "事実として確認した制約と、当時置いた仮定も分けます。契約書で確定していた納期は事実ですが、来月も同じ人員を確保できるという見込みは仮定です。後から仮定が外れた場合も消さず、どの情報が不足していたかを追記します。意思決定ログは成功談だけを保存する場所ではありません。前提が崩れた経緯まで残すことで、次回の見積もりやリスク判断に使える学習記録になります。"
+          ],
+          "en": [
+            "A decision cannot be evaluated outside its constraints. Separate the budget ceiling, available people, legal or contractual duties, acceptable downtime, quality threshold, and decision deadline. Replace 'we had little time' with the actual date by which a choice was required and the consequence of delay for a named user or process. Explicit constraints show that you selected an executable option under real conditions, not an abstract best practice. They also help a future employer understand whether the same judgment would transfer to a different operating environment.",
+            "Separate verified constraints from assumptions. A deadline written in a signed contract is a fact; an expectation that the same team will remain available next month is an assumption. If an assumption later proves false, do not overwrite the original entry. Add what changed, when it became visible, and whether a different check could have exposed it earlier. A decision log is not a collection of success stories. Preserving failed assumptions makes it a learning system and gives you credible material for explaining how your risk assessment improved."
+          ]
+        },
+        {
+          "ja": [
+            "「自分が決めた」と書く前に、提案、推薦、承認、実行のどこを担当したかを明示します。選択肢を整理して推奨案を出したが最終承認は役員だった場合、意思決定への寄与はあっても最終決裁者ではありません。逆に、限られた予算内で実装順序を変更できたなら、その範囲は自分の権限です。職務経歴書と面談で動詞を揃え、実際より大きな権限を主張しないことが信頼につながります。",
+            "権限の証拠として、承認記録、議事録の決定欄、変更履歴、役割分担表などを参照先として記録します。ただし社外秘資料や顧客情報を個人端末へ持ち出してはいけません。ログには資料名、保管場所、確認可能な担当者だけを書き、実物は組織の管理下に残します。公開可能な説明では、誰が最終承認し、自分がどの判断基準を設計したかを抽象化して示します。"
+          ],
+          "en": [
+            "Before claiming that you made a decision, identify whether you proposed, recommended, approved, or executed it. If you organized the alternatives and recommended a direction but an executive gave final approval, you contributed substantial judgment without owning the final authorization. If you could independently change implementation order within an approved budget, that narrower scope was your authority. Use consistent verbs in the log, resume, and interview. Accurate boundaries strengthen credibility; inflating authority creates contradictions as soon as another participant or record is consulted.",
+            "Reference evidence such as an approval record, decision line in meeting minutes, change history, or responsibility matrix. Do not copy confidential documents or customer information to a personal device. Record the document name, governed storage location, and person able to confirm it while leaving the artifact inside the employer's controls. For an external resume, describe the decision structure at a permitted level of abstraction: who retained final approval, what criteria you designed, and which implementation choices you controlled. This preserves both evidence and confidentiality."
+          ]
+        },
+        {
+          "ja": [
+            "採用理由は「メリットが大きかった」ではなく、比較軸と優先順位で説明します。例えば、売上機会より患者安全を優先した、短期コストより復旧可能性を優先した、機能数より期限内に検証できる範囲を優先した、という形です。複数の利点がある場合も、最後に決め手となった条件を一つ特定します。判断基準が見えれば、結果が悪かった案件でも意思決定の妥当性を検討できます。",
+            "反対意見と反証条件も残します。誰が何を懸念し、どの条件になれば別案へ切り替える予定だったかを書きます。採用案を正当化するだけの記録は、後から都合よく作った説明に見えます。「利用率が一定水準に届かなければ停止する」「検証で重大な欠損が出たら旧手順へ戻す」のような切替条件は、判断が検証可能だったことを示します。実際の数値が機密なら、公開版では条件の構造だけを説明します。"
+          ],
+          "en": [
+            "Explain the rationale through comparison criteria and priority, not by saying the chosen option had the greatest benefit. You may have prioritized patient safety over revenue opportunity, recoverability over short-term cost, or a testable scope over a larger feature set. When several advantages existed, identify the condition that ultimately broke the tie. Clear criteria allow another person to evaluate whether the decision was reasonable even when the eventual outcome was disappointing. That is stronger career evidence than rewriting every outcome as a success.",
+            "Preserve objections and disconfirming conditions. Record who raised a concern and what evidence would have caused the team to switch to another option. A log that only defends the winner resembles a story reconstructed after success. Stop or rollback conditions—such as failing to reach a defined usage threshold or finding a material data defect—show that the recommendation was testable. If exact thresholds are confidential, an external version can explain the structure of the condition without disclosing the number. The private governed record should retain the original value and source."
+          ]
+        },
+        {
+          "ja": [
+            "結果は判断直後には確定しません。記録作成時に、確認日、観測する指標、データの取得元、評価担当者を予約しておきます。売上や処理時間だけでなく、差戻し、例外件数、問い合わせ、利用率、停止時間など、判断目的に合う指標を選びます。測定できない場合は、結果を推測で埋めず「未測定」と書きます。数字がないことより、根拠のない効果を実績として語る方が信頼を損ないます。",
+            "確認日には、期待した結果、予想外の影響、残った課題を分けて追記します。成功・失敗の二択にせず、どの条件では機能し、どこでは機能しなかったかを残します。成果がチーム全体のものなら、チームの結果と自分の寄与を分離します。職務経歴書へ使う数値には期間、母数、比較対象を添え、後日値が更新された場合は更新日も残してください。"
+          ],
+          "en": [
+            "Outcomes are rarely known when the decision is made. Schedule a review date and specify the metric, data source, and review owner in the original entry. Choose measures that match the purpose: revenue or cycle time may matter, but so may rework, exceptions, inquiries, adoption, or downtime. If measurement is unavailable, write 'not measured' rather than filling the gap with an estimate. Missing evidence limits a claim; an unsupported result damages trust. This discipline prevents a plausible narrative from quietly becoming a fictional achievement.",
+            "At review time, separate the expected outcome, unexpected effects, and unresolved problems. Avoid reducing the result to success or failure. State the conditions under which the choice worked and where it did not. If the result belonged to a team, distinguish the team-level outcome from your contribution. Any figure later used on a resume should include its period, denominator, and comparison baseline. Retain the review date and update history when values change. This makes a concise claim traceable without pretending that one person caused every observed result."
+          ]
+        },
+        {
+          "ja": [
+            "業務上のログと、社外へ持ち出せる実績メモは分けます。顧客名、患者・従業員の個人情報、契約金額、未公開の障害、認証情報、社内評価などは、匿名化すれば必ず安全とは限りません。複数の情報を組み合わせると対象を推測できる場合があります。契約、就業規則、情報管理方針を確認し、判断できない情報は公開候補から除外します。",
+            "公開用メモには、業界を広い分類へ置き換え、金額を許可された範囲や割合へ変え、個人を役割名で表すなど、必要最小限の情報だけを残します。ただし、数字や顧客の承認を創作してはいけません。元ログへの参照は組織内だけに置き、転職後も元資料を保持し続けない設計にします。守秘義務を守りながら説明できない案件は、無理に職務経歴書へ使わず別の実績を選びます。"
+          ],
+          "en": [
+            "Separate the governed work log from the evidence note that may be used externally. Customer names, patient or employee information, contract values, undisclosed incidents, credentials, and internal evaluations may remain identifiable even after obvious names are removed. Combined details can reveal the organization or person. Check the contract, employment rules, and information-handling policy. If disclosure status is unclear, exclude the information from the external candidate rather than relying on personal judgment about anonymization.",
+            "For the external note, generalize the industry, convert values to an approved range or ratio, and replace individuals with role descriptions while keeping only what is necessary to explain your contribution. Never invent a number or customer approval to make the case publishable. Keep references to source records inside the organization's controlled environment and do not retain former-employer documents after departure. Some cases cannot be described safely; omit them and choose another example. Confidentiality is a constraint on evidence selection, not a reason to create unsupported claims."
+          ]
+        },
+        {
+          "ja": [
+            "職務経歴書へは、ログ全体ではなく「課題・選択肢・判断・結果・自分の権限」を一つか二つの箇条書きへ圧縮します。例えば「部門横断の移行で停止時間と検証範囲を比較し、段階移行を推薦。承認後は実装順序を担当し、予定した確認期間で重大な欠損がないことを確認」のように、判断と担当境界を同時に示します。結果が未測定なら、実装した仕組みと確認方法までに留めます。",
+            "応募先ごとに、求められる判断に近いログを選びます。予算責任が必要な職種には投資配分、品質責任が必要な職種には停止判断、顧客対応職には期待調整の事例を使います。同じログをすべての求人へ機械的に貼らず、事実を変えずに焦点と順序だけを調整します。面談後は、質問された箇所と説明できなかった箇所を記録し、元ログの不足を次の業務記録で補います。"
+          ],
+          "en": [
+            "Compress the full log into one or two resume bullets containing the problem, alternatives, decision, outcome, and your authority. A defensible example is: 'Compared downtime and validation scope for a cross-functional migration, recommended a phased release, then owned implementation sequencing after approval and verified that no material defects appeared during the defined review period.' The sentence distinguishes recommendation from approval and links the result to a measurement boundary. If the outcome was not measured, stop at the implemented control and review method rather than implying business impact.",
+            "Select entries that match the judgment required by the target role. Use investment-allocation decisions for a role with budget responsibility, stop decisions for quality ownership, and expectation-setting cases for customer work. Do not paste the same story into every application. Preserve the facts while changing focus and order. After an interview, record which parts attracted questions and which claims were difficult to support. Use that feedback to improve future logging at work, not to embellish the old story. The result is a resume that becomes more precise as evidence accumulates."
+          ]
+        }
       ]
     },
     "freelance-client-qualification": {
