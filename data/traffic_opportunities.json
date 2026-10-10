@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-09-09",
-    "end_date": "2026-10-06",
+    "start_date": "2026-09-10",
+    "end_date": "2026-10-07",
     "days": 28
   },
-  "source_generated_at": "2026-10-09T01:23:19+00:00",
+  "source_generated_at": "2026-10-10T01:12:10+00:00",
   "input_rows": 17,
   "scored_rows": 17,
   "summary": {
@@ -159,20 +159,6 @@
       "priority_score": 10.3
     },
     {
-      "query": "キャリア",
-      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 60.5,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 8.1
-    },
-    {
       "query": "フリーランス 転向",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
@@ -199,6 +185,20 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 5.2
+    },
+    {
+      "query": "キャリア",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 5.1
     },
     {
       "query": "職務経歴書分析評価職",

@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-09",
-    "end_date": "2026-10-06",
+    "start_date": "2026-09-10",
+    "end_date": "2026-10-07",
     "days": 28
   },
-  "generated_at": "2026-10-09T01:23:19+00:00",
+  "generated_at": "2026-10-10T01:12:10+00:00",
   "rows": [
     {
       "query": "フリーランス リスク",
@@ -67,14 +67,6 @@
       "position": 26.0
     },
     {
-      "query": "キャリア",
-      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 60.5
-    },
-    {
       "query": "転職 エージェント 成功 報酬 比較",
       "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
@@ -113,6 +105,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 44.0
+    },
+    {
+      "query": "キャリア",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0
     },
     {
       "query": "職務経歴書分析評価職",
