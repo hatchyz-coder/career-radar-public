@@ -356,6 +356,15 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "career-evidence-audit-trail",
+      "due_at": "2026-10-16",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
