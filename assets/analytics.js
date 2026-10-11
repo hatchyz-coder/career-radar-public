@@ -58,6 +58,12 @@
         placement: placement,
         source_path: window.location.pathname
       });
+      if (partnerId === 'assign') {
+        track('affiliate_assign_impression', {
+          placement: placement,
+          source_path: window.location.pathname
+        });
+      }
     }
 
     if (!('IntersectionObserver' in window)) {
@@ -128,8 +134,18 @@
         provider: partnerId,
         offer_id: offerId,
         placement: placement,
-        source_path: sourcePath
+        source_path: sourcePath,
+        link_url: absolute.href,
+        link_text: label
       });
+      if (partnerId === 'assign') {
+        track('affiliate_assign_click', {
+          placement: placement,
+          source_path: sourcePath,
+          link_url: absolute.href,
+          link_text: label
+        });
+      }
       track('affiliate_partner_click', {
         partner_id: partnerId,
         offer_id: offerId,
