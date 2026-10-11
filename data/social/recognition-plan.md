@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-10-11T12:47:04.180360+09:00
+Generated: 2026-10-11T14:38:58.620530+09:00
 
 ## Today — day3 — 40代の転職で先に作るべきキャリアリスク予算
 
