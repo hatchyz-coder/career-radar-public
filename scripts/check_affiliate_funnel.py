@@ -129,6 +129,8 @@ def main() -> None:
     require("affiliate_partner_click" in analytics, "affiliate partner event missing")
     require("affiliate_impression" in analytics, "affiliate impression event missing")
     require("affiliate_click" in analytics, "normalized affiliate click event missing")
+    require("affiliate_assign_impression" in analytics, "ASSIGN impression event missing")
+    require("affiliate_assign_click" in analytics, "ASSIGN click event missing")
     require("provider" in analytics and "partner_id" in analytics and "offer_id" in analytics and "placement" in analytics,
             "affiliate event context incomplete")
 
