@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-10",
-    "end_date": "2026-10-07",
+    "start_date": "2026-09-11",
+    "end_date": "2026-10-08",
     "days": 28
   },
-  "generated_at": "2026-10-10T01:12:10+00:00",
+  "generated_at": "2026-10-11T00:25:42+00:00",
   "rows": [
     {
       "query": "フリーランス リスク",
