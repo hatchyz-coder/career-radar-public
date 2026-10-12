@@ -23,6 +23,7 @@ TARGETS = (
     "consulting-scope-creep-risk",
     "ai-automation-role-redesign",
     "resume-decision-log",
+    "freelance-client-qualification",
 )
 
 

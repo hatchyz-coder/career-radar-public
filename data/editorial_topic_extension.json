@@ -1166,6 +1166,88 @@
           "断る基準を持つ",
           "Define reasons to decline"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "受注判断の最初に確認するのは、依頼された作業名ではなく、その仕事で変えたい状態です。「サイトを作る」「分析をする」だけでは、誰のどの判断を助けるのかが分かりません。現在の問題、影響を受ける利用者、期待する変化、判断期限をそれぞれ聞きます。相手が目的を説明できない場合は、提案作成へ急がず、目的を定義する短い調査を別工程として提示します。目的が曖昧なまま固定価格を出すと、完成後に評価基準が増え、実質単価と信頼の両方が下がります。",
+            "確認した目的は、観測可能な完了条件へ変換します。売上向上のように自分だけでは保証できない結果と、計測設計、画面実装、調査報告など自分が引き受けられる成果を分けます。依頼者の仮説、確認済みの事実、未確認事項も混ぜません。提案書には「この案件が解く問い」と「この契約だけでは保証しない結果」を並べて記載します。これにより、成果を小さく見せず、因果関係を創作せずに責任範囲を明確にできます。"
+          ],
+          "en": [
+            "Start qualification with the condition the client wants to change, not the name of the requested task. “Build a website” or “analyze the data” does not reveal whose decision the work should improve. Ask for the current problem, affected user, expected change, and decision deadline as separate items. If the buyer cannot explain the purpose, do not rush into a fixed-price proposal. Offer a short discovery engagement whose deliverable is a defined problem and decision brief. Pricing an undefined purpose transfers ambiguity into production, where new evaluation criteria appear after delivery and reduce both effective rate and trust.",
+            "Translate the purpose into an observable completion condition. Separate outcomes you cannot cause alone—such as revenue growth—from deliverables you can own, such as measurement design, an implemented interface, or a documented analysis. Keep the client’s hypothesis, verified facts, and unknowns in different fields. State both “the question this engagement will answer” and “the result this contract does not guarantee.” This does not minimize the work. It creates an honest causal boundary, gives both sides a way to inspect completion, and prevents a plausible business aspiration from becoming an unsupported performance promise."
+          ]
+        },
+        {
+          "ja": [
+            "実務窓口と最終決裁者を分けて確認します。日々の連絡担当者が要件を整理できても、予算、範囲変更、検収を承認できるとは限りません。提案前に、誰が開始を承認し、誰が成果物を確認し、意見が割れたとき誰が決めるかを一枚の役割表へ落とします。「関係者で相談します」しか返らない案件は、判断経路が未設計です。承認者を会議へ呼べない場合でも、期限付きの書面確認経路を決めなければ着手しません。",
+            "決裁者の肩書きだけでなく、判断に必要な証拠も確認します。費用対効果を重視するのか、法令・品質・納期のいずれを優先するのかで、提案内容は変わります。窓口からの伝言だけに依存すると、提案の意図が削られ、後から別の基準で否決されます。重要な前提、選択肢、推奨理由は決裁者が読める短いDecision Memoにします。承認日時と承認対象を残し、口頭の「進めてください」を無制限な委任として扱いません。"
+          ],
+          "en": [
+            "Identify the working contact and final decision owner separately. A coordinator may organize requirements without having authority over budget, scope changes, or acceptance. Before proposing, map who authorizes the start, who reviews each deliverable, and who resolves disagreement. A response such as “the stakeholders will discuss it” indicates that the decision path is still undefined. The approver does not need to attend every meeting, but the engagement needs a time-bound written route to that person. Without it, the freelancer becomes responsible for reconciling internal conflicts while lacking the authority to settle them.",
+            "Ask what evidence the decision owner needs, not only for their title. A buyer prioritizing return on investment will evaluate a different proposal from one prioritizing compliance, quality, or deadline certainty. Reliance on relayed conversations strips context from the recommendation and invites rejection under a new criterion. Put material assumptions, alternatives, and the recommendation into a concise decision memo the approver can read directly. Record what was approved and when. A verbal “go ahead” should authorize a named scope and stage; it should never be interpreted as unlimited delegation."
+          ]
+        },
+        {
+          "ja": [
+            "予算は金額だけでなく、上限が決まっているのか、見積比較のための仮置きなのか、承認前なのかを確認します。「良い提案なら予算を考える」という回答では設計可能な選択肢が定まりません。最低構成、推奨構成、追加構成を同じ比較軸で示し、各案で得られる成果と残る制約を明記します。値下げを求められた場合は単価を無条件に下げず、対象範囲、納期、会議回数、修正回数のいずれを減らすかを選びます。",
+            "自分の採算も、見積額ではなく実効単価で確認します。制作時間だけでなく、営業、会議、待機、手戻り、管理、外注費、決済手数料を見積時間へ含めます。相手都合の待機で他案件を受けられない場合は、その機会費用も判断材料です。数字は案件ごとに記録し、業界平均や成功率を根拠なく使いません。利益が残らない条件でも戦略的に受けるなら、獲得したい検証結果と投入上限を先に決め、学習という名の無制限な赤字を避けます。"
+          ],
+          "en": [
+            "Qualify the budget as a decision condition, not merely an amount. Determine whether the ceiling is approved, a placeholder for comparing bids, or still awaiting authorization. “We will find money for a good idea” does not define the options you can responsibly design. Present a minimum, recommended, and optional scope using the same comparison fields, and state what each version delivers and leaves unresolved. When the buyer asks for a lower price, do not reduce the rate invisibly. Choose which constraint changes: scope, deadline, meeting load, revision count, or support period.",
+            "Calculate viability from effective rate rather than the quoted fee. Include sales work, meetings, waiting, rework, administration, subcontracting, and payment costs—not only production hours. Client-controlled delays can also carry opportunity cost when they prevent other bookings. Keep your own evidence by engagement instead of relying on an unsupported market average or success rate. A strategically discounted project can still be rational, but define the learning question and maximum investment before acceptance. Without a limit, “portfolio value” or “future work” can become an indefinite subsidy to an unqualified client."
+          ]
+        },
+        {
+          "ja": [
+            "成果物は名詞だけでなく、内容、形式、数量、言語、提出先、検収方法まで定義します。「レポート一式」ではなく、対象データ、分析期間、含む図表、除外する判断、ファイル形式を明示します。プロトタイプと本番運用可能な成果物も区別します。相手が既存資料やデータを提供する場合は、提供期限、品質条件、権利、個人情報の有無を確認し、不足時の代替手順を決めます。入力が届かないまま納期だけ維持する約束はしません。",
+            "完成の定義には、誰が何日以内にどの観点で確認するかを含めます。主観的な「期待と違う」を避けるため、受入条件を提案書と同じ場所へ置きます。確認期限を過ぎた場合の扱い、軽微な修正と追加作業の境界、ソースファイルや利用権の引渡条件も決めます。成果物の品質を守ることと、無期限に無料修正することは別です。検収可能な定義は対立を増やす契約用語ではなく、良い仕事を終わらせるための共同チェックリストです。"
+          ],
+          "en": [
+            "Define the deliverable by content, format, quantity, language, destination, and acceptance method—not by a noun alone. Replace “a complete report” with the data in scope, analysis period, required exhibits, excluded judgments, and file formats. Distinguish a prototype from an artifact ready for production operation. When the client supplies data or materials, confirm the due date, minimum quality, rights, and presence of personal information. Agree on a safe fallback for missing inputs. Do not promise the original delivery date while allowing a required dependency to remain indefinitely late.",
+            "Completion also needs a reviewer, a review window, and stated criteria. Put acceptance conditions beside the deliverable so that “this is not what we expected” is not the first measurable feedback. Define what happens after the review window, how minor corrections differ from added work, and when source files or usage rights transfer. Protecting quality and providing unlimited free revision are different obligations. A testable acceptance definition is not hostile contract language. It is a shared checklist that lets a strong piece of work reach a legitimate end."
+          ]
+        },
+        {
+          "ja": [
+            "変更依頼は例外ではなく起こる前提で設計します。依頼を受けたら、元の目的との関係、追加工数、納期、他の成果物への影響を短い変更票へ記録します。小さく見える文言変更でも、複数言語、画面、テスト、承認が連動すれば影響は広がります。窓口担当者がその場で頼んだことを、承認済みの追加作業として扱いません。分析後に、範囲内、既存項目との入替、追加見積、次期候補のいずれかへ分類します。",
+            "緊急対応にも境界を設けます。重大障害や法令リスクの回避は先に安全確保してよい場合がありますが、その条件、連絡先、事後承認期限を契約前に決めます。緊急という言葉だけで通常の優先順位と料金が消える設計は持続しません。変更履歴には依頼者、決裁者、決定日、費用、期限差分を残します。変更が頻発する顧客では個々の依頼だけでなく、要件決定プロセス自体を見直し、固定価格から時間枠契約へ変える判断も持ちます。"
+          ],
+          "en": [
+            "Design for change requests as an expected event, not an exception. When one arrives, record its relationship to the original purpose, additional effort, schedule effect, and impact on other deliverables. A wording adjustment may appear small while triggering localization, interface, testing, and approval work. Do not treat a request made casually by the working contact as authorized extra work. After impact analysis, classify it as in scope, a swap for an existing item, separately priced work, or a candidate for a later phase.",
+            "Give urgent work a boundary as well. Immediate containment may be appropriate for a material outage or legal risk, but define qualifying conditions, contacts, and the deadline for retrospective approval before the engagement begins. A client cannot sustainably use the word “urgent” to erase normal priority and pricing. Keep a change record with requester, approver, decision date, fee, and revised deadline. When changes recur, evaluate the client’s requirement process rather than negotiating every request in isolation. Moving from fixed scope to a governed capacity model may be the more honest solution."
+          ]
+        },
+        {
+          "ja": [
+            "連絡条件は使用ツールより、応答期待と意思決定のリズムを決めます。通常連絡の返信目安、会議頻度、対応時間帯、休日対応、記録を残す正式経路を合意します。チャット、メール、口頭で指示が分散すると、後からどれが確定事項か判別できません。重要な決定は一つのDecision Logへ集約し、会議後に決定、未決、担当、期限を短く共有します。即時返信を品質と同一視する顧客には、集中作業時間が成果へ与える価値を説明します。",
+            "依頼者側の応答遅延も納期へ連動させます。確認に必要な営業日、期限を過ぎた場合のスケジュール再設定、会議のキャンセル条件を事前に決めます。すべての関係者を毎回会議へ呼ぶのではなく、情報提供者、レビュー担当、決裁者を必要な場面だけ参加させます。会議を増やすほど認識が揃うとは限りません。議題、求める決定、事前資料がない会議は延期できる運用にすると、双方の時間と実効単価を守れます。"
+          ],
+          "en": [
+            "Communication qualification is less about choosing a tool than setting response expectations and a decision rhythm. Agree on normal response windows, meeting frequency, working hours, emergency coverage, and the channel that creates the official record. Instructions scattered across chat, email, and calls become impossible to distinguish later. Consolidate material decisions in one decision log, then circulate a short record of decisions, open questions, owners, and dates after each meeting. When a client equates instant replies with quality, explain how protected production time contributes to the result.",
+            "Connect client response delays to the schedule. Define the review days needed, the rescheduling rule after a missed deadline, and meeting cancellation conditions. Do not invite every stakeholder to every session. Bring information providers, reviewers, and approvers into the stages where their role is required. More meetings do not automatically create alignment. Allow a meeting without an agenda, requested decision, or pre-read to be postponed. That rule protects both parties’ time, keeps the engagement auditable, and prevents communication overhead from silently consuming the delivery budget."
+          ]
+        },
+        {
+          "ja": [
+            "支払条件は請求額、通貨、税だけでなく、着手金、請求時点、支払期限、分割条件、経費、遅延時の扱いまで確認します。検収と支払が連動する場合は、検収者と期限が未定のまま契約しません。長期案件では途中成果に対応したマイルストーン請求を置き、最後の一括支払へリスクを集中させない設計にします。相手の経理都合で標準より長い支払サイトが必要なら、その条件を受注判断とキャッシュフローへ反映します。",
+            "支払能力と支払意思は別です。法人名、契約主体、請求先、発注番号の要否を確認し、過去の口約束だけを信用根拠にしません。初回顧客や高額案件では、着手金、小さな有償Discovery、段階納品などで相互の履行を検証します。支払遅延時は、いつ督促し、いつ作業を停止し、再開に何が必要かを事前に決めます。回収不能を恐れて無期限に作業を続けると損失が増えるため、停止条件は関係悪化ではなく事業継続の安全装置です。"
+          ],
+          "en": [
+            "Payment terms include more than fee, currency, and tax. Confirm the deposit, invoice trigger, due date, installment structure, reimbursable expenses, and consequence of delay. If acceptance controls payment, do not contract while the reviewer and review deadline remain undefined. For a longer engagement, tie invoices to observable milestones so that the entire collection risk does not accumulate at the end. A buyer may need a longer payment cycle for legitimate accounting reasons, but that condition belongs in the qualification decision and cash-flow plan before work begins.",
+            "Ability to pay and willingness to pay are different risks. Verify the legal contracting entity, invoice recipient, and need for a purchase order rather than treating a prior verbal promise as evidence. With a new client or larger commitment, use a deposit, paid discovery, or staged delivery to test reciprocal performance. Define when you remind, pause work, and resume after a late payment. Continuing indefinitely because collection feels uncomfortable only increases exposure. A documented stop condition is not an act of hostility; it is an operational safeguard that preserves the freelancer’s ability to serve paying clients."
+          ]
+        },
+        {
+          "ja": [
+            "断る基準は案件を見て感情的に決めるのではなく、提案前に定義します。目的を説明できない、決裁者へ到達できない、予算と要求が一致しない、個人情報や認証情報を安全に扱えない、架空の実績や違法な表示を求める、支払条件を明文化しない、といった条件は明確な停止理由です。一つの赤旗だけで即断しない場合も、誰がいつ解消するかを決めます。未解消の重要条件を「受注後に考える」へ送らないことが重要です。",
+            "断るときは相手を評価せず、成立しない条件と代替案を短く伝えます。目的定義の有償Discovery、範囲縮小、別専門家への相談、条件が整った後の再検討など、安全な次の選択肢を示せます。受注しなかった案件も、理由、見送った金額ではなく回避したリスク、後日確認する条件を記録します。断った結果を成功談に作り替えず、判断の精度を定期的に見直します。良い顧客選別は受注率を最大化する仕組みではなく、価値を提供できる契約だけを増やす仕組みです。"
+          ],
+          "en": [
+            "Define decline criteria before a particular opportunity makes the decision emotional. Material stop conditions include an unexplained purpose, no route to an approver, requirements inconsistent with budget, unsafe handling of personal data or credentials, requests for fabricated claims or unlawful representation, and refusal to document payment terms. A single warning sign may be remediable, but assign an owner and date for resolution. Do not push an unresolved critical condition into “we will sort it out after kickoff.” Acceptance converts ambiguity into your delivery risk.",
+            "When declining, describe the incompatible condition without judging the client. Offer a safe alternative when one exists: paid discovery to define the purpose, reduced scope, referral to an appropriate specialist, or reconsideration after the missing authority is established. Record declined opportunities too, focusing on the risk avoided and the condition that could justify a later review—not merely the fee you did not win. Do not rewrite every decline as a success story. Review the decisions against later evidence. Client qualification is not a system for maximizing acceptance rate; it is a system for increasing engagements where real value can be delivered."
+          ]
+        }
       ]
     },
     "compensation-scope-tradeoff": {

@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-11",
-    "end_date": "2026-10-08",
+    "start_date": "2026-09-12",
+    "end_date": "2026-10-09",
     "days": 28
   },
-  "generated_at": "2026-10-11T00:25:42+00:00",
+  "generated_at": "2026-10-12T00:42:54+00:00",
   "rows": [
     {
       "query": "フリーランス リスク",
@@ -33,6 +33,14 @@
       "impressions": 5,
       "ctr": 0.0,
       "position": 21.8
+    },
+    {
+      "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
+      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 3.333
     },
     {
       "query": "フリーランス月収最低",
@@ -67,6 +75,14 @@
       "position": 26.0
     },
     {
+      "query": "フリーランス 転向",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 59.0
+    },
+    {
       "query": "転職 エージェント 成功 報酬 比較",
       "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
@@ -91,16 +107,16 @@
       "position": 26.0
     },
     {
-      "query": "フリーランス 転向",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "query": "転職",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 44.0
     },
     {
-      "query": "転職",
-      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "query": "転職 市場価値 調べ方 評価基準",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
