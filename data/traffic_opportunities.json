@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-09-12",
-    "end_date": "2026-10-09",
+    "start_date": "2026-09-13",
+    "end_date": "2026-10-10",
     "days": 28
   },
-  "source_generated_at": "2026-10-12T00:42:54+00:00",
+  "source_generated_at": "2026-10-13T02:42:06+00:00",
   "input_rows": 19,
   "scored_rows": 19,
   "summary": {
@@ -159,26 +159,26 @@
       "priority_score": 11.8
     },
     {
-      "query": "評価 転職",
-      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 62.67,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 10.3
-    },
-    {
       "query": "フリーランス 転向",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
       "position": 59.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 8.1
+    },
+    {
+      "query": "評価 転職",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 63.0,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
