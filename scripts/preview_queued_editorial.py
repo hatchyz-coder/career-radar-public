@@ -15,8 +15,8 @@ from check_release_quality import TARGETS, evaluate
 from check_content_quality import Parser
 
 ROOT = Path(__file__).resolve().parents[1]
-DAYS = ("2026-10-12", "2026-10-13")
-PREVIEW_TARGETS = ("resume-decision-log", "freelance-client-qualification")
+DAYS = ("2026-10-12", "2026-10-13", "2026-10-14")
+PREVIEW_TARGETS = ("resume-decision-log", "freelance-client-qualification", "compensation-scope-tradeoff")
 # Same generation/postprocessing order as the existing publication workflow.
 POST = (
     "polish_generated_articles.py", "expand_generated_articles.py",
@@ -92,7 +92,7 @@ def main():
             generated.update(day_errors)
             print(f"Preview {day}: validated postprocessed HTML; issue count={len(current)}")
         if validated_locales != {(aid, locale) for aid in PREVIEW_TARGETS for locale in ("ja", "en")}:
-            errors.append(f"Preview incomplete: validated {len(validated_locales)} of 4 required locale pages")
+            errors.append(f"Preview incomplete: validated {len(validated_locales)} of 6 required locale pages")
         for script in CHECKS:
             try:
                 execute(site, [str(site / "scripts" / script)], f"{script} after last preview date")
@@ -122,7 +122,7 @@ def main():
         print("PREPUBLICATION PREVIEW FAILED; CI must not approve this article copy:", file=sys.stderr)
         print("\n".join(errors[:70]), file=sys.stderr)
         return 1
-    print("Prepublication preview passed both scheduled dates and downstream checks; editorial meaning still requires review.")
+    print("Prepublication preview passed all three scheduled dates and downstream checks; editorial meaning still requires review.")
     return 0
 
 

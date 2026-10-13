@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-12",
-    "end_date": "2026-10-09",
+    "start_date": "2026-09-13",
+    "end_date": "2026-10-10",
     "days": 28
   },
-  "generated_at": "2026-10-12T00:42:54+00:00",
+  "generated_at": "2026-10-13T02:42:06+00:00",
   "rows": [
     {
       "query": "フリーランス リスク",
@@ -59,14 +59,6 @@
       "position": 15.667
     },
     {
-      "query": "評価 転職",
-      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 62.667
-    },
-    {
       "query": "職務経歴書分析評価職",
       "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
       "clicks": 0,
@@ -81,6 +73,14 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 59.0
+    },
+    {
+      "query": "評価 転職",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 63.0
     },
     {
       "query": "転職 エージェント 成功 報酬 比較",

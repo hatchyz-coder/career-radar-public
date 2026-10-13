@@ -1288,6 +1288,88 @@
           "入社後に検証する",
           "Recheck the trade-off after joining"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "基本給、賞与、株式、退職金、手当、休暇を分け、確定額・条件付き額・未評価額へ分類します。満額保証されない賞与を固定給と足せば、上振れ案と契約額を同じ数字として扱うことになります。現職と候補先は同じ期間、同じ税引前基準で比べます。",
+            "金額の根拠も残します。雇用条件通知書は確認済みの事実、採用担当者の「通常は満額」は見込みです。株式は権利確定、評価、退職時の扱いを確認し、将来価格を実績にしません。拘束時間、出社、転居、自己負担も並べ、増額が何を購入するかを見ます。"
+          ],
+          "en": [
+            "Separate base salary, bonus, equity, retirement contributions, allowances, and leave, then classify each as confirmed, conditional, or not yet evaluable. An unguaranteed bonus is an upside case, not the same kind of number as contracted pay. Compare the current role and offer over the same pretax period so one headline total cannot hide different risk.",
+            "Keep the source beside each amount. Written employment terms are evidence; a recruiter’s statement that people usually receive the full bonus remains an expectation until plan rules support it. For equity, inspect vesting, valuation, liquidity, and departure treatment rather than assuming a future price. Add time, attendance, relocation, and personal costs to show what the increase purchases."
+          ]
+        },
+        {
+          "ja": [
+            "判断権は役職名でなく、採用、予算、優先順位、仕様変更、停止判断をどの上限まで行えるかで比べます。提案・推薦・承認・実行を分け、「オーナーシップ」という言葉だけで責任と権限を推測しません。直近の具体例と最終承認者を尋ねます。",
+            "権限が広ければ常に良いわけではありません。専門家レビューと明確なエスカレーションがある方が、安全に学べる場合もあります。決定対象、上限、承認者、反証条件を一行ずつ並べ、狭まる権限が報酬、専門性、生活余力で補われるかを評価します。"
+          ],
+          "en": [
+            "Compare decision rights through specific choices, not titles. Ask which hiring, budget, priority, specification, vendor, and stop decisions the role may make and at what limit. Distinguish proposing, recommending, approving, and executing. A promise of ownership does not reveal whether accountability arrives without authority; request a recent example and its final approver.",
+            "More authority is not automatically better. Expert review and a clear escalation route may create safer learning than carrying consequential choices alone. List each decision, its monetary or staffing limit, approver, and escalation trigger for both roles. If discretion narrows, test whether compensation, specialist depth, or personal time adequately pays for that narrower scope."
+          ]
+        },
+        {
+          "ja": [
+            "成果責任は、任される目標と自分で変えられる手段を対にします。売上や品質を背負っても、価格、採用、範囲、優先順位を変えられなければ責任と手段が釣り合いません。指標ごとに期間、データ源、共同責任者、外部要因を確認します。",
+            "チーム成果と個人寄与も分けます。期待される寄与が決定、設計、実行、レビューのどこかを職務記述と一致させます。未達時の支援と是正期間、前任者からの負債も確認します。広い責任、短い評価周期、未知の負債は給与差以上の下振れになり得ます。"
+          ],
+          "en": [
+            "Pair every outcome with a controllable lever. Someone can be measured on revenue, quality, delivery, or retention while lacking authority over price, hiring, scope, or priority. For each measure, identify the period, data source, shared owners, external dependencies, and the intervention available when performance moves in the wrong direction.",
+            "Separate team results from individual contribution. Clarify whether the expected contribution is deciding, designing, executing, or reviewing, and align it with the written role description. Ask what support and remediation period follow a miss. Broad responsibility, a short evaluation cycle, and inherited operational debt can create downside that a salary premium does not offset."
+          ]
+        },
+        {
+          "ja": [
+            "学習機会は研修費でなく、日常で何に触れ、誰からどの頻度でフィードバックを受けるかで測ります。新しい業界、顧客、技術、規制、経営判断について、見学か担当かを区別し、最初の90日の成果物、レビュー担当、周期を質問します。",
+            "社内固有操作と、問題設定、分析、交渉、設計のような持ち運べる能力を分けます。ただし一般スキルなら自動的に価値があるわけではありません。次に狙う役割から逆算して必要な証拠を三つまで決め、報酬増が学習時間を奪うなら再評価日を置きます。"
+          ],
+          "en": [
+            "Measure learning through recurring work and feedback, not a training budget. List the industries, customer problems, technologies, regulations, and management decisions the role encounters, then distinguish observation from accountable participation. Ask what the employee will produce in the first ninety days, who reviews it, and how often that feedback occurs.",
+            "Separate company-specific operation from portable capabilities such as problem framing, analysis, negotiation, and system design. Portability alone is not enough: the skill must support a role you may pursue. Work backward and identify no more than three pieces of evidence to earn. If higher pay removes learning time, set a review date instead of assuming future discipline."
+          ]
+        },
+        {
+          "ja": [
+            "持ち運べる証拠は機密公開ではありません。担当範囲、判断基準、測定方法、自分の寄与を、顧客名や非公開数値なしで説明できるかを見ます。すべてが内部用語に閉じるなら、許可された推薦、方法論、資格など別の証拠経路を確認します。",
+            "有名企業の名前も寄与の証拠にはなりません。四半期ごとに事実、仮定、結果、確認者を分けたDecision Logを残せるかを評価します。秘密資料は持ち出さず、管理下の資料名と場所だけを記録します。説明可能な証拠を作れない高給職は将来の交渉力を弱めます。"
+          ],
+          "en": [
+            "Portable evidence does not require disclosing confidential work. Test whether scope, decision criteria, measurement, and contribution can be explained without a customer name or protected figure. If every artifact stays inside internal terminology, identify another legitimate route such as an authorized reference, publishable method, certification, or approved presentation.",
+            "A prestigious employer name is not contribution evidence. Evaluate whether a quarterly decision log can separate facts, assumptions, outcomes, and confirmers. Confidential artifacts remain in governed storage; the note can reference their name and location without copying them. A highly paid role that produces no explainable evidence can reduce future bargaining power despite its brand."
+          ]
+        },
+        {
+          "ja": [
+            "短期価値には手取り、安定、負債返済、家族時間を、長期価値には判断権、専門性、関係資本、証拠を置きます。同じ金額へ無理に換算せず、各期間の最優先と最低条件を決めます。現在の生活条件を一般的なキャリア論より優先します。",
+            "一年と三年など複数期間で上振れと下振れを書きます。昇進や賞与を確定事項にせず、条件と確認日を置きます。長期価値は高・中・低の確信度でもよく、精密な金額を装いません。健康、介護、在留資格など重大制約は明示します。"
+          ],
+          "en": [
+            "Keep short-term and long-term value visible without forcing false precision. Short-term value may include take-home pay, stability, debt reduction, and family time. Long-term value may include decision rights, expertise, relationships, and evidence. Define the highest priority and minimum acceptable condition for each horizon, based on the person’s actual constraints.",
+            "Use more than one horizon, such as one and three years, and write upside and downside for each. Do not treat promotion or bonus as guaranteed; record its condition and review date. Long-term value may use high, medium, or low confidence instead of a fabricated currency estimate. Health, care, immigration, and other material constraints outrank generic career advice."
+          ]
+        },
+        {
+          "ja": [
+            "許容条件は内定前に決めます。責任が狭まっても固定給が必要水準を超え、学習時間と再評価機会があるなら受ける、といった形です。成果責任だけ増え、権限と支援が不明なら金額に関係なく止める条件にもできます。",
+            "交渉は給与だけでなく、職務範囲、90日目標、予算権限、評価時期、研修、在宅、入社一時金を組み合わせます。優先順位と代替案を示し、合意を文書で確認します。最低条件を満たさない撤退は、感情ではなく事前に定めたリスク管理です。"
+          ],
+          "en": [
+            "Set acceptable trade-offs before the offer creates urgency. You might accept narrower responsibility when confirmed fixed pay clears a personal threshold and the role protects learning time plus a formal review. You might stop regardless of pay when accountability grows but authority and support remain unverifiable. Build thresholds from living costs, runway, and the next option—not unsupported averages.",
+            "Negotiate more than salary. Scope, ninety-day outcomes, budget authority, title, review timing, learning support, remote conditions, and a signing payment can form a package. Present priorities and acceptable alternatives, then confirm agreements in writing. Walking away when a minimum remains unmet is not a failed negotiation; it is execution of a precommitted risk rule."
+          ]
+        },
+        {
+          "ja": [
+            "入社後30日、90日、半年の確認日を先に置き、約束と実態を比べます。実際の給与、意思決定、指標、レビュー頻度、学習時間を記録し、事実と解釈を分けます。「慣れれば変わる」を根拠なく先送りせず、修正者と期限を確認します。",
+            "差が続けば、役割調整、評価基準の明文化、支援追加、異動、退出準備を検討します。退出を脅しにせず、生活費と探索時間を確保して可逆性を守ります。元の比較表を消さず仮定の成否を更新し、次回の判断ルールへ戻します。"
+          ],
+          "en": [
+            "Schedule post-entry reviews before day one, for example at thirty days, ninety days, and six months. Compare promised and observed pay, decisions, measures, feedback cadence, and learning time. Separate facts from interpretation. Early disorder is not automatically permanent, but “it will improve” is not evidence; identify who can correct the gap and by when.",
+            "When a material gap persists, consider role clarification, written evaluation criteria, support, internal transfer, and preparation to leave. Do not use departure as a threat. Preserve reversibility through financial runway and search time. Keep the original comparison, mark which assumptions held, and convert the result into a better rule for the next decision."
+          ]
+        }
       ]
     },
     "career-experiment-review-loop": {

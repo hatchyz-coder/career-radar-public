@@ -24,6 +24,7 @@ TARGETS = (
     "ai-automation-role-redesign",
     "resume-decision-log",
     "freelance-client-qualification",
+    "compensation-scope-tradeoff",
 )
 
 
