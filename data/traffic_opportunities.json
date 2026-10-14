@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-09-13",
-    "end_date": "2026-10-10",
+    "start_date": "2026-09-14",
+    "end_date": "2026-10-11",
     "days": 28
   },
-  "source_generated_at": "2026-10-13T02:42:06+00:00",
-  "input_rows": 19,
-  "scored_rows": 19,
+  "source_generated_at": "2026-10-14T00:34:41+00:00",
+  "input_rows": 20,
+  "scored_rows": 20,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 19
+    "observe": 20
   },
   "top_opportunities": [
     {
@@ -87,6 +87,20 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 24.9
+    },
+    {
+      "query": "評価 年収",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "expected_ctr": 0.025,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 23.9
     },
     {
       "query": "分析／評価職務経歴書",

@@ -25,6 +25,7 @@ TARGETS = (
     "resume-decision-log",
     "freelance-client-qualification",
     "compensation-scope-tradeoff",
+    "career-experiment-review-loop",
 )
 
 
