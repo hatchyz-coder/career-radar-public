@@ -1532,6 +1532,88 @@
           "応募資料へ圧縮する",
           "Compress evidence for applications"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "最初に、証明したい実績を主語・行動・対象・結果・期間を含む一文にします。「業務を改善した」ではなく、「受注処理の確認工程を再設計し、対象期間の差戻しを減らした」のように、何を変えたかを限定します。数字が未確認なら入れず、「減少を確認中」と状態を明示します。主張が二つ以上ある場合は分け、それぞれに別の根拠を割り当てます。",
+            "一文には自分の権限範囲も反映します。提案した、承認した、実装した、運用したを混ぜません。チームが達成した結果を自分一人の成果として書かず、「チーム成果」と「自分の寄与」を分けます。採用担当が一部だけ読んでも、誰が何をしたか誤解しない表現を使います。誇張した動詞を避けることは謙遜ではなく、後から確認できる主張を作るための条件です。"
+          ],
+          "en": [
+            "Begin with one sentence containing the actor, action, object, result, and period. Replace “improved operations” with a bounded claim such as “redesigned the order-verification step and observed fewer returns during the measured period.” Omit a number that has not been checked, and label the result as pending when necessary. Split a sentence that contains several achievements so each claim can have its own evidence path.",
+            "Make authority visible in the sentence. Do not blend proposed, approved, implemented, and operated. A team outcome should remain a team outcome, followed by the contribution you can support. Use wording that will not mislead a reader who sees only the bullet and none of its surrounding explanation. A precise verb is not modesty; it is the mechanism that makes the claim verifiable later."
+          ]
+        },
+        {
+          "ja": [
+            "根拠資料は実績メモへコピーせず、組織内の正規保管場所、資料名、作成日、管理者、確認可能期間を参照として残します。候補は承認記録、変更履歴、集計定義、会議の決定欄、リリース記録、顧客から許可された評価などです。スクリーンショットだけでは前後関係や更新履歴が失われるため、可能なら原本の識別子を使います。",
+            "資料が存在しても、その主張を支えるとは限りません。売上表は売上変化を示しますが、自分の施策が原因だとは証明しません。主張の各要素と資料の対応を表にし、結果、担当範囲、期間、比較条件のどれを支えるか記載します。確認できない要素は未検証として残します。退職前に秘密資料を持ち出すのではなく、許可された確認者と公開可能な要約を準備します。"
+          ],
+          "en": [
+            "Do not copy every supporting artifact into a personal evidence file. Record the governed location, artifact name, creation date, owner, and period during which it may be checked. Useful records include approvals, change histories, metric definitions, decision minutes, release logs, and customer feedback that is explicitly permitted for use. A screenshot often loses context and revision history, so retain an identifier for the source record whenever possible.",
+            "The existence of a document does not prove the full claim. A revenue report shows a change in revenue but not that your intervention caused it. Map each part of the statement to what a record supports: result, scope, period, comparison, or authority. Keep unsupported elements labeled unverified. Before leaving an employer, prepare an approved summary and an authorized confirmer; never take confidential source files merely to preserve future proof."
+          ]
+        },
+        {
+          "ja": [
+            "実績を、チームの成果、自分が行った判断、自分が実行した作業、他者の寄与へ分解します。例えば売上増加が営業、商品、広告、季節性の組合せなら、自分が担当した顧客導線の変更だけを特定します。最終承認者、共同担当者、前任者の設計も残し、成果を一人へ集約しません。",
+            "寄与率を根拠なく数値化しません。「70%貢献した」のような割合より、担当した決定、作成物、変更範囲、引継ぎ先を具体的に示します。単独で実施した場合も、予算、データ、権限を提供した組織条件があります。面談では、結果全体を説明した後、自分が再現可能な能力を一つ示します。これにより、チームへの敬意と個人の価値を両立できます。"
+          ],
+          "en": [
+            "Separate the team result, your decisions, your executed work, and other people’s contributions. If growth reflects sales, product, advertising, and seasonality, identify the customer-flow change you owned instead of claiming the total outcome. Record the final approver, collaborators, and inherited design. This produces a more credible account and makes the capability you can repeat visible.",
+            "Do not invent a contribution percentage. “I contributed seventy percent” is weaker than naming the decision, artifact, system boundary, and handoff you controlled. Even solo execution depends on organizational budget, data, and authority. In an interview, state the overall result, then isolate one skill you personally demonstrated. The structure respects collaborators while giving the reviewer enough detail to assess your individual value."
+          ]
+        },
+        {
+          "ja": [
+            "数字には期間、母数、単位、対象範囲、比較基準、データ取得日を付けます。「20%改善」だけでは、何件中の変化か、前年同月か直前週か分かりません。欠測、除外、重複、集計方法の変更も記録します。割合が小さな母数から出た場合は件数も併記し、精密に見える数字で不確実性を隠しません。",
+            "施策前後の条件が違う場合は単純比較しません。価格、担当者、季節、広告費、対象顧客が同時に変わっていないか確認します。因果を検証できないときは「実施後に観測された」と書き、「自分が生み出した」と断定しません。集計SQLや表計算式を参照できるなら版と更新日を残し、後から定義が変わっても当時の値を再現できるようにします。"
+          ],
+          "en": [
+            "Attach a period, denominator, unit, population, comparison baseline, and extraction date to every number. “Improved twenty percent” is uninterpretable without knowing the number of cases and whether the comparison is year over year or week over week. Record missing values, exclusions, duplicates, and definition changes. When a percentage comes from a small population, include the count rather than hiding uncertainty behind precision.",
+            "Do not compare periods as if all conditions were equal when price, staffing, season, advertising, or customer mix changed. If causation was not tested, write “observed after implementation” rather than “created by my work.” When a query or spreadsheet defines the metric, retain its governed version and update date. That allows the historical value to be reproduced even after the current reporting definition changes."
+          ]
+        },
+        {
+          "ja": [
+            "主張を支持する資料だけでなく、反対の結果も探します。平均処理時間が短縮しても、差戻し、問い合わせ、残業、特定担当への集中が増えていれば、改善の範囲は限定されます。期間を延ばすと効果が消える、別部署では再現しない、といった条件も実績の一部です。都合の悪い指標を除外した理由が説明できないなら主張を弱めます。",
+            "代替説明を最低二つ書きます。市場全体の回復、価格変更、他チームの施策、測定方法の変更などです。そのうえで、自分の施策と時間順序、対象差、実施記録がどこまで一致するかを確認します。反証が残っていても実績を使えますが、「寄与した可能性」「同時期に観測」のように確度を合わせます。強い主張より、限界を説明できる主張の方が監査に耐えます。"
+          ],
+          "en": [
+            "Search for evidence against the claim, not only support. Shorter processing time may coincide with more rework, inquiries, overtime, or concentration on one specialist. An effect may disappear over a longer period or fail in another team. These boundaries are part of the achievement. If an unfavorable measure was excluded, record and justify the reason; otherwise narrow the statement.",
+            "Write at least two plausible alternative explanations, such as market recovery, pricing, another team’s intervention, or a measurement change. Compare their timing and affected population with the implementation record. A claim may remain useful when counterevidence exists, but its wording must match confidence: “contributed to” or “was observed alongside” may be accurate. A bounded claim that explains uncertainty is more audit-ready than a dramatic causal story."
+          ]
+        },
+        {
+          "ja": [
+            "守秘境界は、公開可、社内確認のみ、使用不可の三段階で資料ごとに決めます。顧客名、患者・従業員の個人情報、契約額、未公開障害、認証情報、社内評価は、名前を消すだけで安全になるとは限りません。複数情報の組合せで対象を推測できる場合があります。契約、就業規則、情報管理方針、承認者を確認します。",
+            "応募資料には必要最小限だけを残します。固有名詞を業界分類へ、金額を許可された範囲や比率へ置き換え、技術詳細を成果の判断構造へ抽象化します。ただし匿名化で意味が変わるなら、その実績は使いません。個人端末や外部AIへ原本を移さず、公開版と内部参照版を分離します。削除依頼や権限変更があった場合に追跡できるよう、資料の所有者も記録します。"
+          ],
+          "en": [
+            "Classify each record as public, internal verification only, or unusable. Customer names, patient or employee information, contract value, undisclosed incidents, credentials, and internal evaluations may remain identifiable after names are removed. Combined details can reveal the subject. Check contracts, employment policy, information-handling rules, and the authorized decision owner before using any material.",
+            "Retain only the minimum necessary in an application. Replace a proper name with an allowed industry category, convert an amount into an approved range or ratio, and abstract technical detail into the decision structure. If abstraction changes the meaning, do not use the claim. Keep the public summary separate from the internal reference, never move originals to a personal device or external AI, and record the artifact owner so later access or deletion changes can be honored."
+          ]
+        },
+        {
+          "ja": [
+            "実績には作成日、確認日、確認者、変更理由、旧版への参照を持たせます。後から良い数字が出ても元の値を上書きせず、新しい観測として追加します。職務範囲や肩書きが変わった場合も、その時点以前へ遡って適用しません。更新履歴があれば、面談時の数字と後日のポートフォリオが違っても理由を説明できます。",
+            "定期レビューでは、根拠リンクが有効か、確認者が在籍しているか、数字の定義が変わっていないか、守秘区分が更新されていないかを確認します。確認できなくなった主張は削除せず「現在は再検証不能」と状態を変えます。AIで文章を整えた場合は、表現変更日と元の事実記録を分け、AIが推測した因果や数字を混入させないレビューを行います。"
+          ],
+          "en": [
+            "Give every claim a creation date, review date, reviewer, reason for change, and reference to the previous version. When a better result appears later, append a new observation rather than overwriting the earlier value. Do not apply a later title or wider responsibility retroactively. Version history explains why a figure used in an interview differs from a later portfolio without implying either was fabricated.",
+            "At each review, check that the evidence path remains available, the confirmer is still authorized, the metric definition has not changed, and the confidentiality classification remains valid. If verification becomes impossible, change the status to unavailable rather than silently deleting the history. When AI edits the prose, preserve the underlying fact record and review the output for invented causation, numbers, or authority."
+          ]
+        },
+        {
+          "ja": [
+            "応募資料へは、状況、課題、自分の判断・行動、確認できた結果、証拠の範囲へ圧縮します。すべての根拠を貼り付けず、質問されたときに許可範囲で説明できる粒度にします。職務経歴書では一つの実績を二、三文にし、面談用Decision Logへ代替案、制約、反証、確認資料を残します。短さのために因果や権限を誇張しません。",
+            "最終確認では、各動詞、数字、期間、役割を原記録へ逆引きします。第三者が文だけを読み、実際より大きい権限や効果を受け取らないかも点検します。確認できない数字は削り、具体性が足りなければ数値ではなく判断基準や作業範囲を具体化します。応募先に合わせて順序は変えても事実は変えません。同じ主張を日英で使う場合も意味と確度を揃えます。"
+          ],
+          "en": [
+            "Compress the evidence into context, problem, your decision or action, verified result, and evidence boundary. Do not attach every record; retain enough detail to answer a permitted follow-up. A resume may use two or three sentences while a private decision log keeps alternatives, constraints, counterevidence, and references. Brevity does not justify inflating authority or turning correlation into causation.",
+            "Before submission, trace every verb, number, period, and role back to the source record. Ask whether an independent reader would infer more authority or effect than the evidence permits. Remove an unverifiable number; if the statement becomes vague, add specific decision criteria or scope instead. Reorder evidence for a target role without changing facts. Japanese and English versions must preserve the same meaning and confidence."
+          ]
+        }
       ]
     },
     "ai-work-review-boundary": {
