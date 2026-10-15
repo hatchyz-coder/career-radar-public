@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-14",
-    "end_date": "2026-10-11",
+    "start_date": "2026-09-15",
+    "end_date": "2026-10-12",
     "days": 28
   },
-  "generated_at": "2026-10-14T00:34:41+00:00",
+  "generated_at": "2026-10-15T00:03:23+00:00",
   "rows": [
     {
       "query": "フリーランス リスク",
@@ -27,20 +27,12 @@
       "position": 7.286
     },
     {
-      "query": "分析／評価職務経歴書",
-      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "clicks": 0,
-      "impressions": 5,
-      "ctr": 0.0,
-      "position": 21.8
-    },
-    {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 3.333
+      "position": 3.4
     },
     {
       "query": "フリーランス月収最低",
@@ -59,6 +51,14 @@
       "position": 15.667
     },
     {
+      "query": "分析／評価職務経歴書",
+      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 23.0
+    },
+    {
       "query": "職務経歴書分析評価職",
       "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
       "clicks": 0,
@@ -73,14 +73,6 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 59.0
-    },
-    {
-      "query": "評価 転職",
-      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 63.0
     },
     {
       "query": "評価 年収",
@@ -113,14 +105,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 26.0
-    },
-    {
-      "query": "転職",
-      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 44.0
     },
     {
       "query": "転職 市場価値 調べ方 評価基準",
@@ -161,14 +145,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 74.0
-    },
-    {
-      "query": "転職キャリア",
-      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 75.0
     }
   ]
 }
