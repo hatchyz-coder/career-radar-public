@@ -1606,12 +1606,12 @@
         },
         {
           "ja": [
-            "応募資料へは、状況、課題、自分の判断・行動、確認できた結果、証拠の範囲へ圧縮します。すべての根拠を貼り付けず、質問されたときに許可範囲で説明できる粒度にします。職務経歴書では一つの実績を二、三文にし、面談用Decision Logへ代替案、制約、反証、確認資料を残します。短さのために因果や権限を誇張しません。",
-            "最終確認では、各動詞、数字、期間、役割を原記録へ逆引きします。第三者が文だけを読み、実際より大きい権限や効果を受け取らないかも点検します。確認できない数字は削り、具体性が足りなければ数値ではなく判断基準や作業範囲を具体化します。応募先に合わせて順序は変えても事実は変えません。同じ主張を日英で使う場合も意味と確度を揃えます。"
+            "応募資料へは、状況、課題、自分の判断・行動、確認できた結果、証拠の範囲へ圧縮します。すべての根拠を貼り付けず、質問されたときに許可範囲で説明できる粒度にします。職務経歴書では一つの実績を二、三文にし、面談用Decision Logへ代替案、制約、反証、確認資料を残します。短さのために因果や権限を誇張しません。圧縮前後を並べ、期間、母数、比較対象、個人寄与、未確認事項のどれかが消えていないか確認します。数字を省いた場合も「大幅に」「飛躍的に」のような強い形容へ置き換えません。公開文から原記録へ戻れる証拠IDを内部ログに残し、採用担当者へはそのIDや保管場所を開示せず、許可された説明だけを使います。職種に合わせて強調点を変える場合は、新しい主張を足すのではなく、同じ証拠の中で判断、実行、検証の順序を調整します。",
+            "最終確認では、各動詞、数字、期間、役割を原記録へ逆引きします。第三者が文だけを読み、実際より大きい権限や効果を受け取らないかも点検します。確認できない数字は削り、具体性が足りなければ数値ではなく判断基準や作業範囲を具体化します。応募先に合わせて順序は変えても事実は変えません。同じ主張を日英で使う場合も意味と確度を揃えます。面談用には、三十秒の要約、二分で説明する判断過程、質問されたときだけ示す証拠境界を別々に準備します。どの長さでも、誰が承認し、自分が何を決め、結果をどう測ったかを変えません。採用側から追加資料を求められても、その場の期待に合わせて社外秘の数字や顧客情報を開示せず、公開可能な代替証拠を提示するか、守秘義務により説明できない範囲を明示します。提出直前には、証拠ID、確認日、公開許可、日英の表現を一つのチェック表で再確認します。"
           ],
           "en": [
             "Compress the evidence into context, problem, your decision or action, verified result, and evidence boundary. Do not attach every record; retain enough detail to answer a permitted follow-up. A resume may use two or three sentences while a private decision log keeps alternatives, constraints, counterevidence, and references. Brevity does not justify inflating authority or turning correlation into causation.",
-            "Before submission, trace every verb, number, period, and role back to the source record. Ask whether an independent reader would infer more authority or effect than the evidence permits. Remove an unverifiable number; if the statement becomes vague, add specific decision criteria or scope instead. Reorder evidence for a target role without changing facts. Japanese and English versions must preserve the same meaning and confidence.  Maintain a short interview answer and a deeper permitted explanation, both linked to the same claim identifier. Test them for consistent scope and confidence. If translation or compression removes an essential limitation, restore the limitation rather than keeping a stronger but misleading version for convenience."
+            "Before submission, trace every verb, number, period, and role back to the source record. Ask whether an independent reader would infer more authority or effect than the evidence permits. Remove an unverifiable number; if the statement becomes vague, add specific decision criteria or scope instead. Reorder evidence for a target role without changing facts. Japanese and English versions must preserve the same meaning and confidence. Maintain a short interview answer and a deeper permitted explanation, both linked to the same claim identifier. Test them for consistent scope and confidence. If translation or compression removes an essential limitation, restore the limitation rather than keeping a stronger but misleading version for convenience. Prepare three layers: a thirty-second summary, a two-minute decision account, and an evidence-boundary response used only when asked. Each layer must preserve who approved, what you decided, and how the outcome was measured. If a recruiter asks for additional proof, do not disclose a confidential metric or customer record to satisfy the request. Offer an approved substitute or state the confidentiality limit. Immediately before sending, recheck the claim identifier, review date, disclosure permission, and bilingual wording in one checklist."
           ]
         }
       ]
@@ -1654,6 +1654,88 @@
           "役割記述へ反映する",
           "Reflect ownership in the role"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "最初に、AIを使う仕事を入力収集、生成、事実確認、判断、承認、外部実行、記録へ分解します。「AIで資料を作る」のような一括表現では、どこで誤りが入り、誰が止められるかが分かりません。例えば顧客提案なら、公開情報の整理、草案、価格条件の確認、責任者承認、送付を別工程として扱います。人間のレビュー境界はツール単位ではなく工程単位で置きます。",
+            "各工程には、入力の正本、期待する出力、次工程へ渡す条件、担当者を一行で記録します。AIが候補を出す工程と、組織として決定する工程を同じ動詞で書かないことが重要です。候補生成は自動化できても、契約条件の確定や公開判断まで自動化されたとは限りません。工程表があれば、モデルやツールを変更しても承認責任を保てます。"
+          ],
+          "en": [
+            "Begin by decomposing AI-assisted work into input collection, generation, factual verification, judgment, approval, external execution, and record keeping. A label such as 'use AI to prepare the proposal' hides where an error can enter and who can stop it. For a customer proposal, public-source research, drafting, commercial-term verification, accountable approval, and sending are different steps. Review boundaries belong to workflow steps, not to a model or product name. This makes the design portable when tools change and prevents a successful draft from being mistaken for an authorized business decision.",
+            "For every step, record the source of truth for its inputs, the expected output, the condition for handing work forward, and the responsible role. Use different verbs for an AI-generated candidate and an organizational decision. The system may draft options without having authority to set price, accept legal terms, or publish. A concise workflow table should expose those distinctions before automation is enabled. It also gives reviewers a stable checklist: they can verify the relevant transition instead of rereading every upstream action without knowing which decision they are expected to own."
+          ]
+        },
+        {
+          "ja": [
+            "誤りの影響は、金額、法令、権利、個人情報、健康・安全、顧客との約束、ブランド、復旧可能性で分類します。誤字の修正と、誤った契約金額の送付を同じレビュー手順にしません。影響を低・中・高へ分ける場合も、名称だけで終わらせず、外部へ送る、権限を変更する、支払を起こす、個人へ不利益を与えるなど、具体的な判定条件を置きます。",
+            "発生確率だけでレビューを省略しないことも重要です。頻度が低くても、起きた後に回収できない事故は人間承認を残します。一方、内部の下書きで、差分が確認でき、すぐ破棄できる処理は抜き取り検査にできます。判断表には影響の大きさ、検出しやすさ、元に戻せる時間、影響を受ける相手を並べ、どの条件でレビュー段階を上げるかを明示します。"
+          ],
+          "en": [
+            "Classify error impact across money, law, rights, personal information, health and safety, customer commitments, brand trust, and recoverability. A typographical error in an internal note should not use the same control as sending an incorrect contract price. If the organization uses low, medium, and high tiers, define them with observable triggers: external transmission, permission changes, payment initiation, public claims, or a decision that can disadvantage a person. Concrete triggers make the classification repeatable and prevent teams from lowering a rating simply to keep work moving.",
+            "Do not remove review merely because an event appears unlikely. A rare outcome that cannot be recalled after execution still needs accountable human approval. Conversely, an internal draft that can be compared, discarded, and regenerated may be suitable for sampling rather than line-by-line approval. Put consequence, detectability, time to reverse, and affected party in the same assessment. Then state which combination escalates the workflow. This creates a defensible boundary based on the work's effect, instead of a vague belief that the model is generally accurate or that a human once looked at a similar output."
+          ]
+        },
+        {
+          "ja": [
+            "レビュー方法は、正解を独立に確認できるかで変えます。計算結果を既存のテストで再計算できる、引用を一次資料へ戻せる、差分を正本と比較できる場合は、機械検査を先に置けます。反対に、戦略判断、医療・法務の適用、微妙な広告表現、本人の意図に関わる評価は、形式検査だけでは十分ではありません。専門知識を持つ人が文脈と例外を確認します。",
+            "検証できない入力をAIの自信度で埋めないようにします。出典がない、市場データの時点が古い、顧客条件が未確認なら、出力へ未確認事項として残し、次工程を止めます。レビュー担当者には完成文だけでなく、参照した資料、取得日、差分、未解決項目を渡します。根拠へ戻れない主張は、流暢でも承認対象にせず削除または保留にします。"
+          ],
+          "en": [
+            "Choose the review method according to whether the answer can be independently checked. Calculations that can be recomputed, citations that can be traced to primary material, and changes that can be diffed against a source of truth should receive automated verification first. Strategy, application of medical or legal rules, nuanced advertising claims, and evaluations involving a person's intent cannot be approved by format checks alone. They require a reviewer with relevant context and authority. Verifiability therefore determines both the strength of the control and the expertise required at the boundary.",
+            "Never fill an unverifiable input with model confidence. If a source is missing, market data is stale, or a customer condition has not been confirmed, preserve the item as an explicit unknown and stop the affected transition. Give the reviewer the source list, retrieval dates, material diffs, and unresolved questions rather than only a polished final draft. A fluent statement that cannot be traced should be removed or held, not approved because it sounds plausible. This approach also makes later audits possible: another person can reproduce what was known when the approval occurred."
+          ]
+        },
+        {
+          "ja": [
+            "人間承認は、取り消しにくい行為の直前へ置きます。メール送信、公開、契約同意、支払、アカウント権限変更、採用・評価判断などです。草案作成直後だけに承認を置くと、その後の自動加工やデータ結合で内容が変わる可能性があります。実際に外部へ出る最終成果物と、宛先・金額・公開範囲を同じ画面または同じ証跡で確認します。",
+            "承認操作は、誰が、何を、どの版で、何の根拠により承認したかを残せる形にします。単なる「確認済み」チェックでは責任範囲が曖昧です。承認者が修正を求めた場合は生成工程へ戻し、修正後の版を再承認します。前の承認を新しい版へ自動で引き継ぎません。緊急時の代理承認者と、承認できない条件も事前に決めます。"
+          ],
+          "en": [
+            "Place human approval immediately before an action that is difficult to reverse: sending a message, publishing, accepting terms, initiating payment, changing account permissions, or making an employment or evaluation decision. Approval only after the first draft is weak because later enrichment, formatting, or data joins can change the content. The approver should see the exact final artifact together with recipient, amount, audience, and execution scope. Review at the last responsible moment reduces the gap between what a person examined and what the system actually does.",
+            "The approval record should identify who approved, what version they saw, the scope of their approval, and the evidence used. A generic checked box does not establish accountability. When a reviewer requests a change, return the work to generation or editing and require approval of the new version; do not inherit authorization from the rejected artifact. Define an alternate approver for absence and conditions under which no delegate may approve. These mechanics prevent urgency from silently converting a meaningful control into a ceremonial step."
+          ]
+        },
+        {
+          "ja": [
+            "AIへ渡す前に、情報を公開、社内限定、機密、個人情報、利用禁止へ分類します。顧客、患者、従業員、候補者の情報は、名前を消せば必ず安全になるわけではありません。属性や日時を組み合わせて再識別できる場合があります。利用目的、契約、同意、保管場所、外部AIへの送信可否を確認し、判断できない情報は入力から除外します。",
+            "レビュー担当者も必要最小限の情報だけを見ます。品質確認のために本番データを個人端末へ複製したり、別Productへ移したりしません。テストには合成データや承認済みの匿名化例を使い、ログにも入力本文を無制限に残さない設計にします。LHubなど独立した医療領域の情報は、他Productの改善や一般AI評価へ再利用しません。"
+          ],
+          "en": [
+            "Classify information before it reaches an AI system: public, internal, confidential, personal, or prohibited. Removing a name does not automatically make customer, patient, employee, or candidate data safe; combined attributes and dates can permit re-identification. Verify purpose, contract, consent, retention, approved storage, and whether transfer to an external AI service is allowed. When the answer is unknown, exclude the data rather than treating the model as a temporary workspace. The review design must protect inputs as well as detect errors in outputs.",
+            "Reviewers should also receive only the minimum information required. Do not copy production records to a personal device or another product merely to make quality assurance convenient. Use synthetic data or approved de-identified fixtures, and avoid retaining full prompts and source text indefinitely in logs. Independently operated medical domains such as LHub must not contribute patient or clinical information to another product's review process or to general AI evaluation. A useful boundary remains valid even when no one is watching; it is enforced by data selection and system permissions, not only by reviewer discretion."
+          ]
+        },
+        {
+          "ja": [
+            "例外時の既定動作は停止にします。根拠取得失敗、入力欠損、権限エラー、検査不合格、承認者不在、外部サービス障害が起きたとき、古い結果や仮の値で続行しません。どの状態なら再試行でき、何回で人へ引き渡し、どの処理は重複実行を防ぐ必要があるかを工程ごとに決めます。外部送信や支払には一意の実行IDを使います。",
+            "迂回路も監査対象です。通常フローが止まったとき、担当者がAI出力をコピーして個人メールから送れば境界は機能しません。安全な手動手順、エスカレーション先、期限、再開条件を運用文書へ含めます。復旧後は停止中に作られた成果物を自動送信せず、入力と承認の鮮度を再確認します。例外の件数と原因は境界見直しの材料にします。"
+          ],
+          "en": [
+            "Default to stopping when an exception occurs. Missing evidence, incomplete inputs, permission errors, failed checks, absent approvers, and unavailable external services should not be replaced with stale output or placeholder values. Define which states permit retry, how many attempts occur before human escalation, and which actions require duplicate protection. External sending, payments, and other side effects need an idempotency key or equivalent execution identifier so a timeout cannot produce two actions while the operator believes none occurred.",
+            "Audit the workaround as well as the normal path. A boundary fails if, after the system stops, an operator copies AI output and sends it from a personal account. Document a safe manual procedure, escalation owner, response time, and restart condition. After recovery, do not automatically release artifacts produced during the outage; revalidate input freshness and approval. Track the number and cause of exceptions. Recurring overrides are evidence that the workflow or staffing is wrong, not proof that the control should simply be bypassed more efficiently."
+          ]
+        },
+        {
+          "ja": [
+            "ログには全文を集めるのではなく、後から判断を再現できる最小項目を残します。案件ID、工程、使用したモデルや設定の識別子、入力資料の参照、出力版、検査結果、未確認事項、承認者、実行時刻、最終状態です。機密本文は管理された正本に残し、ログから参照します。保持期間と閲覧権限を決め、不要になった記録は規程に従って削除します。",
+            "レビュー品質も測ります。処理件数だけでなく、差戻し理由、公開後に見つかった誤り、見逃し、不要な修正、例外、レビュー時間を記録します。ただし数字だけで個人を評価すると、難しい案件を避ける動機になります。指標は工程改善に使い、どの種類の出力で検査が弱いか、生成量が確認能力を超えていないかを月次で見直します。"
+          ],
+          "en": [
+            "Keep the minimum record needed to reconstruct the decision rather than collecting every piece of content. Useful fields include case ID, workflow step, model or configuration identifier, source references, output version, check results, unresolved items, approver, execution time, and final state. Confidential source text should remain in its governed system and be referenced from the audit record. Define access rights and retention, then delete records under the applicable policy. More logging is not automatically safer when the log becomes a second uncontrolled repository of sensitive information.",
+            "Measure review quality as well as throughput. Record reasons for rejection, errors found after release, misses, unnecessary edits, exceptions, and review time. Avoid turning a raw count into an individual performance score, because that encourages reviewers to avoid difficult cases or approve quickly. Use the evidence to improve the process: identify output types with weak verification, recurring sources of unsupported claims, and periods when generation volume exceeds review capacity. A monthly review should result in a changed test, clearer boundary, training action, or reduced automation scope when the evidence warrants it."
+          ]
+        },
+        {
+          "ja": [
+            "役割記述では「AIを活用した」だけで終わらせず、対象工程、保持した判断権、検証方法、停止権限、確認できた結果を分けます。例えば、草案生成を自動化し、引用検査と責任者承認を設計し、外部送信は人が実行した、と書きます。成果がチーム全体のものなら、仕組みの結果と自分が担当した設計・運用を分離します。",
+            "面談では便利さだけでなく、どの仕事を自動化しなかったかも説明します。高影響で検証困難な判断を人に残した理由、例外から境界を変えた事例、レビュー能力を保つ方法は、単なるツール経験より持ち運べる実績です。架空の削減率や事故防止を主張せず、期間、母数、比較条件が確認できる指標だけを使います。現在も有効な設計か、更新日も残します。"
+          ],
+          "en": [
+            "In a role description, go beyond saying that you used AI. Separate the workflow automated, the judgment retained by people, the verification method, stop authority, and verified outcome. A precise statement might say that you automated draft generation, designed citation checks and accountable approval, and kept external transmission as a human action. If the outcome belonged to a team, distinguish the system-level result from the controls you personally designed or operated. Accurate ownership is more credible than claiming the model's output as an individual achievement.",
+            "In an interview, explain what you intentionally did not automate. The rationale for retaining high-impact, hard-to-verify judgment, an exception that caused the boundary to change, and the method used to preserve reviewer capacity are portable evidence of operating judgment. Do not invent productivity percentages or claim that incidents were prevented without a measurable counterfactual. Use only metrics with a known period, population, and comparison. Record the date on which the design was last reviewed, because a boundary appropriate for one model, team, and use case may become unsafe as volume or consequences change."
+          ]
+        }
       ]
     },
     "offer-assumption-log": {
