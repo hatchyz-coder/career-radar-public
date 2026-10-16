@@ -27,6 +27,7 @@ TARGETS = (
     "compensation-scope-tradeoff",
     "career-experiment-review-loop",
     "career-evidence-audit-trail",
+    "ai-work-review-boundary",
 )
 
 
