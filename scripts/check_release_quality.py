@@ -28,6 +28,7 @@ TARGETS = (
     "career-experiment-review-loop",
     "career-evidence-audit-trail",
     "ai-work-review-boundary",
+    "offer-assumption-log",
 )
 
 
