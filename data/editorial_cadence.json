@@ -365,6 +365,24 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "ai-work-review-boundary",
+      "due_at": "2026-10-19",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "offer-assumption-log",
+      "due_at": "2026-10-20",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
