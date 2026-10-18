@@ -224,3 +224,45 @@ a.card:hover h3 { text-decoration: underline; text-underline-offset: .2em; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* Career Review MVP */
+.review-shell { max-width: 880px; }
+.review-start { margin: 36px 0 12px; padding: 28px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
+.review-start .button { margin-bottom: 12px; }
+.review-workspace, .review-result { margin-top: 44px; }
+.review-statusbar { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: start; padding: 22px 0; border-top: 1px solid var(--ink); }
+.review-kicker { color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.review-question { margin: 4px 0 0 !important; font-size: 20px; color: var(--ink) !important; }
+.review-progress { min-width: 72px; text-align: right; font-family: Georgia, serif; font-size: 18px; color: var(--accent); }
+.review-label { display: block; margin: 20px 0 8px; font-weight: 700; }
+.review-memo { width: 100%; min-height: 300px; padding: 18px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); font: inherit; line-height: 1.8; resize: vertical; }
+.review-memo:focus { outline: 3px solid rgba(36,91,67,.22); border-color: var(--accent); }
+.review-toolbar { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+.review-tool { min-width: 0; }
+.review-feedback { min-height: 1.8em; margin: 12px 0 0 !important; color: var(--accent) !important; font-size: 13px; }
+.review-help { margin-top: 18px; color: var(--muted); font-size: 13px; }
+.review-result-intro { max-width: 720px; }
+.review-result-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); margin-top: 24px; border-top: 1px solid var(--ink); }
+.review-result-card { padding: 26px 28px 28px 0; border-bottom: 1px solid var(--line); }
+.review-result-card:nth-child(even) { padding-left: 28px; border-left: 1px solid var(--line); }
+.review-result-card-wide { grid-column: 1 / -1; padding-left: 0 !important; border-left: 0 !important; }
+.review-result-card h3 { margin: 0 0 10px; }
+.review-result-card ul { margin: 0; padding-left: 1.2em; }
+.review-axis-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); border-top: 1px solid var(--ink); }
+.review-axis { padding: 22px 26px 24px 0; border-bottom: 1px solid var(--line); }
+.review-axis:nth-child(even) { padding-left: 26px; border-left: 1px solid var(--line); }
+.review-axis-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.review-axis h3 { margin: 0; font-size: 18px; }
+.review-axis span { color: var(--accent); font-size: 12px; font-weight: 700; white-space: nowrap; }
+.review-axis p { margin: 8px 0 0 !important; font-size: 14px; }
+.review-result-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
+[hidden] { display: none !important; }
+@media (max-width: 800px) {
+  .review-statusbar { grid-template-columns: 1fr; gap: 8px; }
+  .review-progress { text-align: left; }
+  .review-toolbar .button, .review-result-actions .button { width: 100%; }
+  .review-result-grid, .review-axis-grid { grid-template-columns: 1fr; }
+  .review-result-card, .review-result-card:nth-child(even), .review-axis, .review-axis:nth-child(even) { padding: 22px 0; border-left: 0; }
+  .review-result-card-wide { grid-column: auto; }
+  .review-memo { min-height: 260px; }
+}
