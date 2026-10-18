@@ -29,6 +29,7 @@ TARGETS = (
     "career-evidence-audit-trail",
     "ai-work-review-boundary",
     "offer-assumption-log",
+    "freelance-change-control",
 )
 
 
