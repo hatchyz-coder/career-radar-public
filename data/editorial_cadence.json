@@ -383,6 +383,15 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "freelance-change-control",
+      "due_at": "2026-10-21",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
