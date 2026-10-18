@@ -1898,6 +1898,88 @@
           "変更履歴を残す",
           "Keep a change log"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "変更管理の出発点は、着手時に合意した成果物、対象外、期限、検収方法、料金を一つの基準表へ固定することです。メール、提案書、契約書、議事録に条件が分散していると、後から追加か当初範囲かを判定できません。最新版の資料、合意日、承認者を記録し、曖昧な表現は具体例に置き換えます。例えば「レポート作成」なら、ページ数、データ期間、修正回数、納品形式まで確認します。",
+            "基準表は顧客を縛るためではなく、双方が同じ変更を見られる比較点です。まだ合意していない希望は確定事項へ混ぜず、仮定または未確認事項として別欄に置きます。既存成果物へ含まれる小さな修正と、新しい目的・読者・データ・承認工程を必要とする追加作業を区別します。個人情報や顧客秘密は本文へ複製せず、管理された正本の参照IDだけを残します。"
+          ],
+          "en": [
+            "Change control starts with a baseline that records the deliverables, exclusions, deadline, acceptance method, and price agreed when work began. If terms are scattered across a proposal, contract, email, and meeting notes, neither side can reliably decide whether a request is included. Record the controlling version, agreement date, and authorized approver. Replace broad phrases with observable examples. A deliverable called “prepare the report,” for instance, should specify audience, page or section expectations, data period, file format, review rounds, and the evidence used for acceptance. The baseline is a comparison point, not an attempt to prevent legitimate change.",
+            "Keep requested but unapproved wishes outside the confirmed baseline as assumptions or open items. Distinguish a correction needed to meet an agreed acceptance test from work that introduces a new purpose, audience, dataset, channel, or approval chain. That distinction prevents every inconvenience from becoming billable while also preventing material expansion from disappearing into goodwill. Store confidential source material in its governed system and reference an identifier from the change record rather than copying customer or personal information into a freelance spreadsheet. A reviewer should be able to reconstruct scope without receiving data they do not need."
+          ]
+        },
+        {
+          "ja": [
+            "追加依頼を受けたら、作業内容より先に、なぜ変更が必要になったかを確認します。法令や事業方針の変更、利用者からの検証結果、前提の誤り、単なる好みでは、適切な対応が違います。依頼文をそのまま仕様にせず、解決したい問題、影響を受ける利用者、成功の判定、いつまでに判断が必要かを質問します。理由が不明なまま急ぐと、不要な成果物を増やす可能性があります。",
+            "原因確認では責任追及をしません。当初の情報では予見できなかった変更と、確認不足で生じた修正を分け、費用負担や期限への扱いを契約条件へ戻して判断します。複数の関係者が別々の目的を述べる場合は、誰の目的を優先するか決裁者に確認します。医療、法務、広告など専門判断を含む場合は、フリーランサーが推測で要件を確定せず、適切な責任者の確認を停止条件にします。"
+          ],
+          "en": [
+            "When a new request arrives, establish why the change is needed before estimating the requested activity. A regulatory update, a user test that disproved an assumption, a changed business priority, and a stakeholder preference require different responses. Do not translate the request message directly into a specification. Ask which problem must be solved, who is affected, how success will be observed, what existing decision changed, and when a decision is actually required. This short diagnosis can reveal that the smallest useful response is a clarification, a data check, or removal of work rather than an additional deliverable.",
+            "Cause analysis is not a search for someone to blame. Separate developments that could not reasonably have been known at baseline from correction of work that fails an agreed requirement, then apply the contract’s treatment of each case. When stakeholders describe conflicting purposes, ask the authorized owner to select the governing objective. For medical, legal, advertising, tax, or other specialist judgments, do not turn incomplete guidance into a requirement through freelancer inference. Record the question and pause the affected step until the accountable professional confirms it. Urgency does not convert missing authority into valid approval."
+          ]
+        },
+        {
+          "ja": [
+            "影響見積りは作業時間だけでなく、既存成果物、納期、費用、品質、他の優先作業、外部依存、検収、保守へ広げます。一枚の画面追加でも、データ取得、権限、翻訳、アクセシビリティ、テスト、説明書の変更が必要なら影響は大きくなります。見積りには前提、含む作業、含まない作業、幅が生じる理由、再見積り条件を記載し、根拠のない一点の数字で確実性を演出しません。",
+            "既存の期限を維持する場合は、何を減らすかも示します。追加作業だけを積み上げて、品質と勤務時間へ隠れた負担を移しません。顧客の環境や第三者APIが未確認なら、調査枠と実装枠を分けます。機密データや本番環境を見なければ見積もれないと言わず、合成例、仕様、限定されたログなど安全な証拠で不確実性を縮めます。確認後に差分が大きければ、承認前に更新します。"
+          ],
+          "en": [
+            "Estimate more than labor hours. A change can affect existing deliverables, delivery date, fee, quality risk, competing priorities, external dependencies, acceptance, documentation, and future maintenance. A request for one additional screen may require data access, authorization rules, localization, accessibility work, negative tests, and operating guidance. State the assumptions behind the estimate, work included and excluded, the reason for any range, and the condition that triggers re-estimation. A precise number without verified inputs creates false confidence and later turns a normal discovery into an apparent failure.",
+            "If the customer wants the original deadline preserved, show which scope, review time, or sequence must change. Do not silently transfer expansion into lower quality or excessive working hours. When a customer environment or third-party API is unknown, separate a bounded investigation from implementation. Reduce uncertainty with specifications, synthetic examples, controlled logs, or a limited sandbox rather than demanding unrestricted production or personal data. If discovery changes the estimate materially, update the impact record before approval. The customer should decide using current evidence, not an early number that everyone now knows is wrong."
+          ]
+        },
+        {
+          "ja": [
+            "代替案は「追加料金を払うか断るか」の二択にしません。目的を保った最小案、期限を守るための置換案、段階導入、検証だけ先に行う案、次回契約へ送る案を並べます。各案について得られる価値、失う価値、費用、期限、主要リスクを同じ形式で示します。フリーランサーが好む実装を唯一の正解として押し付けないようにします。",
+            "推奨案を示す場合は、判断基準を明らかにします。例えば利用者への影響が大きく、元に戻せて、二週間で検証できる案を優先する、と書きます。架空の成功率や一般的なベストプラクティスだけで説得せず、案件の制約と確認済み事実へ結び付けます。どの案も安全に成立しない場合は、無理に選択肢を作らず、必要な情報または専門家確認がそろうまで保留すること自体を提案します。"
+          ],
+          "en": [
+            "A useful change request offers more than a binary choice between paying extra and rejecting the idea. Present a minimum option that preserves the purpose, a substitution that protects the date, a staged release, a discovery-only step, or deferral to a later engagement. Compare each option using the same fields: expected value, value not delivered, fee, timing, dependencies, and principal risk. This avoids presenting the freelancer’s preferred implementation as the only professional answer and gives the customer a real decision about trade-offs rather than a disguised approval form.",
+            "When recommending one option, state the decision rule. For example, prefer the approach that addresses the highest user consequence, remains reversible, and can be tested within two weeks. Tie the recommendation to verified constraints from this engagement instead of fabricated success rates or generic claims about industry practice. If none of the options is safe because authority, evidence, or specialist review is missing, say so and recommend a hold. A pause is a valid option when proceeding would create contractual, privacy, security, medical, or legal exposure that neither party is authorized to accept."
+          ]
+        },
+        {
+          "ja": [
+            "変更を承認できる人を契約上の窓口と実務担当者から区別します。会議参加者やチャットの依頼者が、費用、納期、データ利用、公開範囲を変更する権限を持つとは限りません。変更記録には依頼者、影響を受ける担当者、最終承認者、承認日時を残します。複数社が関わる案件では、誰の承認がどの範囲に有効かを明記します。",
+            "権限が不明なまま善意で着手すると、担当者を助けたつもりでも顧客組織の統制を壊します。承認者が不在の場合の代理、金額による承認段階、緊急時の暫定対応を事前に確認します。ただし暫定対応は外部公開、支払、個人情報処理など取り消しにくい行為へ自動的に広げません。口頭承認を受けた場合も、作業開始前に範囲と条件を短い書面で確認します。"
+          ],
+          "en": [
+            "Identify the person authorized to approve a change and distinguish that role from the operational contact or the person who raised the request. Attendance in a meeting does not necessarily grant authority to change fee, timing, data use, or publication scope. The change record should identify requester, affected owners, final approver, approval time, and the exact option accepted. In work involving several companies, document which approval controls which organization and deliverable. This prevents a cooperative stakeholder from accidentally committing budget or risk that belongs to someone else.",
+            "Starting from goodwill while authority is unclear can undermine the customer’s controls even when the work is helpful. Define deputies for absence, approval levels for different amounts, and any emergency procedure. Do not allow an emergency exception to expand automatically into public release, payment, permission changes, or personal-data processing. If approval is given verbally during a call, send a concise written record of scope, price, timing, assumptions, and start condition before performing the changed work. Silence after that message is not approval unless the governing agreement explicitly and lawfully says so."
+          ]
+        },
+        {
+          "ja": [
+            "承認された変更は、契約または発注の条件へ反映します。成果物、料金、税の扱い、支払時期、納期、検収、知的財産、第三者費用、解約時の処理を必要な範囲だけ更新します。法的効力を断定せず、既存契約が求める変更方法を確認します。重要な条件はチャットの断片だけに残さず、双方が参照できる変更注文書や合意記録へまとめます。",
+            "追加費用は罰金ではなく、増えた責任と資源の対価として説明します。固定額、時間単価、段階ごとの上限など、案件に合う方式を選びます。見積上限を超える前の通知点も決めます。契約、税務、労務の適用に不明点があれば専門家へ確認し、記事やAIの一般論で結論を出しません。条件更新が完了していない間は、元の範囲で安全に続けられる作業だけを進めます。"
+          ],
+          "en": [
+            "Reflect an approved change in the commercial instrument required by the engagement. Update only the relevant deliverables, fee, tax treatment, payment timing, delivery date, acceptance, intellectual property, third-party cost, and termination handling. Do not make a legal conclusion about enforceability from a chat exchange; follow the amendment method in the governing agreement and obtain professional advice when needed. Material terms should be consolidated in a change order or comparable record accessible to both parties rather than left across fragmented messages that tell different stories.",
+            "Explain additional fees as the price of additional responsibility and resources, not as a penalty for asking. Choose a fixed amount, time-based estimate, capped discovery phase, or milestone structure that matches uncertainty. Set a notification point before a cap is reached so the customer still has a meaningful choice. Questions about contract, tax, employment status, or intellectual property may depend on jurisdiction and facts; generic AI output is not a substitute for qualified advice. Until the update is complete, continue only original-scope work that remains safe and useful."
+          ]
+        },
+        {
+          "ja": [
+            "作業開始条件を機械的に確認できる形にします。承認済み変更記録、必要な入力、アクセス権、担当者、着手日がそろったときだけ追加作業を開始します。支払条件によって前金や発注番号が必要なら、その確認も含めます。「急ぎだから先に少しだけ」は範囲の境界を再び曖昧にするため、調査や試作を行う場合も、その小さな作業自体を明示的に承認します。",
+            "不足がある場合の既定動作は停止です。古いデータ、仮の認証情報、個人メール、無許可の本番環境で穴を埋めません。再試行回数、質問先、回答期限、期限を過ぎた場合の再計画を決めます。着手後に前提が崩れたら、作業済み範囲と安全な保存状態を記録して再承認へ戻します。承認済みの旧版を、内容が変わった新版へ自動で引き継ぎません。"
+          ],
+          "en": [
+            "Make the start condition observable. Begin changed work only when the approved record, required inputs, least-privilege access, responsible contacts, and start date are present. If the commercial terms require a purchase order, deposit, or other prerequisite, include that evidence. “Do a little now because it is urgent” recreates the ambiguity that change control is meant to remove. A discovery task or prototype can start earlier only when that bounded activity has its own purpose, limit, fee treatment, data boundary, and explicit approval.",
+            "The default for a missing prerequisite is to stop. Do not bridge the gap with stale data, placeholder credentials, a personal email account, or unauthorized production access. Define retry count, escalation contact, response deadline, and the replanning action if the deadline passes. When an assumption fails after work starts, record completed work and leave artifacts in a safe state before returning for approval. Never inherit approval from an older version when scope, recipient, price, data, or external effect has changed. Authorization belongs to a specific version and decision."
+          ]
+        },
+        {
+          "ja": [
+            "変更履歴には、連番、依頼日、理由、基準版との差分、選択肢、影響、承認、状態、関連成果物を残します。長い議事録ではなく、後から判断を再現できる最小情報にします。機密本文や個人情報を履歴へ複製せず、権限管理された保管場所を参照します。却下・保留された変更も削除せず、理由と再検討条件を残すと同じ議論の反復を防げます。",
+            "案件終了時には、変更件数だけでなく、どの前提が頻繁に外れたか、見積差がどこで生じたか、承認待ちが納期へどう影響したかを振り返ります。ただし件数を顧客や担当者の評価に直結させません。次回は基準表、質問、契約テンプレート、検査をどう直すかへつなげます。外部へ実績として紹介するときは、顧客名、金額、内部事情を無断で使わず、確認できる自分の担当と方法だけを述べます。"
+          ],
+          "en": [
+            "Keep a numbered history with request date, reason, difference from baseline, options considered, impact, approval, current state, and linked deliverables. The objective is the minimum evidence needed to reconstruct the decision, not a second archive of every meeting. Reference confidential or personal material in its governed location rather than copying it into the log. Preserve rejected and deferred requests with the reason and condition for reconsideration. That evidence prevents the same unresolved idea from returning under a new message and being treated as a fresh emergency.",
+            "At engagement close, review more than the number of changes. Identify assumptions that failed repeatedly, where estimate variance arose, and how approval waiting affected delivery. Do not turn raw counts into a score of the customer or an individual stakeholder. Use the evidence to improve the next baseline, intake questions, contract template, estimate ranges, and automated checks. If the method becomes portfolio evidence, disclose only your verified role and the non-confidential process. Do not publish client identity, amounts, internal disagreements, or claimed savings without permission and a reproducible basis."
+          ]
+        }
       ]
     },
     "role-authority-interview": {
