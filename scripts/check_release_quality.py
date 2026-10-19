@@ -30,6 +30,7 @@ TARGETS = (
     "ai-work-review-boundary",
     "offer-assumption-log",
     "freelance-change-control",
+    "role-authority-interview",
 )
 
 
