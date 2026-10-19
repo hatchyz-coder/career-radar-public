@@ -2041,7 +2041,8 @@
         {
           "ja": [
             "面談では最初に、この役割が解決する事業課題を聞きます。求人票の職務一覧ではなく、なぜ今このポジションが必要で、六か月後に何が変わっていれば採用が成功なのかを確認します。新設、欠員補充、再編、成長投資では期待と制約が異なります。目的が複数ある場合は、最優先の一つと、今回は扱わない範囲を分けてもらいます。",
-            "目的は魅力的な標語ではなく、観測できる状態へ落とします。「変革を推進する」なら、対象業務、利用者、期限、現在の障害、意思決定が必要な論点を尋ねます。面談者の回答を会社の正式な約束とはみなさず、確認者と根拠を記録します。医療・法務・顧客データを扱う役割では、成果より先に守るべき責任と利用禁止範囲も確認します。"
+            "目的は魅力的な標語ではなく、観測できる状態へ落とします。「変革を推進する」なら、対象業務、利用者、期限、現在の障害、意思決定が必要な論点を尋ねます。面談者の回答を会社の正式な約束とはみなさず、確認者と根拠を記録します。医療・法務・顧客データを扱う役割では、成果より先に守るべき責任と利用禁止範囲も確認します。",
+            "目的を聞いた後は、入社後に事業状況が変わった場合、誰が目的を更新し、役割範囲を再合意するかも確認します。目的だけが変わり権限や資源が据え置かれる状態を避けるためです。"
           ],
           "en": [
             "Start by asking which business problem the role exists to solve. A list of responsibilities does not reveal whether the company is filling a vacancy, creating a new capability, repairing a failed initiative, or funding growth. Ask what should be observably different six months after the hire, who experiences the current problem, and why the position is being opened now. If several outcomes are named, request the primary outcome and the work that is explicitly outside the role. A clear purpose provides the reference point for every later question about authority, resources, and evaluation.",
@@ -2051,7 +2052,8 @@
         {
           "ja": [
             "最終決定者を尋ねるときは、単に上司の役職を聞かず、提案、推薦、承認、拒否、実行を分けます。最近の具体例を使い、役割本人、直属上司、経営会議、法務、顧客の誰がどの段階を担ったかを確認します。日常判断と例外判断で経路が変わる場合は、それぞれの承認条件と平均的な所要時間を聞きます。",
-            "承認者が多いこと自体を悪いと決めつけません。重要なのは、責任を負う人が決定へ影響できるか、停止時のエスカレーション先があるかです。RACI表がなくても、直近の価格変更、人員追加、品質例外などを例に説明してもらえば実態が見えます。回答が抽象的なら、入社後最初に権限表を合意することを条件として記録します。"
+            "承認者が多いこと自体を悪いと決めつけません。重要なのは、責任を負う人が決定へ影響できるか、停止時のエスカレーション先があるかです。RACI表がなくても、直近の価格変更、人員追加、品質例外などを例に説明してもらえば実態が見えます。回答が抽象的なら、入社後最初に権限表を合意することを条件として記録します。",
+            "承認経路には通常の順番だけでなく、期限までに決裁者が応答しない場合の扱いも必要です。自動承認とみなすのか、上位へ上げるのか、作業を止めるのかを具体化します。"
           ],
           "en": [
             "When identifying final approvers, separate proposing, recommending, approving, rejecting, and executing. Asking only who the manager is hides the actual decision chain. Request a recent, non-confidential example and map what the role holder, line manager, executive group, legal team, finance team, or customer did at each stage. Ask separately about routine decisions and exceptions, because a person may control normal delivery while having no authority when budget, risk, or policy changes. Record approval thresholds and typical decision time, not merely the names of committees.",
@@ -2061,7 +2063,8 @@
         {
           "ja": [
             "予算権限は「予算を持つ」という表現を、金額、用途、期間、変更可能性へ分解します。年間枠を管理するだけなのか、配分を変更できるのか、新規支出を決められるのかを確認します。採用、外注、ツール、広告、研修など費目ごとに承認経路が違う場合があります。予算未確定なら、いつ誰が決めるかを尋ねます。",
-            "目標達成に必要な資源と権限が一致しているかを確認します。コスト削減の責任があっても契約変更権がない、売上責任があっても価格や広告を決められない場合は、成果条件が他者に依存します。金額を聞けない機密事情もあるため、具体額の開示を強要せず、裁量範囲、承認段階、予算凍結時の優先順位を確認します。"
+            "目標達成に必要な資源と権限が一致しているかを確認します。コスト削減の責任があっても契約変更権がない、売上責任があっても価格や広告を決められない場合は、成果条件が他者に依存します。金額を聞けない機密事情もあるため、具体額の開示を強要せず、裁量範囲、承認段階、予算凍結時の優先順位を確認します。",
+            "予算の未消化を使い切ることと、顧客価値を生む投資は同じではありません。支出後の効果確認と、期待を外れた投資を停止・縮小できる権限まで確認します。"
           ],
           "en": [
             "Break “you will own the budget” into amount, purpose, period, and change rights. The role may monitor an annual envelope without being able to reallocate it, authorize new spending, or stop an existing commitment. Ask how approval differs for hiring, contractors, software, advertising, training, travel, and emergency work. If the next budget has not been approved, identify who decides it, when that decision occurs, and what the role can do in the meantime. Budget authority should be supported by an actual process rather than inferred from seniority.",
@@ -2071,7 +2074,8 @@
         {
           "ja": [
             "人員責任は、直属人数だけでなく、採用、配置、目標設定、評価、報酬提案、育成、契約終了の権限に分けます。業務委託や兼務メンバーを含む場合は、指示できる時間と優先順位を誰が決めるかを確認します。「チームを率いる」が、実際には調整だけを意味することもあります。",
-            "成果責任を負うのに必要人数が未充足なら、採用計画、採用決裁、欠員中の縮小範囲を聞きます。個人情報を含む評価記録をどこで管理し、AIや別Productへ移さないかも重要です。人員が不足した場合に、長時間労働で吸収することを暗黙の前提にせず、目標、範囲、期限のどれを調整するか確認します。"
+            "成果責任を負うのに必要人数が未充足なら、採用計画、採用決裁、欠員中の縮小範囲を聞きます。個人情報を含む評価記録をどこで管理し、AIや別Productへ移さないかも重要です。人員が不足した場合に、長時間労働で吸収することを暗黙の前提にせず、目標、範囲、期限のどれを調整するか確認します。",
+            "人員責任には、心理的安全性や健康を損なう負荷を止める責任も含まれます。目標未達時に人を増やすだけでなく、不要業務の停止や役割再設計が選択肢にあるかを聞きます。"
           ],
           "en": [
             "Decompose people responsibility beyond the number of direct reports. Ask who can recruit, select, allocate, set goals, review performance, recommend compensation, approve development, and end an assignment. Include contractors and shared team members: the role may coordinate their work while another manager controls their time and priorities. “Lead the team” can mean managerial authority, project facilitation, technical guidance, or merely responsibility for reporting. A concrete distinction protects both the candidate and future colleagues from an operating model based on an ambiguous verb.",
@@ -2081,7 +2085,8 @@
         {
           "ja": [
             "優先順位の決め方は、会議名ではなく判断基準を尋ねます。顧客影響、売上、法令、安全、復旧性、期限、学習価値が衝突したとき、何を上位に置くのかを具体例で確認します。役割本人が順序を決められる範囲と、上位方針へ戻す条件を分けます。",
-            "緊急案件が通常計画へ割り込む場合は、追加するだけでなく何を停止するかを聞きます。すべてが最優先という回答なら、実際の直近四半期に延期・中止した仕事を尋ねます。評価指標と優先順位が矛盾する場合もあります。短期件数を求めながら品質事故を厳しく罰するなら、どのGateで速度を止めるか確認します。"
+            "緊急案件が通常計画へ割り込む場合は、追加するだけでなく何を停止するかを聞きます。すべてが最優先という回答なら、実際の直近四半期に延期・中止した仕事を尋ねます。評価指標と優先順位が矛盾する場合もあります。短期件数を求めながら品質事故を厳しく罰するなら、どのGateで速度を止めるか確認します。",
+            "優先順位を変えた後、関係者へ何を伝え、どの計画や指標を更新するかも重要です。口頭の方針転換だけでは、現場に古い目標が残り二重責任が生じます。"
           ],
           "en": [
             "Ask for the decision rule behind priority, not only the name of the planning meeting. Explore what happens when customer impact, revenue, law, safety, recoverability, deadline, and learning value conflict. Use a recent example to identify which criteria prevailed and why. Separate priorities the role can set from conditions that must return to an executive, risk owner, or customer. A role with genuine autonomy should have a visible method for resolving trade-offs, not simply the expectation that the individual will satisfy every stakeholder simultaneously.",
@@ -2091,7 +2096,8 @@
         {
           "ja": [
             "失敗時の責任は、結果だけでなく、当時確認できた情報と本人が制御できた範囲で判断されるかを聞きます。障害、顧客失注、予算超過、納期遅延の事例で、原因分析、報告、是正、再発防止を誰が担ったか確認します。失敗を隠さず早く止めた行動が評価されるかも重要です。",
-            "責任と処罰を混同しません。意思決定ログや事後検証がある組織では、結果が悪くても判断品質を学べます。反対に権限のない人だけが責任を負うなら構造的なリスクです。面談で完全な安全を約束させるのではなく、異論を述べる経路、重大事故の独立レビュー、報復を避ける仕組みを確認します。"
+            "責任と処罰を混同しません。意思決定ログや事後検証がある組織では、結果が悪くても判断品質を学べます。反対に権限のない人だけが責任を負うなら構造的なリスクです。面談で完全な安全を約束させるのではなく、異論を述べる経路、重大事故の独立レビュー、報復を避ける仕組みを確認します。",
+            "失敗の学習が公開処罰にならない一方、重大な過失や隠蔽まで曖昧にしない境界も確認します。公正な調査、記録、再発防止、必要な是正を分けて扱えるかが重要です。"
           ],
           "en": [
             "Ask whether failure is assessed only by outcome or also by the information available and factors the role could control. Use examples such as an outage, lost customer, budget overrun, missed date, or unsuccessful experiment. Identify who reported the event, contained harm, analyzed causes, approved corrective action, and verified prevention. Early stopping and transparent escalation should not be confused with poor performance. The answer reveals whether the organization expects responsible risk management or rewards silence until a problem becomes impossible to hide.",
@@ -2101,7 +2107,8 @@
         {
           "ja": [
             "評価指標は、指標名、測定方法、母数、期間、正本、更新頻度を確認します。売上、件数、満足度、品質の言葉だけでは、本人が何を改善すべきか分かりません。入社後三十・六十・九十日と一年で期待する状態を分け、短期の立ち上がりと長期成果を混同しないようにします。",
-            "指標を達成するための権限があるか、他部署依存をどう扱うかを同時に確認します。未整備の指標なら、誰が定義し、過去データを検証し、目標変更を承認するかを聞きます。架空の昇進率や成功率を求めず、実際の評価周期、フィードバック相手、異議申立て手順を確認します。入社後は最初の評価前に書面で再確認します。"
+            "指標を達成するための権限があるか、他部署依存をどう扱うかを同時に確認します。未整備の指標なら、誰が定義し、過去データを検証し、目標変更を承認するかを聞きます。架空の昇進率や成功率を求めず、実際の評価周期、フィードバック相手、異議申立て手順を確認します。入社後は最初の評価前に書面で再確認します。",
+            "評価指標が良く見えること自体を目的にすると、対象外の利用者や長期品質が犠牲になります。指標の副作用と、数字が改善しても目的を達成していない場合の見直し方法を尋ねます。"
           ],
           "en": [
             "Verify each success measure through its definition, calculation, denominator, period, source of truth, and update frequency. Words such as revenue, volume, satisfaction, quality, and transformation do not tell a role holder what evidence matters. Separate expectations for thirty, sixty, and ninety days from the one-year outcome so onboarding is not judged as if the full operating system already existed. Ask which measures are leading indicators, which are final outcomes, and what minimum evidence is required before a reported improvement becomes a company claim.",
@@ -2111,7 +2118,8 @@
         {
           "ja": [
             "複数の面談者へ同じ中核質問を行い、回答の一致点と差分を記録します。目的、決裁、予算、人員、優先順位、評価について説明が違っても、直ちに不誠実と断定しません。役割が新しい、組織変更中、部門ごとに認識が違う可能性があります。差分を具体的な質問へ戻し、最終確認者を特定します。",
-            "矛盾が残る場合は、都合のよい説明を採用せず前提ログへ残します。どの回答が外れたとき結論が変わるかを確認し、重要ならオファー受諾前の確認条件にします。入社後も三十・六十・九十日に再検証し、役割記述と実態の差を上司と調整します。会社名や面談者の個人情報を外部AIへ渡して比較しません。"
+            "矛盾が残る場合は、都合のよい説明を採用せず前提ログへ残します。どの回答が外れたとき結論が変わるかを確認し、重要ならオファー受諾前の確認条件にします。入社後も三十・六十・九十日に再検証し、役割記述と実態の差を上司と調整します。会社名や面談者の個人情報を外部AIへ渡して比較しません。",
+            "回答差分は受諾判断の材料であると同時に、入社後の最初の改善課題にもなります。ただし候補者が組織設計を一人で背負う前提にはせず、責任者と期限を置きます。"
           ],
           "en": [
             "Ask the same core questions across interviewers and record agreements and differences about purpose, approval, budget, people, priorities, and evaluation. Inconsistent answers do not automatically prove dishonesty. The role may be new, the organization may be changing, or functions may genuinely operate with different assumptions. Convert each contradiction into a precise follow-up question and identify the person authorized to resolve it. This is more useful than asking whether the culture is collaborative and receiving several equally positive but non-comparable descriptions.",
