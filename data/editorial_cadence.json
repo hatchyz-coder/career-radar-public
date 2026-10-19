@@ -392,6 +392,15 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "role-authority-interview",
+      "due_at": "2026-10-22",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
