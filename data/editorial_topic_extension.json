@@ -2020,6 +2020,88 @@
           "回答の矛盾を確認する",
           "Test inconsistent answers"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "面談では最初に、この役割が解決する事業課題を聞きます。求人票の職務一覧ではなく、なぜ今このポジションが必要で、六か月後に何が変わっていれば採用が成功なのかを確認します。新設、欠員補充、再編、成長投資では期待と制約が異なります。目的が複数ある場合は、最優先の一つと、今回は扱わない範囲を分けてもらいます。",
+            "目的は魅力的な標語ではなく、観測できる状態へ落とします。「変革を推進する」なら、対象業務、利用者、期限、現在の障害、意思決定が必要な論点を尋ねます。面談者の回答を会社の正式な約束とはみなさず、確認者と根拠を記録します。医療・法務・顧客データを扱う役割では、成果より先に守るべき責任と利用禁止範囲も確認します。"
+          ],
+          "en": [
+            "Start by asking which business problem the role exists to solve. A list of responsibilities does not reveal whether the company is filling a vacancy, creating a new capability, repairing a failed initiative, or funding growth. Ask what should be observably different six months after the hire, who experiences the current problem, and why the position is being opened now. If several outcomes are named, request the primary outcome and the work that is explicitly outside the role. A clear purpose provides the reference point for every later question about authority, resources, and evaluation.",
+            "Translate attractive language into an operating condition. If the role will “lead transformation,” ask which process, users, deadline, present constraint, and unresolved decisions define that transformation. Treat an interviewer’s explanation as evidence to verify, not automatically as a binding company promise. Record who owns the answer and what document or operating practice supports it. For work involving medical, legal, financial, customer, or personal data, also ask which responsibilities and prohibited uses override delivery speed. Authority without a stated purpose and boundary can become unlimited accountability for a goal no one has defined."
+          ]
+        },
+        {
+          "ja": [
+            "最終決定者を尋ねるときは、単に上司の役職を聞かず、提案、推薦、承認、拒否、実行を分けます。最近の具体例を使い、役割本人、直属上司、経営会議、法務、顧客の誰がどの段階を担ったかを確認します。日常判断と例外判断で経路が変わる場合は、それぞれの承認条件と平均的な所要時間を聞きます。",
+            "承認者が多いこと自体を悪いと決めつけません。重要なのは、責任を負う人が決定へ影響できるか、停止時のエスカレーション先があるかです。RACI表がなくても、直近の価格変更、人員追加、品質例外などを例に説明してもらえば実態が見えます。回答が抽象的なら、入社後最初に権限表を合意することを条件として記録します。"
+          ],
+          "en": [
+            "When identifying final approvers, separate proposing, recommending, approving, rejecting, and executing. Asking only who the manager is hides the actual decision chain. Request a recent, non-confidential example and map what the role holder, line manager, executive group, legal team, finance team, or customer did at each stage. Ask separately about routine decisions and exceptions, because a person may control normal delivery while having no authority when budget, risk, or policy changes. Record approval thresholds and typical decision time, not merely the names of committees.",
+            "Multiple approvers are not automatically a defect. The important test is whether the person accountable for an outcome can influence the decision and has a defined escalation path when work stops. Even without a formal RACI chart, a concrete example such as a price change, additional hire, quality exception, or customer commitment can expose operating reality. If interviewers cannot describe the path, treat authority as unknown rather than assuming autonomy from the title. A reasonable joining condition may be to agree a decision map during the first month and review it after the role encounters a real exception."
+          ]
+        },
+        {
+          "ja": [
+            "予算権限は「予算を持つ」という表現を、金額、用途、期間、変更可能性へ分解します。年間枠を管理するだけなのか、配分を変更できるのか、新規支出を決められるのかを確認します。採用、外注、ツール、広告、研修など費目ごとに承認経路が違う場合があります。予算未確定なら、いつ誰が決めるかを尋ねます。",
+            "目標達成に必要な資源と権限が一致しているかを確認します。コスト削減の責任があっても契約変更権がない、売上責任があっても価格や広告を決められない場合は、成果条件が他者に依存します。金額を聞けない機密事情もあるため、具体額の開示を強要せず、裁量範囲、承認段階、予算凍結時の優先順位を確認します。"
+          ],
+          "en": [
+            "Break “you will own the budget” into amount, purpose, period, and change rights. The role may monitor an annual envelope without being able to reallocate it, authorize new spending, or stop an existing commitment. Ask how approval differs for hiring, contractors, software, advertising, training, travel, and emergency work. If the next budget has not been approved, identify who decides it, when that decision occurs, and what the role can do in the meantime. Budget authority should be supported by an actual process rather than inferred from seniority.",
+            "Test whether the resources match the outcome. A person accountable for cost reduction may lack authority to renegotiate contracts; a revenue owner may be unable to set price, approve campaigns, or choose a channel. Those dependencies do not make the role unacceptable, but they change the evidence needed to judge performance. Respect legitimate confidentiality and do not demand a precise figure during an interview. The useful questions concern discretion, thresholds, reallocation rights, approval latency, and the priority rule when funding is frozen. Record unresolved resource assumptions in the offer decision instead of filling them with optimism."
+          ]
+        },
+        {
+          "ja": [
+            "人員責任は、直属人数だけでなく、採用、配置、目標設定、評価、報酬提案、育成、契約終了の権限に分けます。業務委託や兼務メンバーを含む場合は、指示できる時間と優先順位を誰が決めるかを確認します。「チームを率いる」が、実際には調整だけを意味することもあります。",
+            "成果責任を負うのに必要人数が未充足なら、採用計画、採用決裁、欠員中の縮小範囲を聞きます。個人情報を含む評価記録をどこで管理し、AIや別Productへ移さないかも重要です。人員が不足した場合に、長時間労働で吸収することを暗黙の前提にせず、目標、範囲、期限のどれを調整するか確認します。"
+          ],
+          "en": [
+            "Decompose people responsibility beyond the number of direct reports. Ask who can recruit, select, allocate, set goals, review performance, recommend compensation, approve development, and end an assignment. Include contractors and shared team members: the role may coordinate their work while another manager controls their time and priorities. “Lead the team” can mean managerial authority, project facilitation, technical guidance, or merely responsibility for reporting. A concrete distinction protects both the candidate and future colleagues from an operating model based on an ambiguous verb.",
+            "If the required team is not staffed, ask about the hiring plan, approval owner, expected timing, and which deliverables will be reduced while vacancies remain. Do not accept overwork as the silent substitute for missing capacity; clarify whether goal, scope, sequence, or date changes when staffing falls below plan. For roles handling employee or candidate information, verify where performance records are stored, who may access them, and whether data is prohibited from external AI or unrelated products. People authority includes a duty to protect information and apply fair, reviewable processes, not only a right to assign tasks."
+          ]
+        },
+        {
+          "ja": [
+            "優先順位の決め方は、会議名ではなく判断基準を尋ねます。顧客影響、売上、法令、安全、復旧性、期限、学習価値が衝突したとき、何を上位に置くのかを具体例で確認します。役割本人が順序を決められる範囲と、上位方針へ戻す条件を分けます。",
+            "緊急案件が通常計画へ割り込む場合は、追加するだけでなく何を停止するかを聞きます。すべてが最優先という回答なら、実際の直近四半期に延期・中止した仕事を尋ねます。評価指標と優先順位が矛盾する場合もあります。短期件数を求めながら品質事故を厳しく罰するなら、どのGateで速度を止めるか確認します。"
+          ],
+          "en": [
+            "Ask for the decision rule behind priority, not only the name of the planning meeting. Explore what happens when customer impact, revenue, law, safety, recoverability, deadline, and learning value conflict. Use a recent example to identify which criteria prevailed and why. Separate priorities the role can set from conditions that must return to an executive, risk owner, or customer. A role with genuine autonomy should have a visible method for resolving trade-offs, not simply the expectation that the individual will satisfy every stakeholder simultaneously.",
+            "When urgent work enters the plan, ask what is stopped, delayed, or reduced. If every initiative is described as the top priority, request an example of work postponed or cancelled during the last quarter. Also compare priority logic with performance measures. A company may demand short-term throughput while penalizing any quality incident, leaving the role to absorb an impossible contradiction. Ask which mechanical or human gate is allowed to slow delivery, who accepts the delay, and how the decision is recorded. Real authority includes permission to say not now when capacity or safety evidence requires it."
+          ]
+        },
+        {
+          "ja": [
+            "失敗時の責任は、結果だけでなく、当時確認できた情報と本人が制御できた範囲で判断されるかを聞きます。障害、顧客失注、予算超過、納期遅延の事例で、原因分析、報告、是正、再発防止を誰が担ったか確認します。失敗を隠さず早く止めた行動が評価されるかも重要です。",
+            "責任と処罰を混同しません。意思決定ログや事後検証がある組織では、結果が悪くても判断品質を学べます。反対に権限のない人だけが責任を負うなら構造的なリスクです。面談で完全な安全を約束させるのではなく、異論を述べる経路、重大事故の独立レビュー、報復を避ける仕組みを確認します。"
+          ],
+          "en": [
+            "Ask whether failure is assessed only by outcome or also by the information available and factors the role could control. Use examples such as an outage, lost customer, budget overrun, missed date, or unsuccessful experiment. Identify who reported the event, contained harm, analyzed causes, approved corrective action, and verified prevention. Early stopping and transparent escalation should not be confused with poor performance. The answer reveals whether the organization expects responsible risk management or rewards silence until a problem becomes impossible to hide.",
+            "Accountability is not the same as punishment. Decision logs and blameless but rigorous reviews allow a company to learn even when an outcome is unfavorable. A structure that assigns responsibility to a person without giving access, resources, or authority creates predictable failure. The candidate does not need a promise that nothing will go wrong. More useful evidence is the route for raising disagreement, protection for good-faith escalation, independent review of serious incidents, and a method for separating system causes from individual misconduct. Ask how a recent lesson changed a process, test, or boundary."
+          ]
+        },
+        {
+          "ja": [
+            "評価指標は、指標名、測定方法、母数、期間、正本、更新頻度を確認します。売上、件数、満足度、品質の言葉だけでは、本人が何を改善すべきか分かりません。入社後三十・六十・九十日と一年で期待する状態を分け、短期の立ち上がりと長期成果を混同しないようにします。",
+            "指標を達成するための権限があるか、他部署依存をどう扱うかを同時に確認します。未整備の指標なら、誰が定義し、過去データを検証し、目標変更を承認するかを聞きます。架空の昇進率や成功率を求めず、実際の評価周期、フィードバック相手、異議申立て手順を確認します。入社後は最初の評価前に書面で再確認します。"
+          ],
+          "en": [
+            "Verify each success measure through its definition, calculation, denominator, period, source of truth, and update frequency. Words such as revenue, volume, satisfaction, quality, and transformation do not tell a role holder what evidence matters. Separate expectations for thirty, sixty, and ninety days from the one-year outcome so onboarding is not judged as if the full operating system already existed. Ask which measures are leading indicators, which are final outcomes, and what minimum evidence is required before a reported improvement becomes a company claim.",
+            "Connect every measure to authority and dependency. If another department controls data, delivery, staffing, or customer access, ask how that constraint enters evaluation. When a metric is still being designed, identify who defines it, validates historical data, approves a changed target, and prevents retrospective movement of the goalposts. Do not ask interviewers to invent a promotion rate or success percentage. More reliable evidence is the review cycle, feedback participants, calibration method, and appeal path. Plan to reconfirm goals in writing before the first formal evaluation, especially when the role or team is new."
+          ]
+        },
+        {
+          "ja": [
+            "複数の面談者へ同じ中核質問を行い、回答の一致点と差分を記録します。目的、決裁、予算、人員、優先順位、評価について説明が違っても、直ちに不誠実と断定しません。役割が新しい、組織変更中、部門ごとに認識が違う可能性があります。差分を具体的な質問へ戻し、最終確認者を特定します。",
+            "矛盾が残る場合は、都合のよい説明を採用せず前提ログへ残します。どの回答が外れたとき結論が変わるかを確認し、重要ならオファー受諾前の確認条件にします。入社後も三十・六十・九十日に再検証し、役割記述と実態の差を上司と調整します。会社名や面談者の個人情報を外部AIへ渡して比較しません。"
+          ],
+          "en": [
+            "Ask the same core questions across interviewers and record agreements and differences about purpose, approval, budget, people, priorities, and evaluation. Inconsistent answers do not automatically prove dishonesty. The role may be new, the organization may be changing, or functions may genuinely operate with different assumptions. Convert each contradiction into a precise follow-up question and identify the person authorized to resolve it. This is more useful than asking whether the culture is collaborative and receiving several equally positive but non-comparable descriptions.",
+            "When a contradiction remains, do not select the answer you prefer. Keep it in an assumption log and test whether the offer decision changes under each plausible version. If it does, make resolution or a written operating agreement a condition of acceptance. Recheck the material assumptions at thirty, sixty, and ninety days after joining, then discuss gaps with the manager while evidence is still fresh. Preserve confidentiality: do not submit company names, interviewer identities, internal documents, or personal details to an external AI merely to compare answers. The durable asset is the verification method, not a public judgment about one employer."
+          ]
+        }
       ]
     },
     "portfolio-claim-verification": {
