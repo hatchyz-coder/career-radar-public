@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-17",
-    "end_date": "2026-10-14",
+    "start_date": "2026-09-18",
+    "end_date": "2026-10-15",
     "days": 28
   },
-  "generated_at": "2026-10-17T23:21:56+00:00",
+  "generated_at": "2026-10-18T23:35:50+00:00",
   "rows": [
     {
       "query": "フリーランス リスク",
@@ -129,14 +129,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 62.0
-    },
-    {
-      "query": "フリーランス 転身",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 65.0
     },
     {
       "query": "キャリア戦略 作り方",
