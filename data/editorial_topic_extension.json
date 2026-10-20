@@ -1463,7 +1463,8 @@
             "Recheck the promised trade-off after joining, for example at 30 and 90 days. Compare actual authority, accountability, and evaluation criteria with what was described during hiring.",
             "Accepting the offer is not the end of the evaluation. If the real role differs materially, renegotiate scope or reconsider the option set early rather than waiting for annual review.",
             "Turn hiring promises into a 30- and 90-day verification checklist. Review manager, budget, team size, decision scope, and evaluation metrics against what was described before joining. A mismatch does not automatically require leaving, but it should trigger a conversation while adjustment is still possible. Otherwise, months can pass without accumulating the career capital that justified the original trade-off.",
-            "Use the original comparison table after joining. Replace feelings such as 'busier than expected' with observed differences in meeting hours, approval delays, staffing, or decision scope. Then decide whether the gap is temporary or structural. Early evidence can support a conversation with your manager, while a persistent structural mismatch may justify restarting external market tests before too much time passes."
+            "Use the original comparison table after joining. Replace feelings such as 'busier than expected' with observed differences in meeting hours, approval delays, staffing, or decision scope. Then decide whether the gap is temporary or structural. Early evidence can support a conversation with your manager, while a persistent structural mismatch may justify restarting external market tests before too much time passes.",
+            "One final check is whether the post-join review has an owner and a date. Put the expected scope, authority, and compensation assumptions in a private note before starting, then revisit them with evidence rather than memory. This prevents normal onboarding turbulence from being confused with a structural mismatch and also prevents a genuine mismatch from being normalized simply because several months have passed."
           ]
         }
       ]
@@ -1611,13 +1612,15 @@
             "30日ごとに、仮説、実行、反応、判断を一枚にまとめます。継続、修正、中止のどれにするかを決め、次の期間へ持ち越します。",
             "長期間の活動も、30日単位で区切ると学習速度を保てます。反応が少ない場合は「データ不足」という結論も正当です。",
             "30日レビューでは、成果より学習を確認します。面談が増えなくても、どの経験が評価されないか、どの制約が障害になるかが分かれば次の判断材料になります。記録を四半期分並べると、市場反応の変化や自分の仮説修正履歴が見え、感覚だけでキャリアを動かすリスクを減らせます。",
-            "30日ごとの更新では、続ける理由も書きます。反応が良いから継続するのか、まだデータ不足だから継続するのかで意味は異なります。判断理由を残しておくと、数か月後に同じ迷いへ戻ったとき、過去の観測を再利用できます。"
+            "30日ごとの更新では、続ける理由も書きます。反応が良いから継続するのか、まだデータ不足だから継続するのかで意味は異なります。判断理由を残しておくと、数か月後に同じ迷いへ戻ったとき、過去の観測を再利用できます。",
+            "レビュー日は先にカレンダーへ置き、実験中に忙しくなっても振り返りを飛ばさないようにします。記録を残すところまでを一つの実験と考えます。"
           ],
           "en": [
             "At the end of each 30-day cycle, summarize hypothesis, actions, responses, and decision on one page. Choose to continue, modify, or stop the test.",
             "Long searches become easier to learn from when divided into reviewable cycles. If the sample remains small, 'insufficient evidence' is a valid conclusion rather than a reason to overinterpret noise.",
             "Use the 30-day review to measure learning as well as outcomes. Even without more interviews, discovering which experience is discounted or which constraint repeatedly blocks offers can improve the next decision. Lining up several monthly reviews also reveals whether market response is changing and how your assumptions evolved, reducing reliance on memory and mood when making larger career moves.",
-            "At the 30-day review, record why you are continuing. Continuing because the signal is positive is different from continuing because the sample is still too small. This distinction prevents vague momentum from replacing judgment. Over several cycles, the review notes become a history of how your assumptions changed and provide a more reliable basis for larger career decisions than memory alone."
+            "At the 30-day review, record why you are continuing. Continuing because the signal is positive is different from continuing because the sample is still too small. This distinction prevents vague momentum from replacing judgment. Over several cycles, the review notes become a history of how your assumptions changed and provide a more reliable basis for larger career decisions than memory alone.",
+            "Schedule the review date before the experiment starts. Otherwise ordinary work pressure can push reflection indefinitely into the future, leaving only activity and no learning. Treat the written review as part of the experiment itself: the test is not complete until the observations, interpretation, and next decision have been captured in a form you can compare with the following cycle."
           ]
         }
       ]
@@ -1771,7 +1774,8 @@
             "Application materials should present the verified conclusion, not the full audit trail. Keep the supporting detail available so you can explain it consistently when questioned.",
             "For each achievement, compress the problem, scope, decision, result, and evidence. If proof is weak, narrow the wording rather than making a stronger claim than the records support.",
             "Compress the audit trail according to evidence strength. Use precise outcome language when the metric and attribution are well supported; use narrower verbs such as 'contributed to' or 'supported' when causality is shared or uncertain. Consistency matters more than dramatic wording. The resume, interview explanation, and underlying record should tell the same story at different levels of detail rather than becoming progressively more exaggerated.",
-            "After compressing evidence into an application bullet, trace it back to the source once more. Stronger wording often appears during editing, and that wording can drift beyond what the record supports. Before publishing, ask whether you could explain every number, action verb, and causal phrase to a skeptical interviewer. If not, narrow the statement until the resume and evidence trail are fully consistent."
+            "After compressing evidence into an application bullet, trace it back to the source once more. Stronger wording often appears during editing, and that wording can drift beyond what the record supports. Before publishing, ask whether you could explain every number, action verb, and causal phrase to a skeptical interviewer. If not, narrow the statement until the resume and evidence trail are fully consistent.",
+            "A final application check should compare the published wording with the newest verified evidence, not with the strongest historical draft. If a metric has been corrected or a contribution boundary narrowed, the application material must follow the correction. This simple reconciliation step prevents old exaggerations from surviving after the underlying audit trail has already become more accurate."
           ]
         }
       ]
