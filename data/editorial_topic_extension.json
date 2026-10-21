@@ -2174,6 +2174,104 @@
           "更新日を明記する",
           "Publish a review date"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "ポートフォリオに書く文は、まず検証可能な事実主張、本人の解釈、将来への仮説に分けます。「売上を伸ばした」は事実主張であり、対象、期間、測定方法、比較基準が必要です。「顧客理解を深めた」は解釈なので、観察した行動や成果と混ぜません。読み手が一文だけ引用しても確度を誤解しないよう、断定の直後に根拠の範囲を置きます。",
+            "形容詞を増やして強く見せる代わりに、何を変え、何を観測し、何が未確認かを書きます。「大幅」「革新的」「圧倒的」といった語は、比較対象と根拠がなければ削除します。意見を残す場合は「私は〜と判断した」と主体を明示し、組織の公式見解や顧客評価のように見せません。主張の種類を分けるだけで、文章は短くても信頼性が上がります。",
+            "公開前レビューでは各文に「確認済み」「解釈」「推測」「非公開」の印を仮置きします。確認済み以外が成果見出しに残っていれば、表現を弱めるか証拠を追加します。この印は公開ページに表示するためではなく、執筆者とレビュー担当者が同じ基準で判断するための作業記録です。判断が割れた文は公開せず、根拠保有者と再確認します。"
+          ],
+          "en": [
+            "Classify every portfolio sentence as a verifiable claim, personal interpretation, or forward-looking hypothesis. “Increased revenue” is a factual claim and needs a defined subject, period, measurement method, and comparison point. “Improved customer understanding” is an interpretation unless it is tied to observable behavior or evidence. Place the evidence boundary immediately after the claim so that a reader—or an AI system quoting one sentence—does not mistake a limited observation for a universal result.",
+            "Replace promotional adjectives with the change made, the observation recorded, and the remaining uncertainty. Words such as dramatic, innovative, or industry-leading should be removed when no explicit comparator supports them. If interpretation is useful, identify its owner: “I concluded…” is different from an official company finding or a customer endorsement. Separating claim types produces writing that is both more credible and easier to review, even when the final paragraph is shorter.",
+            "Before publication, temporarily label each sentence confirmed, interpretation, inference, or confidential. If an unconfirmed sentence remains in the achievement headline, either narrow the wording or add evidence. These labels are internal review aids, not public badges. They give the author and reviewer a shared decision rule. When classification is disputed, hold the sentence and return to the evidence owner instead of resolving uncertainty through stronger copy."
+          ]
+        },
+        {
+          "ja": [
+            "成果の帰属は、本人が担当した作業、共同で行った作業、他者が決定・実行した作業に分解します。プロジェクト全体の数字を、その一部を担当した個人の成果として書きません。提案、承認、実装、運用、分析の各段階で自分が何を担ったかを示し、最終成果との因果関係が確認できない場合は「寄与した」「支援した」と範囲を限定します。",
+            "役割を小さく見せないことと、全成果を自分のものにしないことは両立します。例えば、意思決定に使われた分析を設計したなら、分析の目的、採用された判断材料、本人が管理した品質基準を具体化できます。一方、経営判断や販売実行をしていないなら、その権限まで主張しません。本人の価値は、権限を誇張せずとも意思決定への接続を示せます。",
+            "帰属確認には、当時の役割記述、承認履歴、成果物の版管理、会議記録などを使います。ただし機密資料を個人端末や公開リポジトリへ移しません。証拠の所在、確認者、確認日だけを安全な記録へ残し、公開時は組織名や顧客名を必要な範囲で匿名化します。証拠を保有できない場合は、確認可能な範囲まで表現を縮めます。"
+          ],
+          "en": [
+            "Decompose attribution into work performed personally, work performed jointly, and decisions or execution owned by others. Do not convert a project-wide result into an individual achievement merely because the person participated in one stage. State the role across proposal, approval, implementation, operation, and analysis. When causal contribution cannot be isolated, use bounded language such as contributed to or supported rather than claiming sole ownership of the final outcome.",
+            "Accurate attribution does not require understating the person’s value. If an analysis informed a decision, describe the decision question, the evidence designed, and the quality controls personally owned. If executives made the decision and another team executed it, do not claim their authority or delivery. The portfolio can still show how the author’s work changed the quality, speed, or traceability of the decision without appropriating the organization’s total result.",
+            "Use role descriptions, approval history, version control, and meeting records to verify attribution, but never move confidential material into a personal device or public repository. Record only the evidence location, authorized verifier, and verification date in a safe review log. Anonymize organizations and customers where required. If evidence cannot be retained or checked, narrow the public wording to what an authorized reviewer can actually confirm."
+          ]
+        },
+        {
+          "ja": [
+            "数字を掲載する前に、元データ、計算式、集計条件、更新日を確認します。ダッシュボードに表示された値だけでは、分母、除外条件、重複処理が分かりません。売上、工数、転換率、件数などは、どのシステムのどの定義を使ったかを記録します。再計算できない数字は、正確な実績ではなく当時の概算として明示するか、公開から外します。",
+            "割合は分子だけでなく分母を残します。「エラーを半減」は、対象件数、観測期間、比較期間、エラー定義が揃って初めて意味を持ちます。母数が小さい場合や季節要因がある場合は、その制約を数字の近くに書きます。小数点以下の精密さで信頼感を演出せず、データの精度に合った丸め方を選びます。",
+            "第三者が算出した数字を使う場合は、本人が検証した範囲を明記します。社内レポートの数値を転記しただけなら「社内集計による」とし、自分が測定したとは書きません。公開許可と計算妥当性は別の確認です。出してよい数字でも定義が曖昧なら掲載せず、定義が明確でも機密なら公開しません。"
+          ],
+          "en": [
+            "Before publishing a number, identify its source data, formula, inclusion rules, and last update. A dashboard value alone does not reveal the denominator, exclusions, deduplication, or corrections behind it. For revenue, workload, conversion, and volume claims, record the system and metric definition used. If the result cannot be reproduced, label it as a contemporaneous estimate with an appropriate range or omit it instead of presenting false precision.",
+            "A percentage needs its numerator and denominator. “Cut errors by half” becomes meaningful only when the population, observation period, comparison period, and error definition are stable. Place small-sample or seasonal limitations beside the number rather than hiding them in a general disclaimer. Choose rounding that matches the data quality. Extra decimal places do not create evidence and can make an uncertain estimate appear more authoritative than it is.",
+            "When another team calculated the metric, state what the portfolio author actually verified. If the number was copied from an authorized internal report, attribute it to that report rather than implying personal measurement. Permission to disclose and validity of calculation are separate gates. A permissible number with an unclear definition should not be published, and a well-defined number that is confidential must remain private."
+          ]
+        },
+        {
+          "ja": [
+            "測定期間は開始日と終了日だけでなく、比較対象が同じ条件だったかを確認します。導入前後で商品構成、担当人数、営業時間、広告費が変われば、単純比較では施策の効果を分離できません。因果を断定できない場合は「同期間に観測した」と書き、施策だけが原因だったとは述べません。",
+            "母数は対象全体と分析対象を分けます。欠損、重複、テストデータ、途中離脱を除外したなら、除外理由と件数を安全な範囲で記録します。好結果だけが残る選別を防ぐため、集計条件は結果を見る前に固定します。条件を後から変えた場合は変更理由と両方の結果をレビュー記録に残します。",
+            "時点の異なる数字を一つの成果として合成しません。月次値、累計値、単年度値を区別し、更新されたデータで結論が変わる可能性を示します。公開後も参照されるページにはデータ時点と見直し日を付けます。古い数字が現在値として引用されない構造は、AIOと読者保護の両方に必要です。"
+          ],
+          "en": [
+            "Verify not only the start and end dates but whether the comparison periods were operationally comparable. Changes in product mix, staffing, hours, price, or advertising can prevent a simple before-and-after comparison from isolating the effect of one intervention. When causality is not established, say that the outcome was observed during the same period rather than claiming the intervention alone produced it.",
+            "Separate the total population from the analyzed sample. If missing records, duplicates, tests, or incomplete cases were excluded, preserve the reason and count within the permitted disclosure boundary. Fix inclusion rules before examining the outcome to reduce selection bias. If the rule changed afterward, record why and retain both results in the review evidence instead of showing only the more favorable version.",
+            "Do not combine monthly, cumulative, and annual values into a single achievement. Identify the measurement date and whether later data could change the conclusion. Public pages that may be cited over time need both a data-as-of date and a scheduled review date. This structure helps readers and AI systems avoid repeating an old observation as a current fact."
+          ]
+        },
+        {
+          "ja": [
+            "共同成果では、意思決定者、実装担当、運用担当、レビュー担当の役割を簡潔に書きます。全員の氏名を公開する必要はありませんが、本人だけで完結したように見せないことが重要です。外部ベンダーや顧客側担当者が主要部分を担った場合も、契約と守秘の範囲で役割を示します。",
+            "第三者の発言を推薦文として使う場合は、本人の同意、掲載範囲、肩書き、確認日を確認します。雑談や社内チャットの一文を、許可なく顧客の評価として公開しません。匿名化しても文脈から特定できる場合があるため、匿名化だけを許可の代わりにしません。",
+            "チーム成果の中で自分の判断を示すには、選択した基準、反対案、リスク、承認経路を記述します。他者の貢献を明示しても本人の思考は伝わります。むしろ協働条件を説明できる方が、別の組織で再現できる能力として評価しやすくなります。"
+          ],
+          "en": [
+            "For collaborative outcomes, identify the decision owner, implementers, operators, and reviewers at a useful level of abstraction. Individual names are rarely necessary, but the story must not imply that one person completed the entire effort. If a vendor or customer-side team owned a substantial component, acknowledge that role within contractual and confidentiality limits.",
+            "Treat testimonials as separately permissioned content. Confirm the speaker’s consent, approved wording, title, publication context, and review date. Do not turn an informal conversation or internal message into a public endorsement. Anonymization does not replace consent when the surrounding facts can identify the person or organization.",
+            "Show individual judgment inside team delivery by explaining the criteria selected, alternatives considered, risks raised, and approval route followed. Crediting others does not erase personal contribution. It often makes the work more transferable because a future employer can see how the person collaborates, escalates, and produces decisions under real organizational constraints."
+          ]
+        },
+        {
+          "ja": [
+            "公開許可は「機密情報を消したから大丈夫」と推測せず、契約、就業規則、顧客合意、著作権、個人情報の扱いを確認します。退職後も守秘義務が続く場合があります。判断できない場合は、権限を持つ担当者や法務へ確認し、回答がない状態を許可済みにしません。",
+            "画面画像、資料、コード、ロゴ、顧客名は文章とは別に確認します。自分が作成した成果物でも、著作権や公開権限が会社・顧客にある場合があります。画面をぼかすだけで内部構造や数値が推測できるなら掲載しません。代わりに、公開用に作り直した架空データの図と、実案件ではない旨を明記します。",
+            "医療、金融、法務、広告に関する成果は、一般的なポートフォリオより厳しい確認を行います。患者、顧客、取引、決済、契約のデータを持ち出さず、効果効能や適法性を本人の判断だけで断定しません。公開できないことは弱点ではなく、境界を守った上で方法と判断基準を説明します。"
+          ],
+          "en": [
+            "Do not infer permission from successful redaction. Check contracts, employment rules, customer agreements, copyright ownership, and personal-data obligations. Confidentiality may continue after employment ends. When authority is unclear, ask an authorized owner or legal reviewer and keep the material unpublished until the answer is documented.",
+            "Review screenshots, documents, code, logos, and customer names separately from the narrative. Work created personally may still be owned or controlled by an employer or customer. Blurring a screen is insufficient when structure or values remain inferable. Prefer a newly created demonstration using clearly labeled fictional data when that accurately explains the method without reproducing protected material.",
+            "Apply stricter review to medical, financial, legal, and advertising work. Never move patient, customer, transaction, payment, or contract data into a portfolio or external AI system. Do not make efficacy or compliance claims based only on the author’s opinion. When the underlying case cannot be disclosed, explain the method, decision criteria, and safety boundary rather than treating confidentiality as a weakness."
+          ]
+        },
+        {
+          "ja": [
+            "再現条件は、別の環境で同じ数字が出るという約束ではありません。必要なデータ品質、権限、予算、人員、期間、経営判断を示し、どの条件が欠けると方法が機能しないかを書きます。成果だけでなく、適用可能な範囲と停止条件を説明します。",
+            "本人の持ち運べる能力と、前職固有の資産を分けます。分析設計、検証手順、関係者調整は移転可能でも、ブランド、顧客基盤、独自データ、既存システムは持ち運べません。次の職場で再現できるのは方法の一部であり、同じ成果値ではないことを明示します。",
+            "反証条件も書きます。データ欠損率が高い、決裁者が不在、対象者が異なるなど、結論を再評価すべき条件を示します。成功事例を万能な処方箋にせず、どの場面で使わないかを説明できることが、実務能力と信頼性の証拠になります。"
+          ],
+          "en": [
+            "Transfer conditions do not promise that another organization will reproduce the same number. Identify the required data quality, authority, budget, staffing, time, and management decisions, and state which missing conditions would make the method unsuitable. Explain applicability and stop conditions alongside the outcome.",
+            "Separate portable capability from assets that belonged to the original organization. Analytical design, validation practice, and stakeholder coordination may transfer; brand strength, customer relationships, proprietary data, and existing systems do not. The portfolio should claim a reusable method, not a guaranteed replication of the prior result.",
+            "Include falsification conditions. High missing-data rates, absent decision owners, or a materially different population may require the conclusion to be withdrawn. A strong case study explains where the approach should not be used. That boundary is evidence of operational judgment and is more credible than presenting one successful context as a universal prescription."
+          ]
+        },
+        {
+          "ja": [
+            "公開ページには、実績の対象期間、データ時点、本文の最終確認日を分けて表示します。記事の更新日だけを変え、数字や根拠を再確認していない状態を避けます。レビュー時には、リンク、肩書き、組織名、公開許可、計算定義が現在も有効かを確認します。",
+            "訂正履歴は、誤りを隠すためではなく信頼を保つために残します。重要な数字や帰属を変更した場合は、変更日と理由を簡潔に示します。軽微な表記修正まで大量に列挙する必要はありませんが、結論に影響する変更は読者が追跡できるようにします。",
+            "更新責任者と次回確認日を決めます。担当者が離れた場合や証拠へアクセスできなくなった場合は、検証済み表示を外すかページを非公開候補にします。古い成功談を永続的な現在実績として残さず、確認可能性が失われた時点で表現を見直します。"
+          ],
+          "en": [
+            "Display the achievement period, data-as-of date, and last substantive review date separately. Avoid changing an article’s update date when the numbers and evidence were not rechecked. A review should confirm that links, titles, organization descriptions, disclosure permission, and metric definitions remain valid.",
+            "Keep a correction history for material changes. When a number, attribution, or conclusion changes, state the date and reason briefly. Minor typography does not need a public ledger, but changes that alter the reader’s understanding should remain traceable. Correction is a reliability practice, not an admission that the entire portfolio is untrustworthy.",
+            "Assign an owner and next review date. If the owner leaves or evidence access is lost, remove the verified status or place the page in an unpublished review state. A historical success should not remain framed as a current fact forever. Revising the claim when verifiability disappears protects both the subject and future readers."
+          ]
+        }
       ]
     },
     "recruiter-feedback-taxonomy": {
