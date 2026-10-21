@@ -401,6 +401,15 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "portfolio-claim-verification",
+      "due_at": "2026-10-23",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
