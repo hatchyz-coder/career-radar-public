@@ -31,6 +31,7 @@ TARGETS = (
     "offer-assumption-log",
     "freelance-change-control",
     "role-authority-interview",
+    "portfolio-claim-verification",
 )
 
 
