@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-20",
-    "end_date": "2026-10-17",
+    "start_date": "2026-09-21",
+    "end_date": "2026-10-18",
     "days": 28
   },
-  "generated_at": "2026-10-20T00:36:42+00:00",
+  "generated_at": "2026-10-21T00:05:55+00:00",
   "rows": [
     {
       "query": "フリーランス リスク",
@@ -27,20 +27,20 @@
       "position": 3.0
     },
     {
-      "query": "signals for category mapping retail consulting roles",
-      "page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
-      "clicks": 0,
-      "impressions": 5,
-      "ctr": 0.0,
-      "position": 7.6
-    },
-    {
       "query": "フリーランス月収最低",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
       "position": 6.0
+    },
+    {
+      "query": "signals for category mapping retail consulting roles",
+      "page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 8.667
     },
     {
       "query": "転職エージェント 成功報酬 比較",
