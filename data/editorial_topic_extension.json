@@ -1967,7 +1967,8 @@
         {
           "ja": [
             "変更を承認できる人を契約上の窓口と実務担当者から区別します。会議参加者やチャットの依頼者が、費用、納期、データ利用、公開範囲を変更する権限を持つとは限りません。変更記録には依頼者、影響を受ける担当者、最終承認者、承認日時を残します。複数社が関わる案件では、誰の承認がどの範囲に有効かを明記します。",
-            "権限が不明なまま善意で着手すると、担当者を助けたつもりでも顧客組織の統制を壊します。承認者が不在の場合の代理、金額による承認段階、緊急時の暫定対応を事前に確認します。ただし暫定対応は外部公開、支払、個人情報処理など取り消しにくい行為へ自動的に広げません。口頭承認を受けた場合も、作業開始前に範囲と条件を短い書面で確認します。"
+            "権限が不明なまま善意で着手すると、担当者を助けたつもりでも顧客組織の統制を壊します。承認者が不在の場合の代理、金額による承認段階、緊急時の暫定対応を事前に確認します。ただし暫定対応は外部公開、支払、個人情報処理など取り消しにくい行為へ自動的に広げません。口頭承認を受けた場合も、作業開始前に範囲と条件を短い書面で確認します。",
+            "変更承認には、承認者の名前だけでなく、承認した範囲、前提、日付、着手可能時点を残します。チャットの「了解です」が、納期延長、追加費用、成果物変更のすべてを承認したとは限りません。見積りと選択肢を一つの記録にまとめ、相手が選んだ案を明示します。承認内容が曖昧なら作業を始めず、元の範囲を継続するか停止します。"
           ],
           "en": [
             "Identify the person authorized to approve a change and distinguish that role from the operational contact or the person who raised the request. Attendance in a meeting does not necessarily grant authority to change fee, timing, data use, or publication scope. The change record should identify requester, affected owners, final approver, approval time, and the exact option accepted. In work involving several companies, document which approval controls which organization and deliverable. This prevents a cooperative stakeholder from accidentally committing budget or risk that belongs to someone else.",
@@ -1987,7 +1988,8 @@
         {
           "ja": [
             "作業開始条件を機械的に確認できる形にします。承認済み変更記録、必要な入力、アクセス権、担当者、着手日がそろったときだけ追加作業を開始します。支払条件によって前金や発注番号が必要なら、その確認も含めます。「急ぎだから先に少しだけ」は範囲の境界を再び曖昧にするため、調査や試作を行う場合も、その小さな作業自体を明示的に承認します。",
-            "不足がある場合の既定動作は停止です。古いデータ、仮の認証情報、個人メール、無許可の本番環境で穴を埋めません。再試行回数、質問先、回答期限、期限を過ぎた場合の再計画を決めます。着手後に前提が崩れたら、作業済み範囲と安全な保存状態を記録して再承認へ戻します。承認済みの旧版を、内容が変わった新版へ自動で引き継ぎません。"
+            "不足がある場合の既定動作は停止です。古いデータ、仮の認証情報、個人メール、無許可の本番環境で穴を埋めません。再試行回数、質問先、回答期限、期限を過ぎた場合の再計画を決めます。着手後に前提が崩れたら、作業済み範囲と安全な保存状態を記録して再承認へ戻します。承認済みの旧版を、内容が変わった新版へ自動で引き継ぎません。",
+            "緊急例外を認める場合は、例外の責任者、期限、最大投入量、通常手続へ戻す条件を先に決めます。障害対応のために先行着手しても、例外が無期限の無償追加作業へ変わらないよう、翌営業日など具体的な再確認時点を置きます。期限を過ぎても承認が得られなければ、作業を安全な状態で止め、実施済み範囲と未実施範囲を分けて報告します。"
           ],
           "en": [
             "Make the start condition observable. Begin changed work only when the approved record, required inputs, least-privilege access, responsible contacts, and start date are present. If the commercial terms require a purchase order, deposit, or other prerequisite, include that evidence. “Do a little now because it is urgent” recreates the ambiguity that change control is meant to remove. A discovery task or prototype can start earlier only when that bounded activity has its own purpose, limit, fee treatment, data boundary, and explicit approval.",
