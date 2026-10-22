@@ -2314,6 +2314,104 @@
           "次の実験を決める",
           "Choose the next test"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "紹介会社から受けた言葉は、評価を加えず、誰が、いつ、どの求人または候補者群について述べたかと一緒に記録します。「経験が弱い」をそのまま結論にせず、可能なら「採用企業は同業界での予算責任を必須としている」のように観察可能な条件まで確認します。原文、要約、自分の解釈を別欄に置けば、後から都合よく意味を変えることを防げます。",
+            "電話や面談の直後に記録し、記憶から補った部分には未確認と印を付けます。会社名、担当者名、候補者の個人情報、非公開求人票を外部AIへ入力しません。保存するのは判断に必要な最小限の分類情報であり、録音や社内資料の複製ではありません。相手の許可がない発言を推薦文や公開証言として利用せず、分析結果は匿名かつ集計可能な形に限定します。",
+            "聞き取れなかった理由は推測で埋めず、再質問します。「今回の求人固有の条件ですか」「複数社で共通していますか」「書類、面談、条件のどの段階の判断ですか」と確認すると、感想が検証可能な仮説へ変わります。回答が得られない場合も、曖昧な評価として残し、確定事実の件数には加えません。"
+          ],
+          "en": [
+            "Capture recruiter feedback without immediately scoring it. Record who provided it, when, and whether it concerned one vacancy, one employer, or a broader candidate pool. “Your experience is weak” is not yet usable evidence; ask whether the employer required a specific industry, budget authority, team size, or delivery context. Keep the original wording, a neutral summary, and your interpretation in separate fields so that later decisions cannot silently rewrite what was actually said.",
+            "Write the note immediately after the call and mark anything reconstructed from memory as unconfirmed. Do not send employer names, recruiter identities, candidate personal data, confidential job descriptions, or call recordings to an external AI service. Retain only the minimum classification evidence needed for a career decision. Recruiter comments are not testimonials: without explicit permission they must not be published as endorsements, attributed quotations, or evidence that an entire market holds the same view.",
+            "When the reason is unclear, ask a bounded follow-up: Is this requirement unique to this vacancy? Have you observed it across several current searches? Did the concern arise at screening, interview, or offer stage? These questions turn an impression into a testable proposition. If clarification is unavailable, preserve the item as ambiguous feedback and exclude it from counts of confirmed market signals. Add a confidence field based on source proximity, specificity, and whether an employer decision actually occurred; confidence must describe evidence quality, not how persuasive the recruiter sounded."
+          ]
+        },
+        {
+          "ja": [
+            "不採用や紹介不足を、本人の能力不足と求人在庫の不足に分けます。対象期間に該当求人が何件あったか、勤務地、契約形態、職位、報酬帯、採用時期などの条件で在庫が狭くなっていないかを確認します。求人が一件しかない市場での見送りは、能力の一般評価ではなく、その一件との不一致かもしれません。",
+            "紹介会社が扱う求人は市場全体ではありません。得意業界、顧客構成、独占案件、営業地域によって見える在庫が変わります。「案件がない」という発言には、検索条件、確認日、対象チャネルを付けます。求人票の掲載数だけで需要を断定せず、重複、募集終了、採用保留を区別します。",
+            "在庫要因と判断した場合は、経歴書を無限に修正する前に、別の紹介会社、直接応募、業界団体、公開求人で同じ条件を検索します。複数チャネルで同じ不足が続けば市場仮説が強まり、一社だけならチャネル固有の可能性が残ります。"
+          ],
+          "en": [
+            "Separate a rejection or lack of introductions from a lack of suitable inventory. Count how many relevant vacancies existed during the observation period and which filters—location, contract type, seniority, compensation, start date, or working pattern—reduced that pool. A rejection from the only available role is not a general measure of capability; it may be a mismatch with one employer’s exact operating need.",
+            "A recruiter’s desk is not the whole market. Sector specialization, client mix, exclusive mandates, geography, and commercial priorities determine what that channel can see. Attach the search criteria, observation date, and channel to every statement that no roles are available. Public listing counts also need deduplication and checks for closed, paused, or repeatedly reposted vacancies before they can support a demand claim.",
+            "When inventory is the leading explanation, test another channel before repeatedly rewriting the résumé. Compare a specialist recruiter, direct applications, professional communities, and public vacancies using the same filters. A shortage repeated across independent channels strengthens the market hypothesis; a shortage visible through only one intermediary remains channel-specific evidence. Keep the observation window fixed and record zero-result searches too, because omitting unsuccessful checks creates a falsely positive view of demand."
+          ]
+        },
+        {
+          "ja": [
+            "役割適合は、職種名ではなく、解く課題、意思決定権、責任範囲、必要な経験の近さで分類します。同じPMOでも進捗集計、経営判断支援、変革実行では採用基準が異なります。過去の肩書きが一致しても権限や成果責任が違えば適合とは限りません。",
+            "フィードバックを「業界」「機能」「規模」「職位」「局面」に分解します。経験不足が、対象業界の知識なのか、部門横断の調整なのか、予算責任なのか、立ち上げ局面なのかを特定します。一つの分類だけを人格評価へ広げません。",
+            "適合の強弱には、裏付ける経歴書の箇所と反証を関連付けます。紹介会社の説明と求人票が矛盾する場合は、どちらかを選ばず採用企業へ確認すべき未解決事項とします。"
+          ],
+          "en": [
+            "Classify role fit by the problem to solve, decision rights, scope of responsibility, and proximity of prior experience—not by title alone. Two PMO roles may respectively center on reporting, executive decision support, or transformation delivery and therefore use different hiring evidence. A matching title can still conceal different authority, scale, and outcome ownership.",
+            "Break fit feedback into industry, function, scale, seniority, and operating phase. Determine whether the alleged gap concerns domain knowledge, cross-functional coordination, budget ownership, people leadership, turnaround work, or a new-business launch. Do not expand one bounded mismatch into a judgment about overall employability.",
+            "Link every fit category to the résumé evidence that supports or contradicts it. When the recruiter’s description conflicts with the job specification, do not choose the more convenient version. Record the conflict as an unresolved question for the authorized employer contact. Also distinguish a screening shortcut from a true performance requirement: a keyword may control the first filter even when the underlying work depends on a broader transferable capability."
+          ]
+        },
+        {
+          "ja": [
+            "証拠不足は経験不足と分けます。実際に行った仕事でも、経歴書が作業だけを列挙し、判断、範囲、結果、測定条件を示していなければ、採用側には見えません。紹介会社に、どの主張が不足し、何を示せば判断が変わるかを具体的に尋ねます。",
+            "追加する証拠は、役割、意思決定、成果物、検証可能な結果、第三者の関与を含めます。架空の数字や顧客評価を作らず、守秘情報を公開しません。数字を使えない場合は、承認経路、対象範囲、再現可能な方法で具体性を出します。",
+            "修正前後で同じ求人群への反応を比較します。同時に職種や報酬条件まで変えると、どの修正が効いたか分かりません。証拠表現だけを変えた小さな実験として記録します。"
+          ],
+          "en": [
+            "Separate missing evidence from missing experience. A person may have performed the work while the résumé lists activities without decisions, scope, outputs, measurement boundaries, or review evidence. Ask which exact claim was unconvincing and what additional evidence could change the screening decision. This is more actionable than accepting a generic instruction to make the document stronger.",
+            "Useful evidence connects the role, decision, deliverable, verifiable outcome, and contribution of others. Never invent metrics, customer praise, approval, or causality, and do not disclose protected material. When figures cannot be shared, specificity can come from decision criteria, approval routes, scale bands, and a reproducible method rather than fabricated precision.",
+            "Compare response before and after the evidence change against a similar vacancy set. If role type, salary, geography, and résumé all change together, the experiment cannot identify what mattered. Treat an evidence rewrite as one bounded test with a date, sample, and stop rule. Preserve the rejected wording and reason for the revision so a later reviewer can tell whether the apparent improvement came from clearer proof or from a different market sample."
+          ]
+        },
+        {
+          "ja": [
+            "条件不一致には、報酬、勤務地、稼働日、雇用形態、開始日、出張、語学、契約期間を含めます。これらを能力評価と混ぜると、変更可能な条件と守るべき制約が分からなくなります。必須条件、希望条件、交渉可能条件を事前に分けます。",
+            "紹介会社の都合で条件が狭められていないかも確認します。提示報酬が採用企業の予算なのか、仲介チャネルの扱う帯なのかを分けます。契約、税、社会保険、法的適合性は専門家確認が必要であり、担当者の口頭説明だけで結論にしません。",
+            "条件を緩める場合は、一度に一つとし、得られる機会と失う価値を記録します。個人情報や家族事情を必要以上に共有せず、判断に必要な可否と範囲だけを伝えます。"
+          ],
+          "en": [
+            "Constraint mismatches include compensation, location, working days, employment type, start date, travel, language, and contract duration. Mixing these with capability obscures what can be negotiated and what must remain protected. Define non-negotiable, preferred, and flexible conditions before receiving feedback so that pressure from one vacancy does not rewrite the decision rule.",
+            "Check whether the constraint comes from the employer or the intermediary’s commercial channel. A quoted pay ceiling may be the approved employer budget, a recruiter’s typical range, or an incomplete briefing. Contract, tax, social-insurance, immigration, and legal conclusions require appropriate professional review; a recruiter’s informal explanation is not a substitute.",
+            "If testing flexibility, change one condition at a time and record both the opportunity gained and the value surrendered. Share only the availability and boundary needed for the decision, not unnecessary personal or family details. A wider search is not automatically better when it violates a deliberate constraint. Revert the test when the added opportunities do not justify the cost, rather than allowing a temporary exception to become a permanent baseline."
+          ]
+        },
+        {
+          "ja": [
+            "複数社比較では、同じ期間、検索条件、分類辞書を使います。紹介件数だけでなく、対象求人件数、書類通過、面談、見送り理由、回答なしを記録します。母数が少ない段階では割合を強調せず実数を示します。",
+            "同じ求人を複数社が扱う重複を除きます。一社の担当者が繰り返した意見を複数の市場証拠として数えません。独立した採用企業や求人に由来するかを確認します。",
+            "比較表には取得日と更新日を置きます。市場在庫は変化するため、古い反応を現在の判断へ無期限に使いません。四週間など事前に定めた窓で見直します。"
+          ],
+          "en": [
+            "Use the same observation window, search conditions, and classification dictionary across recruiters. Record eligible vacancies, introductions, screenings, interviews, explicit rejection reasons, and non-responses—not just the number of messages received. Show counts rather than dramatic percentages while samples are small.",
+            "Deduplicate vacancies represented by several agencies. Repeated wording from one recruiter is one source, not several independent market observations. Check whether each signal originates from a distinct employer, requisition, or decision point before aggregating it.",
+            "Give the comparison table a data-as-of date and next review date. Inventory and hiring priorities change, so old reactions should not remain active evidence indefinitely. Use a predefined window, such as four weeks, then archive rather than silently mixing periods."
+          ]
+        },
+        {
+          "ja": [
+            "自分の仮説に合う発言だけを集めず、反対例を探します。「業界経験が必須」なら、隣接業界から採用した求人や面談事例があるかを尋ねます。一件の反例で全体を否定せず、条件の違いを確認します。",
+            "沈黙を否定と解釈しません。求人停止、担当者不在、選考遅延など複数の理由があります。明示された理由、推測、未回答を別カテゴリにします。",
+            "仮説を棄却する条件を先に決めます。例えば独立した三チャネルで類似求人が確認できたら在庫不足仮説を見直す、と定義します。結果を見て基準を動かしません。"
+          ],
+          "en": [
+            "Actively seek evidence against the preferred explanation. If one recruiter says direct industry experience is mandatory, ask whether adjacent-sector candidates have recently reached interview and under what conditions. One counterexample does not erase the pattern, but it can reveal the actual boundary.",
+            "Do not classify silence as rejection. A paused search, absent recruiter, slow employer, or incomplete process can all produce no response. Keep explicit reasons, inferences, and unknown outcomes in separate categories.",
+            "Define falsification before reviewing the result. For example, three independent channels showing comparable active roles may overturn an inventory-shortage hypothesis. Do not move the threshold after seeing inconvenient evidence."
+          ]
+        },
+        {
+          "ja": [
+            "次の実験は、最も判断を変える不確実性を一つ選びます。証拠不足なら経歴書の一節を直す、在庫不足なら別チャネルを同条件で調べる、条件不一致なら一条件だけ変更します。期間、対象数、成功条件、停止条件を先に書きます。",
+            "実験結果は「成功・失敗」だけでなく、支持、反証、判断不能に分けます。母数不足なら期間を延ばすか、重要度が低ければ停止します。応募量を増やすこと自体を成果にせず、判断の質が上がったかを確認します。",
+            "四週間ごとに分類を見直し、使わないカテゴリや曖昧な定義を修正します。個人の市場価値を永久評価する仕組みではなく、現在の選択を改善する一時的な意思決定台帳として使います。"
+          ],
+          "en": [
+            "Choose the next experiment around the uncertainty most likely to change the decision. Rewrite one evidence claim when proof is weak, search another channel under identical filters when inventory is uncertain, or relax one constraint when a trade-off is acceptable. State the period, sample, success condition, and stop condition before starting.",
+            "Classify the result as supported, contradicted, or inconclusive rather than merely successful or failed. Extend a small sample only when the decision is important enough to justify more effort. Application volume is not the outcome; the test should reduce uncertainty about a role, channel, claim, or constraint.",
+            "Review the taxonomy every four weeks and revise categories that overlap or fail to guide action. This is not a permanent score of personal market value. It is a time-bounded decision log that protects against overreacting to one intermediary while preserving evidence that can improve the next search."
+          ]
+        }
       ]
     },
     "career-option-expiry": {
