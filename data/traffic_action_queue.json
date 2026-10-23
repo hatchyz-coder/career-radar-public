@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-10-22T00:09:27.082056+00:00",
+  "generated_at": "2026-10-23T00:07:59.923796+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -49,19 +49,6 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "signals for category mapping retail consulting roles",
-      "target_page": "https://career.hdnjapan.com/en/articles/consulting-market-signal-matrix.html",
-      "priority_score": 26.2,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 5,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
       "query": "転職エージェント 成功報酬 比較",
       "target_page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "priority_score": 24.9,
@@ -71,7 +58,7 @@
       "status": "observing"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -84,7 +71,7 @@
       "status": "observing"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -97,7 +84,7 @@
       "status": "observing"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -110,7 +97,7 @@
       "status": "observing"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -123,7 +110,7 @@
       "status": "observing"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -136,7 +123,7 @@
       "status": "observing"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -149,7 +136,7 @@
       "status": "observing"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -162,7 +149,7 @@
       "status": "observing"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -175,7 +162,7 @@
       "status": "observing"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -188,7 +175,7 @@
       "status": "observing"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -201,7 +188,7 @@
       "status": "observing"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
