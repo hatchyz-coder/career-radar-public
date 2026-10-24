@@ -419,6 +419,15 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "career-option-expiry",
+      "due_at": "2026-10-27",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }

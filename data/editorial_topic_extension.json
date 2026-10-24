@@ -2454,6 +2454,104 @@
           "四半期ごとに更新する",
           "Review quarterly"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "選択肢は職種名ではなく、実際に取れる行動として一覧化します。社内公募へ応募できる、特定資格を更新できる、紹介者へ相談できる、既存顧客へ追加提案できるなど、開始条件と相手を含む一文にします。「転職」「独立」のような大きな言葉だけでは、何が失われつつあるかを判断できません。",
+            "各選択肢には、確認済みの事実、本人の推測、第三者から聞いた情報を分けて記録します。求人票、規程、契約、資格要件など参照できる根拠には確認日を付けます。紹介者の好意や上司の口頭説明は有用でも、利用可能性が保証された権利として扱いません。",
+            "一覧には魅力だけでなく、利用目的と見送り条件を置きます。何を得たいのかが曖昧な選択肢は、保持そのものが目的になりがちです。収入、経験、裁量、生活条件など判断軸を明示し、現在の目的に結び付かないものは保留ではなく整理候補にします。"
+          ],
+          "en": [
+            "Inventory an option as an action that can actually be taken, not as a broad career label. Examples include applying to a named internal program, renewing a credential, requesting an introduction through a specific contact, or proposing an additional engagement to an existing client. “Change jobs” or “become independent” is too vague to reveal what access exists, who controls it, or what may be lost.",
+            "For each option, separate confirmed facts, personal assumptions, and information supplied by another person. Attach a verification date to job postings, policies, contracts, credential rules, and other evidence that can be checked. A supportive manager or referrer may be valuable, but an informal statement is not the same as an enforceable right or a guaranteed opening.",
+            "Record the purpose of keeping the option and the condition for rejecting it. Options without a defined use often consume attention simply because they once looked attractive. Name the decision criteria—income, learning, authority, location, schedule, or risk—and identify which criterion the option serves. If it no longer connects to a current objective, mark it for review instead of carrying it indefinitely."
+          ]
+        },
+        {
+          "ja": [
+            "有効期限は募集締切だけではありません。資格更新日、契約更新月、紹介者との接点が薄れる時期、組織改編、予算編成、家族や健康上の制約など、利用条件が変わる日を置きます。正確な日が不明なら、次に確認する期限と確認先を決めます。",
+            "期限は「その日を過ぎたら不可能」という断定ではなく、前提を再確認する日として扱います。市場や社内制度は予告なく変わるため、古い情報を現在の事実として残しません。期限が来たら、根拠の更新、相手への確認、費用の再計算を行い、状態を更新します。",
+            "外部要因だけでなく、自分側の期限も記録します。技能の陳腐化、実績を説明できる期間、生活資金、学習時間、転居可能性などは選択肢の実行可能性を変えます。期限を置くことで、不安を煽るのではなく、判断を先送りした場合に何が変わるかを具体化できます。"
+          ],
+          "en": [
+            "Expiry is broader than an application deadline. Record dates when access conditions may change: credential renewal, contract review, budget planning, organizational restructuring, reduced contact with a referrer, or a change in family, health, or location constraints. When the exact date is unknown, set a date to verify the condition and name the person or source that can confirm it.",
+            "Treat the expiry date as a review trigger rather than an unsupported claim that the option becomes impossible overnight. Markets and internal programs can change without notice. At the trigger, refresh the evidence, ask the authorized source, and recalculate the relevant cost. This prevents an old opening, policy, or verbal assurance from remaining in the inventory as if it were current.",
+            "Include deadlines created by the candidate’s own circumstances. Skill decay, the period in which an achievement remains easy to evidence, available savings, study capacity, and willingness to relocate can all affect feasibility. A dated review makes the cost of waiting visible without manufacturing urgency. It shows which assumption may change and what information is needed before a decision."
+          ]
+        },
+        {
+          "ja": [
+            "維持コストは金銭だけでなく、時間、注意、関係維持、学習、更新手続、機会費用に分けます。年会費が安くても、毎月の学習や無償対応が重ければ高コストです。逆に、短い連絡だけで維持できる紹介経路は費用対効果が高い場合があります。",
+            "見積りは実績と仮定を分けます。昨年使った時間や支払額は実績として残し、次期の所要時間は仮定として範囲で示します。正確さを装うための細かな数字は使わず、低・中・高など意思決定に必要な粒度で比較します。",
+            "同じ資源で維持できる選択肢の数には上限があります。すべてを残すと、重要な選択肢の証拠更新や関係構築が薄くなります。四半期の投入上限を先に決め、上限を超える場合は価値、期限、代替可能性を基準に優先順位を付けます。"
+          ],
+          "en": [
+            "Measure maintenance cost across money, time, attention, relationship work, learning, renewal administration, and opportunity cost. A credential with a small fee may still be expensive if it demands recurring study that no longer supports the target role. A referral path may be inexpensive when it can be maintained through occasional useful contact, provided the relationship is not treated as a transaction.",
+            "Separate observed cost from forecast cost. Record the fee and hours actually used in the prior period, then label next period’s estimate as an assumption or range. Avoid artificial precision. Low, medium, and high may be sufficient when the purpose is to compare options and decide where to spend a limited maintenance budget rather than produce an accounting statement.",
+            "Set a total capacity limit before evaluating individual options. Keeping everything open can weaken the evidence updates, learning, and relationship work required by the options that matter most. If the planned maintenance exceeds the quarterly limit, rank options by current value, time to expiry, uniqueness, and replacement difficulty. Retiring one option can free the resources needed to preserve a better one."
+          ]
+        },
+        {
+          "ja": [
+            "利用条件は、応募資格、実務経験、地域、勤務時間、契約上の制約、上司の承認、紹介者の同意などに分解します。以前満たしていた条件が現在も有効とは限りません。制度の責任者や一次資料で確認できるものは、口頭の印象より優先します。",
+            "条件には自分で変えられるものと変えられないものがあります。必要技能や成果物は準備できますが、採用枠、予算、相手の都合は制御できません。制御可能な準備と外部確認を分けると、行動不足と環境変化を混同せずに済みます。",
+            "個人情報、顧客情報、患者情報、機密資料を条件確認のために外部AIや公開資料へ移しません。実績証明が必要な場合も、公開許可、匿名化の限界、証拠の保管場所を確認します。証拠を共有できないときは、権限のある確認者と範囲を限定した説明を使います。"
+          ],
+          "en": [
+            "Break access conditions into eligibility, experience, location, schedule, contract restrictions, internal approval, and consent from any referrer. A condition satisfied last year may no longer be valid. Prefer the current policy, program owner, contract, or other primary evidence over recollection. Record who has authority to confirm the condition and when the confirmation was obtained.",
+            "Separate conditions the candidate can influence from conditions controlled by others. Skills and a portfolio artifact may be developed; headcount, budget, a manager’s decision, and another person’s availability cannot be guaranteed. This distinction creates two worklists: preparation within the candidate’s control and evidence requests to external owners. It also prevents a closed opening from being misdiagnosed as a personal failure.",
+            "Do not move personal, customer, patient, clinical, or confidential records into a public portfolio or an external AI system to prove eligibility. Verify disclosure permission, the limits of anonymization, and the authorized evidence location. When the underlying record cannot be shared, use an authorized verifier and a bounded description. The inability to publish protected evidence does not justify inventing a substitute."
+          ]
+        },
+        {
+          "ja": [
+            "価値低下の兆候は、感覚ではなく観測項目で定義します。該当求人の減少、紹介への反応低下、更新費用の増加、必要技能の変化、報酬や裁量の条件悪化などです。一つの出来事で結論を出さず、観測期間と情報源を残します。",
+            "ゼロ件や返信なしも、その範囲を明示して扱います。特定媒体を短期間検索して見つからなかったことは、市場全体に需要がない証拠ではありません。検索条件、期間、媒体、重複除外を記録し、別経路の反証を探します。",
+            "価値が下がっても、保険としての価値や学習価値が残る場合があります。直接収益、将来の移動可能性、関係資本、技能の転用性を分けて評価します。どの価値が低下したのかを特定すれば、全面終了以外の縮小や再設計も選べます。"
+          ],
+          "en": [
+            "Define declining value through observable signals: fewer relevant openings, lower response from a referral channel, higher renewal cost, changed skill requirements, or weaker compensation and authority. Do not infer a trend from one rejection or one conversation. Preserve the observation window, source, search criteria, and comparison point so the conclusion can be reviewed when new evidence arrives.",
+            "Treat zero results and silence as bounded observations. Finding no suitable role on one platform during one week does not prove that the wider market has no demand. Record the platform, filters, dates, and duplicate rule, then seek counterevidence through another source. A conclusion becomes stronger when it survives more than one independent channel and a clearly defined search method.",
+            "An option can lose immediate commercial value while retaining insurance, learning, network, or transfer value. Score these separately instead of forcing one overall judgment. Naming the component that declined supports a proportionate response: reduce maintenance, change the channel, narrow the intended use, or retire it. It also prevents a familiar option from receiving a high rating merely because substantial effort was already invested."
+          ]
+        },
+        {
+          "ja": [
+            "延長判断には、次の期限までに得る価値、必要コスト、代替手段、失敗時の損失を並べます。過去に費やした費用は回収不能なため、継続理由にしません。今後の投入で利用可能性が実際に高まるかを確認します。",
+            "延長には条件を付けます。例えば、次の四半期までに一次資料を更新する、二つの独立経路で需要を確認する、成果物を一つ完成させるなどです。条件が満たされなければ自動継続せず、縮小または終了の判断へ戻します。",
+            "終了は履歴の削除ではありません。終了理由、確認日、再開条件を残します。制度変更や新しい顧客需要など明確な反証が出た場合は再評価できます。終了済みを一覧から分けることで、同じ古い仮定を毎回検討し直す無駄も防げます。"
+          ],
+          "en": [
+            "For renewal, compare the value expected before the next review, the required cost, available alternatives, and the loss if the attempt fails. Exclude sunk cost from the decision. Time and money already spent cannot be recovered. Ask whether the next unit of maintenance will improve access, evidence, readiness, or learning enough to justify another period.",
+            "Attach conditions to renewal. Examples include refreshing the primary evidence, confirming demand through two independent channels, completing one relevant artifact, or obtaining a documented answer from the program owner. If the condition is not met by the next review, do not renew automatically. Return the option to a reduction or retirement decision and record why the evidence was insufficient.",
+            "Retirement should preserve a short decision record rather than erase the history. Capture the evidence date, reason, and any event that would justify reopening the option. A material policy change, new customer demand, or a restored relationship may qualify. Keeping retired options outside the active list prevents the same stale assumption from consuming time at every quarterly review."
+          ]
+        },
+        {
+          "ja": [
+            "重要な選択肢を終了する前に、同じ目的を満たす代替経路を探します。特定紹介者への依存は複数の情報源へ、特定資格への依存は成果物や実務証拠へ、単一顧客への依存は異なる顧客群への検証へ置き換えられる場合があります。",
+            "代替は元の選択肢と同じである必要はありません。目的が収入安定なら、新規転職だけでなく契約期間の見直しや既存業務の単価構造も候補です。目的から逆算すると、名前の異なる選択肢を公平に比較できます。",
+            "代替経路にも期限、コスト、利用条件、証拠水準を設定します。古い依存を新しい思い込みに置き換えないためです。小さく試せる場合は、情報面談、限定応募、短期学習など可逆的な実験から始め、結果を次の判断へ接続します。"
+          ],
+          "en": [
+            "Before retiring an important option, identify another path to the same objective. Dependence on one referrer may be replaced by several independent information channels. Dependence on one credential may be reduced through a verifiable work sample or supervised experience. Dependence on one client may be tested against a different customer segment. The replacement should reduce concentration risk, not merely rename it.",
+            "A replacement does not need to resemble the original option. If the objective is income stability, alternatives may include a new employment search, a longer contract term, a revised pricing model, or a smaller group of recurring services. Comparing paths by the objective they serve avoids favoring the most familiar label and makes different forms of access easier to evaluate.",
+            "Give the replacement its own expiry, cost, access conditions, and evidence standard. Otherwise one stale dependency is replaced by a new assumption. When possible, begin with a reversible experiment: an informational interview, a limited application set, a short learning module, or a bounded customer test. Define the evidence that will support expansion, revision, or stopping before the experiment begins."
+          ]
+        },
+        {
+          "ja": [
+            "四半期レビューでは、追加、維持、縮小、終了、再開の五つの状態を更新します。各選択肢について、前回から変わった事実、期限、コスト、利用条件、次の行動を確認します。更新がない場合も「未確認」を現在の事実と混同しません。",
+            "レビュー記録には担当者、確認日、根拠URLまたは安全な保管場所、次回日を残します。公開可能な情報と非公開証拠を分け、顧客名や個人情報を一覧へ複製しません。第三者が一部だけ読んでも、観測時点と判断範囲が分かる短い結論にします。",
+            "最終的な成果は選択肢の数ではなく、必要なときに使える選択肢の質です。期限切れを減らし、重要な経路へ資源を集中し、終了理由を再利用できる状態を目指します。四半期ごとの比較で判断精度や維持負荷を見直し、制度や目的が変われば基準も更新します。"
+          ],
+          "en": [
+            "At each quarterly review, assign one of five states: add, maintain, reduce, retire, or reopen. For every option, inspect the facts that changed, the next expiry trigger, maintenance cost, access conditions, and the next action. If no current evidence was obtained, mark the item unverified. Lack of an update must not be presented as proof that the prior condition still holds.",
+            "Keep the reviewer, review date, evidence URL or protected location, and next review date. Separate public evidence from confidential support, and avoid copying names or personal records into the inventory. Write a short conclusion that retains its date and boundary when quoted on its own. This makes the review useful to the candidate, a human adviser, and an AI system without overstating certainty.",
+            "The outcome is not the largest possible number of options. It is a smaller set of paths that can be used when needed, supported by current evidence and affordable maintenance. Track expired items removed, resources redirected, and conditions successfully refreshed. Compare review periods to see whether decision quality improved and maintenance burden fell, then revise the criteria when the person’s goals or environment changes."
+          ]
+        }
       ]
     },
     "offer-risk-evidence-checklist": {

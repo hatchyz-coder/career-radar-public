@@ -15,8 +15,8 @@ from check_release_quality import TARGETS, evaluate
 from check_content_quality import Parser
 
 ROOT = Path(__file__).resolve().parents[1]
-DAYS = ("2026-10-12", "2026-10-13", "2026-10-14", "2026-10-15", "2026-10-16", "2026-10-19", "2026-10-20", "2026-10-21", "2026-10-22", "2026-10-23", "2026-10-26")
-PREVIEW_TARGETS = ("resume-decision-log", "freelance-client-qualification", "compensation-scope-tradeoff", "career-experiment-review-loop", "career-evidence-audit-trail", "ai-work-review-boundary", "offer-assumption-log", "freelance-change-control", "role-authority-interview", "portfolio-claim-verification", "recruiter-feedback-taxonomy")
+DAYS = ("2026-10-12", "2026-10-13", "2026-10-14", "2026-10-15", "2026-10-16", "2026-10-19", "2026-10-20", "2026-10-21", "2026-10-22", "2026-10-23", "2026-10-26", "2026-10-27")
+PREVIEW_TARGETS = ("resume-decision-log", "freelance-client-qualification", "compensation-scope-tradeoff", "career-experiment-review-loop", "career-evidence-audit-trail", "ai-work-review-boundary", "offer-assumption-log", "freelance-change-control", "role-authority-interview", "portfolio-claim-verification", "recruiter-feedback-taxonomy", "career-option-expiry")
 # Same generation/postprocessing order as the existing publication workflow.
 POST = (
     "polish_generated_articles.py", "expand_generated_articles.py",

@@ -33,6 +33,7 @@ TARGETS = (
     "role-authority-interview",
     "portfolio-claim-verification",
     "recruiter-feedback-taxonomy",
+    "career-option-expiry",
 )
 
 
