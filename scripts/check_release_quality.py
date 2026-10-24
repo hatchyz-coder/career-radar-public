@@ -22,6 +22,18 @@ TARGETS = (
     "side-job-career-capital",
     "consulting-scope-creep-risk",
     "ai-automation-role-redesign",
+    "resume-decision-log",
+    "freelance-client-qualification",
+    "compensation-scope-tradeoff",
+    "career-experiment-review-loop",
+    "career-evidence-audit-trail",
+    "ai-work-review-boundary",
+    "offer-assumption-log",
+    "freelance-change-control",
+    "role-authority-interview",
+    "portfolio-claim-verification",
+    "recruiter-feedback-taxonomy",
+    "career-option-expiry",
 )
 
 

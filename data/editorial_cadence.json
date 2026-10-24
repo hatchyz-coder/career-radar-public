@@ -365,6 +365,69 @@
         "en"
       ],
       "status": "queued"
+    },
+    {
+      "article_id": "ai-work-review-boundary",
+      "due_at": "2026-10-19",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "offer-assumption-log",
+      "due_at": "2026-10-20",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "freelance-change-control",
+      "due_at": "2026-10-21",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "role-authority-interview",
+      "due_at": "2026-10-22",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "portfolio-claim-verification",
+      "due_at": "2026-10-23",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "recruiter-feedback-taxonomy",
+      "due_at": "2026-10-26",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "career-option-expiry",
+      "due_at": "2026-10-27",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
     }
   ]
 }
