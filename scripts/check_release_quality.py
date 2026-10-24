@@ -22,6 +22,7 @@ TARGETS = (
     "side-job-career-capital",
     "consulting-scope-creep-risk",
     "ai-automation-role-redesign",
+    "consulting-renewal-evidence",
 )
 
 
