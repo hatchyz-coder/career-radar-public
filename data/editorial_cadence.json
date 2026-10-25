@@ -5,10 +5,10 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "career-evidence-audit-trail",
-    "published_at": "2026-10-25",
-    "article_count": 5,
-    "locale_page_count": 10
+    "article_id": "ai-work-review-boundary",
+    "published_at": "2026-10-26",
+    "article_count": 1,
+    "locale_page_count": 2
   },
   "release_queue": [
     {
@@ -378,7 +378,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-10-26"
     },
     {
       "article_id": "offer-assumption-log",
@@ -410,6 +411,15 @@
     {
       "article_id": "portfolio-claim-verification",
       "due_at": "2026-10-30",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "recruiter-feedback-taxonomy",
+      "due_at": "2026-11-02",
       "locales": [
         "ja",
         "en"
