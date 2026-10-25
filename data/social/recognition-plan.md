@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-10-25T14:39:02.041937+09:00
+Generated: 2026-10-25T15:03:54.296845+09:00
 
 ## Today — day0 — キャリア実績の根拠を監査可能な形で残す方法
 
