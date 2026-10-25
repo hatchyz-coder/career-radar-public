@@ -1,12 +1,12 @@
-# CareerRadar Social Pack — 2026-10-09
+# CareerRadar Social Pack — 2026-10-25
 
-Article: `ai-delegation-accountability`
+Article: `career-evidence-audit-trail`
 
 ## LinkedIn
 
-【AIへ仕事を任せるとき人間に残る責任をどう設計するか / How to Design Human Accountability When Delegating Work to AI】
+【キャリア実績の根拠を監査可能な形で残す方法 / How to Keep an Auditable Trail of Career Evidence】
 
-AIへ作業を移すほど、人間の価値は操作量ではなく、承認・例外処理・品質責任をどこで持つかに移ります。
+成果の主張を後から検証できるよう、数値・判断・担当範囲・確認資料を守秘義務の範囲で結び付けます。
 
 CareerRadarでは今回、次の3点に分けて整理しました。
 ・市場の反応を一つの評価で決めない
@@ -16,14 +16,14 @@ CareerRadarでは今回、次の3点に分けて整理しました。
 このテーマを、自分の次のキャリア判断にどう使えるでしょうか。
 
 記事はこちら
-https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja
+https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_ja
 
 English follows below.
 
-As work is delegated to AI, human value shifts from producing each step to owning approval, exceptions, and quality boundaries.
+Career claims become more credible when metrics, decisions, scope, and permitted evidence remain traceable without exposing confidential data.
 
 Read the full article:
-https://career.hdnjapan.com/en/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_en
+https://career.hdnjapan.com/en/articles/career-evidence-audit-trail.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_en
 
 #CareerRadar #キャリア #転職 #市場価値
 
@@ -31,9 +31,9 @@ https://career.hdnjapan.com/en/articles/ai-delegation-accountability.html?utm_so
 
 ## Facebook
 
-【AIへ仕事を任せるとき人間に残る責任をどう設計するか】
+【キャリア実績の根拠を監査可能な形で残す方法】
 
-AIへ作業を移すほど、人間の価値は操作量ではなく、承認・例外処理・品質責任をどこで持つかに移ります。
+成果の主張を後から検証できるよう、数値・判断・担当範囲・確認資料を守秘義務の範囲で結び付けます。
 
 キャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。
 
@@ -49,7 +49,7 @@ AIへ作業を移すほど、人間の価値は操作量ではなく、承認・
 
 転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。
 
-https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja
+https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_ja
 
 #CareerRadar #キャリア #転職 #市場価値
 
@@ -57,7 +57,7 @@ https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_so
 
 ## X
 
-【AIへ仕事を任せるとき人間に残る責任をどう設計するか】
+【キャリア実績の根拠を監査可能な形で残す方法】
 一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。
-https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=x&utm_medium=social
+https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=x&utm_medium=social
 #CareerRadar

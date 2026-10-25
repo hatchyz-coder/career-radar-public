@@ -2,7 +2,7 @@
   "schema_version": "hdn-editorial-desk-source.v1",
   "source_id": "career_radar",
   "source_label": "CareerRadar",
-  "generated_at": "2026-10-11T21:41:42.050755+09:00",
+  "generated_at": "2026-10-25T14:33:27.993637+09:00",
   "timezone": "Asia/Tokyo",
   "lookback_days": 14,
   "manual_publish_only": true,
@@ -29,41 +29,41 @@
       "manual_publish_only": true
     },
     "selected_today": {
-      "article_id": "midcareer-risk-budget",
-      "title": "40代の転職で先に作るべきキャリアリスク予算",
-      "phase": "day3",
-      "due_at": "2026-10-11",
+      "article_id": "career-evidence-audit-trail",
+      "title": "キャリア実績の根拠を監査可能な形で残す方法",
+      "phase": "day0",
+      "due_at": "2026-10-25",
       "posts": {
-        "linkedin": "【3日後にもう一度考えたい：40代の転職で先に作るべきキャリアリスク予算】\n\n公開から3日たって、もう一度『40代の転職で先に作るべきキャリアリスク予算』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n\n#CareerRadar #キャリア #市場価値",
-        "facebook": "【3日後にもう一度考えたい：40代の転職で先に作るべきキャリアリスク予算】\n\n公開から3日たって、もう一度『40代の転職で先に作るべきキャリアリスク予算』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n\n#CareerRadar #キャリア",
-        "x": "【40代の転職で先に作るべきキャリアリスク予算】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n#CareerRadar"
+        "linkedin": "【キャリア実績の根拠を監査可能な形で残す方法】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-evidence-audit-trail_day0\n\n#CareerRadar #キャリア #市場価値",
+        "facebook": "【キャリア実績の根拠を監査可能な形で残す方法】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-evidence-audit-trail_day0\n\n#CareerRadar #キャリア",
+        "x": "【キャリア実績の根拠を監査可能な形で残す方法】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-evidence-audit-trail_day0\n#CareerRadar"
       }
     },
     "due_today": [
       {
-        "article_id": "midcareer-risk-budget",
-        "title": "40代の転職で先に作るべきキャリアリスク予算",
-        "phase": "day3",
-        "due_at": "2026-10-11",
+        "article_id": "career-evidence-audit-trail",
+        "title": "キャリア実績の根拠を監査可能な形で残す方法",
+        "phase": "day0",
+        "due_at": "2026-10-25",
         "posts": {
-          "linkedin": "【3日後にもう一度考えたい：40代の転職で先に作るべきキャリアリスク予算】\n\n公開から3日たって、もう一度『40代の転職で先に作るべきキャリアリスク予算』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n\n#CareerRadar #キャリア #市場価値",
-          "facebook": "【3日後にもう一度考えたい：40代の転職で先に作るべきキャリアリスク予算】\n\n公開から3日たって、もう一度『40代の転職で先に作るべきキャリアリスク予算』を考えます。最初に読んだ時より、自分の経験に置き換えると違う論点が見えることがあります。\n\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n\n#CareerRadar #キャリア",
-          "x": "【40代の転職で先に作るべきキャリアリスク予算】\n記事の主張を一つ、自分の実績や次の行動に置き換えてみてください。\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=midcareer-risk-budget_day3\n#CareerRadar"
+          "linkedin": "【キャリア実績の根拠を監査可能な形で残す方法】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarで深掘り：\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-evidence-audit-trail_day0\n\n#CareerRadar #キャリア #市場価値",
+          "facebook": "【キャリア実績の根拠を監査可能な形で残す方法】\n\n仕事の入口や市場評価を一つの会社・一人の担当者だけに委ねない。CareerRadarでは、今回のテーマを『自分で選択肢を増やせる状態をどう作るか』という視点で整理しました。\n\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\n\nCareerRadarでは、感覚だけで結論を出さず、実績・判断・市場反応を分けて考えます。\n\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-evidence-audit-trail_day0\n\n#CareerRadar #キャリア",
+          "x": "【キャリア実績の根拠を監査可能な形で残す方法】\n一つの評価を結論にせず、複数の経路で市場の反応を確かめる。そのための材料として読んでみてください。\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=x&utm_medium=social&utm_campaign=career_radar_recognition&utm_content=career-evidence-audit-trail_day0\n#CareerRadar"
         }
       }
     ]
   },
-  "item_count": 8,
+  "item_count": 1,
   "warnings": [],
   "items": [
     {
-      "stable_id": "career_radar:2026-10-09:ai-delegation-accountability",
+      "stable_id": "career_radar:2026-10-25:career-evidence-audit-trail",
       "source_id": "career_radar",
       "source_label": "CareerRadar",
-      "article_id": "ai-delegation-accountability",
-      "published_at": "2026-10-09",
-      "title": "AIへ仕事を任せるとき人間に残る責任をどう設計するか",
-      "content_version": "533bb5f8a2ae2f40",
+      "article_id": "career-evidence-audit-trail",
+      "published_at": "2026-10-25",
+      "title": "キャリア実績の根拠を監査可能な形で残す方法",
+      "content_version": "60161b6b6f2b89fc",
       "default_state": "ready_for_review",
       "manual_publish_only": true,
       "recommended_platform_order": [
@@ -74,297 +74,24 @@
       "platforms": {
         "linkedin": {
           "priority": "P0",
-          "copy": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか / How to Design Human Accountability When Delegating Work to AI】\n\nAIへ作業を移すほど、人間の価値は操作量ではなく、承認・例外処理・品質責任をどこで持つかに移ります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja\n\nEnglish follows below.\n\nAs work is delegated to AI, human value shifts from producing each step to owning approval, exceptions, and quality boundaries.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/ai-delegation-accountability.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_en"
+          "copy": "【キャリア実績の根拠を監査可能な形で残す方法 / How to Keep an Auditable Trail of Career Evidence】\n\n成果の主張を後から検証できるよう、数値・判断・担当範囲・確認資料を守秘義務の範囲で結び付けます。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_ja\n\nEnglish follows below.\n\nCareer claims become more credible when metrics, decisions, scope, and permitted evidence remain traceable without exposing confidential data.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/career-evidence-audit-trail.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_en\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url_ja": "https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_ja",
+          "url_en": "https://career.hdnjapan.com/en/articles/career-evidence-audit-trail.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_en"
         },
         "facebook": {
           "priority": "P1",
-          "copy": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n\nAIへ作業を移すほど、人間の価値は操作量ではなく、承認・例外処理・品質責任をどこで持つかに移ります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=ai-delegation-accountability_ja"
+          "copy": "【キャリア実績の根拠を監査可能な形で残す方法】\n\n成果の主張を後から検証できるよう、数値・判断・担当範囲・確認資料を守秘義務の範囲で結び付けます。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
+          "url": "https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-evidence-audit-trail_ja"
         },
         "x": {
           "priority": "P2",
-          "copy": "【AIへ仕事を任せるとき人間に残る責任をどう設計するか】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/ai-delegation-accountability.html?utm_source=x&utm_medium=social"
+          "copy": "【キャリア実績の根拠を監査可能な形で残す方法】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=x&utm_medium=social\n#CareerRadar",
+          "url": "https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html?utm_source=x&utm_medium=social"
         }
       },
       "redistribution": {
-        "day_3": "2026-10-12",
-        "day_7": "2026-10-16",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-10-08:midcareer-risk-budget",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "midcareer-risk-budget",
-      "published_at": "2026-10-08",
-      "title": "40代の転職で先に作るべきキャリアリスク予算",
-      "content_version": "f0eee4b805f561ad",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【40代の転職で先に作るべきキャリアリスク予算 / A Career Risk Budget for Mid-Career Job Changes】\n\n転職リスクはゼロにできないため、年収・役割・空白期間・学習コストを同じ表で比較できる状態を作ることが重要です。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=midcareer-risk-budget_ja\n\nEnglish follows below.\n\nMid-career transitions become easier to evaluate when salary, role scope, downtime, and learning costs are treated as one explicit risk budget.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=midcareer-risk-budget_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=midcareer-risk-budget_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/midcareer-risk-budget.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=midcareer-risk-budget_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【40代の転職で先に作るべきキャリアリスク予算】\n\n転職リスクはゼロにできないため、年収・役割・空白期間・学習コストを同じ表で比較できる状態を作ることが重要です。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=midcareer-risk-budget_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=midcareer-risk-budget_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【40代の転職で先に作るべきキャリアリスク予算】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-10-11",
-        "day_7": "2026-10-15",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-10-07:consulting-renewal-evidence",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "consulting-renewal-evidence",
-      "published_at": "2026-10-07",
-      "title": "コンサル契約更新で示すべき継続価値の証拠",
-      "content_version": "5b329879868646d9",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【コンサル契約更新で示すべき継続価値の証拠 / Evidence That Supports a Consulting Contract Renewal】\n\n契約更新では作業量ではなく、顧客が継続して買う理由を成果・判断・再現性に分けて示す必要があります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-renewal-evidence_ja\n\nEnglish follows below.\n\nRenewal is easier to justify when continued value is expressed through outcomes, decisions, and repeatable operating improvements rather than activity volume.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/consulting-renewal-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-renewal-evidence_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-renewal-evidence_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/consulting-renewal-evidence.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-renewal-evidence_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【コンサル契約更新で示すべき継続価値の証拠】\n\n契約更新では作業量ではなく、顧客が継続して買う理由を成果・判断・再現性に分けて示す必要があります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-renewal-evidence_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=consulting-renewal-evidence_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【コンサル契約更新で示すべき継続価値の証拠】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/consulting-renewal-evidence.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-10-10",
-        "day_7": "2026-10-14",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-10-06:career-narrative-role-transition",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "career-narrative-role-transition",
-      "published_at": "2026-10-06",
-      "title": "職種転換で経験をつなぐキャリアストーリーの作り方",
-      "content_version": "e5f436c834861d2b",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【職種転換で経験をつなぐキャリアストーリーの作り方 / How to Build a Credible Career Story for a Role Transition】\n\n職種を変えるときは、肩書きの一致よりも、過去の経験が次の役割でどう再利用できるかを証拠でつなぐ必要があります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-narrative-role-transition_ja\n\nEnglish follows below.\n\nA role transition becomes credible when prior evidence is translated into the decisions and outcomes required in the next role.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/career-narrative-role-transition.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-narrative-role-transition_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-narrative-role-transition_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/career-narrative-role-transition.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-narrative-role-transition_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【職種転換で経験をつなぐキャリアストーリーの作り方】\n\n職種を変えるときは、肩書きの一致よりも、過去の経験が次の役割でどう再利用できるかを証拠でつなぐ必要があります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-narrative-role-transition_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-narrative-role-transition_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【職種転換で経験をつなぐキャリアストーリーの作り方】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/career-narrative-role-transition.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-10-09",
-        "day_7": "2026-10-13",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-10-05:freelance-rate-increase-proof",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "freelance-rate-increase-proof",
-      "published_at": "2026-10-05",
-      "title": "フリーランスが単価を上げる前に作るべき証拠",
-      "content_version": "86ae879be0411f70",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【フリーランスが単価を上げる前に作るべき証拠 / Proof Freelancers Need Before Raising Their Rates】\n\n単価アップは希望額ではなく、顧客が感じるリスクを下げる証拠で決まります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=freelance-rate-increase-proof_ja\n\nEnglish follows below.\n\nRate increases become credible when evidence reduces buyer risk rather than merely stating a higher desired price.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/freelance-rate-increase-proof.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=freelance-rate-increase-proof_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=freelance-rate-increase-proof_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/freelance-rate-increase-proof.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=freelance-rate-increase-proof_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【フリーランスが単価を上げる前に作るべき証拠】\n\n単価アップは希望額ではなく、顧客が感じるリスクを下げる証拠で決まります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=freelance-rate-increase-proof_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=freelance-rate-increase-proof_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【フリーランスが単価を上げる前に作るべき証拠】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/freelance-rate-increase-proof.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-10-08",
-        "day_7": "2026-10-12",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-10-02:job-change-optionality-score",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "job-change-optionality-score",
-      "published_at": "2026-10-02",
-      "title": "転職先を『年収』ではなく選択肢の増え方で採点する",
-      "content_version": "eef0cc81c481d933",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【転職先を『年収』ではなく選択肢の増え方で採点する / Score Job Offers by Future Optionality, Not Salary Alone】\n\n良い転職は次の会社を決めるだけでなく、その後の選択肢を増やします。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_ja\n\nEnglish follows below.\n\nA strong job move does more than improve the next role; it expands credible options after that role.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/job-change-optionality-score.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n\n良い転職は次の会社を決めるだけでなく、その後の選択肢を増やします。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=job-change-optionality-score_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【転職先を『年収』ではなく選択肢の増え方で採点する】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/job-change-optionality-score.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-10-05",
-        "day_7": "2026-10-09",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-09-29:salary-negotiation-decision-rights",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "salary-negotiation-decision-rights",
-      "published_at": "2026-09-29",
-      "title": "年収交渉で金額だけ見てはいけない理由",
-      "content_version": "b0ce1ff5fa1ceef3",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【年収交渉で金額だけ見てはいけない理由 / Why Salary Negotiation Should Include Decision Rights】\n\n年収が上がっても、意思決定権や責任範囲が狭まれば将来の市場価値が落ちることがあります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=salary-negotiation-decision-rights_ja\n\nEnglish follows below.\n\nA higher salary can still weaken future market value if decision scope and ownership shrink.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/salary-negotiation-decision-rights.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=salary-negotiation-decision-rights_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=salary-negotiation-decision-rights_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/salary-negotiation-decision-rights.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=salary-negotiation-decision-rights_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【年収交渉で金額だけ見てはいけない理由】\n\n年収が上がっても、意思決定権や責任範囲が狭まれば将来の市場価値が落ちることがあります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=salary-negotiation-decision-rights_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=salary-negotiation-decision-rights_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【年収交渉で金額だけ見てはいけない理由】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/salary-negotiation-decision-rights.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-10-02",
-        "day_7": "2026-10-06",
-        "mode": "candidate_only_review_before_repost"
-      }
-    },
-    {
-      "stable_id": "career_radar:2026-09-28:career-market-test-30-days",
-      "source_id": "career_radar",
-      "source_label": "CareerRadar",
-      "article_id": "career-market-test-30-days",
-      "published_at": "2026-09-28",
-      "title": "30日で自分の市場価値をテストする方法",
-      "content_version": "b34e7b69093ec9f3",
-      "default_state": "ready_for_review",
-      "manual_publish_only": true,
-      "recommended_platform_order": [
-        "linkedin",
-        "facebook",
-        "x"
-      ],
-      "platforms": {
-        "linkedin": {
-          "priority": "P0",
-          "copy": "【30日で自分の市場価値をテストする方法 / A 30-Day Market Test for Your Career Value】\n\n市場価値は自己評価ではなく、市場の反応を複数経路で集めることで精度が上がります。\n\nCareerRadarでは今回、次の3点に分けて整理しました。\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n記事はこちら\nhttps://career.hdnjapan.com/ja/articles/career-market-test-30-days.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-market-test-30-days_ja\n\nEnglish follows below.\n\nCareer value becomes clearer when you collect market responses across multiple channels instead of relying on self-assessment.\n\nRead the full article:\nhttps://career.hdnjapan.com/en/articles/career-market-test-30-days.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-market-test-30-days_en\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url_ja": "https://career.hdnjapan.com/ja/articles/career-market-test-30-days.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-market-test-30-days_ja",
-          "url_en": "https://career.hdnjapan.com/en/articles/career-market-test-30-days.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-market-test-30-days_en"
-        },
-        "facebook": {
-          "priority": "P1",
-          "copy": "【30日で自分の市場価値をテストする方法】\n\n市場価値は自己評価ではなく、市場の反応を複数経路で集めることで精度が上がります。\n\nキャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。\n\nでも本当に知りたいのは、別の会社、別の案件、別の働き方でも、自分の経験が価値として通用するかどうかです。\n\n今回のCareerRadarでは、\n・市場の反応を一つの評価で決めない\n・実績を外部から確認できる形へ変える\n・次の行動を小さく試して更新する\nという視点で整理しました。\n\nこのテーマを、自分の次のキャリア判断にどう使えるでしょうか。\n\n転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。\n\nhttps://career.hdnjapan.com/ja/articles/career-market-test-30-days.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-market-test-30-days_ja\n\n#CareerRadar #キャリア #転職 #市場価値",
-          "url": "https://career.hdnjapan.com/ja/articles/career-market-test-30-days.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=career-market-test-30-days_ja"
-        },
-        "x": {
-          "priority": "P2",
-          "copy": "【30日で自分の市場価値をテストする方法】\n一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。\nhttps://career.hdnjapan.com/ja/articles/career-market-test-30-days.html?utm_source=x&utm_medium=social\n#CareerRadar",
-          "url": "https://career.hdnjapan.com/ja/articles/career-market-test-30-days.html?utm_source=x&utm_medium=social"
-        }
-      },
-      "redistribution": {
-        "day_3": "2026-10-01",
-        "day_7": "2026-10-05",
+        "day_3": "2026-10-28",
+        "day_7": "2026-11-01",
         "mode": "candidate_only_review_before_repost"
       }
     }
