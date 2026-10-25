@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 from datetime import date, datetime, timedelta
 import json
 from pathlib import Path
@@ -8,7 +9,9 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 CADENCE = ROOT / "data" / "editorial_cadence.json"
+EXT = ROOT / "data" / "editorial_topic_extension.json"
 MIN_FORWARD_RUNWAY = 4
+MIN_CURATED_RESERVE = 4
 
 
 def parse_date(value: str) -> date:
@@ -16,11 +19,6 @@ def parse_date(value: str) -> date:
 
 
 def business_gap_days(start: date, end: date) -> int:
-    """Count scheduled publication days between two dates, excluding weekends.
-
-    The publisher deliberately replenishes on business days. A Friday -> Monday
-    transition must therefore count as one publication day, not a three-day outage.
-    """
     if end <= start:
         return 0
     return sum(
@@ -35,8 +33,33 @@ def fail(message: str) -> int:
     return 1
 
 
+def topic_is_curated(topic: dict) -> bool:
+    sections = topic.get("sections")
+    copy = topic.get("section_copy")
+    if not isinstance(sections, list) or not sections:
+        return False
+    if not isinstance(copy, list) or len(copy) != len(sections):
+        return False
+    return all(
+        isinstance(row, dict)
+        and all(
+            isinstance(row.get(locale), list)
+            and len(row[locale]) >= 2
+            and all(isinstance(p, str) and p.strip() for p in row[locale])
+            for locale in ("ja", "en")
+        )
+        for row in copy
+    )
+
+
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--strict-reserve", action="store_true")
+    args = parser.parse_args()
+
     payload = json.loads(CADENCE.read_text(encoding="utf-8"))
+    extension = json.loads(EXT.read_text(encoding="utf-8"))
+    topics = extension.get("topics", {})
     target = payload["target"]
     weekly = int(target["publications_per_week"])
     maximum_gap = int(target["maximum_gap_days"])
@@ -57,6 +80,11 @@ def main() -> int:
     ids = [item["article_id"] for item in queued]
     if len(ids) != len(set(ids)):
         return fail("Release queue contains duplicate article IDs.")
+
+    for item in queued:
+        topic = topics.get(item["article_id"])
+        if topic is not None and not topic_is_curated(topic):
+            return fail(f"Queued article lacks curated bilingual source: {item['article_id']}")
 
     due_dates = [parse_date(item["due_at"]) for item in queued]
     if due_dates != sorted(due_dates) or len(due_dates) != len(set(due_dates)):
@@ -83,8 +111,23 @@ def main() -> int:
     if business_gap_days(last, date.today()) > maximum_gap and first_due <= date.today():
         return fail("Last publication is stale and no current release has replaced it.")
 
+    known = {item["article_id"] for item in queue}
+    curated_reserve = [
+        article_id for article_id in extension.get("planned", [])
+        if article_id not in known and topic_is_curated(topics.get(article_id, {}))
+    ]
+    if len(curated_reserve) < MIN_CURATED_RESERVE:
+        message = (
+            f"Editorial curated reserve low: {len(curated_reserve)} unused curated article(s); "
+            f"target reserve is {MIN_CURATED_RESERVE}. Live queued releases remain publishable."
+        )
+        if args.strict_reserve:
+            return fail(message)
+        print(f"WARNING: {message}", file=sys.stderr)
+
     print(
         f"Editorial health OK. Target={weekly}/week; queued={len(queued)}; "
+        f"curated_reserve={len(curated_reserve)}; "
         f"next={queued[0]['article_id']} ({queued[0]['due_at']})."
     )
     return 0
