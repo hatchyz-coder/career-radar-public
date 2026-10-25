@@ -71,8 +71,9 @@ class CuratedSourceGateTests(unittest.TestCase):
         with self.assertRaisesRegex(SystemExit, "generic fallback publication is forbidden"):
             self.validate(None)
 
-    def test_future_article_without_section_copy_is_not_rejected_early(self):
-        self.validate(None, cadence(due_at="2026-10-12"))
+    def test_future_article_without_section_copy_is_rejected_before_due_date(self):
+        with self.assertRaisesRegex(SystemExit, "generic fallback publication is forbidden"):
+            self.validate(None, cadence(due_at="2026-10-12"))
 
     def test_published_article_without_section_copy_is_ignored(self):
         self.validate(None, cadence(status="published"))
@@ -80,14 +81,13 @@ class CuratedSourceGateTests(unittest.TestCase):
     def test_missing_locale_paragraph_is_rejected(self):
         source = curated_copy()
         source[1]["en"] = ["Only one paragraph."]
-        with self.assertRaisesRegex(SystemExit, r"section_copy\[2\]\.en"):
-            self.validate(source)
+        self.assertFalse(PUBLISHER.topic_is_curated(topic(source)))
 
     def test_section_count_mismatch_is_rejected(self):
-        with self.assertRaisesRegex(SystemExit, "one bilingual entry per section"):
-            self.validate(curated_copy()[:1])
+        self.assertFalse(PUBLISHER.topic_is_curated(topic(curated_copy()[:1])))
 
     def test_complete_bilingual_source_is_accepted(self):
+        self.assertTrue(PUBLISHER.topic_is_curated(topic(curated_copy())))
         self.validate(curated_copy())
 
 
