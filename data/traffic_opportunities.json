@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-09-24",
-    "end_date": "2026-10-21",
+    "start_date": "2026-09-25",
+    "end_date": "2026-10-22",
     "days": 28
   },
-  "source_generated_at": "2026-10-24T23:39:41+00:00",
+  "source_generated_at": "2026-10-25T23:30:22+00:00",
   "input_rows": 15,
   "scored_rows": 15,
   "summary": {
@@ -22,29 +22,29 @@
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0.0,
       "position": 3.0,
       "expected_ctr": 0.11,
-      "estimated_missed_clicks": 0.8,
+      "estimated_missed_clicks": 0.9,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 43.1
+      "priority_score": 44.4
     },
     {
       "query": "フリーランス リスク",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 13,
       "ctr": 0.0,
-      "position": 9.57,
+      "position": 9.77,
       "expected_ctr": 0.025,
-      "estimated_missed_clicks": 0.4,
+      "estimated_missed_clicks": 0.3,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 40.9
+      "priority_score": 40.2
     },
     {
       "query": "フリーランス月収最低",
@@ -117,20 +117,6 @@
       "priority_score": 22.3
     },
     {
-      "query": "分析／評価職務経歴書",
-      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 23.0,
-      "expected_ctr": 0.008,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 19.3
-    },
-    {
       "query": "職務経歴書分析評価職",
       "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
       "clicks": 0,
@@ -143,6 +129,20 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 14.9
+    },
+    {
+      "query": "分析／評価職務経歴書",
+      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 14.1
     },
     {
       "query": "キャリア相談 40代 役職",
