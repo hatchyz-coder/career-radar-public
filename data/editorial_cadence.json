@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "ai-work-review-boundary",
-    "published_at": "2026-10-26",
+    "article_id": "offer-assumption-log",
+    "published_at": "2026-10-27",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -388,7 +388,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-10-27"
     },
     {
       "article_id": "freelance-change-control",
@@ -420,6 +421,15 @@
     {
       "article_id": "recruiter-feedback-taxonomy",
       "due_at": "2026-11-02",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "career-option-expiry",
+      "due_at": "2026-11-03",
       "locales": [
         "ja",
         "en"
