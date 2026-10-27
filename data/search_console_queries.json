@@ -4,20 +4,12 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-25",
-    "end_date": "2026-10-22",
+    "start_date": "2026-09-27",
+    "end_date": "2026-10-24",
     "days": 28
   },
-  "generated_at": "2026-10-25T23:30:22+00:00",
+  "generated_at": "2026-10-27T00:45:41+00:00",
   "rows": [
-    {
-      "query": "フリーランス リスク",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 13,
-      "ctr": 0.0,
-      "position": 9.769
-    },
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
@@ -25,6 +17,14 @@
       "impressions": 8,
       "ctr": 0.0,
       "position": 3.0
+    },
+    {
+      "query": "フリーランス リスク",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 9.0
     },
     {
       "query": "フリーランス月収最低",
@@ -35,20 +35,20 @@
       "position": 6.0
     },
     {
-      "query": "転職エージェント 成功報酬 比較",
-      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 15.667
-    },
-    {
-      "query": "職務経歴書分析評価職",
-      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "query": "キャリアメニュー",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 26.0
+      "position": 10.0
+    },
+    {
+      "query": "評価 年収",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 10.5
     },
     {
       "query": "フリーランス 転向",
@@ -57,14 +57,6 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 59.0
-    },
-    {
-      "query": "評価 年収",
-      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 10.0
     },
     {
       "query": "転職 エージェント 成功 報酬 比較",
@@ -81,6 +73,22 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 12.0
+    },
+    {
+      "query": "転職エージェント 成功報酬 比較",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 15.0
+    },
+    {
+      "query": "職務経歴書分析評価職",
+      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 21.0
     },
     {
       "query": "分析／評価職務経歴書",
@@ -115,20 +123,20 @@
       "position": 53.0
     },
     {
-      "query": "職務経歴書分析評価職",
-      "page": "https://career.hdnjapan.com/ja/articles/resume-achievement-evidence.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 62.0
-    },
-    {
       "query": "キャリア戦略 作り方",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 74.0
+    },
+    {
+      "query": "40代転職 年収アップ",
+      "page": "https://career.hdnjapan.com/ja/topics/40s-career-market-value.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 94.0
     }
   ]
 }
