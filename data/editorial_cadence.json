@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "freelance-change-control",
-    "published_at": "2026-10-28",
+    "article_id": "role-authority-interview",
+    "published_at": "2026-10-29",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -408,7 +408,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-10-29"
     },
     {
       "article_id": "portfolio-claim-verification",
@@ -440,6 +441,15 @@
     {
       "article_id": "offer-risk-evidence-checklist",
       "due_at": "2026-11-04",
+      "locales": [
+        "ja",
+        "en"
+      ],
+      "status": "queued"
+    },
+    {
+      "article_id": "manager-change-career-risk",
+      "due_at": "2026-11-05",
       "locales": [
         "ja",
         "en"
