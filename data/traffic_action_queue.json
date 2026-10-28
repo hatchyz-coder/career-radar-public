@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-10-27T00:45:41.119786+00:00",
+  "generated_at": "2026-10-28T00:42:23.026151+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -36,19 +36,6 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "フリーランス月収最低",
-      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "priority_score": 32.7,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 4,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
       "query": "キャリアメニュー",
       "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "priority_score": 27.0,
@@ -58,7 +45,7 @@
       "status": "observing"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -71,7 +58,7 @@
       "status": "observing"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -84,7 +71,7 @@
       "status": "observing"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -97,7 +84,7 @@
       "status": "observing"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -110,13 +97,26 @@
       "status": "observing"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
       "query": "職務経歴書分析評価職",
       "target_page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "priority_score": 15.6,
+      "priority_score": 19.4,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 9,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "フリーランス 転向 タイミング",
+      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
+      "priority_score": 13.3,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -127,9 +127,9 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "分析／評価職務経歴書",
-      "target_page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "priority_score": 14.1,
+      "query": "フリーランス 転向",
+      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "priority_score": 12.0,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -153,19 +153,6 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "フリーランス 転向",
-      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "priority_score": 8.1,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 13,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
       "query": "転職 市場価値 調べ方 評価基準",
       "target_page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "priority_score": 5.2,
@@ -175,7 +162,7 @@
       "status": "observing"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -188,7 +175,7 @@
       "status": "observing"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -201,7 +188,7 @@
       "status": "observing"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",

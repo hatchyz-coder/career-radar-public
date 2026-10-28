@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-27",
-    "end_date": "2026-10-24",
+    "start_date": "2026-09-28",
+    "end_date": "2026-10-25",
     "days": 28
   },
-  "generated_at": "2026-10-27T00:45:41+00:00",
+  "generated_at": "2026-10-28T00:42:22+00:00",
   "rows": [
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
@@ -27,12 +27,12 @@
       "position": 9.0
     },
     {
-      "query": "フリーランス月収最低",
+      "query": "フリーランス 転向",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 6.0
+      "position": 58.75
     },
     {
       "query": "キャリアメニュー",
@@ -51,12 +51,12 @@
       "position": 10.5
     },
     {
-      "query": "フリーランス 転向",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "query": "職務経歴書分析評価職",
+      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 59.0
+      "position": 20.0
     },
     {
       "query": "転職 エージェント 成功 報酬 比較",
@@ -83,20 +83,12 @@
       "position": 15.0
     },
     {
-      "query": "職務経歴書分析評価職",
-      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
+      "query": "フリーランス 転向 タイミング",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 21.0
-    },
-    {
-      "query": "分析／評価職務経歴書",
-      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 23.0
+      "position": 24.0
     },
     {
       "query": "キャリア相談 40代 役職",
