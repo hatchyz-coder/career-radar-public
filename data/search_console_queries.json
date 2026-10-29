@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-09-28",
-    "end_date": "2026-10-25",
+    "start_date": "2026-09-29",
+    "end_date": "2026-10-26",
     "days": 28
   },
-  "generated_at": "2026-10-28T00:42:22+00:00",
+  "generated_at": "2026-10-29T01:11:43+00:00",
   "rows": [
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
@@ -89,14 +89,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 24.0
-    },
-    {
-      "query": "キャリア相談 40代 役職",
-      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 26.0
     },
     {
       "query": "転職 市場価値 調べ方 評価基準",

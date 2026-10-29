@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-10-28T00:42:23.026151+00:00",
+  "generated_at": "2026-10-29T01:11:43.979719+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -140,19 +140,6 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "キャリア相談 40代 役職",
-      "target_page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
-      "priority_score": 11.8,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 12,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
       "query": "転職 市場価値 調べ方 評価基準",
       "target_page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "priority_score": 5.2,
@@ -162,7 +149,7 @@
       "status": "observing"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -175,7 +162,7 @@
       "status": "observing"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -188,7 +175,7 @@
       "status": "observing"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
