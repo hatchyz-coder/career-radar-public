@@ -1,12 +1,12 @@
-# CareerRadar Social Pack — 2026-10-29
+# CareerRadar Social Pack — 2026-10-30
 
-Article: `role-authority-interview`
+Article: `portfolio-claim-verification`
 
 ## LinkedIn
 
-【面談で役割の意思決定権を確かめる質問 / Interview Questions That Reveal Real Decision Authority】
+【ポートフォリオの実績主張を公開前に検証するチェック / A Pre-Publication Verification Check for Portfolio Claims】
 
-抽象的な「裁量がある」を、予算・人員・優先順位・品質・例外時の権限へ分解して確認します。
+公開実績は、帰属・測定期間・守秘義務・第三者の役割・再現条件を確認してから掲載します。
 
 CareerRadarでは今回、次の3点に分けて整理しました。
 ・市場の反応を一つの評価で決めない
@@ -16,14 +16,14 @@ CareerRadarでは今回、次の3点に分けて整理しました。
 このテーマを、自分の次のキャリア判断にどう使えるでしょうか。
 
 記事はこちら
-https://career.hdnjapan.com/ja/articles/role-authority-interview.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=role-authority-interview_ja
+https://career.hdnjapan.com/ja/articles/portfolio-claim-verification.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-claim-verification_ja
 
 English follows below.
 
-Vague autonomy becomes testable when interviews clarify authority over budget, people, priorities, quality, and exceptions.
+Portfolio claims need attribution, measurement boundaries, confidentiality review, and transfer conditions before publication.
 
 Read the full article:
-https://career.hdnjapan.com/en/articles/role-authority-interview.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=role-authority-interview_en
+https://career.hdnjapan.com/en/articles/portfolio-claim-verification.html?utm_source=linkedin&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-claim-verification_en
 
 #CareerRadar #キャリア #転職 #市場価値
 
@@ -31,9 +31,9 @@ https://career.hdnjapan.com/en/articles/role-authority-interview.html?utm_source
 
 ## Facebook
 
-【面談で役割の意思決定権を確かめる質問】
+【ポートフォリオの実績主張を公開前に検証するチェック】
 
-抽象的な「裁量がある」を、予算・人員・優先順位・品質・例外時の権限へ分解して確認します。
+公開実績は、帰属・測定期間・守秘義務・第三者の役割・再現条件を確認してから掲載します。
 
 キャリアの話になると、私たちはつい『紹介が来た／来ない』『年収が上がった／下がった』『肩書きが強い／弱い』のように、一つの数字や一人の評価者で結論を出しがちです。
 
@@ -49,7 +49,7 @@ https://career.hdnjapan.com/en/articles/role-authority-interview.html?utm_source
 
 転職エージェントも求人サイトも便利です。ただ、キャリアの主導権まで預ける必要はありません。市場を観測し、自分の仮説を持ち、複数の経路で確かめる。そのための材料として使っていただければと思います。
 
-https://career.hdnjapan.com/ja/articles/role-authority-interview.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=role-authority-interview_ja
+https://career.hdnjapan.com/ja/articles/portfolio-claim-verification.html?utm_source=facebook&utm_medium=social&utm_campaign=career_radar_editorial&utm_content=portfolio-claim-verification_ja
 
 #CareerRadar #キャリア #転職 #市場価値
 
@@ -57,7 +57,7 @@ https://career.hdnjapan.com/ja/articles/role-authority-interview.html?utm_source
 
 ## X
 
-【面談で役割の意思決定権を確かめる質問】
+【ポートフォリオの実績主張を公開前に検証するチェック】
 一つの評価だけで市場価値を決めない。市場の反応を分解して見るためのフレームです。
-https://career.hdnjapan.com/ja/articles/role-authority-interview.html?utm_source=x&utm_medium=social
+https://career.hdnjapan.com/ja/articles/portfolio-claim-verification.html?utm_source=x&utm_medium=social
 #CareerRadar
