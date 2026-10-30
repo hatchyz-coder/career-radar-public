@@ -1,6 +1,6 @@
 # CareerRadar Recognition Plan
 
-Generated: 2026-10-30T16:02:51.094916+09:00
+Generated: 2026-10-30T23:03:47.083588+09:00
 
 ## Today — day0 — ポートフォリオの実績主張を公開前に検証するチェック
 
