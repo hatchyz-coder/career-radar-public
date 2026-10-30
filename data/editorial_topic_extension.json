@@ -3359,6 +3359,104 @@
           "期限を決めて選ぶ",
           "Make the decision by a defined date"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "口頭の期待と書面上の確定条件を分けます。社内昇進では、発令日、等級、基本給、評価者、役割範囲を人事通知や制度文書で確認します。外部オファーでは、雇用条件通知書、報酬内訳、試用期間、勤務地、入社条件を確認し、採用担当者の説明だけで確定扱いにしません。",
+            "比較表には、確認日、情報源、回答者、未確認事項、回答期限を残します。『ほぼ決まっている』『通常は任せる』は約束欄に置き、決裁済みの条件と混ぜません。社内側で組織変更の承認が未完了なら、その承認者と期限も一つの条件として扱います。",
+            "判断前に、両案で撤回され得る条件を一つずつ質問します。回答が書面化されない場合は価値をゼロとみなすのではなく、実現確度を下げて比較します。確定、条件付き、口頭説明、推測の四区分を使うと、魅力的な言葉の強さに引っ張られにくくなります。"
+          ],
+          "en": [
+            "Separate an attractive promise from a confirmed term. For an internal promotion, verify the effective date, grade, base pay, reporting line, and role scope in an HR notice or governing policy. For an external offer, verify the employment terms, compensation components, probation, location, and conditions that must be satisfied before joining. A recruiter or manager's confident explanation is evidence of intent, not proof that the condition has been approved.",
+            "Create four evidence states: confirmed in writing, confirmed with conditions, verbally described, and assumed. Record the source, confirmation date, decision owner, unresolved question, and response deadline. If an internal reorganization still requires executive approval, list that dependency instead of treating the new position as certain. Apply the same discipline to a future team, budget, or title in the external role.",
+            "Ask what could still cause each offer to change or disappear. When an answer cannot be documented, reduce its delivery confidence while preserving its possible value as a scenario. This avoids the opposite errors of treating every promise as guaranteed or assigning zero value to information that is useful but incomplete."
+          ]
+        },
+        {
+          "ja": [
+            "肩書きではなく、実際に行使できる意思決定権を比較します。予算額、採用人数、外注権限、優先順位変更、顧客への約束、停止判断について、誰の承認が必要かを社内昇進と外部オファーで同じ欄に並べます。",
+            "資源は総額だけでなく利用条件を確認します。予算があっても部門長の都度承認が必要、人員枠があっても採用時期が未定、データはあるが閲覧権限がない場合、成果責任との釣り合いが変わります。最初の90日で自分が直接動かせる範囲を具体化します。",
+            "面談では『この役割が先月止めた案件は何か』『予算超過時の最終決裁者は誰か』と事例で確認します。回答が抽象的なら、権限は未確認として残します。個人名や機密資料は比較メモへ転記せず、権限の種類と承認段数だけを記録します。"
+          ],
+          "en": [
+            "Compare authority through decisions the role can actually make. Put budget approval, hiring, vendor selection, priority changes, customer commitments, and stop authority in the same table for both options. For each decision, record whether the role decides, recommends, or only supplies information, and name the level that can override it.",
+            "Resources need operating conditions as well as totals. A budget may require approval for every purchase, a headcount allocation may have no hiring date, and a data asset may be inaccessible to the role. Describe what can be used during the first 90 days and test whether the available resources match the outcomes for which the person will be accountable.",
+            "Use incident questions instead of title questions: what initiative did this role stop last month, who approved the last budget exception, and what happens when two executives assign conflicting priorities? Treat an abstract response as unverified. Store categories and approval depth in the comparison record without copying confidential names, customer records, or internal documents."
+          ]
+        },
+        {
+          "ja": [
+            "昇進日や入社日だけでなく、権限・報酬・人員が揃う日を確認します。社内昇進が『次の評価期』、外部オファーが『採用後に調整』なら、暦日、前提条件、遅延時の扱いへ分解し、同じ時間軸で比べます。",
+            "実現時期には依存関係があります。後任採用、取締役承認、予算年度、顧客契約、在籍引継ぎなど、本人だけで動かせない条件を列挙します。各条件に責任者と確認日を置き、遅れたときに役割開始だけが先行しないかを確認します。",
+            "比較では30日、90日、180日の三点で状態を描きます。その時点で肩書き、報酬、権限、成果責任がどうなっているかを記載し、空欄は推測で埋めません。開始が遅れるほど失う選択肢や収入も別欄に置きます。"
+          ],
+          "en": [
+            "Verify when title, pay, authority, and staffing each become effective. Phrases such as “next review cycle” or “after you join” should become dates, prerequisites, and consequences of delay. A role that begins immediately while its budget arrives months later carries a different execution risk from one whose resources are approved before the start date.",
+            "Map dependencies outside the candidate's control, including backfill hiring, board approval, fiscal-year budgets, customer contracts, notice periods, and onboarding access. Give each dependency an owner, evidence source, and next confirmation date. A target date without an accountable dependency owner remains an estimate.",
+            "Describe both options at day 30, day 90, and day 180. At each checkpoint state the expected title, compensation, authority, team capacity, and measurable responsibility. Leave unsupported cells unknown and calculate the opportunity cost of a delay separately from the eventual value of the role."
+          ]
+        },
+        {
+          "ja": [
+            "次の転職や案件獲得でも説明できる成果が作れるかを比較します。売上額などの結果だけでなく、課題、担当範囲、意思決定、実施内容、期間、母数、比較基準を残せる役割かを確認します。会社名や有名な肩書きだけを持ち運べる成果とみなしません。",
+            "社内昇進では既存資産の寄与、外部オファーでは採用時点の期待値を切り分けます。チーム成果を個人成果に見せないよう、自分が変更した仕組みと第三者が担った部分を分けます。公開できない実績は、匿名化した方法論や検証手順に変換可能かを法務・契約条件の範囲で確認します。",
+            "持ち運びやすさは、第三者が追試できる証拠で評価します。個人情報、顧客名、患者情報、非公開数値を持ち出さず、承認済みの公開資料、集計済み指標、成果物の構造、推薦可能な関係者の有無を確認します。証拠を作れない役割は、その制約自体を比較材料にします。"
+          ],
+          "en": [
+            "Assess whether the role can create evidence that remains useful after leaving the employer. A portable accomplishment records the problem, personal scope, decisions, actions, period, denominator, comparison point, and observed result. A prominent employer name or senior title does not substitute for evidence of what the person changed.",
+            "Separate inherited assets and team contributions from individual work. For the promotion, identify what the existing organization already produces; for the external role, distinguish recruiting expectations from outcomes that can realistically be measured. Determine whether confidential achievements can be converted into approved, anonymized methods without overstating ownership.",
+            "Prefer evidence that a third party could inspect without receiving private material: approved public releases, aggregated metrics, process diagrams, decision records, or a reference who can verify scope. Do not transfer customer, employee, patient, or proprietary data to a portfolio or external AI. If the role prevents any usable evidence from being retained, record that constraint as a real career cost."
+          ]
+        },
+        {
+          "ja": [
+            "残留と転職のどちらにも関係維持コストがあります。現職では昇進を断った場合の役割変更、外部では退職交渉や引継ぎ、入社後の信頼形成を洗い出し、感情ではなく必要な行動と時間に変換します。",
+            "関係者ごとに、伝える内容、伝える時期、守るべき約束を整理します。慰留への対応、未完了案件の移管、紹介者への報告などを列挙しますが、他者の感情を勝手に予測して点数化しません。確認できる事実と自分が負担できる時間だけを見積もります。",
+            "どちらを選んでも不利益を最小化する移行案を作ります。引継ぎ文書、権限返却、連絡経路の変更、秘密情報の削除確認を含め、会社データを個人端末や外部AIへ移しません。関係維持を理由に退出不能な条件があれば、期限と終了基準を先に決めます。"
+          ],
+          "en": [
+            "Estimate the work required to preserve relationships under either choice. Staying may require declining the promotion or renegotiating scope; leaving requires notice, handover, and trust building in a new team. Convert emotional labels such as loyalty or betrayal into actions, hours, commitments, and communication dates that can actually be planned.",
+            "List each stakeholder, the message they need, when it should be delivered, and which existing promise must be honored. Include counteroffer handling, unfinished work, and updates to a referrer, but do not guess how another person will feel or assign that guess a numeric score. Estimate only observable obligations and time the candidate can control.",
+            "Prepare a transition that protects both relationships and information boundaries. Cover documentation, access return, routing changes, and deletion of local copies. Do not move company data to a personal device or public AI tool to make the handover easier. Where relationship pressure could make exit indefinite, set an end date and completion criteria before making the decision."
+          ]
+        },
+        {
+          "ja": [
+            "年収は固定給、変動給、一時金、株式、福利厚生、自己負担費用に分けます。各項目について金額、算定期間、支給条件、取消条件、税引前後を揃え、不確定な最大額を固定給と合算しません。",
+            "社内昇進の昇給が評価連動なら、対象期間と評価分布ではなく自分に適用される制度条件を確認します。外部オファーの賞与が業績連動なら、目標設定者、初年度の按分、退職時の扱いを確認します。相場や成功率は根拠なしに補いません。",
+            "比較表には標準、下振れ、条件未達の三つのケースを置きます。株式価値や将来昇給はゼロか断定値にせず、前提を変えた感度として扱います。契約、税、社会保険の判断が必要なら専門家確認事項として分離します。"
+          ],
+          "en": [
+            "Normalize compensation into base pay, variable pay, one-time payments, equity, benefits, and personal costs. For every component record the amount, measurement period, eligibility rule, clawback or cancellation condition, and whether the figure is pre-tax. Never add a maximum discretionary payment to guaranteed base salary as if both had equal certainty.",
+            "For an internal raise tied to performance, verify the applicable cycle and rules rather than relying on company-wide anecdotes. For an external bonus, confirm who sets targets, how the first year is prorated, and what happens on departure. Do not invent market rates, promotion probabilities, or bonus achievement rates to fill missing evidence.",
+            "Compare a standard case, a downside case, and a condition-not-met case. Treat future raises and equity value as sensitivity inputs, not promises or automatic zeros. Questions involving contract interpretation, tax, or social insurance belong in a separate professional-review list instead of being resolved by the comparison worksheet."
+          ]
+        },
+        {
+          "ja": [
+            "選択後に条件が違った場合、どこまで戻れるかを比較します。社内昇進では旧職務への復帰、異動、公募、退職までの経路を、外部オファーでは試用期間、再転職、業務委託化、生活費余力を確認します。",
+            "撤退可能性は『嫌なら辞める』では足りません。通知期間、競業避止、返還条項、未確定賞与、住宅や勤務地、家族への影響を確認し、実行に必要な日数と資金を見積もります。未確認の契約解釈は法的結論にせず質問として残します。",
+            "小さく確かめられる項目を選択前に試します。将来の上司との業務レビュー、現職での権限委譲、入社後課題の説明など、機密を使わず反応を観測します。試せない条件には高い不確実性を付け、魅力度とは別に表示します。"
+          ],
+          "en": [
+            "Compare what recovery paths remain if the role differs from its description. For the promotion, examine return to the former scope, internal mobility, and resignation. For the external offer, examine probation, another search, contract alternatives, and available financial runway. Reversibility is a set of executable paths, not the sentence “I can always quit.”",
+            "Record notice periods, restrictive covenants, repayment clauses, forfeited compensation, location commitments, and household effects. Estimate the time and cash needed to use each exit path. Leave unresolved legal interpretations as questions for qualified review and avoid turning a generic checklist into a legal conclusion.",
+            "Run small checks before committing where possible: review an actual work scenario with the prospective manager, request delegated authority in the current role, or ask how the first deliverable will be accepted. Observe responses without exposing confidential information. Conditions that cannot be tested should carry explicit uncertainty separate from their potential upside."
+          ]
+        },
+        {
+          "ja": [
+            "回答期限から逆算し、情報収集、追加質問、第三者確認、最終判断の日を決めます。締切直前まで比較項目を増やさず、重要条件が揃わない場合の既定行動も先に置きます。",
+            "決定記録には、選んだ案、見送った案、決め手、残った不確実性、再評価日を残します。後から結果だけで当時の判断を評価しないため、判断時点で利用できた証拠を保存します。個人・顧客・採用担当者の情報は必要最小限にします。",
+            "入社または昇進後30日、90日で、権限、資源、報酬条件、成果証拠が想定どおりかを見直します。差異があれば、交渉、役割再定義、撤退準備のどれを行うか決めます。この再評価までを含めて比較プロセスの完了とします。"
+          ],
+          "en": [
+            "Work backward from the response deadline and reserve dates for evidence collection, follow-up questions, independent review, and the final choice. Stop adding low-impact comparison fields near the deadline. Define the default action if a material condition remains unanswered so silence cannot force an accidental acceptance.",
+            "Write a decision record containing the selected option, rejected alternative, decisive evidence, remaining uncertainty, and review date. Preserve what was knowable at the time so the decision is not judged only by its later outcome. Keep personal, customer, and recruiter details to the minimum needed for the record.",
+            "At day 30 and day 90 after promotion or joining, compare actual authority, resources, compensation conditions, and portable evidence with the original assumptions. Choose whether to negotiate, redefine the role, or prepare an exit when a material gap persists. The comparison process ends after this feedback check, not when the acceptance message is sent."
+          ]
+        }
       ]
     },
     "skills-portfolio-concentration-risk": {
@@ -3399,6 +3497,112 @@
           "四半期ごとに集中度を更新する",
           "Refresh concentration quarterly"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "スキル名と、それが機能した環境を分けます。『プロジェクト管理』なら、使った規模、意思決定権、規制、顧客種別、データ、支援者を併記し、別環境でも再現できる部分を特定します。社内ツールの操作経験だけを一般スキルに置き換えません。",
+            "成果を入力、判断、行動、結果へ分解します。自分が判断した要素と、会社のブランド、既存顧客、独占データ、上司の権限が生んだ要素を分離します。環境が変わっても残るのは、説明できる判断原則と再現可能な手順です。",
+            "異なる環境の小さな課題で同じ手順を試します。公開データや架空ではない自分の非機密作業を使い、必要時間、失敗点、修正内容を記録します。一度の成功では移転可能と断定せず、条件が変わったときの再現範囲を残します。"
+          ],
+          "en": [
+            "Separate a skill label from the environment in which it worked. For project management, record scale, decision authority, regulation, customer type, data access, and supporting roles. Experience with a proprietary screen or internal procedure should not automatically become a claim of general expertise; identify the decision pattern that could survive outside that system.",
+            "Decompose each result into inputs, judgment, action, and outcome. Distinguish what the individual decided from advantages supplied by employer reputation, existing customers, exclusive data, or a manager's authority. The transferable asset is an explainable decision rule and repeatable method, while the surrounding assets remain context.",
+            "Test the method on a small problem in a different environment using public data or the person's own non-confidential work. Record time, failure points, and corrections. One successful trial does not prove universal transfer, so state which changed conditions were tested and where the method still depended on the original environment.",
+            "A practical register should therefore contain two columns that are often omitted: context required and evidence outside that context. If all proof sits in one employer system, schedule a lawful external demonstration before claiming portability. Record a failed demonstration as useful evidence because it identifies the exact dependency that must be reduced."
+          ]
+        },
+        {
+          "ja": [
+            "企業固有知識を、社内略語、独自システム、特定人物への依存、固有の承認経路、非公開データに分けます。経験年数が長くても、これらがないと仕事を進められない場合は集中リスクが高いと判断します。",
+            "固有知識そのものを否定せず、外部でも説明できる原理へ翻訳します。特定システムの画面操作はデータ品質管理、独自会議は意思決定設計というように、目的、制約、選択、結果を一般化します。ただし未経験の製品名や資格を持っているように言い換えません。",
+            "依存関係ごとに代替経路を置きます。特定担当者がいない場合の資料、別ツールでの実行方法、社外標準との対応表を作り、四半期に一度試します。機密情報やアカウントを社外へ持ち出して代替検証をしないことが前提です。"
+          ],
+          "en": [
+            "Identify employer-specific knowledge in separate categories: internal vocabulary, proprietary systems, reliance on particular people, unique approval routes, and non-public data. Long tenure can coexist with high concentration when work cannot progress without those assets.",
+            "Translate specific knowledge into an external principle without erasing its limits. Operating one internal system may demonstrate data-quality control; running a unique meeting may demonstrate decision design. Explain purpose, constraint, choice, and result, but do not rename the experience as a product, certification, or market skill the person has never used.",
+            "Create a replacement path for every critical dependency. Keep usable documentation if policy permits, map the internal method to an external standard, and practice the process with another tool. Never export credentials, customer records, or confidential documents to conduct the test. Review whether the alternative still works at least quarterly.",
+            "Review access risk as well as knowledge risk. A method stored only in an internal wiki, a relationship known only to one colleague, or a workflow requiring administrator rights can disappear at transfer. Build permitted checklists and conceptual maps while employed, but keep proprietary content inside the authorized environment."
+          ]
+        },
+        {
+          "ja": [
+            "市場向け証拠は、自己評価ではなく観測可能な成果で作ります。課題、担当範囲、期間、母数、基準値、変更内容、結果、第三者確認の有無を一つの記録にまとめます。『得意』『多数』『大幅改善』だけの表現は証拠に数えません。",
+            "証拠の鮮度も記録します。技術、規制、顧客行動が変わる領域では、数年前の成果が現在も再現するとは限りません。最終利用日、現在との差分、再検証日を付け、古い証拠を最新能力として断定しないようにします。",
+            "社外公開できない成果は、承認済みの集計値、匿名化した工程、公開可能な成果物、推薦者による範囲確認へ変換します。匿名化しても再識別や契約違反の恐れがあれば使いません。証拠不足は架空の数字で補わず、次の小さな実験に変えます。"
+          ],
+          "en": [
+            "Build market-facing evidence from observable work rather than self-ratings. A useful record contains the problem, personal scope, period, denominator, baseline, action, result, and whether a third party can verify it. Words such as expert, many, or major improvement do not count without this structure.",
+            "Record evidence freshness. A result from several years ago may not reproduce after technology, regulation, or customer behavior changes. Add last-use date, material changes since then, and a revalidation date so historical performance is not presented as current capability without a check.",
+            "Convert confidential work into approved aggregates, anonymized process, public artifacts, or a reference who can confirm scope. Do not use an example when anonymization could still reveal a person or breach a contract. Missing evidence should become a plan for a small new experiment, never a fabricated metric or client story.",
+            "Ask an independent reviewer to identify what the record proves and what it does not prove. The reviewer should be able to trace the claimed result to scope and method without seeing restricted raw data. Ambiguous feedback becomes a revision task, while a clear verification date makes later updates and corrections visible."
+          ]
+        },
+        {
+          "ja": [
+            "隣接職種を名称の近さではなく、共通する判断単位で選びます。要件整理、優先順位、検証、交渉、運用改善など、自分の証拠が使える仕事を特定し、不足する専門知識を別にします。",
+            "求人票や案件票を最低限の標本で比較し、必須条件、歓迎条件、成果責任、利用技術を記録します。同じ求人の転載を別需要として数えず、検索日と情報源を残します。ゼロ件も市場不存在の証明ではなく、その検索条件で観測できなかった結果として扱います。",
+            "応募、面談、社内兼務、短期プロジェクトなど、戻せる方法で反応を確かめます。通過率を万能指標にせず、どの証拠が質問されたか、何が不足とされたかを分類します。候補者や企業の個人情報を外部AIへ渡さずに集計します。"
+          ],
+          "en": [
+            "Choose adjacent roles by shared decisions rather than similar titles. Identify work that uses the same requirement analysis, prioritization, verification, negotiation, or operational improvement, then list domain knowledge that remains missing.",
+            "Sample job or project descriptions and record required conditions, preferred conditions, accountable outcomes, and tools. Deduplicate reposted vacancies, preserve search date and source, and treat zero results as a finding about that query rather than proof that no market exists.",
+            "Test response through reversible actions such as an application, interview, internal assignment, or short project. Classify which evidence attracted questions and which gap blocked progress instead of treating one response rate as a universal market score. Aggregate observations without sending candidate or employer personal data to external AI.",
+            "Keep a rejection taxonomy with categories such as domain gap, missing tool evidence, seniority mismatch, location constraint, and compensation mismatch. This prevents every negative response from being blamed on the concentrated skill. Re-test only the category that changed, using a defined sample and observation window."
+          ]
+        },
+        {
+          "ja": [
+            "陳腐化は年齢ではなく需要と実務条件の変化で検知します。利用頻度の低下、代替技術の採用、規制変更、予算縮小、求人要件からの消失を観測し、確認日と情報源を残します。",
+            "自社で使われ続けていることと外部市場で求められていることを分けます。社内利用が安定していても、供給企業の終了方針や採用市場の縮小があれば移転リスクは高まります。一方、流行語の増加だけで需要拡大とは断定しません。",
+            "兆候ごとに停止条件と再確認日を決めます。二つ以上の独立情報源で需要低下が続く、実務テストで代替手段が優位になるなど、学習投資を切り替える条件を先に置きます。単発ニュースや広告だけで全資産を捨てません。"
+          ],
+          "en": [
+            "Detect obsolescence through changes in demand and operating conditions, not through the worker's age. Observe lower use, adoption of substitutes, regulation, budget contraction, and disappearance from job requirements. Attach a date and source to every signal.",
+            "Separate continued internal use from external demand. A stable legacy system can remain important to one employer while its vendor winds down support or hiring shrinks. Conversely, more mentions of a fashionable term do not prove that paid demand or decision authority has increased.",
+            "Define switching evidence and a recheck date. A sustained decline across independent sources or a practical test where a substitute performs better can trigger a change in learning investment. One news item, vendor advertisement, or anecdote should not erase an entire skill asset.",
+            "Use primary sources where available: vendor lifecycle notices, regulatory publications, public job specifications, and documented internal usage. Commentary can suggest a question but should not establish the conclusion alone. Note when a source was accessed because an accurate signal can become stale after a product or policy changes."
+          ]
+        },
+        {
+          "ja": [
+            "学習候補を、不足の影響、利用機会、検証可能性、習得時間で比べます。講座の人気や資格名ではなく、90日以内に実務証拠を一つ作れるかを優先します。",
+            "学習単位を小さくし、入力教材、作る成果物、レビュー者、合格条件、期限を決めます。視聴時間だけを進捗にせず、既存業務での再現、隣接職種での評価、修正回数を記録します。",
+            "投資上限と終了条件を置きます。一定時間使っても成果物が作れない、対象求人で要件が確認できない、別スキルの方が制約を解く場合は停止します。有料講座や追加ツールは、無料の小さな検証後に判断します。"
+          ],
+          "en": [
+            "Rank learning options by impact of the gap, near-term use, testability, and time to competent output. Prefer a skill that can produce one reviewed work artifact within 90 days over a popular course with no accessible practice environment.",
+            "Define the learning unit as source material, artifact, reviewer, acceptance condition, and deadline. Viewing hours are an input, not evidence of ability. Measure reproduction in current work, feedback from an adjacent role, and the number of corrections required before acceptance.",
+            "Set an investment cap and stop rule. Pause when the learner cannot produce an artifact within the budget, target roles do not show the requirement, or another skill removes the real constraint more directly. Consider paid courses or tools only after a smaller free test establishes relevance.",
+            "Connect each learning experiment to a decision. A passing artifact may justify continued investment, weak demand may trigger a smaller maintenance budget, and repeated inability to access practice may move the skill below another priority. This makes the learning plan responsive to evidence instead of an accumulating list of courses."
+          ]
+        },
+        {
+          "ja": [
+            "実績説明は守秘義務、個人情報、著作権、契約上の公開制限を先に確認します。会社名や数値を伏せるだけで安全とは限らず、少数事例や固有の経緯から再識別される可能性も見ます。",
+            "公開可能な証拠は、方法、判断基準、役割境界、承認済み集計へ寄せます。顧客名、患者情報、従業員情報、決済、契約書、画面画像をポートフォリオや外部AIへ移しません。第三者成果を自分の成果として扱わないことも同じGateに含めます。",
+            "公開可否が不明なら、社内承認または専門家確認まで保留します。保留中は非公開の能力台帳に、証拠の所在と確認担当だけを記録します。公開できないことを理由に架空の事例へ置き換えず、公開可能な別の小規模成果を作ります。"
+          ],
+          "en": [
+            "Check confidentiality, privacy, copyright, and contractual publication limits before describing an achievement. Removing a company name or total is not always sufficient because a small cohort or distinctive event may still identify the subject.",
+            "Prefer evidence about method, decision criteria, personal scope, and approved aggregates. Do not move customer names, patient data, employee records, payments, contracts, or screenshots into a portfolio or external AI. The same gate prevents a team result from being represented as the individual's sole work.",
+            "When permission is unclear, hold publication until the responsible owner or qualified reviewer confirms it. A private capability register may note where evidence exists and who can approve it without copying the evidence itself. Create another public, low-risk demonstration instead of inventing a substitute case.",
+            "Where a sanitized description is allowed, retain the approval record and the exact published version. Later edits must pass the same review because combining several harmless details can create a new identification risk. If approval is withdrawn, remove the claim and update any linked portfolio or application material."
+          ]
+        },
+        {
+          "ja": [
+            "四半期ごとに、会社、製品、業界、顧客、特定人物への依存を更新します。各スキルについて、直近90日の利用回数、外部で確認できた需要、移転テスト、証拠の鮮度を同じ表に記録します。",
+            "単一の総合点にせず、集中度と価値を別々に見ます。高価値でも一社に依存するスキルには代替環境を作り、汎用的でも需要が弱いスキルには投資上限を置きます。前回との差分と、その原因となる証拠を残します。",
+            "更新後は次の四半期に行う実験を一つ選びます。隣接案件への応募、別ツールでの再現、公開可能な成果物の作成など、結果が観測できる行動にします。想定と結果の差を次回の台帳へ戻し、集中リスクを継続的に下げます。"
+          ],
+          "en": [
+            "Refresh dependence on employer, product, industry, customer, and key individuals every quarter. For each skill record uses during the previous 90 days, externally observed demand, transfer tests, and evidence freshness in one register.",
+            "Do not collapse concentration and value into one total score. A valuable skill concentrated in one employer needs an alternative environment; a portable skill with weak demand needs an investment cap. Keep the change from the previous review and the evidence that caused it.",
+            "Choose one observable experiment for the next quarter: apply to an adjacent project, reproduce the work with another tool, or publish an approved artifact. Return the difference between expectation and result to the next register update so concentration falls through evidence rather than aspiration.",
+            "The quarterly review should end with an owner and due date for the next check. Preserve corrections when an earlier assumption was wrong, since a visible revision history is stronger evidence than a permanently perfect-looking score. The goal is to maintain options under changing conditions, not to maximize every skill at once."
+          ]
+        }
       ]
     },
     "recruiter-claim-verification": {
@@ -3439,6 +3643,120 @@
           "判断記録を残す",
           "Keep a decision record"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "説明を受けたら、まず誰がその情報を作り、誰が確認したかを分けます。採用企業の担当者が書面で示した事実、紹介会社が企業から聞いた説明、担当者自身の解釈、候補者の推測を同じ欄に混ぜません。確認日と原文の所在も記録します。",
+            "「採用意欲が高い」「経営直下」「裁量が大きい」のような表現は、意思決定に必要な事実へ分解します。募集人数、欠員か増員か、最終決裁者、予算権限、直属上司、評価指標を質問し、回答できない項目は未確認のまま残します。",
+            "情報が二次・三次になるほど、伝言による省略や古さが増えます。担当者名だけで信頼度を決めず、その人が求人企業といつ、どの経路で、どの項目を確認したかを見ます。古い説明は現在の組織図や採用条件として再利用しません。",
+            "確認結果は「企業の書面」「企業担当者の口頭説明」「紹介会社の説明」「未確認」に分類します。確度の違う情報を一つの結論に圧縮しないことで、後から条件が変わったときに、どの主張を再確認すべきか追跡できます。"
+          ],
+          "en": [
+            "When a recruiter makes a claim, separate who created the information from who checked it. Keep employer documents, statements relayed from the employer, the recruiter’s interpretation, and the candidate’s assumption in different evidence states. Record the verification date and where the original wording can be found.",
+            "Translate phrases such as strong hiring intent, direct access to leadership, or broad ownership into facts needed for a decision. Ask for the number of openings, replacement or growth status, final decision maker, budget authority, reporting line, and evaluation criteria. Leave unanswered items explicitly unverified.",
+            "Each relay can remove context or preserve an outdated condition. Do not assign confidence from the recruiter’s title alone. Record when the person spoke with the employer, through which channel, and which specific points were confirmed. Historical descriptions should not stand in for a current organization or hiring plan.",
+            "Classify the result as employer writing, employer verbal statement, recruiter statement, or unverified. Keeping confidence levels separate preserves an audit trail when a condition changes. It also shows exactly which claim needs renewed confirmation before an application, interview, or acceptance decision."
+          ]
+        },
+        {
+          "ja": [
+            "求人票を基準版として保存し、紹介会社の説明との差分だけを記録します。職務名の言い換えではなく、担当範囲、必須条件、勤務地、雇用形態、報酬、試用期間、選考回数、入社時期など、判断を変える項目を比較します。",
+            "差分には、追加、削除、曖昧化、条件付きの四種類を付けます。「リモート可」が「試用期間後に上長承認で可」なら条件付きです。「マネジメント」が求人票にないなら追加であり、権限や人数を確認する必要があります。",
+            "求人票自体も完全な一次資料とは限りません。転載サイト、古いPDF、紹介会社の要約は版と日付を確認し、可能なら採用企業の現在の掲載内容と照合します。同じ求人の転載を複数の独立情報源として数えません。",
+            "差分が解消しない場合は、都合のよい説明を採用せず、意思決定への影響を明示します。応募前に必要な確認、面接で確認できる項目、オファー書面まで保留する項目へ分け、期限までに確認できない場合の撤退条件を置きます。"
+          ],
+          "en": [
+            "Preserve the posting as a baseline and record only material differences from the recruiter’s description. Compare scope, required qualifications, location, employment type, compensation, probation, interview stages, and expected start date rather than treating a rewritten title as new evidence.",
+            "Label each difference as an addition, omission, ambiguity, or conditional term. Remote work after probation and manager approval is conditional, not simply remote. A management responsibility absent from the posting is an addition that requires confirmation of headcount, authority, and accountability.",
+            "The posting may also be a secondary or stale artifact. Check the version and date of copied listings, PDFs, and agency summaries against the employer’s current source where available. Reposted copies of the same vacancy are one source lineage, not several independent confirmations.",
+            "If the conflict remains, do not select the most attractive wording. State its effect on the decision and assign the item to pre-application verification, interview verification, or written-offer verification. Add a withdrawal condition when a material term cannot be confirmed by the required deadline."
+          ]
+        },
+        {
+          "ja": [
+            "企業へ直接確認する質問は、紹介会社を否定する形ではなく、役割を理解するための具体的な問いにします。「裁量はありますか」ではなく、誰が予算、人員、優先順位、顧客約束を最終承認するかを聞きます。",
+            "面接官ごとに回答が違う場合は、どちらかを誤りと決めつけず、役割、時点、対象範囲の違いを確認します。採用責任者、人事、現場責任者が同じ言葉を別の意味で使うことがあるため、最終的な確認主体を明確にします。",
+            "採用背景は、欠員、増員、新規事業、再編、期間限定の需要でリスクが変わります。前任者の退職理由や機密情報を求めるのではなく、着任時の未解決課題、最初の90日に期待される結果、利用可能な資源を確認します。",
+            "重要な回答は面談後に短く要約し、認識違いがないか採用窓口へ確認します。企業が書面化しない項目は、それ自体を虚偽と断定せず、未保証の条件として判断表へ戻します。"
+          ],
+          "en": [
+            "Ask the employer concrete questions that clarify the role without framing the recruiter as an opponent. Replace “Will I have autonomy?” with questions about who finally approves budgets, hiring, priorities, customer commitments, and exceptions. Decision rights are easier to verify than an adjective.",
+            "When interviewers give different answers, check whether role, timing, or scope explains the difference before declaring one answer false. Recruiting, human resources, and an operating manager may use the same phrase differently. Identify who owns the final interpretation of each material condition.",
+            "Risk differs when hiring replaces a departure, expands capacity, starts a new business, follows a reorganization, or meets temporary demand. Do not request private details about a predecessor. Ask instead about unresolved work at entry, expected results in the first 90 days, and resources already approved.",
+            "Summarize material answers after the interview and ask the hiring contact to correct misunderstandings. A term the employer will not document is not automatically deceptive, but it remains an unguaranteed condition. Return it to the decision table with its uncertainty visible."
+          ]
+        },
+        {
+          "ja": [
+            "報酬は年収の一語で比較せず、固定給、変動給、一時金、株式報酬、手当、退職給付へ分けます。各項目について金額または算定式、支給条件、評価期間、支給日、失効条件を確認し、最大値を確定額として扱いません。",
+            "変動報酬は、目標設定者、評価者、会社業績との連動、初年度の按分、休職・退職時の扱いを確認します。「通常支給される」という説明は実績保証ではありません。確認できる制度文書と今回の個別条件を分けます。",
+            "株式や持分は、数量だけでなく権利確定、行使条件、流動性、退職時の扱いが必要です。税務・法務上の結論を紹介会社や記事だけで決めず、契約書と必要な専門家確認へ送ります。未確認の価値を現金報酬へ足しません。",
+            "口頭説明とオファー書面が違う場合は、署名前に差分を列挙して企業へ確認します。説明者の善意を評価する作業と、契約条件を確定する作業を分け、書面で解消しない重要差分には受諾停止条件を適用します。"
+          ],
+          "en": [
+            "Do not compare compensation as one annual figure. Separate base pay, variable pay, sign-on or retention awards, equity, allowances, and retirement benefits. Record the amount or formula, eligibility, measurement period, payment date, and forfeiture terms. A maximum opportunity is not guaranteed pay.",
+            "For variable compensation, confirm who sets targets, who evaluates them, company-performance dependencies, first-year proration, and treatment after leave or departure. A statement that awards are normally paid is not a guarantee. Keep general plan documents separate from the candidate’s individual terms.",
+            "Equity requires vesting, exercise conditions, liquidity, and departure treatment in addition to a unit count. Do not derive tax or legal conclusions from a recruiter or an article. Route unresolved points to the agreement and a qualified reviewer, and do not add an unverified value to cash compensation.",
+            "When verbal guidance conflicts with the offer, list every difference before signing and request clarification from the employer. Assessing whether a speaker acted in good faith is separate from establishing the contract. Apply an acceptance stop condition to any material difference that remains undocumented."
+          ]
+        },
+        {
+          "ja": [
+            "「非公開求人」「独占案件」「今すぐ決める必要がある」という主張は、候補者に行動を促すための情報として扱い、事実確認を省略する理由にはしません。独占の対象、期間、企業との契約関係、応募経路への制限を質問します。",
+            "回答期限は誰が設定し、何のために必要かを確認します。他候補の選考、事業開始日、社内予算など具体的理由と、紹介会社側の運用期限を分けます。期限が短くても、個人情報共有や契約確認のGateは省略しません。",
+            "市場の希少性は一件の説明から推定せず、重複を除いた求人標本、複数経路、検索日を使って観測します。検索で見つからないことは独占の証明ではなく、公開されていない可能性を含む未確認結果です。",
+            "急ぐ場合も、最小確認項目を固定します。役割、雇用主体、勤務地、固定報酬、選考主体、個人情報の共有先が確認できなければ進めません。期限を理由に確認できない案件は、機会損失ではなく情報不足による見送りとして記録します。"
+          ],
+          "en": [
+            "Treat “confidential,” “exclusive,” and “decide immediately” as information that may affect timing, not as permission to skip verification. Ask what exclusivity covers, for how long, what relationship exists with the employer, and whether it restricts another lawful application route.",
+            "Identify who set a response deadline and why. Separate employer reasons such as another candidate, project start, or budget cycle from the agency’s internal operating deadline. A short timeline does not remove privacy, contract, or evidence gates.",
+            "Do not infer market scarcity from one conversation. Observe a deduplicated sample of roles through more than one channel and preserve search dates. Failure to find a public copy does not prove exclusivity; it only shows that the role was not observed through that search.",
+            "Keep a minimum verification set even under time pressure: role, employing entity, location, fixed compensation, selection owner, and intended data recipients. If these cannot be established, record the decision as a decline caused by insufficient information rather than as a missed guaranteed opportunity."
+          ]
+        },
+        {
+          "ja": [
+            "紹介会社の報酬構造と、候補者の意思決定を分けます。成功報酬、求人企業との関係、担当者の目標が直ちに不正を意味するわけではありませんが、推薦、応募、受諾を急がせる動機になり得ます。",
+            "担当者に、どの企業から依頼を受け、どの条件まで確認でき、候補者に提供できない情報は何かを聞きます。競合求人や自社保有求人だけを比較対象にしている場合は、その範囲を明示した上で別経路でも検証します。",
+            "評価や助言は、観測事実と担当者の意見へ分けます。「この経歴では難しい」が企業の不合格理由なのか、担当者の事前判断なのかで次の行動は変わります。原文、対象企業、確認日、母数を残します。",
+            "利益相反の可能性は、担当者を攻撃する材料ではなく、独立確認を増やす条件として使います。重要な決定では、企業書面、別の紹介経路、自力応募で得た反応を比較し、単一担当者へ判断を委ねません。"
+          ],
+          "en": [
+            "Separate the agency’s compensation model from the candidate’s decision. Contingent fees, employer relationships, and consultant targets do not by themselves prove misconduct, but they can create incentives to accelerate a recommendation, application, or acceptance.",
+            "Ask which employer authorized the search, which conditions the recruiter has confirmed, and what information cannot be provided. If comparisons are limited to roles held by that agency, label the boundary and verify alternatives through another permitted channel.",
+            "Separate observations from advice. “Your background will struggle here” may be an employer’s rejection reason or the recruiter’s screening judgment, and those require different responses. Preserve the wording, target employer, verification date, and size of the observed sample.",
+            "Use a possible conflict as a reason for independent verification rather than as an accusation. For a material decision, compare employer writing, another channel, and response from a self-directed application where lawful. Do not outsource the final choice to one intermediary."
+          ]
+        },
+        {
+          "ja": [
+            "応募前に、履歴書、職務経歴、連絡先、現在年収、希望条件、在留資格など、各情報を誰へ何の目的で共有するか確認します。「企業への推薦」を、関係のない企業や再委託先への包括同意として扱いません。",
+            "企業名が明かされない段階では、識別可能な資料を先に渡す必要性を検討します。匿名プロフィールで適合を確認できるなら、その段階を使います。無断応募や重複応募を防ぐため、送付先と送付日時の記録を求めます。",
+            "面接メモや評価には、候補者以外の個人情報や企業機密を不要に複製しません。顧客、患者、従業員、契約、決済、LHubの情報を履歴書、公開記事、外部AIへ移さず、実績は承認済みの範囲で説明します。",
+            "削除、訂正、共有停止の窓口と保持期間を確認し、不要になった資料は規約と法令に沿って処理を依頼します。法的権利を推測で断定せず、重大な懸念はプライバシー窓口または必要な専門家へ確認します。"
+          ],
+          "en": [
+            "Before application, identify who will receive each item and for what purpose: résumé, work history, contact details, current pay, preferences, or immigration status. Consent to an employer submission should not become blanket permission for unrelated employers or downstream processors.",
+            "When the employer is undisclosed, ask whether an identifiable document is necessary at that stage. Use an anonymized profile first when it can establish fit. Request a record of destination and submission time to reduce unauthorized or duplicate applications.",
+            "Do not copy unnecessary personal data or employer confidential information into interview notes. Keep customer, patient, employee, contract, payment, and LHub information out of résumés, public content, and external AI. Describe achievements only through an approved and non-identifying scope.",
+            "Confirm the route for correction, deletion, and stopping further sharing, together with the stated retention period. Do not invent legal rights from general guidance. Escalate a material uncertainty to the responsible privacy contact or a qualified professional before continuing."
+          ]
+        },
+        {
+          "ja": [
+            "一件ごとに、主張、情報源、原文、確認日、確度、判断への影響、次の確認先を記録します。紹介会社への信頼を総合点にせず、主張単位で検証することで、良い情報と未確認情報を同時に扱えます。",
+            "応募、面接、受諾の各Gateで必要な証拠を先に決めます。応募は雇用主体と役割、面接は権限と評価、受諾は報酬と主要契約条件というように、後から確認できない項目ほど早く確定します。",
+            "判断後も、予想と結果の差を30日、60日、90日で見直します。役割や条件が違った場合は、誰が悪いかだけで終わらせず、どの情報源、質問、Gateが不足したかを修正履歴へ戻します。",
+            "記録は必要最小限とし、候補者や企業の個人情報を分析用に再利用しません。公開する場合は集計と匿名化だけで安全と決めつけず、目的、権利、再識別、契約制限を確認します。訂正できる履歴がAIO上の引用可能性も支えます。"
+          ],
+          "en": [
+            "For each material claim, record wording, source, original artifact, verification date, confidence state, decision effect, and next verifier. Do not compress trust in an agency into one score. Claim-level evidence allows useful guidance and unresolved information to coexist.",
+            "Define evidence required at application, interview, and acceptance gates before urgency appears. Application may require employing entity and role; interview may require authority and evaluation; acceptance requires compensation and material contract terms. Confirm early what cannot be repaired later.",
+            "After the decision, compare expectation with reality at 30, 60, and 90 days where appropriate. When the role or condition differs, update which source, question, or gate failed instead of ending with blame. Keep the correction so future readers can see the method changed.",
+            "Minimize the record and do not repurpose candidate or employer personal data for analysis. Aggregation and removal of names do not automatically make publication safe; check purpose, rights, reidentification, and contract limits. A dated correction trail also makes any public methodology more verifiable and citable."
+          ]
+        }
       ]
     },
     "career-decision-postmortem": {
@@ -3479,6 +3797,136 @@
           "次回レビュー日を置く",
           "Set the next review date"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "判断した時点へ戻り、その日に入手できた資料、面談記録、求人票、契約案、家計条件を集めます。後から知った事実を当時知っていた情報へ混ぜず、確認日と情報源を付けます。",
+            "選択肢ごとに、期待した利点、想定した損失、期限、戻れる範囲を記録します。記憶だけで補わず、資料が残っていない箇所は「記録なし」と明示します。",
+            "第三者の助言は、発言の原文、立場、確認できた事実、意見を分けます。紹介会社、上司、家族の説明を、自分が確認した条件として扱いません。",
+            "当時の制約も復元します。生活費、健康、通勤、家族、契約終了日、他の選択肢の有効期限を残すと、現在から見て不合理な選択にも当時の理由があったかを検証できます。",
+            "復元した資料には保存範囲を付けます。個人情報や機密を複製せず、判断に必要な要点、資料の所在、閲覧権限だけを残し、不要な原本を分析用に持ち出しません。"
+          ],
+          "en": [
+            "Return to the date of the decision and collect only material available then: postings, interview notes, draft agreements, financial constraints, and written messages. Keep facts learned later in a separate column, and attach a source and verification date to every reconstructed item.",
+            "For each option, record expected benefit, credible downside, deadline, and how far the choice could be reversed. Do not repair gaps with confident memory. Mark missing records as missing so the review does not turn an invented narrative into evidence.",
+            "Separate third-party wording, position, verified facts, and opinion. Guidance from a recruiter, manager, colleague, or family member can inform the choice, but it should not become a condition personally verified by the decision maker.",
+            "Reconstruct constraints such as living costs, health, commute, family duties, contract end dates, and expiry of alternatives. A choice that looks irrational today may have been reasonable under constraints that were active and documented at the time.",
+            "Apply a retention boundary to reconstructed evidence. Do not duplicate personal or confidential material into the review. Preserve the decision-relevant point, authorized location, and access owner, and keep restricted originals inside their permitted system. The register should also show why each retained reference is necessary, when it can be deleted, and who may correct it. This prevents a learning exercise from becoming an uncontrolled archive of employment, family, or financial information."
+          ]
+        },
+        {
+          "ja": [
+            "良い結果は良い判断を証明せず、悪い結果も判断の誤りを自動的に証明しません。確認できた情報、比較方法、リスク上限、撤退条件が適切だったかを結果と別に評価します。",
+            "運や市況に助けられた成功は再現可能な能力として数えません。逆に、十分な確認後に予測不能な制度変更が起きた場合は、結果だけで判断手順を捨てません。",
+            "判断品質は、重要条件を確認した割合、反証を探したか、代替案を比較したか、決定期限を守ったかで確認します。都合の良い総合点にせず、欠けた手順を個別に残します。",
+            "結果の評価期間も固定します。入社直後の不満と一年後の成果、短期収入と長期の選択肢を混ぜず、どの期間と指標で何を評価したかを明示します。",
+            "評価者を一人に固定せず、当時の制約を知らない第三者には前提を渡してから確認を依頼します。賛成か反対かではなく、証拠から導けない結論を指摘してもらいます。"
+          ],
+          "en": [
+            "A good outcome does not prove a good decision, and a bad outcome does not automatically prove an error. Evaluate the evidence gathered, comparison method, risk limit, and exit conditions separately from what eventually happened.",
+            "Do not convert success caused by luck or a favorable market into a repeatable capability. Likewise, when an unforeseeable policy change follows a well-evidenced choice, do not discard the entire decision process because of the outcome.",
+            "Review whether material conditions were checked, disconfirming evidence was sought, alternatives were compared, and deadlines were respected. Avoid a convenient aggregate score; preserve each missing or completed step so it can be changed independently.",
+            "Fix the evaluation horizon. Early dissatisfaction, one-year capability growth, short-term income, and long-term optionality are different outcomes. Name the period and metric before using any result to judge the original choice.",
+            "Use more than one reviewer where the stakes justify it, but give each reviewer the constraints known at the time. Ask them to identify conclusions unsupported by the record instead of simply voting for or against the choice."
+          ]
+        },
+        {
+          "ja": [
+            "当時の仮説を「事実」と分けて並べます。役割が広がる、上司が支援する、市場価値が上がる、収入が安定するなど、選択を支えた予測を一文ずつ記録します。",
+            "各仮説に、根拠、反証条件、確認期限を付けます。「たぶん」「聞いている」だけの項目は確度を下げ、意思決定への影響が大きい順に確認します。",
+            "未確認事項を後から常識だったことにしません。質問しなかった条件、回答が曖昧だった条件、書面化されなかった約束を分け、どのGateで止めるべきだったかを見ます。",
+            "仮説が外れた場合は、予測能力だけでなく情報取得経路を確認します。質問が弱かったのか、回答主体が違ったのか、条件が後で変わったのかを区別します。",
+            "重要な仮説は感度分析します。報酬、通勤、権限、需要の一つが想定より悪い場合でも選択が成立するかを確認し、複数条件が同時に崩れる場合の上限を置きます。"
+          ],
+          "en": [
+            "List the original assumptions separately from facts. Write each prediction that supported the choice, such as broader authority, manager support, stronger market evidence, or stable income, as one testable statement.",
+            "For every assumption, attach supporting evidence, a disconfirming condition, and a verification deadline. Lower the confidence of claims based only on “probably” or “I was told,” and investigate them in order of decision impact.",
+            "Do not relabel an unknown as something that should have been obvious. Separate conditions never asked about, ambiguous answers, and promises never documented, then identify the gate where each item should have paused the decision.",
+            "When an assumption fails, examine the information route as well as prediction skill. Distinguish a weak question, the wrong answering authority, a misunderstood answer, and a condition that genuinely changed after the decision.",
+            "Run sensitivity checks on material assumptions. Test whether the option still worked if compensation, commute, authority, or demand was worse than expected, and set an exposure limit for combinations of assumptions failing together."
+          ]
+        },
+        {
+          "ja": [
+            "見落とした兆候は、後知恵で無限に作らず、当時観測でき、判断を変える可能性があったものに限定します。面接官の回答差、契約の空欄、異常に短い期限などを確認します。",
+            "兆候ごとに、実際に見たか、意味を理解したか、確認行動を取ったかを分けます。見えていても重要度を誤った場合と、情報が届かなかった場合では再発防止が異なります。",
+            "単一の違和感を確定的な危険信号へ格上げしません。同じ方向の独立証拠、具体的な影響、確認可能性を揃え、次回の停止条件を過度に広げないようにします。",
+            "検知できなかった兆候は、チェックリスト、面接質問、書面確認へ変換します。ただし、すべての選択を止める巨大なGateではなく、重大性に応じた最小確認にします。",
+            "新しい兆候を追加するときは、過去の結果を知っているから見える情報かを確認します。当時の候補者が同じ資料から識別できない兆候は再発防止Gateへ入れません。"
+          ],
+          "en": [
+            "Limit missed signals to information observable at the time that could reasonably have changed the decision. Examples include inconsistent interviewer answers, blanks in an agreement, unexplained turnover, or an unusually short response deadline.",
+            "For each signal, separate whether it was seen, understood, and acted on. Prevention differs when information never arrived, when its meaning was missed, and when the risk was recognized but accepted without a sufficient limit.",
+            "Do not promote one vague discomfort into conclusive evidence. Look for independent signals pointing in the same direction, a concrete decision effect, and a feasible verification step so the next stop rule does not become excessively broad.",
+            "Convert a detectable signal into a checklist item, interview question, or written-confirmation gate. Keep the check proportional to severity; a postmortem should improve decisions without making every future option impossible to pursue.",
+            "Before adding a missed signal, ask whether it is visible only because the outcome is now known. If a reasonable decision maker could not identify it from the contemporary record, do not turn it into a mandatory future gate."
+          ]
+        },
+        {
+          "ja": [
+            "景気、為替、規制、組織再編、経営者交代など、本人が制御できなかった変化を分離します。外部要因を言い訳にせず、発生日と影響経路を資料で確認します。",
+            "外部要因が予測可能だったか、影響を限定できたかは別に評価します。発生自体を防げなくても、現金余力、契約条件、代替顧客で損失を小さくできた可能性があります。",
+            "市場データは現在値で上書きせず、判断時点の求人、報酬、需要、金利などを使います。古い統計と個別体験の適用範囲を明示し、架空の市場数値で穴を埋めません。",
+            "制御不能な要因を除いた残りから、自分が変えられる行動だけを抽出します。運の説明に終わらせず、次回の分散、上限、再確認日へつなげます。",
+            "外部要因には確認日を置きます。制度や市場が再び変化すれば結論も変わるため、古い環境説明を現在の転職判断へそのまま引用しないよう更新期限を設定します。"
+          ],
+          "en": [
+            "Separate changes outside personal control, including recession, currency movement, regulation, reorganization, or leadership turnover. Do not use them as a vague excuse; verify when the event occurred and how it reached the outcome.",
+            "Assess predictability and loss limitation separately. The event may have been impossible to prevent while its effect could still have been reduced through cash runway, contract terms, diversified customers, or a reversible trial.",
+            "Use market evidence available at the decision date rather than replacing it with today’s vacancy, compensation, demand, or interest-rate data. State the scope of historical statistics and individual observations, and never fill gaps with invented market numbers.",
+            "After isolating uncontrollable conditions, extract only actions the person could change. Move beyond an explanation based on luck by setting the next diversification rule, exposure limit, or evidence review date.",
+            "Attach a review date to external conditions. Regulation, demand, prices, and organizational structure can change again, so an old explanation should expire before it is reused as evidence for a current career decision."
+          ]
+        },
+        {
+          "ja": [
+            "再利用するルールは「失敗した選択を二度としない」ではなく、条件と行動を結びます。例として、固定報酬が書面化されなければ受諾しない、直属上司が未定なら権限確認を保留する、と定義します。",
+            "ルールには適用範囲、例外、証拠、期限を付けます。一社で起きた問題を全業界へ広げず、反対の証拠が出たときに修正できる形にします。",
+            "停止条件と進行条件を対にします。危険信号だけでなく、何が確認できれば次へ進めるかを明示すると、恐れによる永久停止を避けられます。",
+            "新しいルールを小さな選択で試し、負担と検知効果を測ります。役に立たない確認は削除し、重要な見落としを防いだ質問はDecision Logへ残します。",
+            "ルール同士が衝突した場合の優先順位も決めます。生活安全、契約、個人情報、健康を先に置き、その後で報酬や成長機会を比較すると、例外時の判断が一貫します。"
+          ],
+          "en": [
+            "A reusable rule should connect a condition to an action rather than say “never make that choice again.” Examples include pausing acceptance until fixed compensation is written or delaying a role judgment until reporting line and authority are confirmed.",
+            "Give each rule a scope, exception, required evidence, and deadline. Do not generalize one employer’s problem to an entire industry, and keep the rule editable when credible counterevidence appears.",
+            "Pair stop conditions with proceed conditions. Naming what evidence allows the next step prevents the review from replacing one weak decision with permanent avoidance driven by fear.",
+            "Test the rule on a smaller decision and measure both burden and detection value. Remove checks that add no useful evidence, and preserve questions that prevented a material oversight in the decision log.",
+            "Define priority when decision rules conflict. Put safety, contract, privacy, and health constraints first, then compare compensation and growth. An explicit order makes exception handling more consistent than improvising under urgency."
+          ]
+        },
+        {
+          "ja": [
+            "修復行動を、今週できる可逆的なものと、承認が必要なものに分けます。上司との期待再確認、職務経歴の証拠更新、小さな市場テストなどから一つ選びます。",
+            "退職、訴訟、契約変更、医療・家族上の重大判断は、感情的なポストモーテムから直ちに実行しません。必要な事実、専門家、承認、撤退計画を揃えます。",
+            "修復の効果を、気分だけでなく観測可能な状態で定義します。権限の書面確認、応募反応、固定費削減など、期限内に確認できる結果へ変換します。",
+            "顧客、患者、企業、候補者の個人情報を振り返り資料や外部AIへ移しません。必要な証拠は承認済みの集計や匿名化された構造で扱い、再識別の可能性があれば使いません。",
+            "修復を始める前の基準値を残します。応募数だけでなく、得られた確認情報、選択肢の数、撤退可能性を測り、行動量の増加を改善と取り違えません。"
+          ],
+          "en": [
+            "Separate repair actions that are reversible this week from actions requiring approval or specialist review. Choose one such as resetting expectations with a manager, updating evidence of work, or running a small external market test.",
+            "Do not jump from an emotional review to resignation, litigation, contract change, or a major medical or family decision. Establish the facts, responsible reviewer, approval gate, and rollback or exit plan first.",
+            "Define repair effect as an observable state rather than a feeling alone. Written clarification of authority, response to a bounded application sample, or reduced fixed exposure can be checked by a date.",
+            "Do not move customer, patient, employer, candidate, contract, payment, or LHub personal data into the review or external AI. Use approved aggregates or non-identifying structures, and exclude evidence when reidentification remains plausible.",
+            "Record a baseline before repair begins. Measure verified information, number of credible options, and reversibility in addition to application volume, so increased activity is not mistaken for a better decision position."
+          ]
+        },
+        {
+          "ja": [
+            "レビューを一度で終わらせず、30日、90日、半年など、仮説の期限に合わせて再確認します。各回で新しい事実、変わらない条件、修正したルールを分けます。",
+            "担当者と期限を決めます。自分で確認する項目、企業や紹介会社へ聞く項目、専門家判断が必要な項目を分け、未回答を完了扱いにしません。",
+            "結果が改善しても、元の説明を書き換えません。当初記録、訂正、改善後の状態を時系列で残すことで、AI検索や第三者が一部分を引用しても意味が崩れにくくなります。",
+            "次回日には、判断を責めるのではなくルールの有効性を確認します。確認負担、見落とし防止、選択肢維持の三点で見直し、不要なGateを増やし続けません。",
+            "レビューを終了する条件も決めます。主要仮説が検証され、次の行動と責任者が確定したら一度閉じ、新しい証拠が出た場合だけ再開して反省作業を常態化させません。"
+          ],
+          "en": [
+            "Do not end the review after one session. Set follow-ups at 30 days, 90 days, or another horizon matched to the assumptions. Separate new facts, unchanged conditions, and revised rules at each review.",
+            "Assign an owner and date. Distinguish checks the individual can complete, questions for an employer or recruiter, and items requiring qualified review. An unanswered item should remain open rather than becoming complete through age.",
+            "Do not rewrite the original record when conditions improve. Preserve the initial state, correction, and later result in sequence so a reader or AI system can cite one part without turning revised information into a false historical fact.",
+            "At the next review, evaluate the usefulness of the rule rather than blame the chooser. Compare verification burden, prevented oversight, and preserved options, and avoid accumulating gates that no longer improve the decision.",
+            "Set an exit condition for the postmortem itself. Close the review when major assumptions are evaluated and the next action and owner are clear. Reopen it only for new material evidence rather than maintaining permanent self-criticism."
+          ]
+        }
       ]
     },
     "ai-review-capacity-budget": {
@@ -3519,6 +3967,120 @@
           "自動化範囲を定期的に戻す",
           "Periodically reassess automation scope"
         ]
+      ],
+      "section_copy": [
+        {
+          "ja": [
+            "AIが一日に生成する件数と、人が実際に読める件数を同じ単位で記録します。文書数だけでなく、判断点、主張数、参照資料数、確認に必要な分数を週単位で測り、生成速度を処理能力と取り違えません。 記録値には対象外にした依頼と理由も含め、翌週の比較で母集団が変わった場合は同じ指標として連結しません。",
+            "依頼受付、生成、一次確認、専門確認、承認、差戻しを別の工程として数えます。滞留時間と再作業の発生場所を残すと、モデルの速度ではなく人間の確認工程が詰まる条件を再現できます。",
+            "自動生成の成功件数だけをKPIにしません。未読、部分確認、根拠未確認、期限超過を含めた実効レビュー率を公開可能な集計で示し、母数、期間、除外条件、集計日を併記します。",
+            "能力不足が見えた日は生成量を下げます。未確認出力を翌日に積み増さず、重要度の低い依頼を停止し、確認済みの件数が回復するまで新規生成の上限を機械的に制限します。"
+          ],
+          "en": [
+            "Measure how much AI produces and how much humans can actually verify in the same operational unit. Count documents, claims, decision points, cited sources, and reviewer minutes each week. Generation speed is not delivery capacity when evidence review, correction, and approval remain unfinished. Record the measurement date, owner, and scope so an old throughput figure is never presented as a current fact.",
+            "Separate intake, generation, first review, specialist review, approval, rejection, and rework. Queue age and rework location reveal where capacity fails. A fast model can still create a slower service when reviewers must reconstruct missing sources or compare multiple drafts. Preserve incomplete work as incomplete instead of calling generated output completed.",
+            "Do not use successful generation count as the only KPI. Report unread output, partial review, unverified evidence, expired items, and effective review coverage with a denominator and observation period. Exclusions must be named. A dashboard that hides abandoned drafts can make ceremonial approval look like healthy operations.",
+            "When demand exceeds verified capacity, reduce generation. Pause lower consequence requests, stop carrying unreviewed output forward, and cap new work until the verified queue recovers. The limit should be mechanical and visible, with an owner, stop threshold, and restart condition rather than an informal request to be more careful."
+          ]
+        },
+        {
+          "ja": [
+            "誤りの結果が外部送信、契約、支払、医療、権限変更へ届く作業は全件確認します。社内の可逆的な下書きは抜き取り可能ですが、影響、検知可能性、復旧時間を先に分類します。 公開物や検索回答へ影響する案件は、引用された一部分だけでも誤解が生じないかを確認項目へ含めます。",
+            "重要度は文章の長さや依頼者の役職では決めません。誰に影響するか、誤りが外へ出るか、後から訂正できるか、個人情報を含むかを記録し、同じ条件には同じレビュー階層を適用します。",
+            "低リスク分類にも期限を置きます。長期間使われるテンプレート、検索に引用される公開説明、繰り返し実行される自動処理は累積影響が大きいため、定期的に上位階層へ戻して確認します。",
+            "分類根拠と例外承認をDecision Logへ残します。緊急だから確認を省いた場合は、責任者、対象範囲、終了時刻、事後確認日を記録し、例外が恒常運用へ変わらないようにします。"
+          ],
+          "en": [
+            "Review every output that can trigger external sending, payment, contract change, medical action, permission change, or irreversible execution. Reversible internal drafts may use sampling only after consequence, detectability, and recovery time are classified. The risk class follows the action caused by the output, not the apparent simplicity of the text.",
+            "Do not assign consequence by document length or requester seniority. Record who can be affected, whether an error leaves the organization, whether correction is practical, and whether personal or confidential information is involved. Apply the same tier to the same conditions so urgency and status do not silently lower the gate.",
+            "Give low consequence classifications an expiry date. A template reused for months, a public explanation cited by search systems, or a repeated automated action can accumulate material impact. Return long-lived items to full review at a defined interval and whenever sources, models, prompts, or responsible owners change.",
+            "Record the classification basis and every exception in a decision log. If an urgent case bypasses normal review, name the approver, exact scope, expiry time, compensating control, and retrospective review date. An exception without an end condition is an undocumented policy change and must not become the default workflow."
+          ]
+        },
+        {
+          "ja": [
+            "AIの提案を読むだけでは専門能力は維持できません。担当者が一次資料から独立に結論を作る時間、反証を探す時間、手作業で再現する訓練時間を能力予算として確保します。 訓練結果は個人評価ではなく、組織が失いかけている知識と必要な補助資料を見つけるために使います。",
+            "専門家が修正した箇所を理由付きで分類します。事実誤認、適用範囲、古い情報、法令、計算、顧客文脈を分け、修正件数ではなく、なぜ検出できたかを教材と検査項目へ戻します。",
+            "一人だけが判断できる状態を避けます。主要領域ごとに主担当と代替担当を置き、代替担当が同じ証拠から同じ停止判断を再現できるかを定期的に確認します。",
+            "専門知識の更新日を持ちます。古い資格、過去の成功体験、モデルの自己説明を現在の根拠として扱わず、一次資料と現行手順を確認できない領域ではAI利用範囲を縮小します。"
+          ],
+          "en": [
+            "Reading AI suggestions does not preserve professional skill by itself. Reserve time for reviewers to form an independent conclusion from primary evidence, search for counterevidence, and reproduce key work manually. Treat that time as part of capacity rather than optional training that disappears when the queue grows.",
+            "Classify expert corrections by reason: factual error, scope, stale information, law, calculation, customer context, or unsupported inference. Return the reason, not merely the corrected sentence, to training material and mechanical checks. The useful metric is how the error was detected and prevented, not how many edits a reviewer made.",
+            "Avoid a system in which only one person can judge an important domain. Assign a primary and backup reviewer, then periodically test whether the backup can reach the same stop decision from the same evidence. Differences should expose missing rules or evidence rather than be hidden by copying the primary reviewer’s conclusion.",
+            "Attach review dates to expertise and references. An old credential, prior success, or the model’s own explanation is not current evidence. When reviewers cannot access primary material and current procedures, narrow the automated scope until qualified evidence and an accountable decision owner are available."
+          ]
+        },
+        {
+          "ja": [
+            "抜き取り率は固定の一割ではなく、母数、失敗頻度、影響、変化量から決めます。新モデル、新プロンプト、新しいデータ源、担当交代の直後は検査を増やし、安定を実測してから下げます。 抽出規則を変更した場合は変更前後を分け、改善したように見える測定上の錯覚を避けます。",
+            "無作為抽出に加え、金額が大きい、表現が断定的、出典が少ない、個人情報に近い、過去に失敗した条件を重点抽出します。都合の良い成功例だけを選ばないよう抽出規則を先に保存します。",
+            "検査対象外にも異常検知を置きます。文字数、引用元、数値、固有名詞、権限、外部送信先の変化を機械的に検知し、閾値を超えた出力は抜き取り対象へ自動昇格させます。",
+            "見逃し率を推定できない場合は精度を主張しません。確認済み母数、発見件数、再検査結果を示し、少数サンプルから全体安全性や法令適合性を断定しないようにします。"
+          ],
+          "en": [
+            "Do not select a universal ten percent sample. Set sampling from population size, failure history, consequence, detectability, and recent change. Increase review after a new model, prompt, data source, workflow, or reviewer handoff, and lower it only after measured stability across a stated period.",
+            "Combine random sampling with targeted cases involving large amounts, absolute wording, sparse sourcing, personal data proximity, new entities, or previously failed conditions. Store selection rules before results are known so teams cannot choose easy successes and then claim that the whole population is safe.",
+            "Place anomaly detection outside the sample. Changes in length, citation count, numerical claims, named entities, permissions, or external recipients should promote an item to mandatory review. Test alerts with known fixtures, and keep a fail-closed path when the detector itself has missing data or cannot classify an output.",
+            "If the miss rate cannot be estimated, say so. Publish the reviewed denominator, found defects, repeat-check results, and limitations. A small clean sample does not prove legal compliance, factual accuracy, or safety for all outputs. Sampling supports a bounded decision; it does not replace accountable review of high consequence actions."
+          ]
+        },
+        {
+          "ja": [
+            "平均品質より異常の早期発見を優先します。通常範囲、停止閾値、通知先、再開条件を定義し、根拠URL消失、数値急変、出力形式崩れ、拒否率低下を監視します。 再開判断には、異常が消えたことだけでなく、同じ入力で再発しないことを独立検証した証跡を求めます。",
+            "異常はモデルだけの問題と決めつけません。入力欠落、権限、データ更新、プロンプト、外部API、後処理、評価テストを順に切り分け、同じ条件で再現した証拠を残します。",
+            "警告が多すぎる場合も閾値を無効化しません。誤警告の条件を分類し、対象範囲を狭め、重大な検知を維持したまま通知量を減らします。停止権限は現場担当者にも明示します。",
+            "復旧後は見逃した信号をテストへ追加します。過去出力の都合の良い書換えはせず、発生時刻、影響範囲、修正コミット、検証結果、再発時の停止条件を時系列で残します。"
+          ],
+          "en": [
+            "Prioritize early detection of unusual behavior over a reassuring average score. Define normal ranges, stop thresholds, notification owners, and restart conditions for missing source URLs, numerical shifts, malformed output, changing refusal behavior, and unusual recipient or permission patterns. Each threshold needs a testable reason and review date.",
+            "Do not assume every anomaly is a model defect. Isolate missing input, access rights, source updates, prompts, provider behavior, postprocessing, and evaluation tests in sequence. Preserve reproduction conditions and evidence. Changing several layers at once can hide the root cause and make a green rerun impossible to interpret.",
+            "When alerts are noisy, do not disable the control. Classify false alerts, narrow the affected scope, and reduce notification volume while retaining detection of material conditions. Make stop authority explicit for frontline reviewers so they do not need executive permission to block an unsafe external action.",
+            "After recovery, add the missed signal to a test or guard. Keep the original event time, affected range, corrective commit, verification evidence, and future stop condition. Do not rewrite historical output to make the incident disappear; correction history is part of the evidence that later readers and AI systems need."
+          ]
+        },
+        {
+          "ja": [
+            "レビュー品質は承認速度では測りません。重大な誤りの検出、根拠確認、反証提示、差戻し理由、修正後の再確認を測り、単なる閲覧やチェック欄の完了と区別します。 品質指標の定義を変更した日は旧値と単純比較せず、変更理由と換算不能な範囲を明示します。",
+            "レビュー担当者同士の一致率だけで正しさを証明しません。判断が分かれた案件は、使用した根拠、適用した規則、未確認事項を比較し、規則不足か証拠不足かを記録します。",
+            "公開後の訂正、顧客からの指摘、再作業、例外利用を遅行指標として追います。件数には母数と期間を付け、苦情ゼロを品質保証とせず、検知経路が機能しているかも確認します。",
+            "評価者が実装者と同じ場合は独立確認を追加します。外部公開や重大判断では、作成者の自己申告だけで通過させず、別担当または機械的Gateが同じ証拠を検証します。"
+          ],
+          "en": [
+            "Review quality is not approval speed. Measure detection of material errors, source verification, counterevidence, reasons for rejection, and confirmation after correction. Distinguish a document that was opened from one whose consequential claims and actions were actually checked by an authorized reviewer.",
+            "Agreement between reviewers does not prove correctness. For disputed cases, compare evidence, applied rules, assumptions, and unknowns. Record whether disagreement came from missing evidence, unclear policy, different scope, or a genuine judgment call, then update the smallest relevant rule instead of forcing consensus.",
+            "Track corrections after release, customer reports, rework, exceptions, and escaped defects as lagging indicators. State the denominator and period. Zero complaints is not proof of quality when customers may not detect the error or the reporting path may be difficult to use.",
+            "Add independent verification when the reviewer created the implementation or content. For public or consequential outputs, do not rely on the author’s statement that checks passed. A second person or a mechanical gate should evaluate the same evidence and preserve its result separately."
+          ]
+        },
+        {
+          "ja": [
+            "一人あたりの同時案件数、連続確認時間、休憩、専門領域を上限として定めます。時間外や締切直前に重要レビューを集中させず、上限超過時は生成停止か期限変更を選びます。 負荷上限は繁忙期にも維持し、期限を守るための無記録な持ち帰り作業を能力として数えません。",
+            "負荷には読む時間だけでなく、出典を開く、計算を再現する、関係者へ確認する、修正を再検査する時間を含めます。予定値と実測値の差を次回見積りへ反映します。",
+            "担当者が停止を申し出ても評価を下げない運用にします。未確認のまま承認する圧力を記録し、依頼者の緊急性より、法令、個人情報、契約、外部影響のGateを優先します。",
+            "欠員時の縮退運転を準備します。代替担当がいなければ高リスク生成を停止し、低リスク下書きだけへ限定します。未承認出力を顧客や公開面へ送らない境界を維持します。"
+          ],
+          "en": [
+            "Set limits for concurrent cases, continuous review time, breaks, and specialist domain per reviewer. Do not concentrate consequential review at the end of a shift or immediately before a deadline. When a limit is exceeded, stop generation or change the delivery date rather than converting fatigue into silent risk acceptance.",
+            "Include time to open sources, reproduce calculations, ask accountable people, record decisions, and recheck corrections. Reading time alone understates capacity. Compare planned and measured effort by risk tier, and use the difference to adjust future intake rather than pressuring reviewers to match an unrealistic average.",
+            "Protect a reviewer who invokes a stop. Record pressure to approve incomplete work and prioritize law, privacy, contract, safety, and external impact over requester urgency. A capacity policy fails when formal limits exist but staff believe using them will be treated as poor performance.",
+            "Prepare a degraded mode for absence or overload. If no qualified backup exists, pause high consequence generation and allow only reversible internal drafting. Keep unapproved outputs away from customers, patients, candidates, public pages, payments, permissions, and production systems until normal review capacity is restored."
+          ]
+        },
+        {
+          "ja": [
+            "月次または主要変更後に、自動化範囲を一段戻して確認します。人が入力から結論まで再現し、AIなしでも根拠、計算、承認経路を説明できるかを検査します。 自動化を縮小した期間も失敗ではなく、検証済み能力へ戻すための統制措置としてDecision Logへ残します。",
+            "再評価では削減時間だけでなく、見逃し、再作業、例外、知識低下、停止時間を比較します。便益の測定期間と母数を示し、架空の生産性向上率や成功率を作りません。",
+            "能力予算を超える場合は、モデル追加ではなく対象削減、頻度低下、テンプレート化、専門家増員を比較します。課金や人員変更は承認Gateへ上げ、可逆的な範囲縮小を先に実施します。",
+            "再開条件は、未処理在庫、担当者、品質テスト、異常原因、責任者が確認された状態とします。顧客、患者、候補者、契約、決済、LHub情報を外部AIへ移さず、承認済み集計だけで能力を評価します。"
+          ],
+          "en": [
+            "At least monthly and after material changes, step back one level of automation. Have a reviewer reproduce the conclusion from input and primary evidence and explain calculations, sources, and approval routes without relying on generated prose. This checks whether the organization still owns the decision process.",
+            "Compare saved time with escaped defects, rework, exceptions, knowledge erosion, and stoppage. State the population and measurement period. Do not invent productivity or success rates to defend automation. When evidence is incomplete, report the unknown and keep the decision reversible.",
+            "If the capacity budget is exceeded, compare narrower scope, lower frequency, better templates, and additional qualified reviewers before adding another model. Spending, staffing, or contract changes require their approval gate; a reversible reduction in automated scope can happen first to restore control.",
+            "Restart only when the pending queue, accountable reviewers, quality tests, anomaly cause, and decision owner are verified. Evaluate capacity with approved aggregates. Do not move customer, patient, candidate, contract, payment, credential, or LHub information into external AI or a shared product in order to measure review performance."
+          ]
+        }
       ]
     }
   }
