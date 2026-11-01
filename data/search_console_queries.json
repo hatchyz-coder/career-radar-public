@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-01",
-    "end_date": "2026-10-28",
+    "start_date": "2026-10-02",
+    "end_date": "2026-10-29",
     "days": 28
   },
-  "generated_at": "2026-10-31T01:00:04+00:00",
+  "generated_at": "2026-11-01T00:23:54+00:00",
   "rows": [
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
@@ -30,9 +30,17 @@
       "query": "フリーランス 転向",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 58.75
+      "position": 63.667
+    },
+    {
+      "query": "フリーランス 転向 タイミング",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 2.5
     },
     {
       "query": "フリーランス リスク",
@@ -67,20 +75,20 @@
       "position": 20.0
     },
     {
+      "query": "0地点 転職",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 40.0
+    },
+    {
       "query": "pmo 単価",
       "page": "https://career.hdnjapan.com/ja/topics/pmo-high-rate-career.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
       "position": 83.5
-    },
-    {
-      "query": "フリーランス 転向 タイミング",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 3.0
     },
     {
       "query": "転職 エージェント 成功 報酬 比較",
@@ -107,14 +115,6 @@
       "position": 24.0
     },
     {
-      "query": "0地点 転職",
-      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 35.0
-    },
-    {
       "query": "転職 市場価値 調べ方 評価基準",
       "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
@@ -129,6 +129,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 53.0
+    },
+    {
+      "query": "転職エージェント 副業",
+      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0
     },
     {
       "query": "40代転職 年収アップ",
