@@ -5,8 +5,8 @@
     "maximum_gap_days": 2
   },
   "last_publication": {
-    "article_id": "portfolio-claim-verification",
-    "published_at": "2026-10-30",
+    "article_id": "recruiter-feedback-taxonomy",
+    "published_at": "2026-11-02",
     "article_count": 1,
     "locale_page_count": 2
   },
@@ -428,7 +428,8 @@
         "ja",
         "en"
       ],
-      "status": "queued"
+      "status": "published",
+      "published_at": "2026-11-02"
     },
     {
       "article_id": "career-option-expiry",
