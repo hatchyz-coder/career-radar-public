@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-02",
-    "end_date": "2026-10-29",
+    "start_date": "2026-10-03",
+    "end_date": "2026-10-30",
     "days": 28
   },
-  "source_generated_at": "2026-11-01T00:23:54+00:00",
+  "source_generated_at": "2026-11-02T00:59:43+00:00",
   "input_rows": 17,
   "scored_rows": 17,
   "summary": {
@@ -61,20 +61,6 @@
       "priority_score": 29.0
     },
     {
-      "query": "フリーランス リスク",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 8.5,
-      "expected_ctr": 0.035,
-      "estimated_missed_clicks": 0.1,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 28.3
-    },
-    {
       "query": "キャリアメニュー",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
@@ -103,8 +89,8 @@
       "priority_score": 26.6
     },
     {
-      "query": "転職 エージェント 成功 報酬 比較",
-      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "query": "フリーランス リスク",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
@@ -117,18 +103,18 @@
       "priority_score": 23.0
     },
     {
-      "query": "転職エージェント 成功報酬 比較",
+      "query": "転職 エージェント 成功 報酬 比較",
       "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 15.0,
+      "position": 11.0,
       "expected_ctr": 0.015,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 20.1
+      "priority_score": 23.0
     },
     {
       "query": "職務経歴書分析評価職",
@@ -148,15 +134,15 @@
       "query": "フリーランス 転向 タイミング",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 24.0,
+      "position": 23.5,
       "expected_ctr": 0.008,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 13.3
+      "priority_score": 16.7
     },
     {
       "query": "フリーランス 転向",
@@ -187,12 +173,54 @@
       "priority_score": 8.2
     },
     {
+      "query": "40代転職 リスク",
+      "page": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 47.0,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 8.2
+    },
+    {
+      "query": "転職エージェント 副業",
+      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 63.5,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 8.1
+    },
+    {
       "query": "pmo 単価",
       "page": "https://career.hdnjapan.com/ja/topics/pmo-high-rate-career.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
       "position": 83.5,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 8.1
+    },
+    {
+      "query": "40代転職 年収アップ",
+      "page": "https://career.hdnjapan.com/ja/topics/40s-career-market-value.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 91.5,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
@@ -221,34 +249,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 53.0,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 5.1
-    },
-    {
-      "query": "転職エージェント 副業",
-      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 62.0,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 5.1
-    },
-    {
-      "query": "40代転職 年収アップ",
-      "page": "https://career.hdnjapan.com/ja/topics/40s-career-market-value.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 94.0,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
