@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-11-02T00:59:43.385070+00:00",
+  "generated_at": "2026-11-03T03:02:08.311700+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -75,6 +75,19 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
+      "query": "転職エージェントを選ぶ際の比較ポイントを教えてください。",
+      "target_page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "priority_score": 24.6,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 7,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
       "query": "フリーランス リスク",
       "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "priority_score": 23.0,
@@ -84,7 +97,7 @@
       "status": "observing"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -97,7 +110,7 @@
       "status": "observing"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -110,7 +123,7 @@
       "status": "observing"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -123,26 +136,13 @@
       "status": "observing"
     },
     {
-      "rank": 10,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
-      "query": "フリーランス 転向",
-      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "priority_score": 10.3,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
       "rank": 11,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "0地点 転職",
-      "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
-      "priority_score": 8.2,
+      "query": "実査 データ分析",
+      "target_page": "https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html",
+      "priority_score": 14.8,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -153,9 +153,9 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "40代転職 リスク",
-      "target_page": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html",
-      "priority_score": 8.2,
+      "query": "フリーランス 転向",
+      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "priority_score": 12.0,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -168,7 +168,7 @@
       "action_type": "observe",
       "query": "転職エージェント 副業",
       "target_page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
-      "priority_score": 8.1,
+      "priority_score": 10.3,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -176,6 +176,32 @@
     },
     {
       "rank": 14,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "0地点 転職",
+      "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "priority_score": 8.2,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 15,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "40代転職 リスク",
+      "target_page": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html",
+      "priority_score": 8.2,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 16,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -188,7 +214,7 @@
       "status": "observing"
     },
     {
-      "rank": 15,
+      "rank": 17,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -201,7 +227,7 @@
       "status": "observing"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -214,12 +240,25 @@
       "status": "observing"
     },
     {
-      "rank": 17,
+      "rank": 19,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
       "query": "キャリア",
       "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "priority_score": 5.1,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 20,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "業務 改善 評価",
+      "target_page": "https://career.hdnjapan.com/ja/articles/operations-improvement-case-study.html",
       "priority_score": 5.1,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",

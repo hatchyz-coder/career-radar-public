@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-03",
-    "end_date": "2026-10-30",
+    "start_date": "2026-10-04",
+    "end_date": "2026-10-31",
     "days": 28
   },
-  "generated_at": "2026-11-02T00:59:43+00:00",
+  "generated_at": "2026-11-03T03:02:08+00:00",
   "rows": [
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
@@ -30,9 +30,17 @@
       "query": "フリーランス 転向",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 70.25
+    },
+    {
+      "query": "転職エージェント 副業",
+      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
+      "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
-      "position": 63.667
+      "position": 64.667
     },
     {
       "query": "フリーランス 転向 タイミング",
@@ -91,14 +99,6 @@
       "position": 47.0
     },
     {
-      "query": "転職エージェント 副業",
-      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 63.5
-    },
-    {
       "query": "pmo 単価",
       "page": "https://career.hdnjapan.com/ja/topics/pmo-high-rate-career.html",
       "clicks": 0,
@@ -113,6 +113,14 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 91.5
+    },
+    {
+      "query": "転職エージェントを選ぶ際の比較ポイントを教えてください。",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0
     },
     {
       "query": "フリーランス リスク",
@@ -131,6 +139,14 @@
       "position": 11.0
     },
     {
+      "query": "実査 データ分析",
+      "page": "https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 22.0
+    },
+    {
       "query": "転職 市場価値 調べ方 評価基準",
       "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
@@ -145,6 +161,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 53.0
+    },
+    {
+      "query": "業務 改善 評価",
+      "page": "https://career.hdnjapan.com/ja/articles/operations-improvement-case-study.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 89.0
     }
   ]
 }
