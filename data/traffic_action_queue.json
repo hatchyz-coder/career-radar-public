@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-11-03T03:02:08.311700+00:00",
+  "generated_at": "2026-11-04T01:37:37.188529+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -64,7 +64,7 @@
       "action_type": "observe",
       "query": "評価 年収",
       "target_page": "https://career.hdnjapan.com/articles/high-class-transition.html",
-      "priority_score": 26.6,
+      "priority_score": 25.6,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
