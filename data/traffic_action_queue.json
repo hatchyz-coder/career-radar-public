@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-11-06T01:46:04.644426+00:00",
+  "generated_at": "2026-11-07T01:09:10.495776+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 0,
@@ -12,7 +12,7 @@
       "action_type": "observe",
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "target_page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
-      "priority_score": 44.4,
+      "priority_score": 43.1,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -142,7 +142,7 @@
       "action_type": "observe",
       "query": "転職エージェント 副業",
       "target_page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
-      "priority_score": 13.3,
+      "priority_score": 14.5,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -150,6 +150,19 @@
     },
     {
       "rank": 12,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "0地点 転職",
+      "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "priority_score": 12.1,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 13,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -162,12 +175,12 @@
       "status": "observing"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "0地点 転職",
-      "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "query": "株式会社hdnコーポレーション",
+      "target_page": "https://career.hdnjapan.com/contact.html",
       "priority_score": 10.4,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
@@ -175,7 +188,20 @@
       "status": "observing"
     },
     {
-      "rank": 14,
+      "rank": 15,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "フリーランス 2年目",
+      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "priority_score": 10.3,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 16,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -188,7 +214,7 @@
       "status": "observing"
     },
     {
-      "rank": 15,
+      "rank": 17,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -201,7 +227,7 @@
       "status": "observing"
     },
     {
-      "rank": 16,
+      "rank": 18,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -214,7 +240,7 @@
       "status": "observing"
     },
     {
-      "rank": 17,
+      "rank": 19,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -227,20 +253,7 @@
       "status": "observing"
     },
     {
-      "rank": 18,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
-      "query": "フリーランス 2年目",
-      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "priority_score": 5.1,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 19,
+      "rank": 20,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",

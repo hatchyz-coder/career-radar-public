@@ -4,19 +4,27 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-07",
-    "end_date": "2026-11-03",
+    "start_date": "2026-10-08",
+    "end_date": "2026-11-04",
     "days": 28
   },
-  "generated_at": "2026-11-06T01:46:04+00:00",
+  "generated_at": "2026-11-07T01:09:10+00:00",
   "rows": [
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0.0,
       "position": 3.0
+    },
+    {
+      "query": "転職エージェント 副業",
+      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 66.333
     },
     {
       "query": "フリーランス 年収ダウン",
@@ -27,12 +35,12 @@
       "position": 14.8
     },
     {
-      "query": "転職エージェント 副業",
-      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
+      "query": "0地点 転職",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 65.2
+      "position": 41.25
     },
     {
       "query": "フリーランス 転向",
@@ -51,12 +59,12 @@
       "position": 14.667
     },
     {
-      "query": "0地点 転職",
-      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "query": "フリーランス 2年目",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
-      "position": 41.333
+      "position": 53.667
     },
     {
       "query": "フリーランス 転向 タイミング",
@@ -139,20 +147,20 @@
       "position": 22.0
     },
     {
+      "query": "株式会社hdnコーポレーション",
+      "page": "https://career.hdnjapan.com/contact.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 28.0
+    },
+    {
       "query": "転職 市場価値 調べ方 評価基準",
       "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 44.0
-    },
-    {
-      "query": "フリーランス 2年目",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 53.0
     },
     {
       "query": "業務 改善 評価",
