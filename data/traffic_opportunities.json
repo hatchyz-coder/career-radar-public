@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-08",
-    "end_date": "2026-11-04",
+    "start_date": "2026-10-09",
+    "end_date": "2026-11-05",
     "days": 28
   },
-  "source_generated_at": "2026-11-07T01:09:10+00:00",
+  "source_generated_at": "2026-11-08T00:52:45+00:00",
   "input_rows": 20,
   "scored_rows": 20,
   "summary": {
@@ -22,29 +22,15 @@
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 3.0,
+      "position": 2.8,
       "expected_ctr": 0.11,
-      "estimated_missed_clicks": 0.8,
+      "estimated_missed_clicks": 0.6,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 43.1
-    },
-    {
-      "query": "フリーランス 転向 タイミング",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 2.5,
-      "expected_ctr": 0.15,
-      "estimated_missed_clicks": 0.3,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 34.1
+      "priority_score": 40.2
     },
     {
       "query": "フリーランス 年収ダウン",
@@ -59,6 +45,20 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 28.7
+    },
+    {
+      "query": "フリーランス 転向 タイミング",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 11.0,
+      "expected_ctr": 0.015,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 28.3
     },
     {
       "query": "キャリアメニュー",
@@ -176,29 +176,15 @@
       "query": "0地点 転職",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 41.25,
+      "position": 41.2,
       "expected_ctr": 0.008,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 12.1
-    },
-    {
-      "query": "フリーランス 転向",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0.0,
-      "position": 70.25,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 12.0
+      "priority_score": 13.5
     },
     {
       "query": "株式会社hdnコーポレーション",
@@ -221,6 +207,20 @@
       "impressions": 3,
       "ctr": 0.0,
       "position": 53.67,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 10.3
+    },
+    {
+      "query": "フリーランス 転向",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 69.0,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
@@ -271,18 +271,18 @@
       "priority_score": 8.1
     },
     {
-      "query": "転職 市場価値 調べ方 評価基準",
-      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "query": "転職",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 44.0,
-      "expected_ctr": 0.008,
+      "position": 64.0,
+      "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 5.2
+      "priority_score": 5.1
     },
     {
       "query": "業務 改善 評価",
