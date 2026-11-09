@@ -4,19 +4,19 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-09",
-    "end_date": "2026-11-05",
+    "start_date": "2026-10-10",
+    "end_date": "2026-11-06",
     "days": 28
   },
-  "generated_at": "2026-11-08T00:52:45+00:00",
+  "generated_at": "2026-11-09T01:11:04+00:00",
   "rows": [
     {
       "query": "転職エージェント 副業",
       "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 66.333
+      "position": 66.857
     },
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
@@ -43,6 +43,22 @@
       "position": 41.2
     },
     {
+      "query": "フリーランス 2年目",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 54.2
+    },
+    {
+      "query": "40代転職 リスク",
+      "page": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 48.0
+    },
+    {
       "query": "フリーランス 転向 タイミング",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
@@ -59,20 +75,20 @@
       "position": 14.667
     },
     {
-      "query": "フリーランス 2年目",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 53.667
-    },
-    {
       "query": "フリーランス 転向",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
       "position": 69.0
+    },
+    {
+      "query": "40代転職 年収アップ",
+      "page": "https://career.hdnjapan.com/ja/topics/40s-career-market-value.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 89.333
     },
     {
       "query": "キャリアメニュー",
@@ -99,28 +115,12 @@
       "position": 23.5
     },
     {
-      "query": "40代転職 リスク",
-      "page": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 47.0
-    },
-    {
       "query": "pmo 単価",
       "page": "https://career.hdnjapan.com/ja/topics/pmo-high-rate-career.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
       "position": 83.5
-    },
-    {
-      "query": "40代転職 年収アップ",
-      "page": "https://career.hdnjapan.com/ja/topics/40s-career-market-value.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 91.5
     },
     {
       "query": "転職エージェントを選ぶ際の比較ポイントを教えてください。",
@@ -153,6 +153,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 28.0
+    },
+    {
+      "query": "キャリア",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 55.0
     },
     {
       "query": "転職",
