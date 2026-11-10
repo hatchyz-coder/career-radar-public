@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-10",
-    "end_date": "2026-11-06",
+    "start_date": "2026-10-11",
+    "end_date": "2026-11-07",
     "days": 28
   },
-  "source_generated_at": "2026-11-09T01:11:04+00:00",
+  "source_generated_at": "2026-11-10T03:46:56+00:00",
   "input_rows": 21,
   "scored_rows": 21,
   "summary": {
@@ -148,15 +148,15 @@
       "query": "転職エージェント 副業",
       "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0.0,
-      "position": 66.86,
+      "position": 68.62,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 15.5
+      "priority_score": 16.4
     },
     {
       "query": "実査 データ分析",
@@ -176,15 +176,15 @@
       "query": "0地点 転職",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 41.2,
+      "position": 41.83,
       "expected_ctr": 0.008,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 13.5
+      "priority_score": 14.7
     },
     {
       "query": "フリーランス 2年目",
