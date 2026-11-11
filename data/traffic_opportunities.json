@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-11",
-    "end_date": "2026-11-07",
+    "start_date": "2026-10-12",
+    "end_date": "2026-11-08",
     "days": 28
   },
-  "source_generated_at": "2026-11-10T03:46:56+00:00",
-  "input_rows": 21,
-  "scored_rows": 21,
+  "source_generated_at": "2026-11-11T01:27:32+00:00",
+  "input_rows": 23,
+  "scored_rows": 23,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 0,
-    "observe": 21
+    "observe": 23
   },
   "top_opportunities": [
     {
@@ -40,6 +40,20 @@
       "ctr": 0.0,
       "position": 14.8,
       "expected_ctr": 0.015,
+      "estimated_missed_clicks": 0.1,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 28.7
+    },
+    {
+      "query": "evaluate mix talent on market access recruiting comparison",
+      "page": "https://career.hdnjapan.com/en/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 4.0,
+      "expected_ctr": 0.08,
       "estimated_missed_clicks": 0.1,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
@@ -75,20 +89,6 @@
       "priority_score": 27.0
     },
     {
-      "query": "評価 年収",
-      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 14.67,
-      "expected_ctr": 0.015,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 25.6
-    },
-    {
       "query": "転職エージェントを選ぶ際の比較ポイントを教えてください。",
       "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
       "clicks": 0,
@@ -117,6 +117,20 @@
       "priority_score": 23.0
     },
     {
+      "query": "評価 年収",
+      "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 20.0,
+      "expected_ctr": 0.015,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 21.7
+    },
+    {
       "query": "職務経歴書分析評価職",
       "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
       "clicks": 0,
@@ -131,6 +145,34 @@
       "priority_score": 19.4
     },
     {
+      "query": "転職エージェント 副業",
+      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0.0,
+      "position": 69.22,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 17.2
+    },
+    {
+      "query": "人材 アフィリエイト",
+      "page": "https://career.hdnjapan.com/disclosure.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 19.0,
+      "expected_ctr": 0.015,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 17.1
+    },
+    {
       "query": "フリーランス 転向 タイミング",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
       "clicks": 0,
@@ -143,20 +185,6 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 16.7
-    },
-    {
-      "query": "転職エージェント 副業",
-      "page": "https://career.hdnjapan.com/ja/topics/self-directed-job-search.html",
-      "clicks": 0,
-      "impressions": 8,
-      "ctr": 0.0,
-      "position": 68.62,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 16.4
     },
     {
       "query": "実査 データ分析",
