@@ -2,35 +2,35 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-13",
-    "end_date": "2026-11-09",
+    "start_date": "2026-10-14",
+    "end_date": "2026-11-10",
     "days": 28
   },
-  "source_generated_at": "2026-11-12T02:29:06+00:00",
-  "input_rows": 23,
-  "scored_rows": 23,
+  "source_generated_at": "2026-11-13T02:05:31+00:00",
+  "input_rows": 24,
+  "scored_rows": 24,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 1,
-    "observe": 22
+    "observe": 23
   },
   "top_opportunities": [
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 2.33,
-      "expected_ctr": 0.15,
-      "estimated_missed_clicks": 0.4,
+      "position": 3.0,
+      "expected_ctr": 0.11,
+      "estimated_missed_clicks": 0.1,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 37.1
+      "priority_score": 29.6
     },
     {
       "query": "フリーランス 年収ダウン",
@@ -333,6 +333,20 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 89.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 5.1
+    },
+    {
+      "query": "フリーランス 正社員 戻る",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 98.0,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
