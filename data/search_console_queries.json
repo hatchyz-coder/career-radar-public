@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-14",
-    "end_date": "2026-11-10",
+    "start_date": "2026-10-15",
+    "end_date": "2026-11-11",
     "days": 28
   },
-  "generated_at": "2026-11-13T02:05:31+00:00",
+  "generated_at": "2026-11-14T01:42:25+00:00",
   "rows": [
     {
       "query": "転職エージェント 副業",
@@ -137,14 +137,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 9.0
-    },
-    {
-      "query": "フリーランス リスク",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 11.0
     },
     {
       "query": "人材 アフィリエイト",
