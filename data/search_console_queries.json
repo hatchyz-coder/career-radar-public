@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-15",
-    "end_date": "2026-11-11",
+    "start_date": "2026-10-16",
+    "end_date": "2026-11-12",
     "days": 28
   },
-  "generated_at": "2026-11-14T01:42:25+00:00",
+  "generated_at": "2026-11-15T01:16:02+00:00",
   "rows": [
     {
       "query": "転職エージェント 副業",
@@ -22,9 +22,17 @@
       "query": "0地点 転職",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0.0,
-      "position": 41.286
+      "position": 41.625
+    },
+    {
+      "query": "フリーランス 2年目",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 54.333
     },
     {
       "query": "フリーランス 年収ダウン",
@@ -33,14 +41,6 @@
       "impressions": 5,
       "ctr": 0.0,
       "position": 14.8
-    },
-    {
-      "query": "フリーランス 2年目",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 5,
-      "ctr": 0.0,
-      "position": 54.2
     },
     {
       "query": "40代転職 リスク",
@@ -91,6 +91,14 @@
       "position": 89.333
     },
     {
+      "query": "evaluate mix talent on market access recruiting comparison",
+      "page": "https://career.hdnjapan.com/en/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 4.5
+    },
+    {
       "query": "キャリアメニュー",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
@@ -115,20 +123,20 @@
       "position": 23.5
     },
     {
+      "query": "フリーランス 正社員 戻る",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 98.0
+    },
+    {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 3.0
-    },
-    {
-      "query": "evaluate mix talent on market access recruiting comparison",
-      "page": "https://career.hdnjapan.com/en/articles/career-agent-comparison-framework.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 4.0
     },
     {
       "query": "転職エージェントを選ぶ際の比較ポイントを教えてください。",
@@ -185,14 +193,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 89.0
-    },
-    {
-      "query": "フリーランス 正社員 戻る",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 98.0
     }
   ]
 }

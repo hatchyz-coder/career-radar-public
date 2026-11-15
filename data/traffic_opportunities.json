@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-15",
-    "end_date": "2026-11-11",
+    "start_date": "2026-10-16",
+    "end_date": "2026-11-12",
     "days": 28
   },
-  "source_generated_at": "2026-11-14T01:42:25+00:00",
+  "source_generated_at": "2026-11-15T01:16:02+00:00",
   "input_rows": 23,
   "scored_rows": 23,
   "summary": {
@@ -18,6 +18,20 @@
     "observe": 22
   },
   "top_opportunities": [
+    {
+      "query": "evaluate mix talent on market access recruiting comparison",
+      "page": "https://career.hdnjapan.com/en/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 4.5,
+      "expected_ctr": 0.08,
+      "estimated_missed_clicks": 0.2,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 31.8
+    },
     {
       "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
@@ -40,20 +54,6 @@
       "ctr": 0.0,
       "position": 14.8,
       "expected_ctr": 0.015,
-      "estimated_missed_clicks": 0.1,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 28.7
-    },
-    {
-      "query": "evaluate mix talent on market access recruiting comparison",
-      "page": "https://career.hdnjapan.com/en/articles/career-agent-comparison-framework.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 4.0,
-      "expected_ctr": 0.08,
       "estimated_missed_clicks": 0.1,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
@@ -176,15 +176,15 @@
       "query": "0地点 転職",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0.0,
-      "position": 41.29,
+      "position": 41.62,
       "expected_ctr": 0.008,
       "estimated_missed_clicks": 0.1,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 15.7
+      "priority_score": 16.6
     },
     {
       "query": "実査 データ分析",
@@ -204,15 +204,15 @@
       "query": "フリーランス 2年目",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0.0,
-      "position": 54.2,
+      "position": 54.33,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 13.3
+      "priority_score": 14.5
     },
     {
       "query": "40代転職 リスク",
@@ -285,6 +285,20 @@
       "priority_score": 10.3
     },
     {
+      "query": "フリーランス 正社員 戻る",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 98.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 8.1
+    },
+    {
       "query": "キャリア",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
@@ -319,20 +333,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 89.0,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 5.1
-    },
-    {
-      "query": "フリーランス 正社員 戻る",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 98.0,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
