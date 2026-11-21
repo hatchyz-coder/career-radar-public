@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-17",
+    "start_date": "2026-10-22",
+    "end_date": "2026-11-18",
     "days": 28
   },
-  "source_generated_at": "2026-11-20T02:33:28+00:00",
+  "source_generated_at": "2026-11-21T02:46:38+00:00",
   "input_rows": 23,
   "scored_rows": 23,
   "summary": {

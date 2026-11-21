@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-21",
-    "end_date": "2026-11-17",
+    "start_date": "2026-10-22",
+    "end_date": "2026-11-18",
     "days": 28
   },
-  "generated_at": "2026-11-20T02:33:28+00:00",
+  "generated_at": "2026-11-21T02:46:38+00:00",
   "rows": [
     {
       "query": "転職エージェント 副業",
