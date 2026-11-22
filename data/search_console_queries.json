@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-22",
-    "end_date": "2026-11-18",
+    "start_date": "2026-10-23",
+    "end_date": "2026-11-19",
     "days": 28
   },
-  "generated_at": "2026-11-21T02:46:38+00:00",
+  "generated_at": "2026-11-22T01:31:50+00:00",
   "rows": [
     {
       "query": "転職エージェント 副業",
@@ -30,9 +30,9 @@
       "query": "フリーランス 2年目",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 54.333
+      "position": 60.429
     },
     {
       "query": "フリーランス 年収ダウン",
@@ -129,14 +129,6 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 98.0
-    },
-    {
-      "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
-      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 3.0
     },
     {
       "query": "転職エージェントを選ぶ際の比較ポイントを教えてください。",

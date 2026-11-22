@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-22",
-    "end_date": "2026-11-18",
+    "start_date": "2026-10-23",
+    "end_date": "2026-11-19",
     "days": 28
   },
-  "source_generated_at": "2026-11-21T02:46:38+00:00",
-  "input_rows": 23,
-  "scored_rows": 23,
+  "source_generated_at": "2026-11-22T01:31:50+00:00",
+  "input_rows": 22,
+  "scored_rows": 22,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 1,
-    "observe": 22
+    "observe": 21
   },
   "top_opportunities": [
     {
@@ -31,20 +31,6 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 31.8
-    },
-    {
-      "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
-      "page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 3.0,
-      "expected_ctr": 0.11,
-      "estimated_missed_clicks": 0.1,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 29.6
     },
     {
       "query": "フリーランス 年収ダウン",
@@ -187,6 +173,20 @@
       "priority_score": 16.6
     },
     {
+      "query": "フリーランス 2年目",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 60.43,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 15.5
+    },
+    {
       "query": "実査 データ分析",
       "page": "https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html",
       "clicks": 0,
@@ -199,20 +199,6 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 14.8
-    },
-    {
-      "query": "フリーランス 2年目",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 6,
-      "ctr": 0.0,
-      "position": 54.33,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 14.5
     },
     {
       "query": "40代転職 リスク",

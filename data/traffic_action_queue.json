@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-11-21T02:46:38.895117+00:00",
+  "generated_at": "2026-11-22T01:31:50.459507+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 1,
@@ -23,19 +23,6 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "40代で管理職に転職する場合の市場価値と求人の探し方を教えてください",
-      "target_page": "https://career.hdnjapan.com/ja/articles/midcareer-40s-career-capital.html",
-      "priority_score": 29.6,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 3,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
       "query": "フリーランス 年収ダウン",
       "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "priority_score": 28.7,
@@ -45,7 +32,7 @@
       "status": "observing"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -58,7 +45,7 @@
       "status": "observing"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "priority": "P3",
       "lane": "editorial",
       "action_type": "expand_topic_cluster",
@@ -71,7 +58,7 @@
       "status": "queued"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -84,7 +71,7 @@
       "status": "observing"
     },
     {
-      "rank": 7,
+      "rank": 6,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -97,7 +84,7 @@
       "status": "observing"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -110,7 +97,7 @@
       "status": "observing"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -123,7 +110,7 @@
       "status": "observing"
     },
     {
-      "rank": 10,
+      "rank": 9,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -136,7 +123,7 @@
       "status": "observing"
     },
     {
-      "rank": 11,
+      "rank": 10,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -149,13 +136,26 @@
       "status": "observing"
     },
     {
-      "rank": 12,
+      "rank": 11,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
       "query": "0地点 転職",
       "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "priority_score": 16.6,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 12,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "フリーランス 2年目",
+      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "priority_score": 15.5,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -179,19 +179,6 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "フリーランス 2年目",
-      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "priority_score": 14.5,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 15,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
       "query": "40代転職 リスク",
       "target_page": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html",
       "priority_score": 12.1,
@@ -201,7 +188,7 @@
       "status": "observing"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -214,7 +201,7 @@
       "status": "observing"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -227,7 +214,7 @@
       "status": "observing"
     },
     {
-      "rank": 18,
+      "rank": 17,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -240,7 +227,7 @@
       "status": "observing"
     },
     {
-      "rank": 19,
+      "rank": 18,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -253,7 +240,7 @@
       "status": "observing"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -266,7 +253,7 @@
       "status": "observing"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -279,7 +266,7 @@
       "status": "observing"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -292,7 +279,7 @@
       "status": "observing"
     },
     {
-      "rank": 23,
+      "rank": 22,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
