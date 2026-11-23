@@ -4,11 +4,11 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-23",
-    "end_date": "2026-11-19",
+    "start_date": "2026-10-24",
+    "end_date": "2026-11-20",
     "days": 28
   },
-  "generated_at": "2026-11-22T01:31:50+00:00",
+  "generated_at": "2026-11-23T01:56:38+00:00",
   "rows": [
     {
       "query": "転職エージェント 副業",
@@ -19,20 +19,20 @@
       "position": 69.6
     },
     {
+      "query": "フリーランス 2年目",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0.0,
+      "position": 68.222
+    },
+    {
       "query": "0地点 転職",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
       "impressions": 8,
       "ctr": 0.0,
       "position": 41.625
-    },
-    {
-      "query": "フリーランス 2年目",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 7,
-      "ctr": 0.0,
-      "position": 60.429
     },
     {
       "query": "フリーランス 年収ダウン",
@@ -83,28 +83,12 @@
       "position": 83.0
     },
     {
-      "query": "40代転職 年収アップ",
-      "page": "https://career.hdnjapan.com/ja/topics/40s-career-market-value.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 89.333
-    },
-    {
       "query": "evaluate mix talent on market access recruiting comparison",
       "page": "https://career.hdnjapan.com/en/articles/career-agent-comparison-framework.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
       "position": 4.5
-    },
-    {
-      "query": "キャリアメニュー",
-      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 10.0
     },
     {
       "query": "職務経歴書分析評価職",
@@ -123,12 +107,28 @@
       "position": 23.5
     },
     {
+      "query": "40代転職 年収アップ",
+      "page": "https://career.hdnjapan.com/ja/topics/40s-career-market-value.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 87.0
+    },
+    {
       "query": "フリーランス 正社員 戻る",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
       "position": 98.0
+    },
+    {
+      "query": "キャリアメニュー",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0
     },
     {
       "query": "転職エージェントを選ぶ際の比較ポイントを教えてください。",
