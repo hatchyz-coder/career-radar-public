@@ -1,9 +1,9 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-11-23T01:56:38.618829+00:00",
+  "generated_at": "2026-11-24T05:28:51.941822+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
-  "actionable_count": 1,
+  "actionable_count": 2,
   "items": [
     {
       "rank": 1,
@@ -21,6 +21,19 @@
     {
       "rank": 2,
       "priority": "P3",
+      "lane": "editorial",
+      "action_type": "expand_topic_cluster",
+      "query": "フリーランス 2年目",
+      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "priority_score": 29.2,
+      "category": "long_term",
+      "reason": "需要シグナルはあるが順位が低く、記事強化または新規クラスタ候補",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "queued"
+    },
+    {
+      "rank": 3,
+      "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
       "query": "フリーランス 年収ダウン",
@@ -32,7 +45,7 @@
       "status": "observing"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -45,7 +58,7 @@
       "status": "observing"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "priority": "P3",
       "lane": "editorial",
       "action_type": "expand_topic_cluster",
@@ -56,19 +69,6 @@
       "reason": "需要シグナルはあるが順位が低く、記事強化または新規クラスタ候補",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
       "status": "queued"
-    },
-    {
-      "rank": 5,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
-      "query": "キャリアメニュー",
-      "target_page": "https://career.hdnjapan.com/articles/career-navigation.html",
-      "priority_score": 24.6,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
     },
     {
       "rank": 6,
@@ -88,9 +88,9 @@
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
-      "query": "評価 年収",
-      "target_page": "https://career.hdnjapan.com/articles/high-class-transition.html",
-      "priority_score": 21.7,
+      "query": "人材 アフィリエイト",
+      "target_page": "https://career.hdnjapan.com/disclosure.html",
+      "priority_score": 17.1,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
@@ -103,32 +103,6 @@
       "action_type": "observe",
       "query": "職務経歴書分析評価職",
       "target_page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "priority_score": 19.4,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 9,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
-      "query": "フリーランス 2年目",
-      "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "priority_score": 17.2,
-      "category": "observe",
-      "reason": "データ量がまだ小さいため継続観測",
-      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
-      "status": "observing"
-    },
-    {
-      "rank": 10,
-      "priority": "P3",
-      "lane": "monitoring",
-      "action_type": "observe",
-      "query": "人材 アフィリエイト",
-      "target_page": "https://career.hdnjapan.com/disclosure.html",
       "priority_score": 17.1,
       "category": "observe",
       "reason": "データ量がまだ小さいため継続観測",
@@ -136,7 +110,7 @@
       "status": "observing"
     },
     {
-      "rank": 11,
+      "rank": 9,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -149,7 +123,7 @@
       "status": "observing"
     },
     {
-      "rank": 12,
+      "rank": 10,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -162,7 +136,20 @@
       "status": "observing"
     },
     {
-      "rank": 13,
+      "rank": 11,
+      "priority": "P3",
+      "lane": "monitoring",
+      "action_type": "observe",
+      "query": "評価 年収",
+      "target_page": "https://career.hdnjapan.com/articles/high-class-transition.html",
+      "priority_score": 16.0,
+      "category": "observe",
+      "reason": "データ量がまだ小さいため継続観測",
+      "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",
+      "status": "observing"
+    },
+    {
+      "rank": 12,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -175,7 +162,7 @@
       "status": "observing"
     },
     {
-      "rank": 14,
+      "rank": 13,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -188,7 +175,7 @@
       "status": "observing"
     },
     {
-      "rank": 15,
+      "rank": 14,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -201,7 +188,7 @@
       "status": "observing"
     },
     {
-      "rank": 16,
+      "rank": 15,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -214,7 +201,7 @@
       "status": "observing"
     },
     {
-      "rank": 17,
+      "rank": 16,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -227,7 +214,7 @@
       "status": "observing"
     },
     {
-      "rank": 18,
+      "rank": 17,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -240,7 +227,7 @@
       "status": "observing"
     },
     {
-      "rank": 19,
+      "rank": 18,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -253,7 +240,7 @@
       "status": "observing"
     },
     {
-      "rank": 20,
+      "rank": 19,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -266,7 +253,7 @@
       "status": "observing"
     },
     {
-      "rank": 21,
+      "rank": 20,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
@@ -279,7 +266,7 @@
       "status": "observing"
     },
     {
-      "rank": 22,
+      "rank": 21,
       "priority": "P3",
       "lane": "monitoring",
       "action_type": "observe",
