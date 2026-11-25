@@ -2,20 +2,20 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-25",
-    "end_date": "2026-11-21",
+    "start_date": "2026-10-26",
+    "end_date": "2026-11-22",
     "days": 28
   },
-  "source_generated_at": "2026-11-24T05:28:51+00:00",
-  "input_rows": 21,
-  "scored_rows": 21,
+  "source_generated_at": "2026-11-25T04:32:37+00:00",
+  "input_rows": 20,
+  "scored_rows": 20,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 2,
-    "observe": 19
+    "observe": 18
   },
   "top_opportunities": [
     {
@@ -36,15 +36,15 @@
       "query": "フリーランス 2年目",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0.0,
-      "position": 74.67,
+      "position": 76.15,
       "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
+      "estimated_missed_clicks": 0.1,
       "category": "long_term",
       "recommended_action": "cluster_or_expand",
       "reason": "需要シグナルはあるが順位が低く、記事強化または新規クラスタ候補",
-      "priority_score": 29.2
+      "priority_score": 29.8
     },
     {
       "query": "フリーランス 年収ダウン",
@@ -117,34 +117,6 @@
       "priority_score": 17.1
     },
     {
-      "query": "職務経歴書分析評価職",
-      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 19.0,
-      "expected_ctr": 0.015,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 17.1
-    },
-    {
-      "query": "フリーランス 転向 タイミング",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 23.5,
-      "expected_ctr": 0.008,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 16.7
-    },
-    {
       "query": "0地点 転職",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
@@ -187,6 +159,20 @@
       "priority_score": 14.8
     },
     {
+      "query": "フリーランス 転向 タイミング",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 14.1
+    },
+    {
       "query": "40代転職 リスク",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html",
       "clicks": 0,
@@ -213,20 +199,6 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 10.4
-    },
-    {
-      "query": "フリーランス 転向",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 69.0,
-      "expected_ctr": 0.004,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 10.3
     },
     {
       "query": "pmo 単価",
@@ -305,6 +277,20 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 89.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 5.1
+    },
+    {
+      "query": "フリーランス 転向",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 90.0,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",

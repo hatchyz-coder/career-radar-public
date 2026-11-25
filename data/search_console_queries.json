@@ -4,19 +4,19 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-25",
-    "end_date": "2026-11-21",
+    "start_date": "2026-10-26",
+    "end_date": "2026-11-22",
     "days": 28
   },
-  "generated_at": "2026-11-24T05:28:51+00:00",
+  "generated_at": "2026-11-25T04:32:37+00:00",
   "rows": [
     {
       "query": "フリーランス 2年目",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 13,
       "ctr": 0.0,
-      "position": 74.667
+      "position": 76.154
     },
     {
       "query": "転職エージェント 副業",
@@ -59,14 +59,6 @@
       "position": 11.0
     },
     {
-      "query": "フリーランス 転向",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 69.0
-    },
-    {
       "query": "pmo 単価",
       "page": "https://career.hdnjapan.com/ja/topics/pmo-high-rate-career.html",
       "clicks": 0,
@@ -81,14 +73,6 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 4.5
-    },
-    {
-      "query": "フリーランス 転向 タイミング",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 23.5
     },
     {
       "query": "評価 年収",
@@ -131,20 +115,20 @@
       "position": 19.0
     },
     {
-      "query": "職務経歴書分析評価職",
-      "page": "https://career.hdnjapan.com/ja/articles/portfolio-evidence-scorecard.html",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 19.0
-    },
-    {
       "query": "実査 データ分析",
       "page": "https://career.hdnjapan.com/ja/articles/career-evidence-audit-trail.html",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 22.0
+    },
+    {
+      "query": "フリーランス 転向 タイミング",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-to-employment-return-path.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0
     },
     {
       "query": "株式会社hdnコーポレーション",
@@ -177,6 +161,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 89.0
+    },
+    {
+      "query": "フリーランス 転向",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 90.0
     }
   ]
 }
