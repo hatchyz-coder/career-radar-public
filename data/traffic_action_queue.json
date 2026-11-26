@@ -1,6 +1,6 @@
 {
   "schema_version": "traffic-action-queue.v1",
-  "generated_at": "2026-11-25T04:32:37.636982+00:00",
+  "generated_at": "2026-11-26T03:44:36.069053+00:00",
   "source_generated_at": null,
   "site": "https://career.hdnjapan.com/",
   "actionable_count": 2,
@@ -25,7 +25,7 @@
       "action_type": "expand_topic_cluster",
       "query": "フリーランス 2年目",
       "target_page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "priority_score": 29.8,
+      "priority_score": 31.3,
       "category": "long_term",
       "reason": "需要シグナルはあるが順位が低く、記事強化または新規クラスタ候補",
       "guardrail": "No automatic public rewrite until the item has non-zero Search Console impressions and passes content-quality checks.",

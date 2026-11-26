@@ -2,11 +2,11 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-26",
-    "end_date": "2026-11-22",
+    "start_date": "2026-10-27",
+    "end_date": "2026-11-23",
     "days": 28
   },
-  "source_generated_at": "2026-11-25T04:32:37+00:00",
+  "source_generated_at": "2026-11-26T03:44:35+00:00",
   "input_rows": 20,
   "scored_rows": 20,
   "summary": {
@@ -36,15 +36,15 @@
       "query": "フリーランス 2年目",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 16,
       "ctr": 0.0,
-      "position": 76.15,
+      "position": 79.31,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.1,
       "category": "long_term",
       "recommended_action": "cluster_or_expand",
       "reason": "需要シグナルはあるが順位が低く、記事強化または新規クラスタ候補",
-      "priority_score": 29.8
+      "priority_score": 31.3
     },
     {
       "query": "フリーランス 年収ダウン",
