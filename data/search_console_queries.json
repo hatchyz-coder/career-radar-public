@@ -4,19 +4,19 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-27",
-    "end_date": "2026-11-23",
+    "start_date": "2026-10-28",
+    "end_date": "2026-11-24",
     "days": 28
   },
-  "generated_at": "2026-11-26T03:44:35+00:00",
+  "generated_at": "2026-11-27T03:45:37+00:00",
   "rows": [
     {
       "query": "フリーランス 2年目",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 18,
       "ctr": 0.0,
-      "position": 79.312
+      "position": 80.722
     },
     {
       "query": "転職エージェント 副業",
@@ -35,14 +35,6 @@
       "position": 41.625
     },
     {
-      "query": "フリーランス 年収ダウン",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 5,
-      "ctr": 0.0,
-      "position": 14.8
-    },
-    {
       "query": "40代転職 リスク",
       "page": "https://career.hdnjapan.com/ja/articles/midcareer-risk-budget.html",
       "clicks": 0,
@@ -57,14 +49,6 @@
       "impressions": 3,
       "ctr": 0.0,
       "position": 11.0
-    },
-    {
-      "query": "pmo 単価",
-      "page": "https://career.hdnjapan.com/ja/topics/pmo-high-rate-career.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 83.0
     },
     {
       "query": "evaluate mix talent on market access recruiting comparison",
@@ -131,6 +115,14 @@
       "position": 23.0
     },
     {
+      "query": "フリーランス 年収ダウン",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 24.0
+    },
+    {
       "query": "株式会社hdnコーポレーション",
       "page": "https://career.hdnjapan.com/contact.html",
       "clicks": 0,
@@ -153,6 +145,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 64.0
+    },
+    {
+      "query": "pmo 単価",
+      "page": "https://career.hdnjapan.com/ja/topics/pmo-high-rate-career.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 82.0
     },
     {
       "query": "業務 改善 評価",
