@@ -4,19 +4,19 @@
   "monitoring_started_at": "2026-09-03",
   "warmup_days": 7,
   "window": {
-    "start_date": "2026-10-28",
-    "end_date": "2026-11-24",
+    "start_date": "2026-10-29",
+    "end_date": "2026-11-25",
     "days": 28
   },
-  "generated_at": "2026-11-27T03:45:37+00:00",
+  "generated_at": "2026-11-28T03:29:30+00:00",
   "rows": [
     {
       "query": "フリーランス 2年目",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 19,
       "ctr": 0.0,
-      "position": 80.722
+      "position": 81.263
     },
     {
       "query": "転職エージェント 副業",
@@ -30,9 +30,9 @@
       "query": "0地点 転職",
       "page": "https://career.hdnjapan.com/articles/career-navigation.html",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 41.625
+      "position": 42.571
     },
     {
       "query": "40代転職 リスク",
@@ -43,20 +43,20 @@
       "position": 48.0
     },
     {
-      "query": "フリーランス 転向 タイミング",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 11.0
-    },
-    {
       "query": "evaluate mix talent on market access recruiting comparison",
       "page": "https://career.hdnjapan.com/en/articles/career-agent-comparison-framework.html",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
       "position": 4.5
+    },
+    {
+      "query": "フリーランス 転向 タイミング",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 15.0
     },
     {
       "query": "評価 年収",
@@ -145,6 +145,14 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 64.0
+    },
+    {
+      "query": "転職 市場価値 調べ方 評価基準",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0
     },
     {
       "query": "pmo 単価",

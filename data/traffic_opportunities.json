@@ -2,35 +2,35 @@
   "schema_version": "traffic-opportunities.v1",
   "site": "https://career.hdnjapan.com/",
   "source_window": {
-    "start_date": "2026-10-28",
-    "end_date": "2026-11-24",
+    "start_date": "2026-10-29",
+    "end_date": "2026-11-25",
     "days": 28
   },
-  "source_generated_at": "2026-11-27T03:45:37+00:00",
-  "input_rows": 20,
-  "scored_rows": 20,
+  "source_generated_at": "2026-11-28T03:29:30+00:00",
+  "input_rows": 21,
+  "scored_rows": 21,
   "summary": {
     "quick_win": 0,
     "ctr_fix": 0,
     "content_gap": 0,
     "defend": 0,
     "long_term": 2,
-    "observe": 18
+    "observe": 19
   },
   "top_opportunities": [
     {
       "query": "フリーランス 2年目",
       "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 19,
       "ctr": 0.0,
-      "position": 80.72,
+      "position": 81.26,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.1,
       "category": "long_term",
       "recommended_action": "cluster_or_expand",
       "reason": "需要シグナルはあるが順位が低く、記事強化または新規クラスタ候補",
-      "priority_score": 32.2
+      "priority_score": 32.6
     },
     {
       "query": "evaluate mix talent on market access recruiting comparison",
@@ -45,20 +45,6 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 31.8
-    },
-    {
-      "query": "フリーランス 転向 タイミング",
-      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
-      "clicks": 0,
-      "impressions": 3,
-      "ctr": 0.0,
-      "position": 11.0,
-      "expected_ctr": 0.015,
-      "estimated_missed_clicks": 0.0,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 28.3
     },
     {
       "query": "転職エージェント 副業",
@@ -89,6 +75,20 @@
       "priority_score": 24.6
     },
     {
+      "query": "フリーランス 転向 タイミング",
+      "page": "https://career.hdnjapan.com/ja/articles/freelance-transition-risk.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 15.0,
+      "expected_ctr": 0.015,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 23.2
+    },
+    {
       "query": "人材 アフィリエイト",
       "page": "https://career.hdnjapan.com/disclosure.html",
       "clicks": 0,
@@ -103,20 +103,6 @@
       "priority_score": 17.1
     },
     {
-      "query": "0地点 転職",
-      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
-      "clicks": 0,
-      "impressions": 8,
-      "ctr": 0.0,
-      "position": 41.62,
-      "expected_ctr": 0.008,
-      "estimated_missed_clicks": 0.1,
-      "category": "observe",
-      "recommended_action": "wait_for_more_data",
-      "reason": "データ量がまだ小さいため継続観測",
-      "priority_score": 16.6
-    },
-    {
       "query": "評価 年収",
       "page": "https://career.hdnjapan.com/articles/high-class-transition.html",
       "clicks": 0,
@@ -129,6 +115,20 @@
       "recommended_action": "wait_for_more_data",
       "reason": "データ量がまだ小さいため継続観測",
       "priority_score": 16.0
+    },
+    {
+      "query": "0地点 転職",
+      "page": "https://career.hdnjapan.com/articles/career-navigation.html",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 42.57,
+      "expected_ctr": 0.008,
+      "estimated_missed_clicks": 0.1,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 15.7
     },
     {
       "query": "実査 データ分析",
@@ -249,6 +249,20 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 64.0,
+      "expected_ctr": 0.004,
+      "estimated_missed_clicks": 0.0,
+      "category": "observe",
+      "recommended_action": "wait_for_more_data",
+      "reason": "データ量がまだ小さいため継続観測",
+      "priority_score": 5.1
+    },
+    {
+      "query": "転職 市場価値 調べ方 評価基準",
+      "page": "https://career.hdnjapan.com/ja/articles/career-agent-comparison-framework.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
       "expected_ctr": 0.004,
       "estimated_missed_clicks": 0.0,
       "category": "observe",
